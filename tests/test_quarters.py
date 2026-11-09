@@ -73,6 +73,21 @@ def test_direct_three_month_value_is_preferred_and_cross_checked(bands: Duration
     assert q2.cross_check_value == 15.0
 
 
+def test_three_month_fact_equal_to_the_annual_figure_is_rejected(bands: Durations):
+    facts = [*december_year(), make_fact("2024-10-01", "2024-12-31", 70.0, accession="mislabeled")]
+    q4 = derive_quarters(facts, bands).quarters[3]
+    assert q4.value == 25.0
+    assert q4.derived is True
+    assert q4.rejected_direct_value == 70.0
+
+
+def test_ordinary_direct_value_is_not_rejected(bands: Durations):
+    facts = [*december_year(), make_fact("2024-10-01", "2024-12-31", 26.0, accession="direct")]
+    q4 = derive_quarters(facts, bands).quarters[3]
+    assert q4.value == 26.0
+    assert q4.rejected_direct_value is None
+
+
 def test_latest_year_with_only_q1_reported_is_placed(bands: Durations):
     facts = [
         *december_year(),
@@ -107,6 +122,18 @@ def test_q4_falls_back_to_summed_quarters_without_a_nine_month_fact(bands: Durat
     result = derive_quarters(facts, bands)
     assert [q.value for q in result.quarters] == [10.0, 15.0, 20.0, 25.0]
     assert result.quarters[3].derived is True
+
+
+def test_trailing_twelve_month_facts_are_not_fiscal_years(bands: Durations):
+    facts = [
+        *december_year(),
+        make_fact("2023-10-01", "2024-09-30", 60.0, filed="2024-11-01", accession="ttm"),
+        make_fact("2023-07-01", "2024-06-30", 55.0, filed="2024-08-01", accession="ttm2"),
+    ]
+    result = derive_quarters(facts, bands)
+    assert [q.value for q in result.quarters] == [10.0, 15.0, 20.0, 25.0]
+    assert [(a.fiscal_year, a.value) for a in result.annuals] == [(2024, 70.0)]
+    assert result.gaps == []
 
 
 def test_microsoft_june_year_end_maps_to_calendar_quarters(bands: Durations):

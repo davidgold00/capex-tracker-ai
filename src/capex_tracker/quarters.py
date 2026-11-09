@@ -17,6 +17,8 @@ from capex_tracker.facts import Fact
 
 # Filers occasionally shift a period boundary by a day between filings.
 DATE_SLACK_DAYS = 3
+# A 3-month fact this close to the full-year figure is a mislabeled annual value.
+FULL_YEAR_MATCH = 0.001
 
 
 class Duration(Enum):
@@ -70,6 +72,8 @@ class DiscreteQuarter:
     inputs: tuple[Fact, ...]
     # Set when a directly reported value could also be derived, to compare the two.
     cross_check_value: float | None = None
+    # Set when a reported 3-month value was discarded as a tagging error.
+    rejected_direct_value: float | None = None
 
     @property
     def fiscal_label(self) -> str:
@@ -115,6 +119,25 @@ def _near(a: date, b: date) -> bool:
 
 def _newest(facts: Sequence[Fact]) -> Fact | None:
     return max(facts, key=lambda f: (f.filed, f.accession)) if facts else None
+
+
+def _fiscal_years_only(by_duration: dict[Duration, list[Fact]]) -> list[Fact]:
+    """Drop year-long facts that are not fiscal years.
+
+    Amazon reports trailing-twelve-month figures in its 10-Qs. Those are a year
+    long but start mid-year, so a year-long fact only counts if it comes from a
+    10-K or begins on the same day as a six or nine month YTD fact.
+    """
+    ytd_starts = [
+        fact.start
+        for duration in (Duration.SIX_MONTHS, Duration.NINE_MONTHS)
+        for fact in by_duration[duration]
+    ]
+    return [
+        fact
+        for fact in by_duration[Duration.YEAR]
+        if fact.form.startswith("10-K") or any(_near(fact.start, start) for start in ytd_starts)
+    ]
 
 
 def _fiscal_year_anchors(by_duration: dict[Duration, list[Fact]]) -> list[date]:
@@ -176,6 +199,11 @@ def _derive_year(
         if index > 0:
             expected_start = ends[index - 1] + timedelta(days=1) if ends[index - 1] else None
             direct = _find_direct(three_month, anchor, ends[index], expected_start)
+        rejected_value = None
+        if index > 0 and direct is not None and _equals_full_year(direct, year_fact):
+            # Oracle's FY2018 to FY2022 data tags the annual figure as a 3-month period.
+            rejected_value = direct.value
+            direct = None
         if direct is not None and ends[index] is None:
             ends[index] = direct.end
         if ends[index] is None:
@@ -222,6 +250,7 @@ def _derive_year(
                     filed=total.filed,
                     derived=True,
                     inputs=inputs,
+                    rejected_direct_value=rejected_value,
                 )
             )
         else:
@@ -229,6 +258,13 @@ def _derive_year(
                 Gap(fiscal_year, number, ends[index], "missing the facts needed to derive it")
             )
     return results, annual, gaps, used
+
+
+def _equals_full_year(direct: Fact, year_fact: Fact | None) -> bool:
+    """True if a supposed 3-month figure is really the annual figure."""
+    if year_fact is None or not year_fact.value:
+        return False
+    return abs(direct.value - year_fact.value) / abs(year_fact.value) <= FULL_YEAR_MATCH
 
 
 def _find_direct(
@@ -268,6 +304,7 @@ def derive_quarters(facts: Sequence[Fact], bands: Durations) -> Derivation:
         duration = classify_duration(fact.start, fact.end, bands)
         if duration is not None:
             by_duration[duration].append(fact)
+    by_duration[Duration.YEAR] = _fiscal_years_only(by_duration)
 
     quarters: list[DiscreteQuarter] = []
     annuals: list[AnnualValue] = []

@@ -16,6 +16,8 @@ metrics:
     tags:
       - PaymentsToAcquirePropertyPlantAndEquipment
       - PaymentsToAcquireProductiveAssets
+      # Amazon used this tag from its Q2 2017 10-Q through its Q2 2018 10-Q.
+      - PaymentsForProceedsFromProductiveAssets
       - PaymentsForCapitalImprovements
   ocf:
     tags:

@@ -175,6 +175,18 @@ def check_cross(
     """Compare directly reported quarters against the YTD-derived figure."""
     issues = []
     for q in quarters:
+        if q.rejected_direct_value is not None:
+            issues.append(
+                Issue(
+                    Level.WARN,
+                    "direct_rejected",
+                    ticker,
+                    metric,
+                    f"{q.fiscal_label}: reported 3-month value "
+                    f"{_billions(q.rejected_direct_value)} equals the full-year figure, so it "
+                    f"was treated as a tagging error. Used YTD-derived {_billions(q.value)}",
+                )
+            )
         if q.cross_check_value is None or not q.value:
             continue
         difference = (q.cross_check_value - q.value) / abs(q.value)
