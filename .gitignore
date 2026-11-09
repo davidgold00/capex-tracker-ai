@@ -1,0 +1,20 @@
+# Raw SEC responses are a local cache, never committed
+data/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# OS and editor
+.DS_Store
+.vscode/
+.idea/
+
+# Local environment
+.env

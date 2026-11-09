@@ -1,0 +1,70 @@
+# Companies. Spenders are aggregated; receivers appear on the Nvidia chart only.
+# Colors are the validated categorical slots 1 to 6, fixed per company on every chart.
+companies:
+  - { ticker: MSFT, name: Microsoft, role: spender, color: "#2a78d6" }
+  - { ticker: GOOGL, name: Alphabet, role: spender, color: "#eb6834" }
+  - { ticker: AMZN, name: Amazon, role: spender, color: "#1baf7a" }
+  - { ticker: META, name: Meta, role: spender, color: "#eda100" }
+  - { ticker: ORCL, name: Oracle, role: spender, color: "#e87ba4" }
+  - { ticker: NVDA, name: Nvidia, role: receiver, color: "#008300" }
+
+# Ordered tag fallbacks per metric. Order only breaks ties: facts.py ranks tags by
+# how recent and how complete their coverage is, then stitches gaps by period.
+metrics:
+  capex:
+    sign: outflow
+    tags:
+      - PaymentsToAcquirePropertyPlantAndEquipment
+      - PaymentsToAcquireProductiveAssets
+      - PaymentsForCapitalImprovements
+  ocf:
+    tags:
+      - NetCashProvidedByUsedInOperatingActivities
+      - NetCashProvidedByUsedInOperatingActivitiesContinuingOperations
+  revenue:
+    tags:
+      - RevenueFromContractWithCustomerExcludingAssessedTax
+      - Revenues
+      - SalesRevenueNet
+  finance_lease_principal:
+    sign: outflow
+    required: false
+    tags:
+      - FinanceLeasePrincipalPayments
+      - RepaymentsOfLongTermCapitalLeaseObligations
+
+# Duration bands in days, measured as end minus start.
+durations:
+  quarter: { min_days: 85, max_days: 100 }
+  six_months: { min_days: 175, max_days: 190 }
+  nine_months: { min_days: 265, max_days: 280 }
+  year: { min_days: 355, max_days: 375 }
+
+validation:
+  annual_sum_tolerance: 0.005
+  qoq_warn_threshold: 0.60
+  cross_check_tolerance: 0.005
+
+sec:
+  tickers_url: https://www.sec.gov/files/company_tickers.json
+  companyfacts_url: https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json
+  request_delay_seconds: 0.2
+  max_retries: 5
+  backoff_seconds: 1.0
+  timeout_seconds: 30
+  cache_ttl_hours: 24
+
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  charts_dir: docs/charts
+  notes_dir: notes
+  readme: README.md
+
+# Quarters before data_start are dropped. It sits before chart_start so that TTM
+# and YoY values are already populated when the charts begin.
+data_start: 2017-01-01
+chart_start: 2019-01-01
+
+# Only periodic reports count. Amendments are included so restatements can win.
+forms: ["10-Q", "10-Q/A", "10-K", "10-K/A"]
