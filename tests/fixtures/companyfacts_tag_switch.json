@@ -1,0 +1,27 @@
+{
+  "cik": 2,
+  "entityName": "Tag Switch Co",
+  "facts": {
+    "us-gaap": {
+      "OldTag": {
+        "label": "Old",
+        "units": {
+          "USD": [
+            { "start": "2022-01-01", "end": "2022-03-31", "val": 10, "accn": "o1", "fy": 2022, "fp": "Q1", "form": "10-Q", "filed": "2022-05-01" },
+            { "start": "2022-01-01", "end": "2022-06-30", "val": 22, "accn": "o2", "fy": 2022, "fp": "Q2", "form": "10-Q", "filed": "2022-08-01" },
+            { "start": "2023-01-01", "end": "2023-03-31", "val": 14, "accn": "o3", "fy": 2023, "fp": "Q1", "form": "10-Q", "filed": "2023-05-01" }
+          ]
+        }
+      },
+      "NewTag": {
+        "label": "New",
+        "units": {
+          "USD": [
+            { "start": "2023-01-01", "end": "2023-03-31", "val": 15, "accn": "n1", "fy": 2023, "fp": "Q1", "form": "10-Q", "filed": "2023-05-01" },
+            { "start": "2024-01-01", "end": "2024-03-31", "val": 20, "accn": "n2", "fy": 2024, "fp": "Q1", "form": "10-Q", "filed": "2024-05-01" }
+          ]
+        }
+      }
+    }
+  }
+}
