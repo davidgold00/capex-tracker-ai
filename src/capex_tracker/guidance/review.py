@@ -45,6 +45,20 @@ def read_csv(path):
         return list(csv.DictReader(f))
 
 
+def read_approved(directory):
+    """Check published rows against recorded approvals before using their values."""
+    rows = read_csv(directory / "approved.csv")
+    ledger = directory / "audit.json"
+    events = json.loads(ledger.read_text())["decisions"] if ledger.is_file() else {}
+    expected = []
+    for _, event in sorted(events.items()):
+        if event["decision"] == "approve":
+            expected.append({k: "" if v is None else str(v) for k, v in event["row"].items()})
+    if rows != expected:
+        raise ValueError("Approved table differs from its audit log. Reapply saved decisions.")
+    return rows
+
+
 def write_csv(path, fields, rows):
     temp = path.with_suffix(".tmp")
     with temp.open("w", newline="") as f:
@@ -68,8 +82,10 @@ def decision_input(trace, primary):
     chosen = positives[0] if positives else next((a for a in attempts if "statement" in a), {})
     result = chosen.get("statement")
     pair = [a.get("statement", {}).get("proposal", {}) for a in finals]
-    dual = all(a.get("checks") and all(a["checks"].values()) for a in finals) and all(
-        pair[0].get(k) == pair[1].get(k) for k in MATCH
+    dual = (
+        bool(trace["ollama"][-1].get("cassette"))
+        and all(a.get("checks") and all(a["checks"].values()) for a in finals)
+        and all(pair[0].get(k) == pair[1].get(k) for k in MATCH)
     )
     return result, {m: [a.get("checks", a.get("error")) for a in trace[m]] for m in methods}, dual
 

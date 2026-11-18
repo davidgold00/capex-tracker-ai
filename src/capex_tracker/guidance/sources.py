@@ -172,8 +172,10 @@ def fetch(refresh=False):
                 row["error"] = str(error)
             manifest.append(row)
         print(ticker, "inventoried", flush=True)
-        ordered = sorted(manifest, key=lambda r: (r["company"], r["filed"], r["accession"]))
-        (DATA / "sources.json").write_text(json.dumps(ordered, indent=2) + "\n")
+    ordered = sorted(manifest, key=lambda r: (r["company"], r["filed"], r["accession"]))
+    temp = DATA / "sources.tmp"
+    temp.write_text(json.dumps(ordered, indent=2) + "\n")
+    temp.replace(DATA / "sources.json")
 
 
 if __name__ == "__main__":

@@ -16,7 +16,7 @@ DEFAULT_MODEL = "qwen2.5:7b-instruct"
 def call(task, content, schema, *, record=False, directory=DATA / "cassettes"):
     settings = DATA / "model.json"
     recorded = json.loads(settings.read_text())["model"] if settings.is_file() else DEFAULT_MODEL
-    model = os.environ.get("GUIDANCE_MODEL", recorded)
+    model = os.environ.get("GUIDANCE_MODEL", DEFAULT_MODEL if record else recorded)
     system = (PROMPTS / (task + ".txt")).read_text().strip()
     payload = dict(
         model=model,
@@ -33,7 +33,12 @@ def call(task, content, schema, *, record=False, directory=DATA / "cassettes"):
         if cached["key"] != key or cached["request"] != payload:
             raise ValueError("Cassette does not match request")
         return cached["response"], key
+    failed = directory / "failures" / (key + ".json")
     if not record:
+        if failed.is_file():
+            raise RuntimeError(
+                "Recorded transport failure: " + json.loads(failed.read_text())["error"]
+            )
         raise FileNotFoundError(f"Missing offline cassette {key}")
     # Verify the tag exists locally. Reject cloud-only tags and never follow redirects.
     with requests.Session() as session:
@@ -46,8 +51,14 @@ def call(task, content, schema, *, record=False, directory=DATA / "cassettes"):
         details = info.json()
         if details.get("remote_model") or details.get("remote_host") or "cloud" in model.lower():
             raise ValueError("A locally installed model is required")
-        res = session.post(base + "/api/generate", json=payload, timeout=180, allow_redirects=False)
-        res.raise_for_status()
+        try:
+            res = session.post(
+                base + "/api/generate", json=payload, timeout=180, allow_redirects=False
+            )
+            res.raise_for_status()
+        except requests.RequestException as exc:
+            write_record(failed, {"key": key, "request": payload, "error": type(exc).__name__})
+            raise
         response = res.json()["response"]
     write_record(path, {"key": key, "request": payload, "response": response})
     return response, key

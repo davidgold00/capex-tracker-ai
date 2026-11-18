@@ -9,7 +9,7 @@ from capex_tracker.config import load_config
 from capex_tracker.guidance.extract import rules
 from capex_tracker.guidance.ground import check, factbook
 from capex_tracker.guidance.report import finding, paths
-from capex_tracker.guidance.review import read_csv
+from capex_tracker.guidance.review import read_approved, read_csv
 from capex_tracker.guidance.sources import DATA, digest
 from capex_tracker.readme import billions
 
@@ -78,7 +78,7 @@ def explain(cid, detailed=True):
                         lines.append(f"  Filing definition: {st['definition_note']}")
             else:
                 lines.append(f"{label}, attempt {i}: schema rejected. {a['error']}")
-    approved = read_csv(DATA / "approved.csv")
+    approved = read_approved(DATA)
     pending = read_csv(DATA / "pending.csv")
     audit = json.loads((DATA / "audit.json").read_text())["decisions"]
     result = audit.get(cid)
@@ -115,7 +115,7 @@ def demo_id():
 def guard_demo():
     config = load_config()
     long, _, aggregate = _read_processed(config)
-    facts = factbook(aggregate, long, read_csv(DATA / "approved.csv"), config)
+    facts = factbook(aggregate, long, read_approved(DATA), config)
     good = " ".join(g[0] for g in facts.groups)
     bad = re.sub(r"\$[\d,.]+B", "$0.0B", good, count=1)
     bad = re.sub(r"\b(rose|fell)\b", lambda m: "fell" if m[0] == "rose" else "rose", bad, count=1)

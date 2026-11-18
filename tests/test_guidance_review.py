@@ -1,5 +1,7 @@
 import json
 
+import pytest
+
 from capex_tracker.guidance.extract import attach, rules, verify
 from capex_tracker.guidance.review import EDITS, FIELDS, apply, read_csv, write_csv
 
@@ -26,7 +28,10 @@ def test_auto_then_manual_review_is_idempotent(tmp_path, monkeypatch):
     attempt = {"statement": s.model_dump(mode="json"), "checks": verify(s, source)}
     traces = tmp_path / "traces"
     traces.mkdir()
-    for cid, b in [("yes", attempt), ("needs-review", {"error": "invalid JSON"})]:
+    for cid, b in [
+        ("yes", {**attempt, "cassette": "recorded-fixture"}),
+        ("needs-review", {"error": "invalid JSON"}),
+    ]:
         trace = {"id": cid, "source": row, "passage": passage, "rules": [attempt], "ollama": [b]}
         (traces / (cid + ".json")).write_text(json.dumps(trace))
     apply(tmp_path, auto=True)
@@ -46,3 +51,10 @@ def test_auto_then_manual_review_is_idempotent(tmp_path, monkeypatch):
         "manual",
         "auto-dual-match",
     }
+
+    assert len(review.read_approved(tmp_path)) == 2
+    changed = read_csv(tmp_path / "approved.csv")
+    changed[0]["low"] = "1"
+    write_csv(tmp_path / "approved.csv", FIELDS, changed)
+    with pytest.raises(ValueError, match="audit log"):
+        review.read_approved(tmp_path)

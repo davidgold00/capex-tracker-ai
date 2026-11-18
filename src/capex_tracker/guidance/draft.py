@@ -10,7 +10,7 @@ from capex_tracker.config import load_config
 from capex_tracker.guidance.ground import check, factbook
 from capex_tracker.guidance.provider import call
 from capex_tracker.guidance.records import write_record
-from capex_tracker.guidance.review import read_csv
+from capex_tracker.guidance.review import read_approved
 from capex_tracker.guidance.sources import DATA
 
 
@@ -21,7 +21,7 @@ class Draft(BaseModel):
 def draft(record):
     config = load_config()
     long, _, aggregate = _read_processed(config)
-    facts = factbook(aggregate, long, read_csv(DATA / "approved.csv"), config)
+    facts = factbook(aggregate, long, read_approved(DATA), config)
     request = json.dumps(facts.groups)
     attempts = []
     paragraph = ""

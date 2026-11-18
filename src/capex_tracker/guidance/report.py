@@ -7,7 +7,7 @@ from statistics import median
 
 import pandas as pd
 
-from capex_tracker.guidance.review import read_csv
+from capex_tracker.guidance.review import read_approved, read_csv
 from capex_tracker.readme import replace_section
 
 
@@ -110,19 +110,24 @@ def finding(rows):
     return f"Among approved SEC forecasts, {rev}, {gap}, and {rank}."
 
 
-def coverage(manifest, approved, config):
+def coverage(manifest, evidence, config):
     notes = []
     for company in config.spenders:
-        docs = [r for r in manifest if r["company"] == company.ticker and "sha256" in r]
-        hits = sum(r["windows"] > 0 for r in docs)
-        confirmed = len({r["accession"] for r in approved if r["company"] == company.ticker})
+        docs = {
+            r["accession"] for r in manifest if r["company"] == company.ticker and "sha256" in r
+        }
+        matches = [r for r in evidence if r["accession"] in docs]
+        numeric = sum(r["language"] == "numeric" for r in matches)
+        directional = len(matches) - numeric
         notes.append(
-            f"{company.name} {confirmed} approved / {hits} language hits / {len(docs)} read"
+            f"{company.name} {len(matches)}/{len(docs)} ({numeric} numeric, "
+            f"{directional} direction only)"
         )
     return (
-        "SEC filing coverage by document: "
+        "Documents with an identified company-wide spending forecast among SEC filings read: "
         + ", ".join(notes)
-        + ". Calls are outside the corpus. A missing filed forecast leaves a coverage gap."
+        + ". One document counts once. Additional guidance given on calls "
+        "is outside this filing-only search."
     )
 
 
@@ -236,7 +241,7 @@ def chart(rows, config, path):
 
 def render(config, wide, text):
     directory = config.paths.processed_dir.parent / "guidance"
-    approved = read_csv(directory / "approved.csv")
+    approved = read_approved(directory)
     rows = paths(approved, wide)
     manifest = json.loads((directory / "sources.json").read_text())
     fields = (
@@ -263,7 +268,7 @@ def render(config, wide, text):
     section = "\n\n".join(
         [
             finding(rows),
-            coverage(manifest, approved, config),
+            coverage(manifest, read_csv(directory / "coverage.csv"), config),
             "![Approved forecasts and fiscal-year actuals](docs/charts/guidance_path.png)",
             "[Dated ranges, revisions, definitions and actuals](data/processed/guidance_paths.csv)",
         ]

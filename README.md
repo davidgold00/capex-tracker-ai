@@ -1,5 +1,7 @@
 # capex-tracker-ai
 
+[Start here: interview walkthrough and offline demo](docs/WALKTHROUGH.md)
+
 Tracks how much cash the largest technology companies are putting into AI infrastructure, and how much of their operating cash flow it absorbs, using SEC EDGAR filings.
 
 <!-- HEADLINE:START -->
@@ -42,7 +44,7 @@ Last updated: 2026-10-30. Latest filing included: Amazon 10-Q, accession 0001018
 <!-- GUIDANCE:START -->
 No annual forecast passed review (n=0), so upward revisions, the gap from initial guidance to actual spending, and company reliability remain unmeasured.
 
-SEC filing coverage by document: Microsoft 0 approved / 16 language hits / 32 read, Alphabet 0 approved / 11 language hits / 33 read, Amazon 0 approved / 18 language hits / 32 read, Meta 0 approved / 32 language hits / 32 read, Oracle 0 approved / 17 language hits / 30 read. Calls are outside the corpus. A missing filed forecast leaves a coverage gap.
+Documents with an identified company-wide spending forecast among SEC filings read: Microsoft 10/32 (0 numeric, 10 direction only), Alphabet 5/33 (4 numeric, 1 direction only), Amazon 11/32 (3 numeric, 8 direction only), Meta 32/32 (32 numeric, 0 direction only), Oracle 2/30 (1 numeric, 1 direction only). One document counts once. Additional guidance given on calls is outside this filing-only search.
 
 ![Approved forecasts and fiscal-year actuals](docs/charts/guidance_path.png)
 
@@ -72,6 +74,8 @@ Microsoft, Alphabet, Amazon, Meta and Oracle are building data centers for AI wo
 ## Methodology
 
 All figures come from the XBRL data companies file with the SEC. No figure is estimated or hand-entered.
+
+**Filed guidance.** A rules baseline and a local Ollama model propose forecasts from earnings exhibits and MD&A. Code checks the quote, dollars, fiscal year and spending definition. Each forecast needs review before comparison with four matched XBRL quarters. This run allows automatic approval only on verified agreement. The weekly update reads the approved table and checks any saved machine draft against the current figures. [Review evidence and evaluation denominators](GUIDANCE_PROGRESS.md).
 
 **Choosing tags.** Companies label the same line item with different XBRL tags, and change labels over time. `config.yaml` lists candidate tags for each metric. For each company, tags are ranked by the most recent period they cover, then by how many periods they cover. Each period takes its value from the highest-ranked tag that has it, and every data point records its tag. Amazon's capex, for example, moves across three tags between 2017 and 2018. `data/processed/tag_report.csv` shows every choice.
 
