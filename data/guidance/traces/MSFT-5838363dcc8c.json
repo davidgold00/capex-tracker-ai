@@ -1,0 +1,79 @@
+{
+  "id": "MSFT-5838363dcc8c",
+  "ollama": [
+    {
+      "cassette": "2757d2a50629832bdf9dcea37694818f0c163f512e152419a2c063fde7473ceb",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "9c4b53c2ae37917d112240196943644a1c2612cf441aacc41a91aac4aaa4f300",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "MSFT",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, and material capital expenditures, for at least the next 12 months and thereafter for the foreseeable future.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "flat",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "continuing to invest alone does not state a direction."
+        },
+        "source_accession": "0001193125-26-191507",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
+        "statement_date": "2026-04-29",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, and material capital expenditures, for at least the next 12 months and thereafter for the foreseeable future.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "MSFT",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, and material capital expenditures, for at least the next 12 months and thereafter for the foreseeable future.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001193125-26-191507",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
+        "statement_date": "2026-04-29",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001193125-26-191507",
+    "company": "MSFT",
+    "filed": "2026-04-29",
+    "form": "10-Q",
+    "raw_sha256": "becb5256c472e7772b2e73d150ef2d903232b3af482249e5385e5bad6d5b7301",
+    "sha256": "7acd0a9a51d27f231b8fdcebd63e6ce07ee5d9a47847c636495442ac02681a67",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
+    "windows": 3
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "META-579d02d3d7dd",
+  "ollama": [
+    {
+      "cassette": "8c271d03b02195fd020fd142333f0f89702271508da358618fd1bd1579d7924c",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "1c448649ad51350937e8415025763d40481ebe08278e1f0c327fd41a52f22219",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "Given this, along with the back-end weighted nature of our 2024 capital expenditures, we expect a significant acceleration in infrastructure expense growth next year as we recognize higher growth in depreciation and operating expenses of our expanded infrastructure fleet.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage indicates a significant increase in infrastructure expense growth next year due to higher depreciation and operating expenses of an expanded infrastructure fleet."
+        },
+        "source_accession": "0001326801-24-000077",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000077/meta-09302024xexhibit991.htm",
+        "statement_date": "2024-10-30",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "Given this, along with the back-end weighted nature of our 2024 capital expenditures, we expect a significant acceleration in infrastructure expense growth next year as we recognize higher growth in depreciation and operating expenses of our expanded infrastructure fleet.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "Given this, along with the back-end weighted nature of our 2024 capital expenditures, we expect a significant acceleration in infrastructure expense growth next year as we recognize higher growth in depreciation and operating expenses of our expanded infrastructure fleet.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001326801-24-000077",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000077/meta-09302024xexhibit991.htm",
+        "statement_date": "2024-10-30",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-24-000077",
+    "company": "META",
+    "filed": "2024-10-30",
+    "form": "8-K",
+    "raw_sha256": "e043b9d7fa38b888de5db68ee5b11ea8d73e4e7e9b50520adb00f09fc7c00184",
+    "sha256": "7ff50e39aea85518f9799750d4dfc57f2cd3c301a0ded636b97411afe47fdac0",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000077/meta-09302024xexhibit991.htm",
+    "windows": 3
+  }
+}

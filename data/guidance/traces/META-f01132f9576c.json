@@ -1,0 +1,62 @@
+{
+  "id": "META-f01132f9576c",
+  "ollama": [
+    {
+      "cassette": "32c16684745d917f462e3448cf0b9bee7e1587ff2ed7bc15644f34d971452ec3",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "8da8877b4deeef98e081f20eca80b16731d6c4215db237347b07bebddf53a610",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    }
+  ],
+  "passage": "We anticipate our full-year 2024 capital expenditures will be in the range of $35-40 billion, increased from our prior range of $30-37 billion as we continue to accelerate our infrastructure investments to support our artificial intelligence (AI) roadmap.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We anticipate our full-year 2024 capital expenditures will be in the range of $35-40 billion, increased from our prior range of $30-37 billion as we continue to accelerate our infrastructure investments to support our artificial intelligence (AI) roadmap.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2024,
+          "guidance_kind": "numeric_range",
+          "high_usd": 40000000000,
+          "low_usd": 35000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001326801-24-000044",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000044/meta-03312024xexhibit991.htm",
+        "statement_date": "2024-04-24",
+        "target_period": {
+          "end": "2024-12-31",
+          "fiscal_year": 2024,
+          "start": "2024-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-24-000044",
+    "company": "META",
+    "filed": "2024-04-24",
+    "form": "8-K",
+    "raw_sha256": "1f0a8cfceded4d39c4f3c9cf417806ca57a86582a8731a7ab4efd9f67655fe9b",
+    "sha256": "a9b2aa9a26aa09bf06027f5128e9c19049b6bfa2e39aca550b60de2821da803a",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000044/meta-03312024xexhibit991.htm",
+    "windows": 2
+  }
+}

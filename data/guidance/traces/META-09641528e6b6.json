@@ -1,0 +1,62 @@
+{
+  "id": "META-09641528e6b6",
+  "ollama": [
+    {
+      "cassette": "f7b16aefa19825c85ddd6344673d07a3fa6a512d2bfe5a4d14c9e34e798f74a5",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    },
+    {
+      "cassette": "dbd62e91e9589a3e70f0b3a0385f716a8158101fb0acbb065af78094a33296bc",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    }
+  ],
+  "passage": "We anticipate making capital expenditures of approximately $37 billion to $40 billion in 2024.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We anticipate making capital expenditures of approximately $37 billion to $40 billion in 2024.",
+        "form": "10-Q",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2024,
+          "guidance_kind": "numeric_range",
+          "high_usd": 40000000000,
+          "low_usd": 37000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001326801-24-000069",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000069/meta-20240630.htm",
+        "statement_date": "2024-08-01",
+        "target_period": {
+          "end": "2024-12-31",
+          "fiscal_year": 2024,
+          "start": "2024-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-24-000069",
+    "company": "META",
+    "filed": "2024-08-01",
+    "form": "10-Q",
+    "raw_sha256": "6db837e4686467d31f7313b5359589d21bc533187250902405fe33dc31334082",
+    "sha256": "bf63dd6daab91e997a774ae356c2dd4b6754f7f9a9d8c09faef7632cc2a488ff",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000069/meta-20240630.htm",
+    "windows": 2
+  }
+}

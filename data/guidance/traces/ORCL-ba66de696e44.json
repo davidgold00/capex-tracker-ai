@@ -1,0 +1,90 @@
+{
+  "id": "ORCL-ba66de696e44",
+  "ollama": [
+    {
+      "cassette": "14900a05c398f870e007993f04dc0bd8f7c0a74fcfa6890ce7ab8cd3f848b63a",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "c25fad18c4432ddeb83b25558b0a606d5ae00b82dde8efd99012c4c540962078",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We expect our capital expenditures in fiscal 2027 to be higher than fiscal 2026 as we increase our existing data center capacity and establish data centers in new geographic locations in order to meet current and expected customer demand for our cloud offerings.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage indicates an increase in capital expenditures for fiscal 2027 compared to 2026, suggesting higher spending."
+        },
+        "source_accession": "0001193125-26-389274",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+        "statement_date": "2026-09-11",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "We expect our capital expenditures in fiscal 2027 to be higher than fiscal 2026 as we increase our existing data center capacity and establish data centers in new geographic locations in order to meet current and expected customer demand for our cloud offerings.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We expect our capital expenditures in fiscal 2027 to be higher than fiscal 2026 as we increase our existing data center capacity and establish data centers in new geographic locations in order to meet current and expected customer demand for our cloud offerings.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": 2027,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "Explicit movement."
+        },
+        "source_accession": "0001193125-26-389274",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+        "statement_date": "2026-09-11",
+        "target_period": {
+          "end": "2027-05-31",
+          "fiscal_year": 2027,
+          "start": "2026-06-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001193125-26-389274",
+    "company": "ORCL",
+    "filed": "2026-09-11",
+    "form": "10-Q",
+    "raw_sha256": "8fc25ad53ab76bb3bd150c7bb36398b812b027b0b83f105e43606b05fb42a4d6",
+    "sha256": "a85223f5223f63c0b9d7cf63238393ec034122ae3b5bdbf9f4088e9a9e34347a",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+    "windows": 2
+  }
+}

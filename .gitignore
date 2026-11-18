@@ -18,3 +18,8 @@ dist/
 
 # Local environment
 .env
+
+# Share the guidance review command while keeping personal editor settings local.
+!.vscode/
+.vscode/*
+!.vscode/tasks.json

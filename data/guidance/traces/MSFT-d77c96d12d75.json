@@ -1,0 +1,79 @@
+{
+  "id": "MSFT-d77c96d12d75",
+  "ollama": [
+    {
+      "cassette": "26e09eb0ea32578bcda77b3889b2603a588cb8052ce2898ed68bd2601c33fc51",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "e71931d28ef3a4258405962d8f66574450a1e2aa698a84449082827bc83a23e6",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "MSFT",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, material capital expenditures, and the transition tax related to the Tax Cuts and Jobs Act (\u201cTCJA\u201d), for at least the next 12 months and thereafter for the foreseeable future.",
+        "form": "10-K",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "flat",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "continuing to invest alone does not state a direction."
+        },
+        "source_accession": "0000950170-24-087843",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "statement_date": "2024-07-30",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, material capital expenditures, and the transition tax related to the Tax Cuts and Jobs Act (\u201cTCJA\u201d), for at least the next 12 months and thereafter for the foreseeable future.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "MSFT",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, material capital expenditures, and the transition tax related to the Tax Cuts and Jobs Act (\u201cTCJA\u201d), for at least the next 12 months and thereafter for the foreseeable future.",
+        "form": "10-K",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0000950170-24-087843",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "statement_date": "2024-07-30",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0000950170-24-087843",
+    "company": "MSFT",
+    "filed": "2024-07-30",
+    "form": "10-K",
+    "raw_sha256": "55555624f7536eafeef147c327f8ed7f2339b3ab982d40cae51425b260a1bd51",
+    "sha256": "5b950f4b6f5b7567d64708897756c764214a7f877efc49434b6b9c11c017ebb0",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+    "windows": 3
+  }
+}

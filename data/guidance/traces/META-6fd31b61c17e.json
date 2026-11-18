@@ -1,0 +1,62 @@
+{
+  "id": "META-6fd31b61c17e",
+  "ollama": [
+    {
+      "cassette": "fd043a0e3a4aaa90df4738a6b0ca0aed9ea89b371f674780f76b26ce0a2e3c3f",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    },
+    {
+      "cassette": "41a610fd310bc16710326575bc4a5c08e9c5e0e9161d9d8918a3cb66736115bf",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    }
+  ],
+  "passage": "We anticipate making capital expenditures of approximately $135 billion to $145 billion in 2026 to support our AI efforts and core business.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We anticipate making capital expenditures of approximately $135 billion to $145 billion in 2026 to support our AI efforts and core business.",
+        "form": "10-Q",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2026,
+          "guidance_kind": "numeric_range",
+          "high_usd": 145000000000,
+          "low_usd": 135000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001628280-26-066773",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+        "statement_date": "2026-10-22",
+        "target_period": {
+          "end": "2026-12-31",
+          "fiscal_year": 2026,
+          "start": "2026-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001628280-26-066773",
+    "company": "META",
+    "filed": "2026-10-22",
+    "form": "10-Q",
+    "raw_sha256": "0ea75a9311407dc3202c051c3166c7dbc7f4714ee77d599691dcab16b75a916e",
+    "sha256": "df3b2df04344b60454df2f6261d80d695bfc0834a35a80bd743fa264f23bded0",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+    "windows": 1
+  }
+}

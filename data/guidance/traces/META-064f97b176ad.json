@@ -1,0 +1,62 @@
+{
+  "id": "META-064f97b176ad",
+  "ollama": [
+    {
+      "cassette": "46e2d07fcb4058ad03d2e8aadda4b26536c5ec257439b9df0fbc1b2cbf3830a4",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    },
+    {
+      "cassette": "e3569979877b6fbe43c7449d79c570250ce236cff592d2f7ba1da66d1ab126ed",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    }
+  ],
+  "passage": "We anticipate making capital expenditures of approximately $66 billion to $72 billion in 2025 to support our core business and AI efforts.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We anticipate making capital expenditures of approximately $66 billion to $72 billion in 2025 to support our core business and AI efforts.",
+        "form": "10-Q",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2025,
+          "guidance_kind": "numeric_range",
+          "high_usd": 72000000000,
+          "low_usd": 66000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001628280-25-036791",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+        "statement_date": "2025-07-31",
+        "target_period": {
+          "end": "2025-12-31",
+          "fiscal_year": 2025,
+          "start": "2025-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001628280-25-036791",
+    "company": "META",
+    "filed": "2025-07-31",
+    "form": "10-Q",
+    "raw_sha256": "d763f402798f3ddf0bce1056b43624d241e2eb5a95854ca1c114911979dcee01",
+    "sha256": "0bcb13e57be79fc3497a938e9b3b1e5f557aeddb1fe07cd79099ffedf74a7fa1",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+    "windows": 1
+  }
+}

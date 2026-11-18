@@ -1,0 +1,90 @@
+{
+  "id": "META-ade2a0568e49",
+  "ollama": [
+    {
+      "cassette": "3dd9e265be7811e43fc901a08677716e7ec8ad5faec648d0c6d54cf3dd741f36",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    },
+    {
+      "cassette": "86fe10c297130d69fdcfe6237576e1150f456ee420c71b13a604f617a4d1cad3",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": false,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We anticipate making capital expenditures of approximately $35 billion to $40 billion in 2024.",
+        "form": "10-Q",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 0.8333333333333334,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "numeric_range",
+          "high_usd": 4000000000,
+          "low_usd": 3500000000,
+          "rationale": "The passage provides a company-wide forecast of capital expenditures for 2024, with a range of $35 billion to $40 billion."
+        },
+        "source_accession": "0001326801-24-000049",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000049/meta-20240331.htm",
+        "statement_date": "2024-04-25",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "We anticipate making capital expenditures of approximately $35 billion to $40 billion in 2024.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We anticipate making capital expenditures of approximately $35 billion to $40 billion in 2024.",
+        "form": "10-Q",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2024,
+          "guidance_kind": "numeric_range",
+          "high_usd": 40000000000,
+          "low_usd": 35000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001326801-24-000049",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000049/meta-20240331.htm",
+        "statement_date": "2024-04-25",
+        "target_period": {
+          "end": "2024-12-31",
+          "fiscal_year": 2024,
+          "start": "2024-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-24-000049",
+    "company": "META",
+    "filed": "2024-04-25",
+    "form": "10-Q",
+    "raw_sha256": "7a09b0b0c2f9e43306f74e031e72df87e3e15d2c28afb029e0c33dd43aaf2f8a",
+    "sha256": "a09dcbd78d084897f8ea3d5f886b2a92482781442f562951cdb676dfff0ac0b6",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000049/meta-20240331.htm",
+    "windows": 1
+  }
+}

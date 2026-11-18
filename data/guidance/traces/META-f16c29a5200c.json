@@ -1,0 +1,62 @@
+{
+  "id": "META-f16c29a5200c",
+  "ollama": [
+    {
+      "cassette": "24675c1382a5bc8cfd5a68aee63bf43f6767ad50f4d0e3822dd7718ae903afd6",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "1a3380c5535a673a0746ccabcf6f66c6083f0b786b956421ff6dfadc4ffbd30f",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    }
+  ],
+  "passage": "We anticipate our full year 2025 capital expenditures will be in the range of $60-65 billion.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We anticipate our full year 2025 capital expenditures will be in the range of $60-65 billion.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2025,
+          "guidance_kind": "numeric_range",
+          "high_usd": 65000000000,
+          "low_usd": 60000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001326801-25-000014",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000014/meta-12312024xexhibit991.htm",
+        "statement_date": "2025-01-29",
+        "target_period": {
+          "end": "2025-12-31",
+          "fiscal_year": 2025,
+          "start": "2025-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-25-000014",
+    "company": "META",
+    "filed": "2025-01-29",
+    "form": "8-K",
+    "raw_sha256": "88b959c6a5cbfc09fe180a40d98358d82e430872bf3aa8eca0bcfd9d40309433",
+    "sha256": "e7669ad60f4cf766ce9ab79cc84104d445101e2cc4dd56093eba5234c7f6edbe",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000014/meta-12312024xexhibit991.htm",
+    "windows": 3
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "META-7dcf3e00303f",
+  "ollama": [
+    {
+      "cassette": "137c33c0d3420cb79d662b28f7c0e1b33ab2996d9bc451f2431c19e433110b87",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "822586fc6494b1842f9bb20ab6f012e69f3ef8b56190dbb995ea320ffe4f491f",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    }
+  ],
+  "passage": "We anticipate our full-year 2024 capital expenditures will be in the range of $30-37 billion, a $2 billion increase of the high end of our prior range.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We anticipate our full-year 2024 capital expenditures will be in the range of $30-37 billion, a $2 billion increase of the high end of our prior range.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2024,
+          "guidance_kind": "numeric_range",
+          "high_usd": 37000000000,
+          "low_usd": 30000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001326801-24-000010",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000010/meta-12312023xexhibit991.htm",
+        "statement_date": "2024-02-01",
+        "target_period": {
+          "end": "2024-12-31",
+          "fiscal_year": 2024,
+          "start": "2024-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-24-000010",
+    "company": "META",
+    "filed": "2024-02-01",
+    "form": "8-K",
+    "raw_sha256": "496ebd4343dbf99845ebf3902c2a1d6ff7235ee9f0e9792978d087bea3883c7f",
+    "sha256": "abf2a2c04ae4621f648d409e20815604f1f5d32bfc4e5d5b4d279999037db9ed",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000010/meta-12312023xexhibit991.htm",
+    "windows": 2
+  }
+}

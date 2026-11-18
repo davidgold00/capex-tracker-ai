@@ -1,0 +1,62 @@
+{
+  "id": "ORCL-79edcbe4a6e1",
+  "ollama": [
+    {
+      "cassette": "2595055b8ec53cc199e5c5498b2f39c455896905eabc40ff00b584b667bb2b13",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "b7a49112d23a79fa3ed1af613b946e65b72ce51c5bd28831626913ee6b2d5074",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    }
+  ],
+  "passage": "For fiscal year 2026, we expect revenue of $67 billion and capital expenditures of $50 billion.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "capex",
+        "definition_note": "Capital expenditures",
+        "evidence_quote": "For fiscal year 2026, we expect revenue of $67 billion and capital expenditures of $50 billion.",
+        "form": "8-K",
+        "mapping_reason": "The investing cash-flow statement uses this label.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2026,
+          "guidance_kind": "numeric_point",
+          "high_usd": 50000000000,
+          "low_usd": 50000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001193125-26-100148",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526100148/orcl-ex99_1.htm",
+        "statement_date": "2026-03-10",
+        "target_period": {
+          "end": "2026-05-31",
+          "fiscal_year": 2026,
+          "start": "2025-06-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001193125-26-100148",
+    "company": "ORCL",
+    "filed": "2026-03-10",
+    "form": "8-K",
+    "raw_sha256": "81af1a8fa7eabca7a07a4dc19cdf11e0529dcd891708694585740138ce422583",
+    "sha256": "ed3e2a2f31819a73915e85781ffdae0d269b08520c69f9179174c0cb96547eee",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526100148/orcl-ex99_1.htm",
+    "windows": 2
+  }
+}

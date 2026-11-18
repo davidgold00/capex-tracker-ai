@@ -1,0 +1,51 @@
+{
+  "id": "AMZN-c214038f1441",
+  "ollama": [
+    {
+      "cassette": "6afdbe36781f6a0c53db9c768cd9607961862338393a87820e6614ac3d51b426",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "fd89754d489b76499b365386c421c8bcc055a11f5a745d400f39e569fa7c565c",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    }
+  ],
+  "passage": "Cash capital expenditures were $58.3 billion, and $48.1 billion in 2022 and 2023, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, which investments we expect to increase in 2024.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "Purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "Cash capital expenditures were $58.3 billion, and $48.1 billion in 2022 and 2023, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, which investments we expect to increase in 2024.",
+        "form": "10-K",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001018724-24-000008",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm",
+        "statement_date": "2024-02-02",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001018724-24-000008",
+    "company": "AMZN",
+    "filed": "2024-02-02",
+    "form": "10-K",
+    "raw_sha256": "1864bd56e0ea1374f19dd121065322e6cc51e24d996bb8377ad19c436d66db44",
+    "sha256": "e4bd191eaaf84b39afa72091cacda6687eb107afa0b33a40441ceb4981ba725d",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm",
+    "windows": 1
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "AMZN-fe5dd79be81f",
+  "ollama": [
+    {
+      "cassette": "aa3ff149997f826abc01da3666fbe901d057c340123986a5898b669a34406b02",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "15513156642ed7409e3307502626fb155b357994749fc58381faebdb9102948c",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "Purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "We expect cash capital expenditures to decrease in 2023, primarily due to lower spending on our fulfillment network.",
+        "form": "10-Q",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "down",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage states a decrease in cash capital expenditures for 2023, primarily due to lower spending on the fulfillment network."
+        },
+        "source_accession": "0001018724-23-000008",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000008/amzn-20230331.htm",
+        "statement_date": "2023-04-28",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "We expect cash capital expenditures to decrease in 2023, primarily due to lower spending on our fulfillment network.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "Purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "We expect cash capital expenditures to decrease in 2023, primarily due to lower spending on our fulfillment network.",
+        "form": "10-Q",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "down",
+          "fiscal_year": 2023,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "Explicit movement."
+        },
+        "source_accession": "0001018724-23-000008",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000008/amzn-20230331.htm",
+        "statement_date": "2023-04-28",
+        "target_period": {
+          "end": "2023-12-31",
+          "fiscal_year": 2023,
+          "start": "2023-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001018724-23-000008",
+    "company": "AMZN",
+    "filed": "2023-04-28",
+    "form": "10-Q",
+    "raw_sha256": "1c84a1829d56f332df09a6b62c12c9e2f385b6874c3c06b8b019a69c62fd6399",
+    "sha256": "559cebf35e99ebf673a41a042a5439df5b14c448dea36cca3575ad1fdd330d34",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000008/amzn-20230331.htm",
+    "windows": 1
+  }
+}

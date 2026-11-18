@@ -1,0 +1,51 @@
+{
+  "id": "META-75e8b40989f8",
+  "ollama": [
+    {
+      "cassette": "bbe823130c027702b4367730d6a2b48a458a767515858ede7b4bda3218852406",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "709a5e2d45cd6b6f3e939a366cd51520e2a11f0317377dd33dee1b88e5937144",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    }
+  ],
+  "passage": "We anticipate making capital expenditures of approximately $27 billion to $29 billion and $30 billion to $35 billion in 2023 and 2024, respectively.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We anticipate making capital expenditures of approximately $27 billion to $29 billion and $30 billion to $35 billion in 2023 and 2024, respectively.",
+        "form": "10-Q",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001326801-23-000103",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000103/meta-20230930.htm",
+        "statement_date": "2023-10-26",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-23-000103",
+    "company": "META",
+    "filed": "2023-10-26",
+    "form": "10-Q",
+    "raw_sha256": "f6046ea9bdc1752705b1280ffcc9d1bc62e05c22c5cd25652b81e5856c415806",
+    "sha256": "e406d8b7272b01558200429b834255ee624fc411761d86638e1e5b6264b81945",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000103/meta-20230930.htm",
+    "windows": 1
+  }
+}

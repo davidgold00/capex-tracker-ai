@@ -1,0 +1,79 @@
+{
+  "id": "ORCL-f0ff0fb2e20e",
+  "ollama": [
+    {
+      "cassette": "ada9701450c4758714d6bab3ddb96f1790cc6ac3aebc0695e382fc8bdda013bc",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "38e30b542a554f389c5922b165cc5d0a38f2c737b18be8e7c806df1dc73d8277",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "Our stock repurchase authorization does not have an expiration date and the pace of any future repurchase activity will depend on factors such as our working capital needs, our cash requirements for capital expenditures, acquisitions and dividend payments, our debt repayment obligations or repurchases of our debt, our stock price and economic and market conditions.",
+        "form": "10-K",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 0.99,
+          "direction": "down",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "repurchase authorization does not have an expiration date, pace depends on factors"
+        },
+        "source_accession": "0001193125-26-277521",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "statement_date": "2026-06-22",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "Our stock repurchase authorization does not have an expiration date and the pace of any future repurchase activity will depend on factors such as our working capital needs, our cash requirements for capital expenditures, acquisitions and dividend payments, our debt repayment obligations or repurchases of our debt, our stock price and economic and market conditions.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "Our stock repurchase authorization does not have an expiration date and the pace of any future repurchase activity will depend on factors such as our working capital needs, our cash requirements for capital expenditures, acquisitions and dividend payments, our debt repayment obligations or repurchases of our debt, our stock price and economic and market conditions.",
+        "form": "10-K",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001193125-26-277521",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+        "statement_date": "2026-06-22",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001193125-26-277521",
+    "company": "ORCL",
+    "filed": "2026-06-22",
+    "form": "10-K",
+    "raw_sha256": "4d11ff78c4c8e04d87ab7041e1dc4d6593c360dbb96afe7911e50c13c9b3ee90",
+    "sha256": "8360c1b5220ca721d7c4d590a3b6fb0381e0570aee4f529a646e5eecca2b009a",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+    "windows": 2
+  }
+}

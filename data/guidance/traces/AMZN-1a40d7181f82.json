@@ -1,0 +1,90 @@
+{
+  "id": "AMZN-1a40d7181f82",
+  "ollama": [
+    {
+      "cassette": "09af568974dfaf6cc9450305c5b1e479ee9eb61a3d1d1beee856742935423ddb",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "f2eea6b91c885c6fb53608ab48fd5e49091340450a20ab1636f7a1fc1713e7d8",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "Purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "We expect cash capital expenditures to increase in 2025, primarily driven by investments in technology infrastructure.",
+        "form": "10-Q",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage states an increase in cash capital expenditures in 2025, driven by investments in technology infrastructure."
+        },
+        "source_accession": "0001018724-25-000036",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+        "statement_date": "2025-05-02",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "We expect cash capital expenditures to increase in 2025, primarily driven by investments in technology infrastructure.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "Purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "We expect cash capital expenditures to increase in 2025, primarily driven by investments in technology infrastructure.",
+        "form": "10-Q",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": 2025,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "Explicit movement."
+        },
+        "source_accession": "0001018724-25-000036",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+        "statement_date": "2025-05-02",
+        "target_period": {
+          "end": "2025-12-31",
+          "fiscal_year": 2025,
+          "start": "2025-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001018724-25-000036",
+    "company": "AMZN",
+    "filed": "2025-05-02",
+    "form": "10-Q",
+    "raw_sha256": "e37180be577b82df310200b1d3610202fda6872e5a7d61fe081f33a2b3023101",
+    "sha256": "8223f29893832ae3e06b2f9b0e7daf5fe3f5bda755de7317b97b57d268b7ffe6",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+    "windows": 1
+  }
+}

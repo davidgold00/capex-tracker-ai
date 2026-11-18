@@ -1,0 +1,90 @@
+{
+  "id": "AMZN-e3b7831c7f96",
+  "ollama": [
+    {
+      "cassette": "3cf92e10f7089bc053c9d244811ba6bfea9f86310e2612b3328615a89e4c36ad",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "bac12198641d7e612a9992b3f9b83df797a09115de88b16723ad0c24b3cf17b1",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "Purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "We expect cash capital expenditures to meaningfully increase in 2024, primarily driven by investments in technology infrastructure.",
+        "form": "10-Q",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage indicates an increase in cash capital expenditures in 2024, driven by technology infrastructure investments."
+        },
+        "source_accession": "0001018724-24-000161",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000161/amzn-20240930.htm",
+        "statement_date": "2024-11-01",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "We expect cash capital expenditures to meaningfully increase in 2024, primarily driven by investments in technology infrastructure.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "Purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "We expect cash capital expenditures to meaningfully increase in 2024, primarily driven by investments in technology infrastructure.",
+        "form": "10-Q",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": 2024,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "Explicit movement."
+        },
+        "source_accession": "0001018724-24-000161",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000161/amzn-20240930.htm",
+        "statement_date": "2024-11-01",
+        "target_period": {
+          "end": "2024-12-31",
+          "fiscal_year": 2024,
+          "start": "2024-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001018724-24-000161",
+    "company": "AMZN",
+    "filed": "2024-11-01",
+    "form": "10-Q",
+    "raw_sha256": "351feceb156c9729b47c98acef32a2d84f9d7f62765beaf003253d3e8c863efd",
+    "sha256": "74cb2267611695fb22032fc9618c2e142a47cc54a650e76bde7f9d65e4ac1d5b",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000161/amzn-20240930.htm",
+    "windows": 1
+  }
+}

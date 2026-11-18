@@ -1,0 +1,58 @@
+{
+  "id": "META-5c77beb491c0",
+  "ollama": [
+    {
+      "cassette": "de0c15786145b0b73bcb6babef0096453579a99a0dbdc83eeaefe53099336e15",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "72a48bbd4b8601bba2996413bec81cbb8598c953f4dabce0d05f2d0ff526bec8",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    }
+  ],
+  "passage": "We anticipate making capital expenditures of approximately $38 billion to $40 billion in 2024 and continue to expect significant capital expenditures growth in 2025.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We anticipate making capital expenditures of approximately $38 billion to $40 billion in 2024 and continue to expect significant capital expenditures growth in 2025.",
+        "form": "10-Q",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "numeric_range",
+          "high_usd": 40000000000,
+          "low_usd": 38000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001326801-24-000081",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000081/meta-20240930.htm",
+        "statement_date": "2024-10-31",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-24-000081",
+    "company": "META",
+    "filed": "2024-10-31",
+    "form": "10-Q",
+    "raw_sha256": "2d6be4087dc4d2cc5eff8d171bce282f7651fdf587dec39aed49ae776bf41ba7",
+    "sha256": "8bb9478c2812f90f2ab925821e70c846a7e100e1d3cbc4764d1b25373f125dc7",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000081/meta-20240930.htm",
+    "windows": 1
+  }
+}

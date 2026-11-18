@@ -1,0 +1,79 @@
+{
+  "id": "AMZN-ac9cd9079469",
+  "ollama": [
+    {
+      "cassette": "42243baa8dad7a95ccbd8d798a3e18a702eb73acb2713707a9ae7c63366eadff",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "947d6f47972fe4d27612abf1fd7de778c88eef1274ee61a8eb8aa943d69643f5",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "Purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "This investment, which is the single largest capital investment in the state\u2019s history, will create at least 1,000 jobs and support new educational trainings in the state.",
+        "form": "8-K",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage indicates a significant investment in the state's history, which is likely to create jobs and support educational trainings."
+        },
+        "source_accession": "0001018724-24-000081",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000081/amzn-20240331xex991.htm",
+        "statement_date": "2024-04-30",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "This investment, which is the single largest capital investment in the state\u2019s history, will create at least 1,000 jobs and support new educational trainings in the state.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "Purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "This investment, which is the single largest capital investment in the state\u2019s history, will create at least 1,000 jobs and support new educational trainings in the state.",
+        "form": "8-K",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001018724-24-000081",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000081/amzn-20240331xex991.htm",
+        "statement_date": "2024-04-30",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001018724-24-000081",
+    "company": "AMZN",
+    "filed": "2024-04-30",
+    "form": "8-K",
+    "raw_sha256": "c5c9522425ee50b9b422885c17b5ed90798ff0aa237ac3f2c48025923901da63",
+    "sha256": "935143c9794f207f4eae59871ce328f1ed7582f6ed117a1f338094f247496b9a",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000081/amzn-20240331xex991.htm",
+    "windows": 1
+  }
+}

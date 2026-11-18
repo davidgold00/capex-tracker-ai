@@ -1,0 +1,79 @@
+{
+  "id": "META-9f65bf3b2539",
+  "ollama": [
+    {
+      "cassette": "d1476f6ff6a43a4ffaefd0899388200fca9ca1d5ddc055a55aa65c9654047374",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "6573101101dc7f4b5244bae0fc42becd2589b80315ee65b907eaed14e000aef0",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "While we are not providing guidance for years beyond 2024, we expect capital expenditures will continue to increase next year as we invest aggressively to support our ambitious AI research and product development efforts.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage indicates a continued increase in capital expenditures next year."
+        },
+        "source_accession": "0001326801-24-000044",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000044/meta-03312024xexhibit991.htm",
+        "statement_date": "2024-04-24",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "While we are not providing guidance for years beyond 2024, we expect capital expenditures will continue to increase next year as we invest aggressively to support our ambitious AI research and product development efforts.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "While we are not providing guidance for years beyond 2024, we expect capital expenditures will continue to increase next year as we invest aggressively to support our ambitious AI research and product development efforts.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001326801-24-000044",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000044/meta-03312024xexhibit991.htm",
+        "statement_date": "2024-04-24",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-24-000044",
+    "company": "META",
+    "filed": "2024-04-24",
+    "form": "8-K",
+    "raw_sha256": "1f0a8cfceded4d39c4f3c9cf417806ca57a86582a8731a7ab4efd9f67655fe9b",
+    "sha256": "a9b2aa9a26aa09bf06027f5128e9c19049b6bfa2e39aca550b60de2821da803a",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000044/meta-03312024xexhibit991.htm",
+    "windows": 2
+  }
+}

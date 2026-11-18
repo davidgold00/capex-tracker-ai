@@ -1,0 +1,79 @@
+{
+  "id": "ORCL-ebce6ed178da",
+  "ollama": [
+    {
+      "cassette": "26ea4f45699bf0d135103a32acddd85002716d6f443bd0f568c7596915fddc40",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "cb8fc15d7118e6327951ccd2579edfcd1679461eb41bb61d38f9ecee962e752e",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage indicates sufficient cash balances to meet working capital, capital expenditures, and contractual obligations."
+        },
+        "source_accession": "0001193125-25-315925",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm",
+        "statement_date": "2025-12-11",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001193125-25-315925",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm",
+        "statement_date": "2025-12-11",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001193125-25-315925",
+    "company": "ORCL",
+    "filed": "2025-12-11",
+    "form": "10-Q",
+    "raw_sha256": "42d604dcc29ed3be794681fcdaa356abcc34a30af00f9ff68fe3efb8ab130a40",
+    "sha256": "9944b1b7dc235db210f1e94896a9871181610c264e01ab76fc79c9ff576e21b2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm",
+    "windows": 1
+  }
+}

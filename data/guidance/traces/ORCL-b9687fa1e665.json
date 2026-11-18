@@ -1,0 +1,51 @@
+{
+  "id": "ORCL-b9687fa1e665",
+  "ollama": [
+    {
+      "cassette": "ce635e120dac5fdabd6c6fef98c116fde2ad3c3de0d6687e25c9bc943d3e50be",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "4a8bd8a60959c22e24dd26ed309034a65c91e4228b81f3d302551d46ff5299d1",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    }
+  ],
+  "passage": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations, and our $6.0 billion, five-year revolving credit agreement will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations, and our $6.0 billion, five-year revolving credit agreement will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001564590-23-003413",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000156459023003413/orcl-10q_20230228.htm",
+        "statement_date": "2023-03-10",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001564590-23-003413",
+    "company": "ORCL",
+    "filed": "2023-03-10",
+    "form": "10-Q",
+    "raw_sha256": "d66e75960dec51258700c0495aee4214fb95cf39006b46ef24e1c4fa256095a3",
+    "sha256": "80a409ca7f04f70ab06f5467853089971a9ded06cdcaa037e7da14f4137c3dd2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000156459023003413/orcl-10q_20230228.htm",
+    "windows": 1
+  }
+}

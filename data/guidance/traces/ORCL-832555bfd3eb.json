@@ -1,0 +1,79 @@
+{
+  "id": "ORCL-832555bfd3eb",
+  "ollama": [
+    {
+      "cassette": "33ca95cbeda23fc73d291fabc36a396188334b82d8010c8cac99be11aecf7626",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "9bd1a9fc6abe797cba80201c987386c639d1c9105482bd14d961e40503c7ed07",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "capex",
+        "definition_note": "Capital expenditures",
+        "evidence_quote": "We believe this supplemental presentation of net cash outlay for capital expenditures is useful because it provides additional information about the cash requirement for funding of our capital expenditures and is used by management when forecasting expected capital expenditures.",
+        "form": "8-K",
+        "mapping_reason": "The investing cash-flow statement uses this label.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage is a company-wide forecast of capital spending."
+        },
+        "source_accession": "0001193125-26-265848",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-ex99_1.htm",
+        "statement_date": "2026-06-10",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "We believe this supplemental presentation of net cash outlay for capital expenditures is useful because it provides additional information about the cash requirement for funding of our capital expenditures and is used by management when forecasting expected capital expenditures.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "capex",
+        "definition_note": "Capital expenditures",
+        "evidence_quote": "We believe this supplemental presentation of net cash outlay for capital expenditures is useful because it provides additional information about the cash requirement for funding of our capital expenditures and is used by management when forecasting expected capital expenditures.",
+        "form": "8-K",
+        "mapping_reason": "The investing cash-flow statement uses this label.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001193125-26-265848",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-ex99_1.htm",
+        "statement_date": "2026-06-10",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001193125-26-265848",
+    "company": "ORCL",
+    "filed": "2026-06-10",
+    "form": "8-K",
+    "raw_sha256": "f910af13a99c91997ff1713ee798f34f28c917372cbc31c7cd1637e138a0d95b",
+    "sha256": "0b0296374c482342e1a1f1b19d8a9b9ff1841018c1f2a5ee742f0b4a0cc66ef1",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-ex99_1.htm",
+    "windows": 2
+  }
+}

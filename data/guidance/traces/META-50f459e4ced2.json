@@ -1,0 +1,62 @@
+{
+  "id": "META-50f459e4ced2",
+  "ollama": [
+    {
+      "cassette": "09e511d79312ab7c9695e83539b36b69ad7255397ce1abd8486729347c60b0e7",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "e81336d1846580660294892ba82699239fff8532ef730b14a5487f482a8c5696",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    }
+  ],
+  "passage": "We anticipate our full-year 2024 capital expenditures will be in the range of $30-35 billion, with growth driven by investments in servers, including both non-artificial intelligence (AI) and AI hardware, and data centers as we ramp up construction on sites with the new data center architecture we announced late last year.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We anticipate our full-year 2024 capital expenditures will be in the range of $30-35 billion, with growth driven by investments in servers, including both non-artificial intelligence (AI) and AI hardware, and data centers as we ramp up construction on sites with the new data center architecture we announced late last year.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2024,
+          "guidance_kind": "numeric_range",
+          "high_usd": 35000000000,
+          "low_usd": 30000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001326801-23-000100",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000100/meta09302023-exhibit991.htm",
+        "statement_date": "2023-10-25",
+        "target_period": {
+          "end": "2024-12-31",
+          "fiscal_year": 2024,
+          "start": "2024-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-23-000100",
+    "company": "META",
+    "filed": "2023-10-25",
+    "form": "8-K",
+    "raw_sha256": "a2b78d7c51a5b99f4b16fb684107e39106a55c8e8ec08a2640dc48f3d287545a",
+    "sha256": "fa87d964240b120cd8808d75b23879208674839c1d14b3f83630c50c3b39771e",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000100/meta09302023-exhibit991.htm",
+    "windows": 6
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "AMZN-becb5a99d3fe",
+  "ollama": [
+    {
+      "cassette": "ae1e04652e7910800bcbc025e35997ec143833c5597b8c7113a386c8f2e9a00f",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "95c4f49c23376980c4c2596bdd25b9de3d4ed1ddd9f46028f253d314b1dad6d4",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "Purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "Cash capital expenditures were $21.3 billion and $34.2 billion during Q3 2024 and Q3 2025, and $51.6 billion and $89.9 billion for the nine months ended September 30, 2024 and 2025, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2025 and 2026.",
+        "form": "10-Q",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "annual target for 2025 and 2026 is provided"
+        },
+        "source_accession": "0001018724-25-000123",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+        "statement_date": "2025-10-31",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "Cash capital expenditures were $21.3 billion and $34.2 billion during Q3 2024 and Q3 2025, and $51.6 billion and $89.9 billion for the nine months ended September 30, 2024 and 2025, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2025 and 2026.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "Purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "Cash capital expenditures were $21.3 billion and $34.2 billion during Q3 2024 and Q3 2025, and $51.6 billion and $89.9 billion for the nine months ended September 30, 2024 and 2025, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2025 and 2026.",
+        "form": "10-Q",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001018724-25-000123",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+        "statement_date": "2025-10-31",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001018724-25-000123",
+    "company": "AMZN",
+    "filed": "2025-10-31",
+    "form": "10-Q",
+    "raw_sha256": "f9dc0d026ccb4168b1fdb8814dfb17a2432c194ec568379554194a9ce4b930f2",
+    "sha256": "15347758afb3107d3ff40fd6d02bcec37261f046d5a36fa765957709994d79a5",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+    "windows": 1
+  }
+}

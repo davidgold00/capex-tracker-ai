@@ -1,0 +1,79 @@
+{
+  "id": "META-bc5328ff1dfa",
+  "ollama": [
+    {
+      "cassette": "5bc7f2e1ab8b8c02aaa397aacb1656b1d063f16edbbbbab4a70b246b74ccb345",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "b735052fdbeb4a9291a09ce9ae60aa4cd74f3c48383aee87b8129c96e5d2801c",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "Given our increased capital investments in recent years, we expect depreciation expenses in 2024 to increase by a larger amount than in 2023.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 0.9,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage indicates an increase in depreciation expenses, which is a form of capital spending."
+        },
+        "source_accession": "0001326801-24-000010",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000010/meta-12312023xexhibit991.htm",
+        "statement_date": "2024-02-01",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "Given our increased capital investments in recent years, we expect depreciation expenses in 2024 to increase by a larger amount than in 2023.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "Given our increased capital investments in recent years, we expect depreciation expenses in 2024 to increase by a larger amount than in 2023.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001326801-24-000010",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000010/meta-12312023xexhibit991.htm",
+        "statement_date": "2024-02-01",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-24-000010",
+    "company": "META",
+    "filed": "2024-02-01",
+    "form": "8-K",
+    "raw_sha256": "496ebd4343dbf99845ebf3902c2a1d6ff7235ee9f0e9792978d087bea3883c7f",
+    "sha256": "abf2a2c04ae4621f648d409e20815604f1f5d32bfc4e5d5b4d279999037db9ed",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000010/meta-12312023xexhibit991.htm",
+    "windows": 2
+  }
+}

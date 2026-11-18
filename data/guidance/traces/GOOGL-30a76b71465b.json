@@ -1,0 +1,79 @@
+{
+  "id": "GOOGL-30a76b71465b",
+  "ollama": [
+    {
+      "cassette": "df3dae0eefe1d08c146159f04fdf7b66dc9c36f2a08b94c6a6447f42a16f9c08",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "a19caeeb6b8a08002dace04c16f55a47aa8fe3116142ff8028ddc8c26395f0b1",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "GOOGL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "\u2022As we continue to serve our users and expand our businesses, we will invest heavily in operating and capital expenditures.",
+        "form": "10-K",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "continuing to invest alone does not state a direction"
+        },
+        "source_accession": "0001652044-23-000016",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000016/goog-20221231.htm",
+        "statement_date": "2023-02-03",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "\u2022As we continue to serve our users and expand our businesses, we will invest heavily in operating and capital expenditures.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "GOOGL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "\u2022As we continue to serve our users and expand our businesses, we will invest heavily in operating and capital expenditures.",
+        "form": "10-K",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001652044-23-000016",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000016/goog-20221231.htm",
+        "statement_date": "2023-02-03",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001652044-23-000016",
+    "company": "GOOGL",
+    "filed": "2023-02-03",
+    "form": "10-K",
+    "raw_sha256": "71387fee45c562c381c73fd1de02834557be0ca414237116a2aac830102544a8",
+    "sha256": "36662d57059d3253369f247a300ce9f8dafcc71d303849cddf62ec0935ea0762",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000016/goog-20221231.htm",
+    "windows": 1
+  }
+}

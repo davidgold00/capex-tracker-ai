@@ -1,0 +1,79 @@
+{
+  "id": "AMZN-06bd97cc84bf",
+  "ollama": [
+    {
+      "cassette": "0e4abb8813c1862ddf1a19a943cb63ad9d597da413ba7cb2c6cbbec0e3838c2e",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "7345abf3f45d783188ec8245a8587c5ede2d5d3177fa8b59f81793d3b835b93a",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "Purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "Cash capital expenditures were $34.2 billion and $75.9 billion during Q3 2025 and Q3 2026, and $89.9 billion and $172.2 billion for the nine months ended September 30, 2025 and 2026, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2026.",
+        "form": "10-Q",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "Annual target for fiscal year 2026 is $172.2 billion."
+        },
+        "source_accession": "0001018724-26-000040",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+        "statement_date": "2026-10-30",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "Cash capital expenditures were $34.2 billion and $75.9 billion during Q3 2025 and Q3 2026, and $89.9 billion and $172.2 billion for the nine months ended September 30, 2025 and 2026, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2026.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "Purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "Cash capital expenditures were $34.2 billion and $75.9 billion during Q3 2025 and Q3 2026, and $89.9 billion and $172.2 billion for the nine months ended September 30, 2025 and 2026, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2026.",
+        "form": "10-Q",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001018724-26-000040",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+        "statement_date": "2026-10-30",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001018724-26-000040",
+    "company": "AMZN",
+    "filed": "2026-10-30",
+    "form": "10-Q",
+    "raw_sha256": "f0f2dd95692c8d88d073a9d90b83e806b4d073d047007a8860d30cbb5863f273",
+    "sha256": "c1272c41e396efb5830f108e296183795231f29679045d9a2f1dad3ab5325942",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+    "windows": 3
+  }
+}

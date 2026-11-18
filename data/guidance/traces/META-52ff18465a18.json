@@ -1,0 +1,79 @@
+{
+  "id": "META-52ff18465a18",
+  "ollama": [
+    {
+      "cassette": "272b925b1f7332d2284b0bb1fc7452eaf7bcd817d6208850439b04f6f762938f",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "a01a26cce595bb67e72b2f6b9acfe00355037e1b6c2fb999354c414a7b34dd70",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "While we continue to refine our plans for next year, we currently expect significant capital expenditures growth in 2025 as we invest to support our artificial intelligence research and product development efforts.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage indicates a forecast of increased capital expenditures for 2025."
+        },
+        "source_accession": "0001326801-24-000065",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000065/meta-06302024xexhibit991.htm",
+        "statement_date": "2024-07-31",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "While we continue to refine our plans for next year, we currently expect significant capital expenditures growth in 2025 as we invest to support our artificial intelligence research and product development efforts.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "While we continue to refine our plans for next year, we currently expect significant capital expenditures growth in 2025 as we invest to support our artificial intelligence research and product development efforts.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001326801-24-000065",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000065/meta-06302024xexhibit991.htm",
+        "statement_date": "2024-07-31",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-24-000065",
+    "company": "META",
+    "filed": "2024-07-31",
+    "form": "8-K",
+    "raw_sha256": "5b43617fca5af5b0eb025c67450363725378455d0594bd20c746034d08d1d8c4",
+    "sha256": "78c98bb55e590c24f7065461784ca46d468b4ee13fe712bfe68e720eb898dcdf",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000065/meta-06302024xexhibit991.htm",
+    "windows": 2
+  }
+}

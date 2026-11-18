@@ -1,0 +1,62 @@
+{
+  "id": "META-83135f9b5d89",
+  "ollama": [
+    {
+      "cassette": "374cc7d0b7814759794bb9ab580c854f8f3e9b7c8372b8078781fafe56567866",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "0bf0aeeadf60f316b76d3d400ee83e25fd850ac1df7c181425098bdc2cf5c71c",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    }
+  ],
+  "passage": "We anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $130-145 billion, narrowed from our prior outlook of $125-145 billion.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $130-145 billion, narrowed from our prior outlook of $125-145 billion.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2026,
+          "guidance_kind": "numeric_range",
+          "high_usd": 145000000000,
+          "low_usd": 130000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001628280-26-050596",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm",
+        "statement_date": "2026-07-29",
+        "target_period": {
+          "end": "2026-12-31",
+          "fiscal_year": 2026,
+          "start": "2026-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001628280-26-050596",
+    "company": "META",
+    "filed": "2026-07-29",
+    "form": "8-K",
+    "raw_sha256": "9141d30cf5fa5063b8f2d041bb4a08548b55a3ce526d4abcd5fd875402bb05cf",
+    "sha256": "dbb94d9acf2041cf084f0c444a1fc010f15d7afc654d6974f9e3ebf53fb36449",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm",
+    "windows": 1
+  }
+}

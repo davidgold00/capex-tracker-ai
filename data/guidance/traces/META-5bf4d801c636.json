@@ -1,0 +1,90 @@
+{
+  "id": "META-5bf4d801c636",
+  "ollama": [
+    {
+      "cassette": "bb66f373697b5e8b5b6c204755762bb556cef60fbbac7df1ea5497008488a4ab",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "cda3e05c0d5322671f274bf3e765e94ca7289dda0cb410e16f05ba4f0a4fd1f3",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "Looking ahead, while we will continue to refine our plans as we progress throughout this year, we currently expect total capital expenditures to grow in 2024, driven by our investments across both data centers and servers, particularly in support of our AI work.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "Looking ahead, while we will continue to refine our plans as we progress throughout this year, we currently expect total capital expenditures to grow in 2024, driven by our investments across both data centers and servers, particularly in support of our AI work."
+        },
+        "source_accession": "0001326801-23-000089",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000089/meta06302023-exhibit991.htm",
+        "statement_date": "2023-07-26",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "Looking ahead, while we will continue to refine our plans as we progress throughout this year, we currently expect total capital expenditures to grow in 2024, driven by our investments across both data centers and servers, particularly in support of our AI work.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "Looking ahead, while we will continue to refine our plans as we progress throughout this year, we currently expect total capital expenditures to grow in 2024, driven by our investments across both data centers and servers, particularly in support of our AI work.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": 2024,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "Explicit movement."
+        },
+        "source_accession": "0001326801-23-000089",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000089/meta06302023-exhibit991.htm",
+        "statement_date": "2023-07-26",
+        "target_period": {
+          "end": "2024-12-31",
+          "fiscal_year": 2024,
+          "start": "2024-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-23-000089",
+    "company": "META",
+    "filed": "2023-07-26",
+    "form": "8-K",
+    "raw_sha256": "5b44944da2e65cd007e09c2ab5f7c58a3481bcbe7b8643e4b75e6077ac6a0883",
+    "sha256": "8813cd68e60ca5edcf812e2f48529a7d27bc4f791d582560cd1771da4b2af192",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000089/meta06302023-exhibit991.htm",
+    "windows": 4
+  }
+}

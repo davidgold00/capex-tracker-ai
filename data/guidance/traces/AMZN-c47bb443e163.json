@@ -1,0 +1,90 @@
+{
+  "id": "AMZN-c47bb443e163",
+  "ollama": [
+    {
+      "cassette": "d2c4ac18dee876254d2f90250564afe52bf50f53f75a91baee76e306725968f8",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "8b8eaf1ea90baadacef0ae335608bb68eec9510db227fb8efd532c70d7cf0e20",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "\u201cAWS growing 24% (our fastest growth in 13 quarters), Advertising growing 22%, Stores growing briskly across North America and International, our chips business growing triple digit percentages year-over-year\u2014this growth is happening because we\u2019re continuing to innovate at a rapid rate, and identify and knock down customer problems,\u201d said Andy Jassy, President and CEO, Amazon. \u201cWith such strong demand for our existing offerings and seminal opportunities like AI, chips, robotics, and low earth orbit satellites, we expect to invest about $200 billion in capital expenditures across Amazon in 2026, and anticipate strong long-term return on invested capital.\u201d",
+        "form": "8-K",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 0.9,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "Amazon's CEO predicts $200 billion in capital expenditures in 2026."
+        },
+        "source_accession": "0001018724-26-000002",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm",
+        "statement_date": "2026-02-05",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "\u201cAWS growing 24% (our fastest growth in 13 quarters), Advertising growing 22%, Stores growing briskly across North America and International, our chips business growing triple digit percentages year-over-year\u2014this growth is happening because we\u2019re continuing to innovate at a rapid rate, and identify and knock down customer problems,\u201d said Andy Jassy, President and CEO, Amazon. \u201cWith such strong demand for our existing offerings and seminal opportunities like AI, chips, robotics, and low earth orbit satellites, we expect to invest about $200 billion in capital expenditures across Amazon in 2026, and anticipate strong long-term return on invested capital.\u201d",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "\u201cAWS growing 24% (our fastest growth in 13 quarters), Advertising growing 22%, Stores growing briskly across North America and International, our chips business growing triple digit percentages year-over-year\u2014this growth is happening because we\u2019re continuing to innovate at a rapid rate, and identify and knock down customer problems,\u201d said Andy Jassy, President and CEO, Amazon. \u201cWith such strong demand for our existing offerings and seminal opportunities like AI, chips, robotics, and low earth orbit satellites, we expect to invest about $200 billion in capital expenditures across Amazon in 2026, and anticipate strong long-term return on invested capital.\u201d",
+        "form": "8-K",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2026,
+          "guidance_kind": "numeric_point",
+          "high_usd": 200000000000,
+          "low_usd": 200000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001018724-26-000002",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm",
+        "statement_date": "2026-02-05",
+        "target_period": {
+          "end": "2026-12-31",
+          "fiscal_year": 2026,
+          "start": "2026-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001018724-26-000002",
+    "company": "AMZN",
+    "filed": "2026-02-05",
+    "form": "8-K",
+    "raw_sha256": "3040e9a3a6298bf25da2a097e6c2027fd5cbacbdba30433b091d16026dc3d6a3",
+    "sha256": "775a0f6b437b22059ad211d6f682911d59cd1b4ecbce6e3f3feee6205517d210",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm",
+    "windows": 1
+  }
+}

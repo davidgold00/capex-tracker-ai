@@ -1,0 +1,90 @@
+{
+  "id": "GOOGL-e9a2680a71e1",
+  "ollama": [
+    {
+      "cassette": "f3008e7a5856cf381acc5b74cb0f1717ded18ef3224f4021c86da46a9cf87e10",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "d9ccb8f934990cf9f32054fb2b81190902e93e3469b0a3643ca2ddf70c94f8b3",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "GOOGL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We expect full year 2025 capital expenditures to exceed full year 2024.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage states an expectation for full year 2025 capital expenditures to exceed full year 2024."
+        },
+        "source_accession": "0001652044-25-000091",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+        "statement_date": "2025-10-30",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "We expect full year 2025 capital expenditures to exceed full year 2024.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "GOOGL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We expect full year 2025 capital expenditures to exceed full year 2024.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": 2025,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "Explicit movement."
+        },
+        "source_accession": "0001652044-25-000091",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+        "statement_date": "2025-10-30",
+        "target_period": {
+          "end": "2025-12-31",
+          "fiscal_year": 2025,
+          "start": "2025-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001652044-25-000091",
+    "company": "GOOGL",
+    "filed": "2025-10-30",
+    "form": "10-Q",
+    "raw_sha256": "182f1db397f39d9107ad14685e6335bd9bf0fe51abe42809ba792fe4e4b3d081",
+    "sha256": "eae6e037e9d939c75b7a20955465139852bc0551701326ab47b30c0016d99cf4",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+    "windows": 1
+  }
+}

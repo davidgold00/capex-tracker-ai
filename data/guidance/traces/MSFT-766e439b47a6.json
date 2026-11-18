@@ -1,0 +1,79 @@
+{
+  "id": "MSFT-766e439b47a6",
+  "ollama": [
+    {
+      "cassette": "195480355a755dad7a29d4f4b074f7d300a5ca6e0336860db71560837c07f48f",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "e21397f2f3ca254261fb8e14b0aeba070b9d8c92bac797e8f900af86566af40b",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "MSFT",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We will continue to invest in capital expenditures to support growth in our cloud offerings and our investments in AI training and other infrastructure.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "continuing to invest in capital expenditures"
+        },
+        "source_accession": "0001193125-26-436133",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+        "statement_date": "2026-10-28",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "We will continue to invest in capital expenditures to support growth in our cloud offerings and our investments in AI training and other infrastructure.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "MSFT",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We will continue to invest in capital expenditures to support growth in our cloud offerings and our investments in AI training and other infrastructure.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001193125-26-436133",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+        "statement_date": "2026-10-28",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001193125-26-436133",
+    "company": "MSFT",
+    "filed": "2026-10-28",
+    "form": "10-Q",
+    "raw_sha256": "b0a6acbf5de340588e12f990b56ece4e5d67de2922bf5aa9a6ab379c742e92a8",
+    "sha256": "9a819ee08ecde6eba10b2dda1471ec66b09ae848ff9cd5daac023a163ee36c5a",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+    "windows": 3
+  }
+}

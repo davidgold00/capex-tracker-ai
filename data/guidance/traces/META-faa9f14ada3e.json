@@ -1,0 +1,62 @@
+{
+  "id": "META-faa9f14ada3e",
+  "ollama": [
+    {
+      "cassette": "5aca221b6af62eb16646c83f4676cc10fc37cadd8fb37ad2d8b7a0b14132c4b1",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    },
+    {
+      "cassette": "079a0155bdfee780ce07d8fa9f6edd7a6ffa907964795bfd048b1f6453fdd329",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    }
+  ],
+  "passage": "We anticipate our full-year 2024 capital expenditures will be in the range of $38-40 billion, updated from our prior range of $37-40 billion.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We anticipate our full-year 2024 capital expenditures will be in the range of $38-40 billion, updated from our prior range of $37-40 billion.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2024,
+          "guidance_kind": "numeric_range",
+          "high_usd": 40000000000,
+          "low_usd": 38000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001326801-24-000077",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000077/meta-09302024xexhibit991.htm",
+        "statement_date": "2024-10-30",
+        "target_period": {
+          "end": "2024-12-31",
+          "fiscal_year": 2024,
+          "start": "2024-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-24-000077",
+    "company": "META",
+    "filed": "2024-10-30",
+    "form": "8-K",
+    "raw_sha256": "e043b9d7fa38b888de5db68ee5b11ea8d73e4e7e9b50520adb00f09fc7c00184",
+    "sha256": "7ff50e39aea85518f9799750d4dfc57f2cd3c301a0ded636b97411afe47fdac0",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000077/meta-09302024xexhibit991.htm",
+    "windows": 3
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "META-4b7d6ad43db5",
+  "ollama": [
+    {
+      "cassette": "445ca2dda642a6cbd0f2e5f4f7be45fd33bb507cd3ffb042f5c682f35324c836",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "c7de2c0dd6495196f64a0954709a56866b121491556e4d4511db9afad5086e6e",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    }
+  ],
+  "passage": "We expect capital expenditures to be in the range of $30-33 billion, lowered from our prior estimate of $34-37 billion.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We expect capital expenditures to be in the range of $30-33 billion, lowered from our prior estimate of $34-37 billion.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "numeric_range",
+          "high_usd": 33000000000,
+          "low_usd": 30000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001326801-23-000008",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000008/meta-12312022xexhibit991.htm",
+        "statement_date": "2023-02-01",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-23-000008",
+    "company": "META",
+    "filed": "2023-02-01",
+    "form": "8-K",
+    "raw_sha256": "40bb9fd146e91c476fddd5a68985dcbe04e18f5a5cf4859a8d4969ac7dbe753d",
+    "sha256": "96a34ca8d83f136300d155f5772986a44617543df64e3aa8066c7983de32cff1",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000008/meta-12312022xexhibit991.htm",
+    "windows": 1
+  }
+}
