@@ -49,6 +49,12 @@ SEC filing coverage by document: Microsoft 0 approved / 16 language hits / 32 re
 [Dated ranges, revisions, definitions and actuals](data/processed/guidance_paths.csv)
 <!-- GUIDANCE:END -->
 
+## What changed (machine-drafted and fact-checked)
+
+<!-- WHAT_CHANGED:START -->
+
+<!-- WHAT_CHANGED:END -->
+
 ## My read this quarter
 
 <!-- NOTES:START -->

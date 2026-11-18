@@ -1,0 +1,28 @@
+{
+  "key": "37b5183bd8ae0e27d1509a9de53e5f852ad916e0c781c73beed0fc07ab064aaa",
+  "request": {
+    "format": {
+      "properties": {
+        "paragraph": {
+          "title": "Paragraph",
+          "type": "string"
+        }
+      },
+      "required": [
+        "paragraph"
+      ],
+      "title": "Draft",
+      "type": "object"
+    },
+    "model": "qwen2.5:1.5b-instruct",
+    "options": {
+      "num_predict": 350,
+      "seed": 42,
+      "temperature": 0
+    },
+    "prompt": "[[\"Aggregate capex rose from $181.5B in Q2 2026 to $230.4B in Q3 2026.\", \"In Q3 2026, aggregate capex rose to $230.4B from $181.5B in Q2 2026.\"], [\"Aggregate capex rose from $105.8B in Q3 2025 to $230.4B in Q3 2026.\", \"In Q3 2026, aggregate capex rose to $230.4B from $105.8B in Q3 2025.\"]]",
+    "stream": false,
+    "system": "Write a single short factual paragraph for the quarterly update. The input is an array of required facts. For each inner array choose exactly one of its complete sentences and copy it verbatim. Join the sentences in a logical order with single spaces. Keep every company, period, direction, dollar amount and punctuation exactly as supplied. Return a JSON object with one paragraph string. Add no introductory words or commentary."
+  },
+  "response": "{\"paragraph\":\"Aggregate capex rose from $105.8B in Q3 2025 to $230.4B in Q3 2026, and then rose again to $230.4B from $181.5B in Q2 2026.\"}"
+}

@@ -226,6 +226,13 @@ def command_readme(config: Config) -> None:
         from capex_tracker.guidance.report import render
 
         rendered = render(config, wide, rendered)
+    if "<!-- WHAT_CHANGED:START -->" in rendered:
+        from capex_tracker.guidance.ground import factbook, publish
+        from capex_tracker.guidance.review import read_csv
+
+        directory = config.paths.processed_dir.parent / "guidance"
+        facts = factbook(aggregate, long, read_csv(directory / "approved.csv"), config)
+        rendered = publish(rendered, directory / "draft.json", facts)
     path.write_text(rendered, encoding="utf-8")
     logger.info("Updated %s", path)
 

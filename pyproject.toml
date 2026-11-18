@@ -37,3 +37,6 @@ src = ["src", "tests"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+
+[tool.setuptools.package-data]
+"capex_tracker.guidance" = ["prompts/*.txt"]
