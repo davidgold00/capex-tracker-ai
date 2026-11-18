@@ -37,6 +37,18 @@ Last updated: 2026-10-30. Latest filing included: Amazon 10-Q, accession 0001018
 ![Reported and finance-lease-adjusted capex](docs/charts/lease_adjustment.png)
 <!-- CHARTS:END -->
 
+## Guidance versus actual spending
+
+<!-- GUIDANCE:START -->
+No annual forecast passed review (n=0), so upward revisions, the gap from initial guidance to actual spending, and company reliability remain unmeasured.
+
+SEC filing coverage by document: Microsoft 0 approved / 16 language hits / 32 read, Alphabet 0 approved / 11 language hits / 33 read, Amazon 0 approved / 18 language hits / 32 read, Meta 0 approved / 32 language hits / 32 read, Oracle 0 approved / 17 language hits / 30 read. Calls are outside the corpus. A missing filed forecast leaves a coverage gap.
+
+![Approved forecasts and fiscal-year actuals](docs/charts/guidance_path.png)
+
+[Dated ranges, revisions, definitions and actuals](data/processed/guidance_paths.csv)
+<!-- GUIDANCE:END -->
+
 ## My read this quarter
 
 <!-- NOTES:START -->
