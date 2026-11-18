@@ -36,7 +36,14 @@ class CacheMissError(RuntimeError):
 
 def get_user_agent() -> str:
     """Return the declared User-Agent, or raise with instructions for setting it."""
-    value = os.environ.get(USER_AGENT_ENV, "").strip()
+    value = os.environ.get(USER_AGENT_ENV)
+    if value is None and Path(".env").is_file():
+        for line in Path(".env").read_text().splitlines():
+            key, _, entry = line.partition("=")
+            if key.strip() == USER_AGENT_ENV:
+                value = entry.strip().strip("\"'")
+                break
+    value = (value or "").strip()
     if not value:
         raise MissingUserAgentError(
             f"{USER_AGENT_ENV} is not set. SEC requires a declared User-Agent that identifies "
@@ -139,6 +146,10 @@ class SecClient:
 
     def get_json(self, url: str) -> dict[str, Any]:
         """GET ``url`` and decode JSON, retrying transient failures."""
+        return self.get_response(url).json()
+
+    def get_response(self, url: str) -> requests.Response:
+        """Share throttling and retry behavior with the filing archive client."""
         last_error = "no attempt made"
         for attempt in range(self.settings.max_retries + 1):
             self._throttle()
@@ -149,7 +160,7 @@ class SecClient:
                 last_error = f"{type(exc).__name__}: {exc}"
             else:
                 if response.status_code == 200:
-                    return response.json()
+                    return response
                 last_error = f"HTTP {response.status_code}"
                 if response.status_code not in RETRYABLE_STATUS:
                     raise SecRequestError(f"{url} returned {last_error}, which is not retryable")
