@@ -1,0 +1,79 @@
+{
+  "id": "AMZN-c867245052dc",
+  "ollama": [
+    {
+      "cassette": "8fae1ccebae93642c0c96cf5baf5596109e731ef6fd79cb2d851828da61ee392",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "8c70c6a2ca974902feeeca51f05d1268ef8f9badff9410e1f8cbd3b57f217d81",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "Purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "Cash capital expenditures were $31.4 billion and $53.1 billion during Q2 2025 and Q2 2026, and $55.6 billion and $96.3 billion for the six months ended June 30, 2025 and 2026, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2026.",
+        "form": "10-Q",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 0.9,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage provides a forecast of capital expenditures for the next two quarters and six months, indicating an upward trend."
+        },
+        "source_accession": "0001018724-26-000026",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+        "statement_date": "2026-07-31",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "Cash capital expenditures were $31.4 billion and $53.1 billion during Q2 2025 and Q2 2026, and $55.6 billion and $96.3 billion for the six months ended June 30, 2025 and 2026, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2026.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "Purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "Cash capital expenditures were $31.4 billion and $53.1 billion during Q2 2025 and Q2 2026, and $55.6 billion and $96.3 billion for the six months ended June 30, 2025 and 2026, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2026.",
+        "form": "10-Q",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001018724-26-000026",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+        "statement_date": "2026-07-31",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001018724-26-000026",
+    "company": "AMZN",
+    "filed": "2026-07-31",
+    "form": "10-Q",
+    "raw_sha256": "7bd2fae20369fb3871881aa159aeb413c652c0046f0f34e23b527f8409d16ac6",
+    "sha256": "aa4b70b20168f3bbb2e2186285ab7b1d55eec84ed8096deb0849b414b03e4b56",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+    "windows": 1
+  }
+}

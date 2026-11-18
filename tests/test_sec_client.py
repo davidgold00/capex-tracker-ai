@@ -55,7 +55,8 @@ def make_client(config: Config, responses: list[Any], monkeypatch, sleeps: list[
     return client, session
 
 
-def test_missing_user_agent_explains_how_to_set_it(monkeypatch):
+def test_missing_user_agent_explains_how_to_set_it(monkeypatch, tmp_path):
+    monkeypatch.chdir(tmp_path)
     monkeypatch.delenv("SEC_USER_AGENT", raising=False)
     with pytest.raises(MissingUserAgentError, match="export SEC_USER_AGENT"):
         get_user_agent()

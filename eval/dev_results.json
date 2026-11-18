@@ -1,0 +1,740 @@
+{
+  "methods": {
+    "ollama": {
+      "predictions": [
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-d23913057e",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-e4016a3bbd",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "15513156642ed7409e3307502626fb155b357994749fc58381faebdb9102948c",
+          "gold": {
+            "high": null,
+            "kind": "directional",
+            "low": null,
+            "uncertain": null,
+            "year": 2023
+          },
+          "high": null,
+          "id": "gold-2e528ff279",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "947d6f47972fe4d27612abf1fd7de778c88eef1274ee61a8eb8aa943d69643f5",
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-7ab4069e62",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "bac12198641d7e612a9992b3f9b83df797a09115de88b16723ad0c24b3cf17b1",
+          "gold": {
+            "high": null,
+            "kind": "directional",
+            "low": null,
+            "uncertain": null,
+            "year": 2024
+          },
+          "high": null,
+          "id": "gold-077007b149",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-e7ea7d3155",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "a19caeeb6b8a08002dace04c16f55a47aa8fe3116142ff8028ddc8c26395f0b1",
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": "Heavy investment gives no comparison baseline.",
+            "year": null
+          },
+          "high": null,
+          "id": "gold-8d154cc01f",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-1b093dee99",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-318f531725",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-6b2361e4ba",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "f4068b0bcb29c71cddcec279998a398961fc057d8e0e567db02129829e51cc49",
+          "gold": {
+            "high": 33000000000,
+            "kind": "numeric_range",
+            "low": 30000000000,
+            "uncertain": null,
+            "year": 2023
+          },
+          "high": null,
+          "id": "gold-842daaf359",
+          "kind": "invalid",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "3c1ca70eb2770b70246a0bbf56ac3d22da01913c69c135615ee5b531d9e61628",
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-8b338844a4",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "b735052fdbeb4a9291a09ce9ae60aa4cd74f3c48383aee87b8129c96e5d2801c",
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-f5972fda04",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "e282dd5d74337e4145cbf86dc4ffa4251e4c30c2fab5c2ee250aeaf1d2daa04f",
+          "gold": {
+            "high": 30000000000,
+            "kind": "numeric_range",
+            "low": 27000000000,
+            "uncertain": null,
+            "year": 2023
+          },
+          "high": null,
+          "id": "gold-6a4cb46527",
+          "kind": "invalid",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "cda3e05c0d5322671f274bf3e765e94ca7289dda0cb410e16f05ba4f0a4fd1f3",
+          "gold": {
+            "high": null,
+            "kind": "directional",
+            "low": null,
+            "uncertain": null,
+            "year": 2024
+          },
+          "high": null,
+          "id": "gold-e539e2f548",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "1d6a2c64a35ee1eeaca72f1e2019cd1d43c5aa6dcac7eecd329b51f284044018",
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-2f01815229",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "e81336d1846580660294892ba82699239fff8532ef730b14a5487f482a8c5696",
+          "gold": {
+            "high": 35000000000,
+            "kind": "numeric_range",
+            "low": 30000000000,
+            "uncertain": null,
+            "year": 2024
+          },
+          "high": null,
+          "id": "gold-a508792e87",
+          "kind": "invalid",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "822586fc6494b1842f9bb20ab6f012e69f3ef8b56190dbb995ea320ffe4f491f",
+          "gold": {
+            "high": 37000000000,
+            "kind": "numeric_range",
+            "low": 30000000000,
+            "uncertain": null,
+            "year": 2024
+          },
+          "high": null,
+          "id": "gold-b05a1f5a39",
+          "kind": "invalid",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "ddfb88d0c6bdddbc6d6b86584150130538fb13b2df024a68387695cc1766f3fb",
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-0f96ee97aa",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "dcf02a3bba9a441570f16d4e01bfb1c70f57728dc4982330be2b8a0d7a911821",
+          "gold": {
+            "high": null,
+            "kind": "directional",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-1b72d79cb0",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-56a6b3779a",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        }
+      ],
+      "scores": {
+        "numeric_accuracy": {
+          "correct": 0,
+          "n": 4,
+          "value": 0.0
+        },
+        "period_accuracy": {
+          "correct": 0,
+          "n": 7,
+          "value": 0.0
+        },
+        "precision": {
+          "correct": 4,
+          "n": 9,
+          "value": 0.4444444444444444
+        },
+        "recall": {
+          "correct": 4,
+          "n": 8,
+          "value": 0.5
+        },
+        "verification": {
+          "correct": 0,
+          "n": 9,
+          "value": 0.0
+        }
+      }
+    },
+    "rules": {
+      "predictions": [
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-d23913057e",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-e4016a3bbd",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "directional",
+            "low": null,
+            "uncertain": null,
+            "year": 2023
+          },
+          "high": null,
+          "id": "gold-2e528ff279",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": 2023
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-7ab4069e62",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "directional",
+            "low": null,
+            "uncertain": null,
+            "year": 2024
+          },
+          "high": null,
+          "id": "gold-077007b149",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": 2024
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-e7ea7d3155",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": "Heavy investment gives no comparison baseline.",
+            "year": null
+          },
+          "high": null,
+          "id": "gold-8d154cc01f",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-1b093dee99",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-318f531725",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-6b2361e4ba",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": 33000000000,
+            "kind": "numeric_range",
+            "low": 30000000000,
+            "uncertain": null,
+            "year": 2023
+          },
+          "high": 33000000000,
+          "id": "gold-842daaf359",
+          "kind": "numeric_range",
+          "low": 30000000000,
+          "verified": true,
+          "year": 2023
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-8b338844a4",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-f5972fda04",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": 30000000000,
+            "kind": "numeric_range",
+            "low": 27000000000,
+            "uncertain": null,
+            "year": 2023
+          },
+          "high": 30000000000,
+          "id": "gold-6a4cb46527",
+          "kind": "numeric_range",
+          "low": 27000000000,
+          "verified": true,
+          "year": 2023
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "directional",
+            "low": null,
+            "uncertain": null,
+            "year": 2024
+          },
+          "high": null,
+          "id": "gold-e539e2f548",
+          "kind": "directional",
+          "low": null,
+          "verified": true,
+          "year": 2024
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-2f01815229",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": 35000000000,
+            "kind": "numeric_range",
+            "low": 30000000000,
+            "uncertain": null,
+            "year": 2024
+          },
+          "high": 35000000000,
+          "id": "gold-a508792e87",
+          "kind": "numeric_range",
+          "low": 30000000000,
+          "verified": true,
+          "year": 2024
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": 37000000000,
+            "kind": "numeric_range",
+            "low": 30000000000,
+            "uncertain": null,
+            "year": 2024
+          },
+          "high": 37000000000,
+          "id": "gold-b05a1f5a39",
+          "kind": "numeric_range",
+          "low": 30000000000,
+          "verified": true,
+          "year": 2024
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-0f96ee97aa",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "directional",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-1b72d79cb0",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-56a6b3779a",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        }
+      ],
+      "scores": {
+        "numeric_accuracy": {
+          "correct": 4,
+          "n": 4,
+          "value": 1.0
+        },
+        "period_accuracy": {
+          "correct": 7,
+          "n": 7,
+          "value": 1.0
+        },
+        "precision": {
+          "correct": 8,
+          "n": 8,
+          "value": 1.0
+        },
+        "recall": {
+          "correct": 8,
+          "n": 8,
+          "value": 1.0
+        },
+        "verification": {
+          "correct": 5,
+          "n": 8,
+          "value": 0.625
+        }
+      }
+    }
+  },
+  "selected": "rules",
+  "split_sha256": "b27528eee1d6991e2b433ee13f79c021f5f86ba00800d138ba54474ad2cc1c1c"
+}

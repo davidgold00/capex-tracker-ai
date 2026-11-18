@@ -1,0 +1,79 @@
+{
+  "id": "ORCL-40941c832f82",
+  "ollama": [
+    {
+      "cassette": "89018de87c729350b7d913c78970724f5cfcffb5a3add10b47ae7714ab22fd3c",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "b734e6840385169f9e8304a7ca63a7a06bb4fd712a809bc5e96dea373752a2a2",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "capex",
+        "definition_note": "Capital expenditures",
+        "evidence_quote": "\"Safe Harbor\" Statement: Statements in this press release relating to future plans, expectations, beliefs, intentions and prospects, including statements regarding expected future revenues, cloud revenue growth, earnings per share, remaining performance obligations, future customer demand for AI and cloud infrastructure services, future capital expenditures and financing requirements, planned debt and equity financing activities, planned datacenter expansion and technology deployment, future product offerings and enhancements, anticipated benefits of AI technologies and AI-enabled healthcare solutions, expected growth of Oracle Health, future market opportunities and future dividend payments are \"forward-looking statements\" and are subject to material risks and uncertainties.",
+        "form": "8-K",
+        "mapping_reason": "The investing cash-flow statement uses this label.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The statement contains forward-looking statements about future plans, expectations, and intentions."
+        },
+        "source_accession": "0001193125-26-265848",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-ex99_1.htm",
+        "statement_date": "2026-06-10",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "\"Safe Harbor\" Statement: Statements in this press release relating to future plans, expectations, beliefs, intentions and prospects, including statements regarding expected future revenues, cloud revenue growth, earnings per share, remaining performance obligations, future customer demand for AI and cloud infrastructure services, future capital expenditures and financing requirements, planned debt and equity financing activities, planned datacenter expansion and technology deployment, future product offerings and enhancements, anticipated benefits of AI technologies and AI-enabled healthcare solutions, expected growth of Oracle Health, future market opportunities and future dividend payments are \"forward-looking statements\" and are subject to material risks and uncertainties.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "capex",
+        "definition_note": "Capital expenditures",
+        "evidence_quote": "\"Safe Harbor\" Statement: Statements in this press release relating to future plans, expectations, beliefs, intentions and prospects, including statements regarding expected future revenues, cloud revenue growth, earnings per share, remaining performance obligations, future customer demand for AI and cloud infrastructure services, future capital expenditures and financing requirements, planned debt and equity financing activities, planned datacenter expansion and technology deployment, future product offerings and enhancements, anticipated benefits of AI technologies and AI-enabled healthcare solutions, expected growth of Oracle Health, future market opportunities and future dividend payments are \"forward-looking statements\" and are subject to material risks and uncertainties.",
+        "form": "8-K",
+        "mapping_reason": "The investing cash-flow statement uses this label.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001193125-26-265848",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-ex99_1.htm",
+        "statement_date": "2026-06-10",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001193125-26-265848",
+    "company": "ORCL",
+    "filed": "2026-06-10",
+    "form": "8-K",
+    "raw_sha256": "f910af13a99c91997ff1713ee798f34f28c917372cbc31c7cd1637e138a0d95b",
+    "sha256": "0b0296374c482342e1a1f1b19d8a9b9ff1841018c1f2a5ee742f0b4a0cc66ef1",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-ex99_1.htm",
+    "windows": 2
+  }
+}

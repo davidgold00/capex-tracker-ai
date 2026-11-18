@@ -1,0 +1,62 @@
+{
+  "id": "GOOGL-bdae6435bf55",
+  "ollama": [
+    {
+      "cassette": "9eb7e02d3e2d29f782d4d8bce17883b17e182bcf1c5600cf6f7e9144609cbc06",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    },
+    {
+      "cassette": "94aa668ea35cf7ff89d1c86e6f0ffb49382b8b8bae4ce16fcff026b050cf1740",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    }
+  ],
+  "passage": "We are confident about the opportunities ahead, and to accelerate our progress, we expect to invest approximately $75 billion in capital expenditures in 2025.\u201d",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "GOOGL",
+        "comparison_series": "capex",
+        "definition_note": "We define free cash flow as net cash provided by operating activities less capital expenditures",
+        "evidence_quote": "We are confident about the opportunities ahead, and to accelerate our progress, we expect to invest approximately $75 billion in capital expenditures in 2025.\u201d",
+        "form": "8-K",
+        "mapping_reason": "The cash flow reconciliation identifies purchases of PP&E.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2025,
+          "guidance_kind": "numeric_point",
+          "high_usd": 75000000000,
+          "low_usd": 75000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001652044-25-000010",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000010/googexhibit991q42024.htm",
+        "statement_date": "2025-02-04",
+        "target_period": {
+          "end": "2025-12-31",
+          "fiscal_year": 2025,
+          "start": "2025-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001652044-25-000010",
+    "company": "GOOGL",
+    "filed": "2025-02-04",
+    "form": "8-K",
+    "raw_sha256": "83aab51b779c49342e81210e11d88044575b43dc72cd546556623bfa60d1c748",
+    "sha256": "2171828767e234d49a607a3af91d3779208d732a704ff88f186ad1d838e3d553",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000010/googexhibit991q42024.htm",
+    "windows": 1
+  }
+}

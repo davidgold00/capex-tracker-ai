@@ -1,0 +1,79 @@
+{
+  "id": "ORCL-590117a041e3",
+  "ollama": [
+    {
+      "cassette": "061e6fc62edfbaf1e5a8f2864ce702ce7383b85c13c645ecbb3513aa496a99f2",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "capex",
+        "definition_note": "Capital expenditures",
+        "evidence_quote": "\"Safe Harbor\" Statement: Statements in this press release relating to future plans, expectations, beliefs, intentions and prospects, including our expectations that we will not need to raise capital to support our new large-scale AI contracts signed in Q3, our intention not to issue additional bonds in calendar year 2026, growing demand for cloud computing increasing our revenue growth, expected future total revenues, expected future total Cloud revenue, expected future non-GAAP earnings per share, and expected future capital expenditures are \"forward-looking statements\" and are subject to material risks and uncertainties.",
+        "form": "8-K",
+        "mapping_reason": "The investing cash-flow statement uses this label.",
+        "proposal": {
+          "confidence": 0.9,
+          "direction": "down",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage contains a directional statement about not needing to raise capital, which is not a forecast of capital expenditures."
+        },
+        "source_accession": "0001193125-26-100148",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526100148/orcl-ex99_1.htm",
+        "statement_date": "2026-03-10",
+        "target_period": null
+      }
+    },
+    {
+      "cassette": "297748b72e4c976748dd6a85a4f793e548a3dce9c171daa8f1da2974f17ec28e",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    }
+  ],
+  "passage": "\"Safe Harbor\" Statement: Statements in this press release relating to future plans, expectations, beliefs, intentions and prospects, including our expectations that we will not need to raise capital to support our new large-scale AI contracts signed in Q3, our intention not to issue additional bonds in calendar year 2026, growing demand for cloud computing increasing our revenue growth, expected future total revenues, expected future total Cloud revenue, expected future non-GAAP earnings per share, and expected future capital expenditures are \"forward-looking statements\" and are subject to material risks and uncertainties.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "capex",
+        "definition_note": "Capital expenditures",
+        "evidence_quote": "\"Safe Harbor\" Statement: Statements in this press release relating to future plans, expectations, beliefs, intentions and prospects, including our expectations that we will not need to raise capital to support our new large-scale AI contracts signed in Q3, our intention not to issue additional bonds in calendar year 2026, growing demand for cloud computing increasing our revenue growth, expected future total revenues, expected future total Cloud revenue, expected future non-GAAP earnings per share, and expected future capital expenditures are \"forward-looking statements\" and are subject to material risks and uncertainties.",
+        "form": "8-K",
+        "mapping_reason": "The investing cash-flow statement uses this label.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001193125-26-100148",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526100148/orcl-ex99_1.htm",
+        "statement_date": "2026-03-10",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001193125-26-100148",
+    "company": "ORCL",
+    "filed": "2026-03-10",
+    "form": "8-K",
+    "raw_sha256": "81af1a8fa7eabca7a07a4dc19cdf11e0529dcd891708694585740138ce422583",
+    "sha256": "ed3e2a2f31819a73915e85781ffdae0d269b08520c69f9179174c0cb96547eee",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526100148/orcl-ex99_1.htm",
+    "windows": 2
+  }
+}

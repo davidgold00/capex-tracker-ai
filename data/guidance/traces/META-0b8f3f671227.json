@@ -1,0 +1,79 @@
+{
+  "id": "META-0b8f3f671227",
+  "ollama": [
+    {
+      "cassette": "ed2c3cec5c300ce08cd7a3711359b961c18dcfaf3a8ca02c8f5beccbeeefb460",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "b44ec322932570ba411eb3ffc2e494da610225e335fe929b36d154206821aaf8",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "The majority of our capital expenditures in 2025 will continue to be directed to our core business.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage indicates a continued focus on the core business, suggesting a positive direction for capital expenditures."
+        },
+        "source_accession": "0001326801-25-000050",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000050/meta-03312025xexhibit991.htm",
+        "statement_date": "2025-04-30",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "The majority of our capital expenditures in 2025 will continue to be directed to our core business.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "The majority of our capital expenditures in 2025 will continue to be directed to our core business.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001326801-25-000050",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000050/meta-03312025xexhibit991.htm",
+        "statement_date": "2025-04-30",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-25-000050",
+    "company": "META",
+    "filed": "2025-04-30",
+    "form": "8-K",
+    "raw_sha256": "467f17e3dee7dc4d37d939dc381c0867646aaec6b8f841529dd6bbad781028d8",
+    "sha256": "e3fe5a7ddb9a8ec3e3306789a45db5754a09ff794fe66d93056367d7a3e34402",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000050/meta-03312025xexhibit991.htm",
+    "windows": 2
+  }
+}

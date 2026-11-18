@@ -1,0 +1,79 @@
+{
+  "id": "ORCL-290ea6235bd1",
+  "ollama": [
+    {
+      "cassette": "4008a2557be6c73e146544a48e8766029075418a1a8e9a9c16e48289e67c6fbe",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "c9044673bbc19e0305d928f61451720edfee466d9718aecaae24dddc88fe668d",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from future sales of our common stock under the ATM Program, cash generated from operations and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage indicates that the company has sufficient cash to meet its working capital, capital expenditures, and contractual obligations requirements."
+        },
+        "source_accession": "0001193125-26-101045",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526101045/orcl-20260228.htm",
+        "statement_date": "2026-03-11",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from future sales of our common stock under the ATM Program, cash generated from operations and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from future sales of our common stock under the ATM Program, cash generated from operations and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001193125-26-101045",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526101045/orcl-20260228.htm",
+        "statement_date": "2026-03-11",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001193125-26-101045",
+    "company": "ORCL",
+    "filed": "2026-03-11",
+    "form": "10-Q",
+    "raw_sha256": "2b7189a0bcf22d15df8fba5c3dd68c1be12f688ef16961ae3f8e0b6cc108f4d7",
+    "sha256": "973d23bac6e27447414dcca5576730cbca9b3e66ecf58f9396c6805295f09f9b",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526101045/orcl-20260228.htm",
+    "windows": 1
+  }
+}

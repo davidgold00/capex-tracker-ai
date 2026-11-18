@@ -1,0 +1,62 @@
+{
+  "id": "AMZN-dc0d3829d4de",
+  "ollama": [
+    {
+      "cassette": "f1c32508e626d3df2113840affc0c13165880307c333227d92752617208ad40a",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "74470ff8172bb72884dfe57a4ea8a8f527f687056ca91d4cb3ef752acc5ef940",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    }
+  ],
+  "passage": "\u2022We continue to expect 2026 cash capital expenditures to be approximately $220 billion.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "AMZN",
+        "comparison_series": "unresolved",
+        "definition_note": "Purchases of property and equipment, net of proceeds from sales and incentives",
+        "evidence_quote": "\u2022We continue to expect 2026 cash capital expenditures to be approximately $220 billion.",
+        "form": "10-Q",
+        "mapping_reason": "Net proceeds can differ from the XBRL purchases series.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2026,
+          "guidance_kind": "numeric_point",
+          "high_usd": 220000000000,
+          "low_usd": 220000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001018724-26-000040",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+        "statement_date": "2026-10-30",
+        "target_period": {
+          "end": "2026-12-31",
+          "fiscal_year": 2026,
+          "start": "2026-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001018724-26-000040",
+    "company": "AMZN",
+    "filed": "2026-10-30",
+    "form": "10-Q",
+    "raw_sha256": "f0f2dd95692c8d88d073a9d90b83e806b4d073d047007a8860d30cbb5863f273",
+    "sha256": "c1272c41e396efb5830f108e296183795231f29679045d9a2f1dad3ab5325942",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+    "windows": 3
+  }
+}

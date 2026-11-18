@@ -1,0 +1,51 @@
+{
+  "id": "META-27d24bc5895b",
+  "ollama": [
+    {
+      "cassette": "954c0348f0daaf20229228ab74212a39a7e52d8cb0d5646fed9062d2fedb2674",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "14ac113358e44cc26416328ef4c587837dce7f64d7d969eb31fc9a20d10e2c53",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    }
+  ],
+  "passage": "While the infrastructure planning process remains highly dynamic, we currently expect another year of similarly significant capital expenditures dollar growth in 2026 as we continue aggressively pursuing opportunities to bring additional capacity online to meet the needs of our artificial intelligence efforts and business operations.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "While the infrastructure planning process remains highly dynamic, we currently expect another year of similarly significant capital expenditures dollar growth in 2026 as we continue aggressively pursuing opportunities to bring additional capacity online to meet the needs of our artificial intelligence efforts and business operations.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001628280-25-036719",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036719/meta-06302025xexhibit991.htm",
+        "statement_date": "2025-07-30",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001628280-25-036719",
+    "company": "META",
+    "filed": "2025-07-30",
+    "form": "8-K",
+    "raw_sha256": "8fe1f60066963270e7d57e32d361e68e34ca3561abe734d591913fbe6ffe7f44",
+    "sha256": "27ca0b6b9c45773f922d29fe9d211317406dbf37b3efa05c5e4a98065098d296",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036719/meta-06302025xexhibit991.htm",
+    "windows": 2
+  }
+}

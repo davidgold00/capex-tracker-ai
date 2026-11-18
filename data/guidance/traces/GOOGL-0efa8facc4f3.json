@@ -1,0 +1,51 @@
+{
+  "id": "GOOGL-0efa8facc4f3",
+  "ollama": [
+    {
+      "cassette": "c28332e0e749ef50745dc38010e2649a3434c1bae86db44f894e14d91acc11ab",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "86f3d018d4a8347b981c227a16ab5423f451fa1fdc035da327dacee9cd0e5cd5",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    }
+  ],
+  "passage": "The net proceeds received by the company were $20.5 billion which will be used for general corporate purposes, including capital expenditures to scale AI infrastructure and global compute.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "GOOGL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "The net proceeds received by the company were $20.5 billion which will be used for general corporate purposes, including capital expenditures to scale AI infrastructure and global compute.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001652044-26-000084",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+        "statement_date": "2026-10-29",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001652044-26-000084",
+    "company": "GOOGL",
+    "filed": "2026-10-29",
+    "form": "10-Q",
+    "raw_sha256": "05e101ee90c126065e67822feabb1b40a91fa17cfab83bc1ac0721ff553b9fea",
+    "sha256": "d260c7695bc7d5e99d6caca19dea22d3a990e07aa3fdd5954bb25e03fee15fd1",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+    "windows": 2
+  }
+}

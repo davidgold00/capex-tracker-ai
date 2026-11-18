@@ -1,0 +1,62 @@
+{
+  "id": "GOOGL-a4902aedb13c",
+  "ollama": [
+    {
+      "cassette": "e2c02c534c6535339ab290f72fdadfbed95ac82b3891869437be87c8cbd72f82",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    },
+    {
+      "cassette": "e59bacc082f71af3d3f273942c78a280aa389a6a37ce701dca268bb1acd64fbf",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    }
+  ],
+  "passage": "To meet customer demand and capitalize on the growing opportunities we have ahead of us, our 2026 CapEx investments are anticipated to be in the range of $175 to $185 billion.\u201d",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "GOOGL",
+        "comparison_series": "capex",
+        "definition_note": "We define free cash flow as net cash provided by operating activities less capital expenditures",
+        "evidence_quote": "To meet customer demand and capitalize on the growing opportunities we have ahead of us, our 2026 CapEx investments are anticipated to be in the range of $175 to $185 billion.\u201d",
+        "form": "8-K",
+        "mapping_reason": "The cash flow reconciliation identifies purchases of PP&E.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2026,
+          "guidance_kind": "numeric_range",
+          "high_usd": 185000000000,
+          "low_usd": 175000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001652044-26-000012",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm",
+        "statement_date": "2026-02-04",
+        "target_period": {
+          "end": "2026-12-31",
+          "fiscal_year": 2026,
+          "start": "2026-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001652044-26-000012",
+    "company": "GOOGL",
+    "filed": "2026-02-04",
+    "form": "8-K",
+    "raw_sha256": "19cac19147e1a5cadd4fd09d25aaf00b5c281870386a2daf21f4b13e708965e3",
+    "sha256": "8f32551239187340472c4a2ebf19da291ac1ad0ecb05f2a748f76c9db2fc06de",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm",
+    "windows": 1
+  }
+}

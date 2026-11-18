@@ -1,0 +1,62 @@
+{
+  "id": "META-c42ae4ac2ad9",
+  "ollama": [
+    {
+      "cassette": "9bfbedae7354c4a5992baa21ab4741c8a5722d64305b0204ca204ac60f48ae4b",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    },
+    {
+      "cassette": "3f91ff6116b4e3dd9793fc5adecf1d921b8f5f8533ac58e9231662449d384dee",
+      "error": "() Value error, Only qualitative guidance uses direction"
+    }
+  ],
+  "passage": "We currently expect 2025 capital expenditures, including principal payments on finance leases, to be in the range of $66-72 billion, narrowed from our prior outlook of $64-72 billion and up approximately $30 billion year-over-year at the mid-point.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We currently expect 2025 capital expenditures, including principal payments on finance leases, to be in the range of $66-72 billion, narrowed from our prior outlook of $64-72 billion and up approximately $30 billion year-over-year at the mid-point.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2025,
+          "guidance_kind": "numeric_range",
+          "high_usd": 72000000000,
+          "low_usd": 66000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001628280-25-036719",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036719/meta-06302025xexhibit991.htm",
+        "statement_date": "2025-07-30",
+        "target_period": {
+          "end": "2025-12-31",
+          "fiscal_year": 2025,
+          "start": "2025-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001628280-25-036719",
+    "company": "META",
+    "filed": "2025-07-30",
+    "form": "8-K",
+    "raw_sha256": "8fe1f60066963270e7d57e32d361e68e34ca3561abe734d591913fbe6ffe7f44",
+    "sha256": "27ca0b6b9c45773f922d29fe9d211317406dbf37b3efa05c5e4a98065098d296",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036719/meta-06302025xexhibit991.htm",
+    "windows": 2
+  }
+}

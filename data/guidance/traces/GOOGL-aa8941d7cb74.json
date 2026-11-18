@@ -1,0 +1,79 @@
+{
+  "id": "GOOGL-aa8941d7cb74",
+  "ollama": [
+    {
+      "cassette": "6ed0eb92fc0b6ab90622ebe0dff90740f5ee616a1b180b7c2f8b026ea7d29d07",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "ddd37eee83df01a889fab7da7dcc6896a74ae40a213d7c59978455286881ea21",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "GOOGL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We invested heavily in capital expenditures in 2025 and in 2026, we expect to significantly increase, relative to 2025, our investment in our technical infrastructure, including servers and network equipment, and data centers.",
+        "form": "10-K",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "We invested heavily in capital expenditures in 2025 and in 2026, we expect to significantly increase, relative to 2025, our investment in our technical infrastructure, including servers and network equipment, and data centers."
+        },
+        "source_accession": "0001652044-26-000018",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "statement_date": "2026-02-05",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "We invested heavily in capital expenditures in 2025 and in 2026, we expect to significantly increase, relative to 2025, our investment in our technical infrastructure, including servers and network equipment, and data centers.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "GOOGL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We invested heavily in capital expenditures in 2025 and in 2026, we expect to significantly increase, relative to 2025, our investment in our technical infrastructure, including servers and network equipment, and data centers.",
+        "form": "10-K",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001652044-26-000018",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "statement_date": "2026-02-05",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001652044-26-000018",
+    "company": "GOOGL",
+    "filed": "2026-02-05",
+    "form": "10-K",
+    "raw_sha256": "6cd47e03a34cdd6847ddeb6d90546a706fac3266e99359e0f1f4a00286497e46",
+    "sha256": "60b2b46a5ba197534b4d2df8db919bbf85295b0c00e53cdc64d119d865baa9b1",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+    "windows": 1
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "META-b8134f53c05a",
+  "ollama": [
+    {
+      "cassette": "01c29bed7b0eecad43e47a7c28882ba9b3f20ba3107778238b2a40e5c0141cb9",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "87f9423881f7a76e69020cb0a97ee63426851de773f90b375a8333f644461562",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We anticipate this will provide further upward pressure on our capital expenditures and expense plans next year.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage indicates an upward pressure on capital expenditures and expenses next year."
+        },
+        "source_accession": "0001628280-25-047114",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-09302025xexhibit991.htm",
+        "statement_date": "2025-10-29",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "We anticipate this will provide further upward pressure on our capital expenditures and expense plans next year.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We anticipate this will provide further upward pressure on our capital expenditures and expense plans next year.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001628280-25-047114",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-09302025xexhibit991.htm",
+        "statement_date": "2025-10-29",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001628280-25-047114",
+    "company": "META",
+    "filed": "2025-10-29",
+    "form": "8-K",
+    "raw_sha256": "019c6ef0a06dc21069a61b820e3789ad8dcb0a165b1115dcc49c782870e62240",
+    "sha256": "e8ac3d4ad59f4d7b15b7823ce3164f18b6a1f237644a735b9c68d564ba1b9155",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-09302025xexhibit991.htm",
+    "windows": 3
+  }
+}

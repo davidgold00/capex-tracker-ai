@@ -221,7 +221,19 @@ def command_readme(config: Config) -> None:
     long, wide, aggregate = _read_processed(config)
     path = config.paths.readme
     text = path.read_text(encoding="utf-8")
-    path.write_text(render_readme(text, long, wide, aggregate, config), encoding="utf-8")
+    rendered = render_readme(text, long, wide, aggregate, config)
+    if "<!-- GUIDANCE:START -->" in rendered:
+        from capex_tracker.guidance.report import render
+
+        rendered = render(config, wide, rendered)
+    if "<!-- WHAT_CHANGED:START -->" in rendered:
+        from capex_tracker.guidance.ground import factbook, publish
+        from capex_tracker.guidance.review import read_approved
+
+        directory = config.paths.processed_dir.parent / "guidance"
+        facts = factbook(aggregate, long, read_approved(directory), config)
+        rendered = publish(rendered, directory / "draft.json", facts)
+    path.write_text(rendered, encoding="utf-8")
     logger.info("Updated %s", path)
 
 

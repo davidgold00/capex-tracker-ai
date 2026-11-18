@@ -1,0 +1,79 @@
+{
+  "id": "META-77297c4cb424",
+  "ollama": [
+    {
+      "cassette": "1a876bace241f3c573ee29ddb87492e784e5d2e830c4776d23cd649fac314933",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "a0b523fc2dbf84eea54d767d760bffac035cb002d69657477765b5aa178d78a8",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "As a result, our current expectation is that capital expenditures dollar growth will be notably larger in 2026 than 2025.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage indicates a larger capital expenditure growth in 2026 compared to 2025."
+        },
+        "source_accession": "0001628280-25-047114",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-09302025xexhibit991.htm",
+        "statement_date": "2025-10-29",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "As a result, our current expectation is that capital expenditures dollar growth will be notably larger in 2026 than 2025.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "As a result, our current expectation is that capital expenditures dollar growth will be notably larger in 2026 than 2025.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001628280-25-047114",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-09302025xexhibit991.htm",
+        "statement_date": "2025-10-29",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001628280-25-047114",
+    "company": "META",
+    "filed": "2025-10-29",
+    "form": "8-K",
+    "raw_sha256": "019c6ef0a06dc21069a61b820e3789ad8dcb0a165b1115dcc49c782870e62240",
+    "sha256": "e8ac3d4ad59f4d7b15b7823ce3164f18b6a1f237644a735b9c68d564ba1b9155",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-09302025xexhibit991.htm",
+    "windows": 3
+  }
+}

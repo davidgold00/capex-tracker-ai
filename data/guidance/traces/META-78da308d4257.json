@@ -1,0 +1,62 @@
+{
+  "id": "META-78da308d4257",
+  "ollama": [
+    {
+      "cassette": "2259f095098c353389cd6a74ab553beff7c1a893dbb2a4ed1eb44a38066e931d",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "773498d97157fd2e7fb2cb1b9a01da9fd8892f96eede664b5a40527f2b316f99",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    }
+  ],
+  "passage": "We anticipate making capital expenditures of approximately $70 billion to $72 billion in 2025 to support our core business and AI efforts, and expect significant capital expenditures growth in 2026.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We anticipate making capital expenditures of approximately $70 billion to $72 billion in 2025 to support our core business and AI efforts, and expect significant capital expenditures growth in 2026.",
+        "form": "10-Q",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2025,
+          "guidance_kind": "numeric_range",
+          "high_usd": 72000000000,
+          "low_usd": 70000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001628280-25-047240",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+        "statement_date": "2025-10-30",
+        "target_period": {
+          "end": "2025-12-31",
+          "fiscal_year": 2025,
+          "start": "2025-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001628280-25-047240",
+    "company": "META",
+    "filed": "2025-10-30",
+    "form": "10-Q",
+    "raw_sha256": "a9afbed5ca916a6647308ab21a45cbc69e7a4c5be27b8a7221fab4270ce6a657",
+    "sha256": "c0a3e653c804b594113d44a5c81ec10ca8cd7c831338d4420cb119416a00e49b",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+    "windows": 1
+  }
+}

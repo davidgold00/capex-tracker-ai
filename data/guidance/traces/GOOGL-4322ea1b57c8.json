@@ -1,0 +1,79 @@
+{
+  "id": "GOOGL-4322ea1b57c8",
+  "ollama": [
+    {
+      "cassette": "8499377f855c98b761b0f9fe2a1d75700079c34d22bd98cd77bbf93095f73816",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "68cde58d5e3da60fee1b47ca0769074bbf7cf63b83775c833d61b749236ff4eb",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "GOOGL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "Aggregate net proceeds were $19.0 billion which will be used for general corporate purposes, including capital expenditures to scale AI infrastructure and global compute.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "Aggregate net proceeds will be used for capital expenditures."
+        },
+        "source_accession": "0001652044-26-000071",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+        "statement_date": "2026-07-23",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "Aggregate net proceeds were $19.0 billion which will be used for general corporate purposes, including capital expenditures to scale AI infrastructure and global compute.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "GOOGL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "Aggregate net proceeds were $19.0 billion which will be used for general corporate purposes, including capital expenditures to scale AI infrastructure and global compute.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001652044-26-000071",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+        "statement_date": "2026-07-23",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001652044-26-000071",
+    "company": "GOOGL",
+    "filed": "2026-07-23",
+    "form": "10-Q",
+    "raw_sha256": "a5f7079d2449fac80bcddd812d494e364f113589f62cf944b426d51fa0ddac10",
+    "sha256": "2b9ea8935612ecf7879a6c2a661b681e0e9f0de54862fc1744527b548b1e5807",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+    "windows": 2
+  }
+}

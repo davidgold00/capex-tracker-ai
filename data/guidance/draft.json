@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "cassette": "37b5183bd8ae0e27d1509a9de53e5f852ad916e0c781c73beed0fc07ab064aaa",
+      "reasons": [
+        "Dollar value or its comparison period differs from the ledger",
+        "Direction differs from the ledger",
+        "Unsupported company, period, claim or wording: Aggregate capex rose from $105.8B in Q3 2025 to $230.4B in Q3 2026, and then rose again to $230.4B from $181.5B in Q2 2026.",
+        "Missing required quarter comparison or approved guidance"
+      ]
+    },
+    {
+      "cassette": "42a5d38f0e38931137237f55ae5f71fb940f31cbf2576d2d632cdf21b86d278f",
+      "reasons": [
+        "Dollar value or its comparison period differs from the ledger",
+        "Direction differs from the ledger",
+        "Unsupported company, period, claim or wording: Aggregate capex rose from $105.8B in Q3 2025 to $230.4B in Q3 2026, and then rose again to $230.4B from $181.5B in Q2 2026.",
+        "Missing required quarter comparison or approved guidance"
+      ]
+    }
+  ],
+  "facts_sha256": "9c75216bd916f91e459303d6f2f7fea095ac1d323d46b0cb2ceb7b3454877df3",
+  "paragraph": ""
+}

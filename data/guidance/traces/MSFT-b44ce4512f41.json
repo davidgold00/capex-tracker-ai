@@ -1,0 +1,86 @@
+{
+  "id": "MSFT-b44ce4512f41",
+  "ollama": [
+    {
+      "cassette": "80f207587f68ab81fffbacd4793475e265b7df32782c04e1acda768e409dc442",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "8bf4d89fccb54f8e8d4fc9d68d2491637e7a23d534f92494f297762b977b6ec3",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "MSFT",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage indicates an increase in capital expenditures to support growth, which is a directional statement."
+        },
+        "source_accession": "0000950170-25-061046",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+        "statement_date": "2025-04-30",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "MSFT",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "Explicit movement."
+        },
+        "source_accession": "0000950170-25-061046",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+        "statement_date": "2025-04-30",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0000950170-25-061046",
+    "company": "MSFT",
+    "filed": "2025-04-30",
+    "form": "10-Q",
+    "raw_sha256": "9e3518772d828182911eda6ed1d87746a0dbb0b5a121a6701c4d30d90733288c",
+    "sha256": "a2953d2b6bf5523c4b92069eb940cab1bd5e3974e1cad5c7d13aa8532a64d34a",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+    "windows": 3
+  }
+}

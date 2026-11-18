@@ -1,0 +1,79 @@
+{
+  "id": "ORCL-24febaa33152",
+  "ollama": [
+    {
+      "cassette": "1967e58a982a671c3975a865ff9c092278e69463f99dab477594a8250571c7f6",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "7a4600ebf08bd5fd5d50a7bec773f890a057b7581281bb16c747eab841775fe3",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": false,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "Our unconditional purchase obligations are primarily related to capital expenditures for our data centers and a significant majority of these obligations are expected to be settled within the next twelve months.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage indicates a forecast of capital expenditures for data centers, with a majority expected to be settled within the next twelve months."
+        },
+        "source_accession": "0000950170-24-029904",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024029904/orcl-20240229.htm",
+        "statement_date": "2024-03-12",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "Our unconditional purchase obligations are primarily related to capital expenditures for our data centers and a significant majority of these obligations are expected to be settled within the next twelve months.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "ORCL",
+        "comparison_series": "unresolved",
+        "definition_note": "",
+        "evidence_quote": "Our unconditional purchase obligations are primarily related to capital expenditures for our data centers and a significant majority of these obligations are expected to be settled within the next twelve months.",
+        "form": "10-Q",
+        "mapping_reason": "No matching spending definition established in this document.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0000950170-24-029904",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024029904/orcl-20240229.htm",
+        "statement_date": "2024-03-12",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0000950170-24-029904",
+    "company": "ORCL",
+    "filed": "2024-03-12",
+    "form": "10-Q",
+    "raw_sha256": "41af5ea3dc0c9f9dfd75346411a94e83ab472a22320d96ee9ab671235ce24138",
+    "sha256": "087e6f28b7afc5410ec3ee2c871a83284fd79411d85bb4d4322e34a4316a640b",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024029904/orcl-20240229.htm",
+    "windows": 2
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "META-7a70f631e0cd",
+  "ollama": [
+    {
+      "cassette": "c9b2b9d42044166c362712217ebd4a3c2f26401325a1bfff127285284410e51a",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "e282dd5d74337e4145cbf86dc4ffa4251e4c30c2fab5c2ee250aeaf1d2daa04f",
+      "error": "() Value error, Only numeric guidance can have dollar bounds"
+    }
+  ],
+  "passage": "We expect our full-year 2023 capital expenditures to be in the range of $27-30 billion, lowered from our prior estimate of $30-33 billion.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {
+        "annual_period": true,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": true,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We expect our full-year 2023 capital expenditures to be in the range of $27-30 billion, lowered from our prior estimate of $30-33 billion.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": 2023,
+          "guidance_kind": "numeric_range",
+          "high_usd": 30000000000,
+          "low_usd": 27000000000,
+          "rationale": "Dollar target attached to the spending clause."
+        },
+        "source_accession": "0001326801-23-000089",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000089/meta06302023-exhibit991.htm",
+        "statement_date": "2023-07-26",
+        "target_period": {
+          "end": "2023-12-31",
+          "fiscal_year": 2023,
+          "start": "2023-01-01"
+        }
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-23-000089",
+    "company": "META",
+    "filed": "2023-07-26",
+    "form": "8-K",
+    "raw_sha256": "5b44944da2e65cd007e09c2ab5f7c58a3481bcbe7b8643e4b75e6077ac6a0883",
+    "sha256": "8813cd68e60ca5edcf812e2f48529a7d27bc4f791d582560cd1771da4b2af192",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000089/meta06302023-exhibit991.htm",
+    "windows": 4
+  }
+}

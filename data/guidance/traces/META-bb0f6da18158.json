@@ -1,0 +1,79 @@
+{
+  "id": "META-bb0f6da18158",
+  "ollama": [
+    {
+      "cassette": "d771f10cbd6fd95ccf7bce104d0aa159ce988abd390c7db1c5dd69e84b68b188",
+      "error": "('confidence',) Input should be less than or equal to 1"
+    },
+    {
+      "cassette": "1d6a2c64a35ee1eeaca72f1e2019cd1d43c5aa6dcac7eecd329b51f284044018",
+      "checks": {
+        "annual_period": false,
+        "capex_outlook": true,
+        "comparison_series": true,
+        "direction": false,
+        "dollars_and_units": true,
+        "verbatim_quote": true
+      },
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We are also sharing a preliminary outlook for 2024 expenses, capital expenditures and our tax rate.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": "up",
+          "fiscal_year": null,
+          "guidance_kind": "directional",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "The passage is a company-wide forecast of capital spending."
+        },
+        "source_accession": "0001326801-23-000100",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000100/meta09302023-exhibit991.htm",
+        "statement_date": "2023-10-25",
+        "target_period": null
+      }
+    }
+  ],
+  "passage": "We are also sharing a preliminary outlook for 2024 expenses, capital expenditures and our tax rate.",
+  "rules": [
+    {
+      "cassette": null,
+      "checks": {},
+      "statement": {
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "evidence_quote": "We are also sharing a preliminary outlook for 2024 expenses, capital expenditures and our tax rate.",
+        "form": "8-K",
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "proposal": {
+          "confidence": 1.0,
+          "direction": null,
+          "fiscal_year": null,
+          "guidance_kind": "none",
+          "high_usd": null,
+          "low_usd": null,
+          "rationale": "No target."
+        },
+        "source_accession": "0001326801-23-000100",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000100/meta09302023-exhibit991.htm",
+        "statement_date": "2023-10-25",
+        "target_period": null
+      }
+    }
+  ],
+  "source": {
+    "accession": "0001326801-23-000100",
+    "company": "META",
+    "filed": "2023-10-25",
+    "form": "8-K",
+    "raw_sha256": "a2b78d7c51a5b99f4b16fb684107e39106a55c8e8ec08a2640dc48f3d287545a",
+    "sha256": "fa87d964240b120cd8808d75b23879208674839c1d14b3f83630c50c3b39771e",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000100/meta09302023-exhibit991.htm",
+    "windows": 6
+  }
+}
