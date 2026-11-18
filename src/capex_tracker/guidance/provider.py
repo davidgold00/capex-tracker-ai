@@ -14,7 +14,9 @@ DEFAULT_MODEL = "qwen2.5:7b-instruct"
 
 
 def call(task, content, schema, *, record=False, directory=DATA / "cassettes"):
-    model = os.environ.get("GUIDANCE_MODEL", DEFAULT_MODEL)
+    settings = DATA / "model.json"
+    recorded = json.loads(settings.read_text())["model"] if settings.is_file() else DEFAULT_MODEL
+    model = os.environ.get("GUIDANCE_MODEL", recorded)
     system = (PROMPTS / (task + ".txt")).read_text().strip()
     payload = dict(
         model=model,

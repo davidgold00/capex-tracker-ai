@@ -1,0 +1,836 @@
+{
+  "methods": {
+    "ollama": {
+      "predictions": [
+        {
+          "cassette": "f2eea6b91c885c6fb53608ab48fd5e49091340450a20ab1636f7a1fc1713e7d8",
+          "gold": {
+            "high": null,
+            "kind": "directional",
+            "low": null,
+            "uncertain": null,
+            "year": 2025
+          },
+          "high": null,
+          "id": "gold-b640bd85b5",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "0982613bf5e843f13a048c31b904a48fa9e50f1fae75290e23b2df593b486ec1",
+          "gold": {
+            "high": 200000000000,
+            "kind": "numeric_point",
+            "low": 200000000000,
+            "uncertain": null,
+            "year": 2026
+          },
+          "high": null,
+          "id": "gold-8b1565ec4c",
+          "kind": "invalid",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "74470ff8172bb72884dfe57a4ea8a8f527f687056ca91d4cb3ef752acc5ef940",
+          "gold": {
+            "high": 220000000000,
+            "kind": "numeric_point",
+            "low": 220000000000,
+            "uncertain": null,
+            "year": 2026
+          },
+          "high": null,
+          "id": "gold-e662cc2339",
+          "kind": "invalid",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-249d360ba3",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "ea852f7e3dbed0575b3a347890272a9696782755a72d004e4c015b3ceb919e69",
+          "gold": {
+            "high": null,
+            "kind": "directional",
+            "low": null,
+            "uncertain": null,
+            "year": 2027
+          },
+          "high": null,
+          "id": "gold-8deeb3de40",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "94aa668ea35cf7ff89d1c86e6f0ffb49382b8b8bae4ce16fcff026b050cf1740",
+          "gold": {
+            "high": 75000000000,
+            "kind": "numeric_point",
+            "low": 75000000000,
+            "uncertain": null,
+            "year": 2025
+          },
+          "high": null,
+          "id": "gold-c6a7359c9c",
+          "kind": "invalid",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-823f45cc93",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "cbbd4a1f2696cc861941d865453e8adeb77fe002a72a6acb167e0b6fd1cc79b5",
+          "gold": {
+            "high": 85000000000,
+            "kind": "numeric_point",
+            "low": 85000000000,
+            "uncertain": null,
+            "year": 2025
+          },
+          "high": null,
+          "id": "gold-ed8617ced7",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "2ea8f8bd960d284d7d659b475937ad1bff9694989d8a1cfcbc421156585001eb",
+          "gold": {
+            "high": 93000000000,
+            "kind": "numeric_range",
+            "low": 91000000000,
+            "uncertain": null,
+            "year": 2025
+          },
+          "high": null,
+          "id": "gold-6fdb267a93",
+          "kind": "invalid",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "d9ccb8f934990cf9f32054fb2b81190902e93e3469b0a3643ca2ddf70c94f8b3",
+          "gold": {
+            "high": null,
+            "kind": "directional",
+            "low": null,
+            "uncertain": null,
+            "year": 2025
+          },
+          "high": null,
+          "id": "gold-7725c52104",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "e59bacc082f71af3d3f273942c78a280aa389a6a37ce701dca268bb1acd64fbf",
+          "gold": {
+            "high": 185000000000,
+            "kind": "numeric_range",
+            "low": 175000000000,
+            "uncertain": null,
+            "year": 2026
+          },
+          "high": null,
+          "id": "gold-1c68affd48",
+          "kind": "invalid",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "ddd37eee83df01a889fab7da7dcc6896a74ae40a213d7c59978455286881ea21",
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": "Infrastructure spending is a subset of total capex.",
+            "year": null
+          },
+          "high": null,
+          "id": "gold-f3331e409d",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-924bf9d00b",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "86f3d018d4a8347b981c227a16ab5423f451fa1fdc035da327dacee9cd0e5cd5",
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-0b26acf1cd",
+          "kind": "invalid",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "b44ec322932570ba411eb3ffc2e494da610225e335fe929b36d154206821aaf8",
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-57ea0abc9b",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "87f9423881f7a76e69020cb0a97ee63426851de773f90b375a8333f644461562",
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": "Pressure on plans may not constitute a revised forecast.",
+            "year": null
+          },
+          "high": null,
+          "id": "gold-5ec564046c",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-409d7dda32",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "975681f30c55875fb765fd8632c1199f58453143d2dc3e06bc086c27c57ec40a",
+          "gold": {
+            "high": 135000000000,
+            "kind": "numeric_range",
+            "low": 115000000000,
+            "uncertain": null,
+            "year": 2026
+          },
+          "high": null,
+          "id": "gold-e058ea7717",
+          "kind": "invalid",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "d72ffdef87e31906e20638b2333982d4f5bd8da299d12e327c429e4ac62e1147",
+          "gold": {
+            "high": 145000000000,
+            "kind": "numeric_range",
+            "low": 125000000000,
+            "uncertain": null,
+            "year": 2026
+          },
+          "high": null,
+          "id": "gold-c37db8398c",
+          "kind": "invalid",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "9c290bae8a0fa496d24b92ed16c132efda31fe2f32faabc94aea71ed57ba1d1b",
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-007aa73857",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "b7a49112d23a79fa3ed1af613b946e65b72ce51c5bd28831626913ee6b2d5074",
+          "gold": {
+            "high": 50000000000,
+            "kind": "numeric_point",
+            "low": 50000000000,
+            "uncertain": null,
+            "year": 2026
+          },
+          "high": null,
+          "id": "gold-5bb39b55eb",
+          "kind": "invalid",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-f311c4be9d",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-04e9b0f5b2",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": "c25fad18c4432ddeb83b25558b0a606d5ae00b82dde8efd99012c4c540962078",
+          "gold": {
+            "high": null,
+            "kind": "directional",
+            "low": null,
+            "uncertain": null,
+            "year": 2027
+          },
+          "high": null,
+          "id": "gold-240e4f75c3",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": null
+        }
+      ],
+      "scores": {
+        "numeric_accuracy": {
+          "correct": 0,
+          "n": 9,
+          "value": 0.0
+        },
+        "period_accuracy": {
+          "correct": 0,
+          "n": 13,
+          "value": 0.0
+        },
+        "precision": {
+          "correct": 5,
+          "n": 7,
+          "value": 0.7142857142857143
+        },
+        "recall": {
+          "correct": 5,
+          "n": 13,
+          "value": 0.38461538461538464
+        },
+        "verification": {
+          "correct": 0,
+          "n": 7,
+          "value": 0.0
+        }
+      }
+    },
+    "rules": {
+      "predictions": [
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "directional",
+            "low": null,
+            "uncertain": null,
+            "year": 2025
+          },
+          "high": null,
+          "id": "gold-b640bd85b5",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": 2025
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": 200000000000,
+            "kind": "numeric_point",
+            "low": 200000000000,
+            "uncertain": null,
+            "year": 2026
+          },
+          "high": 200000000000,
+          "id": "gold-8b1565ec4c",
+          "kind": "numeric_point",
+          "low": 200000000000,
+          "verified": false,
+          "year": 2026
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": 220000000000,
+            "kind": "numeric_point",
+            "low": 220000000000,
+            "uncertain": null,
+            "year": 2026
+          },
+          "high": 220000000000,
+          "id": "gold-e662cc2339",
+          "kind": "numeric_point",
+          "low": 220000000000,
+          "verified": false,
+          "year": 2026
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-249d360ba3",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "directional",
+            "low": null,
+            "uncertain": null,
+            "year": 2027
+          },
+          "high": null,
+          "id": "gold-8deeb3de40",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": 2027
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": 75000000000,
+            "kind": "numeric_point",
+            "low": 75000000000,
+            "uncertain": null,
+            "year": 2025
+          },
+          "high": 75000000000,
+          "id": "gold-c6a7359c9c",
+          "kind": "numeric_point",
+          "low": 75000000000,
+          "verified": true,
+          "year": 2025
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-823f45cc93",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": 85000000000,
+            "kind": "numeric_point",
+            "low": 85000000000,
+            "uncertain": null,
+            "year": 2025
+          },
+          "high": 85000000000,
+          "id": "gold-ed8617ced7",
+          "kind": "numeric_point",
+          "low": 85000000000,
+          "verified": true,
+          "year": 2025
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": 93000000000,
+            "kind": "numeric_range",
+            "low": 91000000000,
+            "uncertain": null,
+            "year": 2025
+          },
+          "high": 93000000000,
+          "id": "gold-6fdb267a93",
+          "kind": "numeric_range",
+          "low": 91000000000,
+          "verified": true,
+          "year": 2025
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "directional",
+            "low": null,
+            "uncertain": null,
+            "year": 2025
+          },
+          "high": null,
+          "id": "gold-7725c52104",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": 2025
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": 185000000000,
+            "kind": "numeric_range",
+            "low": 175000000000,
+            "uncertain": null,
+            "year": 2026
+          },
+          "high": 185000000000,
+          "id": "gold-1c68affd48",
+          "kind": "numeric_range",
+          "low": 175000000000,
+          "verified": true,
+          "year": 2026
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": "Infrastructure spending is a subset of total capex.",
+            "year": null
+          },
+          "high": null,
+          "id": "gold-f3331e409d",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-924bf9d00b",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-0b26acf1cd",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-57ea0abc9b",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": "Pressure on plans may not constitute a revised forecast.",
+            "year": null
+          },
+          "high": null,
+          "id": "gold-5ec564046c",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-409d7dda32",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": 135000000000,
+            "kind": "numeric_range",
+            "low": 115000000000,
+            "uncertain": null,
+            "year": 2026
+          },
+          "high": 135000000000,
+          "id": "gold-e058ea7717",
+          "kind": "numeric_range",
+          "low": 115000000000,
+          "verified": true,
+          "year": 2026
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": 145000000000,
+            "kind": "numeric_range",
+            "low": 125000000000,
+            "uncertain": null,
+            "year": 2026
+          },
+          "high": 145000000000,
+          "id": "gold-c37db8398c",
+          "kind": "numeric_range",
+          "low": 125000000000,
+          "verified": true,
+          "year": 2026
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-007aa73857",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": 50000000000,
+            "kind": "numeric_point",
+            "low": 50000000000,
+            "uncertain": null,
+            "year": 2026
+          },
+          "high": 50000000000,
+          "id": "gold-5bb39b55eb",
+          "kind": "numeric_point",
+          "low": 50000000000,
+          "verified": true,
+          "year": 2026
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-f311c4be9d",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "none",
+            "low": null,
+            "uncertain": null,
+            "year": null
+          },
+          "high": null,
+          "id": "gold-04e9b0f5b2",
+          "kind": "none",
+          "low": null,
+          "verified": false,
+          "year": null
+        },
+        {
+          "cassette": null,
+          "gold": {
+            "high": null,
+            "kind": "directional",
+            "low": null,
+            "uncertain": null,
+            "year": 2027
+          },
+          "high": null,
+          "id": "gold-240e4f75c3",
+          "kind": "directional",
+          "low": null,
+          "verified": false,
+          "year": 2027
+        }
+      ],
+      "scores": {
+        "numeric_accuracy": {
+          "correct": 9,
+          "n": 9,
+          "value": 1.0
+        },
+        "period_accuracy": {
+          "correct": 13,
+          "n": 13,
+          "value": 1.0
+        },
+        "precision": {
+          "correct": 13,
+          "n": 13,
+          "value": 1.0
+        },
+        "recall": {
+          "correct": 13,
+          "n": 13,
+          "value": 1.0
+        },
+        "verification": {
+          "correct": 7,
+          "n": 13,
+          "value": 0.5384615384615384
+        }
+      }
+    }
+  },
+  "selected": "rules",
+  "split_sha256": "f49fb86937f6f06ac6e9594c7ea95106a5f1a0dbcc435b451740f02d882de940"
+}
