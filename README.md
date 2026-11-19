@@ -42,7 +42,16 @@ Last updated: 2026-10-30. Latest filing included: Amazon 10-Q, accession 0001018
 ## Guidance versus actual spending
 
 <!-- GUIDANCE:START -->
-No annual forecast passed review (n=0), so upward revisions, the gap from initial guidance to actual spending, and company reliability remain unmeasured.
+Meta raised the midpoint in 9 of 9 revisions and actual spending was a median +15.5% versus the first approved midpoint (n=3 completed fiscal years), based on 13 auto-corroborated SEC claims (13/13 from Meta, pending human audit).
+
+| Issuer / FY | First approved range | Last approved range | Actual | Gap vs first midpoint |
+|---|---:|---:|---:|---:|
+| META FY2023, including lease principal | $27.0B to $30.0B | $27.0B to $30.0B | $28.1B | -1.4% (n=1) |
+| META FY2024, including lease principal | $30.0B to $37.0B | $38.0B to $40.0B | $39.2B | +17.1% (n=1) |
+| META FY2025, including lease principal | $60.0B to $65.0B | $70.0B to $72.0B | $72.2B | +15.5% (n=1) |
+| META FY2026, including lease principal | $115.0B to $135.0B | $135.0B to $145.0B | Not measured | Not measured |
+
+Initial means the earliest approved range in this filing sample. Earlier single-source forecasts can remain pending.
 
 Documents with an identified company-wide spending forecast among SEC filings read: Microsoft 10/32 (0 numeric, 10 direction only), Alphabet 5/33 (4 numeric, 1 direction only), Amazon 11/32 (3 numeric, 8 direction only), Meta 32/32 (32 numeric, 0 direction only), Oracle 2/30 (1 numeric, 1 direction only). One document counts once. Additional guidance given on calls is outside this filing-only search.
 

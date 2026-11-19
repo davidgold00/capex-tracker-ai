@@ -2,7 +2,7 @@
 
 import csv
 import json
-from collections import defaultdict
+from collections import Counter, defaultdict
 from statistics import median
 
 import pandas as pd
@@ -66,48 +66,74 @@ def paths(approved, wide):
                     actual=actual,
                     gap=(actual / initial - 1 if actual is not None and initial else None),
                     source=r["source_url"],
+                    approved_by=r.get("approved_by", "manual"),
                 )
             )
     return rows
 
 
-def finding(rows):
+def finding(rows, audit_status="pending human audit"):
     if not rows:
         return (
-            "No annual forecast passed review (n=0), so upward revisions, the gap from "
-            "initial guidance to actual spending, and company reliability remain unmeasured."
+            "No annual forecast passed review (n=0). Actual versus initial midpoint: Not measured."
         )
-    revisions = [r for r in rows if r["stage"] == "revision"]
-    initial = [r for r in rows if r["stage"] == "initial" and r["gap"] is not None]
-    n = len(revisions)
+    counts = Counter(r["company"] for r in rows)
+    ticker, count = counts.most_common(1)[0]
+    focus = [r for r in rows if r["company"] == ticker] if count > len(rows) / 2 else rows
+    name = {
+        "META": "Meta",
+        "AMZN": "Amazon",
+        "GOOGL": "Alphabet",
+        "MSFT": "Microsoft",
+        "ORCL": "Oracle",
+    }.get(ticker, ticker)
+    subject = name if count > len(rows) / 2 else "The covered issuers"
+    revisions = [r for r in focus if r["stage"] == "revision"]
     raised = sum(r["revision_usd"] > 0 for r in revisions)
-    rev = (
-        f"{raised} of {n} revisions raised the midpoint ({raised / n:.0%}, n={n})"
-        if n
-        else "the share of upward revisions was not measured (n=0)"
+    completed = [r["gap"] for r in focus if r["stage"] == "initial" and r["gap"] is not None]
+    basis = Counter(r.get("approved_by", "manual") for r in rows)
+    bases = ", ".join(f"{n} {k}" for k, n in sorted(basis.items()))
+    coverage = (
+        f"{count}/{len(rows)} from {name}" if len(focus) == count else f"{len(counts)} issuers"
     )
-    gaps = [r["gap"] for r in initial]
+    movement = (
+        f"{subject} raised the midpoint in {raised} of {len(revisions)} revisions"
+        if revisions
+        else f"{subject} had no observed revisions (n=0)"
+    )
     gap = (
-        f"actual spending finished a median {median(gaps):+.1%} from the first observed "
-        f"midpoint (n={len(gaps)} company-years)"
-        if gaps
-        else "the actual spending gap was not measured (n=0 completed comparisons)"
+        f"actual spending was a median {median(completed):+.1%} versus the first approved "
+        f"midpoint (n={len(completed)} completed fiscal years)"
+        if completed
+        else "actual versus first approved midpoint was Not measured (n=0 completed fiscal years)"
     )
-    companies = defaultdict(list)
-    for r in initial:
-        companies[r["company"]].append(abs(r["gap"]))
-    eligible = sorted((median(v), k, len(v)) for k, v in companies.items() if len(v) >= 2)
-    if len(eligible) >= 2 and eligible[0][0] != eligible[-1][0]:
-        rank = (
-            f"{eligible[0][1]} had the smallest median absolute miss (n={eligible[0][2]}) "
-            f"and {eligible[-1][1]} the largest (n={eligible[-1][2]})"
+    return f"{movement} and {gap}, based on {bases} SEC claims ({coverage}, {audit_status})."
+
+
+def fiscal_table(rows):
+    lines = [
+        "| Issuer / FY | First approved range | Last approved range | Actual | "
+        "Gap vs first midpoint |",
+        "|---|---:|---:|---:|---:|",
+    ]
+    from capex_tracker.readme import billions
+
+    groups = defaultdict(list)
+    for row in rows:
+        if row["low"] is not None:
+            groups[row["company"], row["fiscal_year"], row["series"]].append(row)
+    for (company, year, series), group in groups.items():
+        first, last = group[0], group[-1]
+        ranges = [f"{billions(r['low'])} to {billions(r['high'])}" for r in (first, last)]
+        actual = billions(first["actual"]) if first["actual"] is not None else "Not measured"
+        gap = f"{first['gap']:+.1%} (n=1)" if first["gap"] is not None else "Not measured"
+        measure = (
+            "including lease principal" if series == "capex_lease_adjusted" else "reported capex"
         )
-    else:
-        rank = (
-            f"coverage is too thin to rank company reliability "
-            f"(n={len(eligible)} companies with at least two completed years)"
+        lines.append(
+            f"| {company} FY{year}, {measure} | {ranges[0]} | {ranges[1]} | {actual} | {gap} |"
         )
-    return f"Among approved SEC forecasts, {rev}, {gap}, and {rank}."
+    return "\n".join(lines) if groups else ""
 
 
 def coverage(manifest, evidence, config):
@@ -259,6 +285,7 @@ def render(config, wide, text):
         "actual",
         "gap",
         "source",
+        "approved_by",
     )
     with (config.paths.processed_dir / "guidance_paths.csv").open("w", newline="") as f:
         writer = csv.DictWriter(f, fields, lineterminator="\n")
@@ -268,6 +295,9 @@ def render(config, wide, text):
     section = "\n\n".join(
         [
             finding(rows),
+            fiscal_table(rows),
+            "Initial means the earliest approved range in this filing sample. "
+            "Earlier single-source forecasts can remain pending.",
             coverage(manifest, read_csv(directory / "coverage.csv"), config),
             "![Approved forecasts and fiscal-year actuals](docs/charts/guidance_path.png)",
             "[Dated ranges, revisions, definitions and actuals](data/processed/guidance_paths.csv)",
