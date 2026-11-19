@@ -15,3 +15,7 @@ Thirteen pairs of Meta passages share the same claim. Their releases and periodi
 ## Corroboration
 
 [ADR 005](../decisions/ADR-005-corroboration-approval.md) was committed at bb06a8e before application. The 143 review items produced 13 auto-corroborated claims, all Meta, zero dual-extractor or manual approvals, and 130 pending. Each approval has two independently verified SEC accessions, one release and one periodic report. The ledger records the evidence IDs and basis.
+
+## Frozen human audit sample
+
+Seed 20261119. The approved stratum contains only 13 items, so all were included. Sampled 17 of the 130 pending items to reach 30. Both agreement estimates are Not measured (n=0 completed verdicts). Generating the sample again refuses to overwrite any answers.
