@@ -45,6 +45,19 @@ The audit sample contains all 13 auto-corroborated claims and 17 seeded pending 
 Last updated: 2026-10-30. Latest filing included: Amazon 10-Q, accession 0001018724-26-000040, filed 2026-10-30.
 <!-- UPDATED:END -->
 
+**Evidence freshness by issuer**
+
+<!-- FRESHNESS:START -->
+| Issuer | Latest filing used in actuals | Latest guidance filing read |
+|---|---|---|
+| Microsoft | 2026-10-28 10-Q (`0001193125-26-436133`) | [2026-10-28 10-Q](https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm) |
+| Alphabet | 2026-10-29 10-Q (`0001652044-26-000084`) | [2026-10-29 10-Q](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm) |
+| Amazon | 2026-10-30 10-Q (`0001018724-26-000040`) | [2026-10-30 10-Q](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm) |
+| Meta | 2026-10-22 10-Q (`0001628280-26-066773`) | [2026-10-22 10-Q](https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm) |
+| Oracle | 2026-09-11 10-Q (`0001193125-26-389274`) | [2026-09-11 10-Q](https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm) |
+| Nvidia | 2026-08-26 10-Q (`0001045810-26-000075`) | Outside guidance coverage |
+<!-- FRESHNESS:END -->
+
 <!-- TABLE:START -->
 **Latest complete calendar quarter: Q3 2026**
 
