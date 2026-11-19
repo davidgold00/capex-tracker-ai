@@ -331,4 +331,9 @@ def render(config, wide, text):
             "[Dated ranges, revisions, definitions and actuals](data/processed/guidance_paths.csv)",
         ]
     )
+    status = config.paths.readme.parent / "GUIDANCE_PROGRESS.md"
+    if status.exists() and (directory / "claims.json").is_file():
+        from capex_tracker.guidance.status import render as render_status
+
+        status.write_text(render_status(directory, rows))
     return replace_section(text, "GUIDANCE", section)

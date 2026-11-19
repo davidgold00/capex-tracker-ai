@@ -1,12 +1,45 @@
 # capex-tracker-ai
 
-[Start here: interview walkthrough and offline demo](docs/WALKTHROUGH.md)
+Tracks five technology companies' capital spending against operating cash flow and compares filed forecasts with fiscal-year actuals.
 
-Tracks how much cash the largest technology companies are putting into AI infrastructure, and how much of their operating cash flow it absorbs, using SEC EDGAR filings.
+> **Start here**
+>
+> **60 seconds:** Read the two findings below and the [current status](GUIDANCE_PROGRESS.md).
+>
+> **10 minutes:** Follow the [interview walkthrough](docs/WALKTHROUGH.md) and replay one claim with `make demo`.
+>
+> **Deep dive:** Inspect the [frozen test](eval/test_results.json), [dev bake-off](eval/MODEL_BAKEOFF.md) and [approval policy](docs/decisions/ADR-005-corroboration-approval.md).
 
 <!-- HEADLINE:START -->
 **In the four quarters to Q3 2026, Microsoft, Alphabet, Amazon, Meta and Oracle spent $691.0B on capex, equal to 95% of their operating cash flow, up from 64% a year earlier.**
 <!-- HEADLINE:END -->
+
+The headline covers five issuers over four quarters (n=20 company-quarters per trailing window). Reported capex includes spending outside AI.
+
+## Guidance versus actual spending
+
+<!-- GUIDANCE:START -->
+Meta raised the midpoint in 9 of 9 revisions and actual spending was a median +15.5% versus the first approved midpoint (n=3 completed fiscal years), based on 13 auto-corroborated SEC claims (13/13 from Meta, pending human audit).
+
+Human audit pending (n=30 sampled).
+
+| Issuer / FY | First approved range | Last approved range | Actual | Gap vs first midpoint |
+|---|---:|---:|---:|---:|
+| META FY2023, including lease principal | $27.0B to $30.0B | $27.0B to $30.0B | $28.1B | -1.4% (n=1) |
+| META FY2024, including lease principal | $30.0B to $37.0B | $38.0B to $40.0B | $39.2B | +17.1% (n=1) |
+| META FY2025, including lease principal | $60.0B to $65.0B | $70.0B to $72.0B | $72.2B | +15.5% (n=1) |
+| META FY2026, including lease principal | $115.0B to $135.0B | $135.0B to $145.0B | Not measured | Not measured |
+
+Initial means the earliest approved range in this filing sample. Earlier single-source forecasts can remain pending.
+
+Documents with an identified company-wide spending forecast among SEC filings read: Microsoft 10/32 (0 numeric, 10 direction only), Alphabet 5/33 (4 numeric, 1 direction only), Amazon 11/32 (3 numeric, 8 direction only), Meta 32/32 (32 numeric, 0 direction only), Oracle 2/30 (1 numeric, 1 direction only). One document counts once. Additional guidance given on calls is outside this filing-only search.
+
+![Approved forecasts and fiscal-year actuals](docs/charts/guidance_path.png)
+
+[Dated ranges, revisions, definitions and actuals](data/processed/guidance_paths.csv)
+<!-- GUIDANCE:END -->
+
+The audit sample contains all 13 auto-corroborated claims and 17 seeded pending items. Open [audit_sample.csv](data/guidance/audit_sample.csv) on GitHub, select the pencil, fill only `david_verdict` and `david_note`, and commit. Mark `correct` if the linked evidence supports the policy decision to approve or withhold, `incorrect` if you disagree, or `unsure`. Agreement is reported separately by decision, excluding blank and unsure verdicts from the denominator. [Audit reporting script](scripts/audit_sample.py).
 
 <!-- UPDATED:START -->
 Last updated: 2026-10-30. Latest filing included: Amazon 10-Q, accession 0001018724-26-000040, filed 2026-10-30.
@@ -39,31 +72,6 @@ Last updated: 2026-10-30. Latest filing included: Amazon 10-Q, accession 0001018
 ![Reported and finance-lease-adjusted capex](docs/charts/lease_adjustment.png)
 <!-- CHARTS:END -->
 
-## Guidance versus actual spending
-
-<!-- GUIDANCE:START -->
-Meta raised the midpoint in 9 of 9 revisions and actual spending was a median +15.5% versus the first approved midpoint (n=3 completed fiscal years), based on 13 auto-corroborated SEC claims (13/13 from Meta, pending human audit).
-
-Human audit pending (n=30 sampled).
-
-| Issuer / FY | First approved range | Last approved range | Actual | Gap vs first midpoint |
-|---|---:|---:|---:|---:|
-| META FY2023, including lease principal | $27.0B to $30.0B | $27.0B to $30.0B | $28.1B | -1.4% (n=1) |
-| META FY2024, including lease principal | $30.0B to $37.0B | $38.0B to $40.0B | $39.2B | +17.1% (n=1) |
-| META FY2025, including lease principal | $60.0B to $65.0B | $70.0B to $72.0B | $72.2B | +15.5% (n=1) |
-| META FY2026, including lease principal | $115.0B to $135.0B | $135.0B to $145.0B | Not measured | Not measured |
-
-Initial means the earliest approved range in this filing sample. Earlier single-source forecasts can remain pending.
-
-Documents with an identified company-wide spending forecast among SEC filings read: Microsoft 10/32 (0 numeric, 10 direction only), Alphabet 5/33 (4 numeric, 1 direction only), Amazon 11/32 (3 numeric, 8 direction only), Meta 32/32 (32 numeric, 0 direction only), Oracle 2/30 (1 numeric, 1 direction only). One document counts once. Additional guidance given on calls is outside this filing-only search.
-
-![Approved forecasts and fiscal-year actuals](docs/charts/guidance_path.png)
-
-[Dated ranges, revisions, definitions and actuals](data/processed/guidance_paths.csv)
-<!-- GUIDANCE:END -->
-
-The audit sample contains all 13 auto-corroborated claims and 17 seeded pending items. Open [audit_sample.csv](data/guidance/audit_sample.csv) on GitHub, select the pencil, fill only `david_verdict` and `david_note`, and commit. Mark `correct` if the linked evidence supports the policy decision to approve or withhold, `incorrect` if you disagree, or `unsure`. Agreement is reported separately by decision, excluding blank and unsure verdicts from the denominator. [Audit reporting script](scripts/audit_sample.py).
-
 ## What changed
 
 <!-- WHAT_CHANGED:START -->
@@ -80,7 +88,7 @@ Notes coming soon.
 
 ## About me
 
-_Placeholder: why I built this and what I am looking for._
+[DAVID: Add why you built this and what roles you are looking for.]
 
 ## Why this matters
 
@@ -90,7 +98,7 @@ Microsoft, Alphabet, Amazon, Meta and Oracle are building data centers for AI wo
 
 All figures come from the XBRL data companies file with the SEC. No figure is estimated or hand-entered.
 
-**Filed guidance.** A rules baseline and a local Ollama model propose forecasts from earnings exhibits and MD&A. Code checks the quote, dollars, fiscal year and spending definition. Each forecast needs review before comparison with four matched XBRL quarters. This run allows automatic approval only on verified agreement. The weekly update reads the approved table and checks any saved machine draft against the current figures. [Review evidence and evaluation denominators](GUIDANCE_PROGRESS.md).
+**Filed guidance.** A rules baseline and a local Ollama model propose forecasts from earnings exhibits and MD&A. Code checks the quote, dollars, fiscal year and spending definition. Each forecast needs review before comparison with four matched XBRL quarters. The weekly update runs rules on new filings. A verified release and periodic filing can corroborate a claim. Verified dual-extractor agreement and manual review remain separate approval paths. Each approved row names its basis. The quarterly summary uses checked sentences from a fixed plan. [Review evidence and evaluation denominators](GUIDANCE_PROGRESS.md).
 
 **Choosing tags.** Companies label the same line item with different XBRL tags, and change labels over time. `config.yaml` lists candidate tags for each metric. For each company, tags are ranked by the most recent period they cover, then by how many periods they cover. Each period takes its value from the highest-ranked tag that has it, and every data point records its tag. Amazon's capex, for example, moves across three tags between 2017 and 2018. `data/processed/tag_report.csv` shows every choice.
 
