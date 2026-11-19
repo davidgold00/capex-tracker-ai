@@ -45,11 +45,11 @@
       "checks": {},
       "statement": {
         "company": "ORCL",
-        "comparison_series": "unresolved",
-        "definition_note": "",
+        "comparison_series": "capex",
+        "definition_note": "Capital Expenditures: Cash used for capital expenditures",
         "evidence_quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from future sales of our common stock under the ATM Program, cash generated from operations and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
         "form": "10-Q",
-        "mapping_reason": "No matching spending definition established in this document.",
+        "mapping_reason": "The MD&A explicitly identifies cash used for capex.",
         "proposal": {
           "confidence": 1.0,
           "direction": null,

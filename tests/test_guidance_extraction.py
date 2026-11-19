@@ -41,3 +41,20 @@ def test_cleaner_preserves_inline_text_and_discards_hidden_tags():
         "8-K",
     )
     assert windows(text) == ["We expect capital expenditures of $1 billion."]
+
+
+def test_numeric_target_excludes_separate_forward_outlook():
+    text = (
+        "We expect capital expenditures of $38 billion to $40 billion in 2024 "
+        "and continue to expect significant capital expenditures growth in 2025."
+    )
+    p = rules(text)
+    assert (p.fiscal_year, p.low_usd, p.high_usd) == (2024, 38_000_000_000, 40_000_000_000)
+
+
+def test_oracle_cash_definition_requires_explicit_evidence():
+    from capex_tracker.guidance.extract import definition
+
+    note = "Capital Expenditures: Cash used for capital expenditures"
+    assert definition("ORCL", note + " increased in the quarter.")[:2] == ("capex", note)
+    assert definition("ORCL", "Capital expenditures increased.")[:2] == ("unresolved", "")
