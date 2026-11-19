@@ -1,0 +1,29 @@
+{
+  "duration_ns": 1108170875,
+  "key": "5c1a322eb014a652928a1efb20cfe65c970b8fedaba76338bf0318ad917c1d77",
+  "request": {
+    "format": {
+      "properties": {
+        "paragraph": {
+          "title": "Paragraph",
+          "type": "string"
+        }
+      },
+      "required": [
+        "paragraph"
+      ],
+      "title": "Draft",
+      "type": "object"
+    },
+    "model": "qwen2.5:1.5b-instruct",
+    "options": {
+      "num_predict": 350,
+      "seed": 42,
+      "temperature": 0
+    },
+    "prompt": "{\"planned_facts\": [[\"Aggregate capex fell from $36.6B in Q1 2023 to $35.3B in Q2 2023.\", \"In Q2 2023, aggregate capex fell to $35.3B from $36.6B in Q1 2023.\"], [\"Aggregate capex fell from $38.4B in Q2 2022 to $35.3B in Q2 2023.\", \"In Q2 2023, aggregate capex fell to $35.3B from $38.4B in Q2 2022.\"]]}\nRepair the draft: Repeated comparison or guidance; Repeated comparison or guidance",
+    "stream": false,
+    "system": "The planner has fixed the facts, values, periods and directions. Each planned_facts group contains allowed phrasings of one required sentence. Select exactly one complete sentence per group and join them with a space in a readable order. Return a JSON object with the paragraph field. Include no headings or commentary."
+  },
+  "response": "{\"paragraph\":\"Aggregate capex fell from $36.6B in Q1 2023 to $35.3B in Q2 2023. In Q2 2023, aggregate capex fell to $35.3B from $38.4B in Q2 2022.\"}"
+}

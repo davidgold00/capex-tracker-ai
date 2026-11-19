@@ -1,0 +1,29 @@
+{
+  "duration_ns": 3067045375,
+  "key": "e670b7b05f55357e6a8d9b2110173bb2e39f7b1581830a45e0c23fd5f0485d4b",
+  "request": {
+    "format": {
+      "properties": {
+        "paragraph": {
+          "title": "Paragraph",
+          "type": "string"
+        }
+      },
+      "required": [
+        "paragraph"
+      ],
+      "title": "Draft",
+      "type": "object"
+    },
+    "model": "phi3.5",
+    "options": {
+      "num_predict": 350,
+      "seed": 42,
+      "temperature": 0
+    },
+    "prompt": "{\"planned_facts\": [[\"Aggregate capex rose from $41.0B in Q3 2022 to $41.7B in Q4 2022.\", \"In Q4 2022, aggregate capex rose to $41.7B from $41.0B in Q3 2022.\"], [\"Aggregate capex rose from $37.5B in Q4 2021 to $41.7B in Q4 2022.\", \"In Q4 2022, aggregate capex rose to $41.7B from $37.5B in Q4 2021.\"]]}",
+    "stream": false,
+    "system": "The planner has fixed the facts, values, periods and directions. Each planned_facts group contains allowed phrasings of one required sentence. Select exactly one complete sentence per group and join them with a space in a readable order. Return a JSON object with the paragraph field. Include no headings or commentary."
+  },
+  "response": "{\"paragraph\": \"In Q4 2022, aggregate capex rose to $41.7B from $41.0B in Q3 2022. In Q4 2022, aggregate capex rose to $41.7B from $37.5B in Q4 2021.\"}"
+}

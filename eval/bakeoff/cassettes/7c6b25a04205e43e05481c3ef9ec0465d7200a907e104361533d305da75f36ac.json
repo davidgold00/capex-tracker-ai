@@ -1,0 +1,29 @@
+{
+  "duration_ns": 3510030875,
+  "key": "7c6b25a04205e43e05481c3ef9ec0465d7200a907e104361533d305da75f36ac",
+  "request": {
+    "format": {
+      "properties": {
+        "paragraph": {
+          "title": "Paragraph",
+          "type": "string"
+        }
+      },
+      "required": [
+        "paragraph"
+      ],
+      "title": "Draft",
+      "type": "object"
+    },
+    "model": "llama3.2:3b",
+    "options": {
+      "num_predict": 350,
+      "seed": 42,
+      "temperature": 0
+    },
+    "prompt": "{\"planned_facts\": [[\"Aggregate capex rose from $38.3B in Q3 2023 to $44.0B in Q4 2023.\", \"In Q4 2023, aggregate capex rose to $44.0B from $38.3B in Q3 2023.\"], [\"Aggregate capex rose from $41.7B in Q4 2022 to $44.0B in Q4 2023.\", \"In Q4 2023, aggregate capex rose to $44.0B from $41.7B in Q4 2022.\"]]}\nRepair the draft: Repeated comparison or guidance; Repeated comparison or guidance",
+    "stream": false,
+    "system": "The planner has fixed the facts, values, periods and directions. Each planned_facts group contains allowed phrasings of one required sentence. Select exactly one complete sentence per group and join them with a space in a readable order. Return a JSON object with the paragraph field. Include no headings or commentary."
+  },
+  "response": "{\"paragraph\": \"Aggregate capex rose from $38.3B in Q3 2023 to $44.0B in Q4 2023. In Q4 2023, aggregate capex rose to $44.0B from $38.3B in Q3 2023. Aggregate capex rose from $41.7B in Q4 2022 to $44.0B in Q4 2023. In Q4 2023, aggregate capex rose to $44.0B from $41.7B in Q4 2022.\"}"
+}

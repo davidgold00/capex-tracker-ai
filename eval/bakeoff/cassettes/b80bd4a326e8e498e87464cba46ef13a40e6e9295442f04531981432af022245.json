@@ -1,0 +1,29 @@
+{
+  "duration_ns": 3739222000,
+  "key": "b80bd4a326e8e498e87464cba46ef13a40e6e9295442f04531981432af022245",
+  "request": {
+    "format": {
+      "properties": {
+        "paragraph": {
+          "title": "Paragraph",
+          "type": "string"
+        }
+      },
+      "required": [
+        "paragraph"
+      ],
+      "title": "Draft",
+      "type": "object"
+    },
+    "model": "llama3.2:3b",
+    "options": {
+      "num_predict": 350,
+      "seed": 42,
+      "temperature": 0
+    },
+    "prompt": "{\"planned_facts\": [[\"Aggregate capex rose from $44.0B in Q4 2023 to $46.0B in Q1 2024.\", \"In Q1 2024, aggregate capex rose to $46.0B from $44.0B in Q4 2023.\"], [\"Aggregate capex rose from $36.6B in Q1 2023 to $46.0B in Q1 2024.\", \"In Q1 2024, aggregate capex rose to $46.0B from $36.6B in Q1 2023.\"]]}",
+    "stream": false,
+    "system": "The planner has fixed the facts, values, periods and directions. Each planned_facts group contains allowed phrasings of one required sentence. Select exactly one complete sentence per group and join them with a space in a readable order. Return a JSON object with the paragraph field. Include no headings or commentary."
+  },
+  "response": "{\"paragraph\": \"Aggregate capex rose from $44.0B in Q4 2023 to $46.0B in Q1 2024. In Q1 2024, aggregate capex rose to $46.0B from $44.0B in Q4 2023. Aggregate capex rose from $36.6B in Q1 2023 to $46.0B in Q1 2024. In Q1 2024, aggregate capex rose to $46.0B from $36.6B in Q1 2023.\"}"
+}

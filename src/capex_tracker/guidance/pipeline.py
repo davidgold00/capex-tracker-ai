@@ -12,7 +12,7 @@ from capex_tracker.guidance.schema import Proposal
 from capex_tracker.guidance.sources import DATA, RAW, digest, windows
 
 
-def extract(method, row, sentence, source, basis, record=False):
+def extract(method, row, sentence, source, basis, record=False, invoke=call):
     attempts = []
     failure = ""
     for _ in range(2 if method == "ollama" else 1):
@@ -23,7 +23,7 @@ def extract(method, row, sentence, source, basis, record=False):
             content = json.dumps({"passage": sentence}, ensure_ascii=False)
             if failure:
                 content += "\nCheck the preceding proposal again: " + failure
-            raw, key = call("extract_v1", content, Proposal.model_json_schema(), record=record)
+            raw, key = invoke("extract_v1", content, Proposal.model_json_schema(), record=record)
             try:
                 result = Proposal.model_validate_json(raw)
             except ValidationError as exc:

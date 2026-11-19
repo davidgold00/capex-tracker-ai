@@ -1,0 +1,23 @@
+{
+  "llama3.2:3b": {
+    "max_ollama_allocation": 2324021902,
+    "max_runner_rss": 345030656,
+    "observations": 42
+  },
+  "phi3.5": {
+    "max_ollama_allocation": 3022153318,
+    "max_runner_rss": 975863808,
+    "observations": 51
+  },
+  "qwen2.5:1.5b-instruct": {
+    "allocation_precision": "Rounded by ollama ps to 0.1 GB",
+    "max_ollama_allocation": 1100000000,
+    "max_runner_rss": 163217408,
+    "observations": 1
+  },
+  "qwen2.5:3b-instruct": {
+    "max_ollama_allocation": 2085963693,
+    "max_runner_rss": 204079104,
+    "observations": 37
+  }
+}

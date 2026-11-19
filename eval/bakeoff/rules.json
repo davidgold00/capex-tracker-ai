@@ -1,0 +1,348 @@
+{
+  "extraction": [
+    {
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-d23913057e",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-e4016a3bbd",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "gold": {
+        "high": null,
+        "kind": "directional",
+        "low": null,
+        "uncertain": null,
+        "year": 2023
+      },
+      "high": null,
+      "id": "gold-2e528ff279",
+      "kind": "directional",
+      "low": null,
+      "verified": false,
+      "year": 2023
+    },
+    {
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-7ab4069e62",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "gold": {
+        "high": null,
+        "kind": "directional",
+        "low": null,
+        "uncertain": null,
+        "year": 2024
+      },
+      "high": null,
+      "id": "gold-077007b149",
+      "kind": "directional",
+      "low": null,
+      "verified": false,
+      "year": 2024
+    },
+    {
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-e7ea7d3155",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": "Heavy investment gives no comparison baseline.",
+        "year": null
+      },
+      "high": null,
+      "id": "gold-8d154cc01f",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-1b093dee99",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-318f531725",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-6b2361e4ba",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "gold": {
+        "high": 33000000000,
+        "kind": "numeric_range",
+        "low": 30000000000,
+        "uncertain": null,
+        "year": 2023
+      },
+      "high": 33000000000,
+      "id": "gold-842daaf359",
+      "kind": "numeric_range",
+      "low": 30000000000,
+      "verified": true,
+      "year": 2023
+    },
+    {
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-8b338844a4",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-f5972fda04",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "gold": {
+        "high": 30000000000,
+        "kind": "numeric_range",
+        "low": 27000000000,
+        "uncertain": null,
+        "year": 2023
+      },
+      "high": 30000000000,
+      "id": "gold-6a4cb46527",
+      "kind": "numeric_range",
+      "low": 27000000000,
+      "verified": true,
+      "year": 2023
+    },
+    {
+      "gold": {
+        "high": null,
+        "kind": "directional",
+        "low": null,
+        "uncertain": null,
+        "year": 2024
+      },
+      "high": null,
+      "id": "gold-e539e2f548",
+      "kind": "directional",
+      "low": null,
+      "verified": true,
+      "year": 2024
+    },
+    {
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-2f01815229",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "gold": {
+        "high": 35000000000,
+        "kind": "numeric_range",
+        "low": 30000000000,
+        "uncertain": null,
+        "year": 2024
+      },
+      "high": 35000000000,
+      "id": "gold-a508792e87",
+      "kind": "numeric_range",
+      "low": 30000000000,
+      "verified": true,
+      "year": 2024
+    },
+    {
+      "gold": {
+        "high": 37000000000,
+        "kind": "numeric_range",
+        "low": 30000000000,
+        "uncertain": null,
+        "year": 2024
+      },
+      "high": 37000000000,
+      "id": "gold-b05a1f5a39",
+      "kind": "numeric_range",
+      "low": 30000000000,
+      "verified": true,
+      "year": 2024
+    },
+    {
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-0f96ee97aa",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "gold": {
+        "high": null,
+        "kind": "directional",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-1b72d79cb0",
+      "kind": "directional",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-56a6b3779a",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    }
+  ],
+  "extraction_seconds_per_item": 0.00018571023940153065,
+  "model": "rules",
+  "scores": {
+    "numeric_accuracy": {
+      "correct": 4,
+      "n": 4,
+      "value": 1.0
+    },
+    "period_accuracy": {
+      "correct": 7,
+      "n": 7,
+      "value": 1.0
+    },
+    "precision": {
+      "correct": 8,
+      "n": 8,
+      "value": 1.0
+    },
+    "recall": {
+      "correct": 8,
+      "n": 8,
+      "value": 1.0
+    },
+    "verification": {
+      "correct": 5,
+      "n": 8,
+      "value": 0.625
+    }
+  }
+}

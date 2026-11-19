@@ -1,0 +1,29 @@
+{
+  "duration_ns": 1710879708,
+  "key": "1b2003664f021a9f526baa70eee04a1ac545596e3841d72a0342574174b1a676",
+  "request": {
+    "format": {
+      "properties": {
+        "paragraph": {
+          "title": "Paragraph",
+          "type": "string"
+        }
+      },
+      "required": [
+        "paragraph"
+      ],
+      "title": "Draft",
+      "type": "object"
+    },
+    "model": "phi3.5",
+    "options": {
+      "num_predict": 350,
+      "seed": 42,
+      "temperature": 0
+    },
+    "prompt": "{\"planned_facts\": [[\"Aggregate capex fell from $41.7B in Q4 2022 to $36.6B in Q1 2023.\", \"In Q1 2023, aggregate capex fell to $36.6B from $41.7B in Q4 2022.\"], [\"Aggregate capex fell from $36.6B in Q1 2022 to $36.6B in Q1 2023.\", \"In Q1 2023, aggregate capex fell to $36.6B from $36.6B in Q1 2022.\"]]}",
+    "stream": false,
+    "system": "The planner has fixed the facts, values, periods and directions. Each planned_facts group contains allowed phrasings of one required sentence. Select exactly one complete sentence per group and join them with a space in a readable order. Return a JSON object with the paragraph field. Include no headings or commentary."
+  },
+  "response": "{\"paragraph\": \"In Q1 2023, aggregate capex fell to $36.6B from $41.7B in Q4 2022.\"}"
+}
