@@ -10,6 +10,7 @@ import pytest
     [
         (["demo"], "Chart:"),
         (["demo-guard"], "REJECT:"),
+        (["demo-policy"], "Conflicting claim"),
         (["explain", "ID=META-6e73e0ba7afe"], "Clean document SHA-256"),
     ],
 )
@@ -40,3 +41,18 @@ def test_make_targets_offline(args, expected, tmp_path):
         check=True,
     )
     assert expected in result.stdout
+
+
+def test_policy_demo_reports_three_observed_outcomes():
+    from capex_tracker.guidance.demo import policy_demo
+
+    output = policy_demo()
+    assert all(
+        s in output
+        for s in [
+            "auto-corroborated",
+            "Insufficient verified support",
+            "Conflicting claim",
+            "META-6e73e0ba7afe",
+        ]
+    )

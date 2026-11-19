@@ -8,6 +8,9 @@ companies:
   - { ticker: ORCL, name: Oracle, role: spender, color: "#e87ba4" }
   - { ticker: NVDA, name: Nvidia, role: receiver, color: "#008300" }
 
+  # First year with four XBRL quarters for the required cash and revenue metrics.
+  - { ticker: CRWV, name: CoreWeave, role: spender, color: "#697888", enabled: false, coverage_start: 2024-01-01 }
+
 # Ordered tag fallbacks per metric. Order only breaks ties: facts.py ranks tags by
 # how recent and how complete their coverage is, then stitches gaps by period.
 metrics:

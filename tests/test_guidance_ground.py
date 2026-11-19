@@ -41,6 +41,20 @@ def test_reject_stale_published_draft(tmp_path):
     para = " ".join(g[0] for g in facts.groups)
     text = "<!-- WHAT_CHANGED:START -->\nold\n<!-- WHAT_CHANGED:END -->"
     path.write_text(json.dumps({"paragraph": para, "facts_sha256": "stale"}))
-    assert para not in publish(text, path, facts)
+    assert "template-generated, fact-checked" in publish(text, path, facts)
     path.write_text(json.dumps({"paragraph": para, "facts_sha256": facts.key}))
     assert para in publish(text, path, facts)
+
+
+def test_rephrase_and_both_fallback_paths():
+    from capex_tracker.guidance.draft import rephrase
+    from capex_tracker.guidance.ground import Facts
+
+    facts = Facts((("Capex rose.", "Capex increased."),))
+    ok = rephrase(facts, lambda *args: ('{"paragraph":"Capex increased."}', "ok"))
+    assert ok["basis"] == "local-model" and ok["paragraph"] == "Capex increased."
+    bad = rephrase(facts, lambda *args: ('{"paragraph":"Capex fell."}', "bad"))
+    assert len(bad["attempts"]) == 2
+    for fallback in (bad, rephrase(facts, None)):
+        assert fallback["basis"] == "template"
+        assert fallback["paragraph"] == "Capex rose." and not check(fallback["paragraph"], facts)

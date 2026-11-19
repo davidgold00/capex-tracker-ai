@@ -9,7 +9,7 @@ from pydantic import BaseModel, ConfigDict, Field, model_validator
 Kind = Literal["numeric_range", "numeric_point", "directional", "none"]
 Direction = Literal["up", "down", "flat"]
 Series = Literal["capex", "capex_lease_adjusted", "unresolved"]
-Company = Literal["META", "GOOGL", "MSFT", "AMZN", "ORCL"]
+Company = Literal["META", "GOOGL", "MSFT", "AMZN", "ORCL", "CRWV"]
 
 
 class Proposal(BaseModel):

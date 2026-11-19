@@ -45,18 +45,18 @@
       "checks": {
         "annual_period": true,
         "capex_outlook": true,
-        "comparison_series": false,
+        "comparison_series": true,
         "direction": true,
         "dollars_and_units": true,
         "verbatim_quote": true
       },
       "statement": {
         "company": "ORCL",
-        "comparison_series": "unresolved",
-        "definition_note": "",
+        "comparison_series": "capex",
+        "definition_note": "Capital Expenditures: Cash used for capital expenditures",
         "evidence_quote": "We expect our capital expenditures in fiscal 2027 to be higher than fiscal 2026 as we increase our existing data center capacity and establish data centers in new geographic locations in order to meet current and expected customer demand for our cloud offerings.",
         "form": "10-Q",
-        "mapping_reason": "No matching spending definition established in this document.",
+        "mapping_reason": "The MD&A explicitly identifies cash used for capex.",
         "proposal": {
           "confidence": 1.0,
           "direction": "up",

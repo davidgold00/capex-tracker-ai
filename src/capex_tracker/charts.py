@@ -312,7 +312,7 @@ def intensity_by_company_chart(
             ax.plot(x, y, color=CONTEXT_LINE, linewidth=1.0, zorder=1)
         if company is None:
             source = aggregate_rows
-            name = "All five, aggregate"
+            name = "All five, aggregate" if len(config.spenders) == 5 else "All spenders, aggregate"
             color = AGGREGATE_CAPEX
         else:
             source = spender_rows[company.ticker]

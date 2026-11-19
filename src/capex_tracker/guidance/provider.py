@@ -2,6 +2,7 @@
 
 import json
 import os
+import re
 from pathlib import Path
 
 import requests
@@ -10,7 +11,7 @@ from capex_tracker.guidance.records import write_record
 from capex_tracker.guidance.sources import DATA, digest
 
 PROMPTS = Path(__file__).with_name("prompts")
-DEFAULT_MODEL = "qwen2.5:7b-instruct"
+DEFAULT_MODEL = "qwen2.5:1.5b-instruct"
 
 
 def call(task, content, schema, *, record=False, directory=DATA / "cassettes"):
@@ -44,21 +45,38 @@ def call(task, content, schema, *, record=False, directory=DATA / "cassettes"):
     with requests.Session() as session:
         session.trust_env = False
         base = "http://127.0.0.1:11434"
-        info = session.post(
-            base + "/api/show", json={"model": model}, timeout=20, allow_redirects=False
-        )
-        info.raise_for_status()
-        details = info.json()
-        if details.get("remote_model") or details.get("remote_host") or "cloud" in model.lower():
-            raise ValueError("A locally installed model is required")
         try:
+            info = session.post(
+                base + "/api/show", json={"model": model}, timeout=10, allow_redirects=False
+            )
+            info.raise_for_status()
+            details = info.json()
+            size = re.fullmatch(r"([0-9.]+)B", details.get("details", {}).get("parameter_size", ""))
+            if (
+                details.get("remote_model")
+                or details.get("remote_host")
+                or "cloud" in model.lower()
+                or not size
+                or float(size[1]) > 4.1
+            ):
+                raise ValueError(
+                    "A local model with at most about four billion parameters is required"
+                )
             res = session.post(
-                base + "/api/generate", json=payload, timeout=180, allow_redirects=False
+                base + "/api/generate", json=payload, timeout=75, allow_redirects=False
             )
             res.raise_for_status()
-        except requests.RequestException as exc:
+        except (requests.RequestException, ValueError) as exc:
             write_record(failed, {"key": key, "request": payload, "error": type(exc).__name__})
             raise
         response = res.json()["response"]
-    write_record(path, {"key": key, "request": payload, "response": response})
+    write_record(
+        path,
+        {
+            "key": key,
+            "request": payload,
+            "response": response,
+            "duration_ns": res.json().get("total_duration"),
+        },
+    )
     return response, key

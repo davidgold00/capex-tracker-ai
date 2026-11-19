@@ -1,0 +1,3111 @@
+{
+  "claims": [
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001018724-26-000040",
+          "filed": "2026-10-30",
+          "form": "10-Q",
+          "id": "AMZN-06bd97cc84bf",
+          "quote": "Cash capital expenditures were $34.2 billion and $75.9 billion during Q3 2025 and Q3 2026, and $89.9 billion and $172.2 billion for the nine months ended September 30, 2025 and 2026, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2026.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
+        }
+      ],
+      "high": null,
+      "id": "AMZN-06bd97cc84bf",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-10-30",
+      "year": null
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001018724-24-000083",
+          "filed": "2024-05-01",
+          "form": "10-Q",
+          "id": "AMZN-0de8725e6d2d",
+          "quote": "We expect cash capital expenditures to meaningfully increase in 2024, primarily driven by investments in technology infrastructure.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000083/amzn-20240331.htm"
+        }
+      ],
+      "high": null,
+      "id": "AMZN-0de8725e6d2d",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-05-01",
+      "year": 2024
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001018724-25-000036",
+          "filed": "2025-05-02",
+          "form": "10-Q",
+          "id": "AMZN-1a40d7181f82",
+          "quote": "We expect cash capital expenditures to increase in 2025, primarily driven by investments in technology infrastructure.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm"
+        }
+      ],
+      "high": null,
+      "id": "AMZN-1a40d7181f82",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-05-02",
+      "year": 2025
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001018724-26-000040",
+          "filed": "2026-10-30",
+          "form": "10-Q",
+          "id": "AMZN-1c9a0118a53b",
+          "quote": "We expect cash capital expenditures to meaningfully increase in 2027, primarily driven by investments in technology infrastructure.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
+        }
+      ],
+      "high": null,
+      "id": "AMZN-1c9a0118a53b",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-10-30",
+      "year": 2027
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": "down",
+      "evidence": [
+        {
+          "accession": "0001018724-23-000018",
+          "filed": "2023-10-27",
+          "form": "10-Q",
+          "id": "AMZN-223bc9dd86d7",
+          "quote": "We expect cash capital expenditures to decrease in 2023, primarily due to lower spending on our fulfillment network.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000018/amzn-20230930.htm"
+        }
+      ],
+      "high": null,
+      "id": "AMZN-223bc9dd86d7",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-10-27",
+      "year": 2023
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001018724-26-000004",
+          "filed": "2026-02-06",
+          "form": "10-K",
+          "id": "AMZN-2a230a014d4c",
+          "quote": "Cash capital expenditures were $77.7 billion, and $128.3 billion in 2024 and 2025, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2026.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm"
+        }
+      ],
+      "high": null,
+      "id": "AMZN-2a230a014d4c",
+      "kind": "none",
+      "low": null,
+      "statement_date": "2026-02-06",
+      "year": null
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": "down",
+      "evidence": [
+        {
+          "accession": "0001018724-23-000012",
+          "filed": "2023-08-04",
+          "form": "10-Q",
+          "id": "AMZN-49c5c4fbc842",
+          "quote": "We expect cash capital expenditures to decrease in 2023, primarily due to lower spending on our fulfillment network.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000012/amzn-20230630.htm"
+        }
+      ],
+      "high": null,
+      "id": "AMZN-49c5c4fbc842",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-08-04",
+      "year": 2023
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001018724-25-000004",
+          "filed": "2025-02-07",
+          "form": "10-K",
+          "id": "AMZN-9838b3fdadfd",
+          "quote": "We expect cash capital expenditures to increase in 2025, primarily driven by investments in technology infrastructure.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm"
+        }
+      ],
+      "high": null,
+      "id": "AMZN-9838b3fdadfd",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-02-07",
+      "year": 2025
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001018724-24-000130",
+          "filed": "2024-08-02",
+          "form": "10-Q",
+          "id": "AMZN-a8415b61fcbb",
+          "quote": "We expect cash capital expenditures to meaningfully increase in 2024, primarily driven by investments in technology infrastructure.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000130/amzn-20240630.htm"
+        }
+      ],
+      "high": null,
+      "id": "AMZN-a8415b61fcbb",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-08-02",
+      "year": 2024
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001018724-24-000081",
+          "filed": "2024-04-30",
+          "form": "8-K",
+          "id": "AMZN-ac9cd9079469",
+          "quote": "This investment, which is the single largest capital investment in the state\u2019s history, will create at least 1,000 jobs and support new educational trainings in the state.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000081/amzn-20240331xex991.htm"
+        }
+      ],
+      "high": null,
+      "id": "AMZN-ac9cd9079469",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-04-30",
+      "year": null
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001018724-25-000123",
+          "filed": "2025-10-31",
+          "form": "10-Q",
+          "id": "AMZN-becb5a99d3fe",
+          "quote": "Cash capital expenditures were $21.3 billion and $34.2 billion during Q3 2024 and Q3 2025, and $51.6 billion and $89.9 billion for the nine months ended September 30, 2024 and 2025, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2025 and 2026.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm"
+        }
+      ],
+      "high": null,
+      "id": "AMZN-becb5a99d3fe",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-10-31",
+      "year": null
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001018724-24-000008",
+          "filed": "2024-02-02",
+          "form": "10-K",
+          "id": "AMZN-c214038f1441",
+          "quote": "Cash capital expenditures were $58.3 billion, and $48.1 billion in 2022 and 2023, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, which investments we expect to increase in 2024.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm"
+        }
+      ],
+      "high": null,
+      "id": "AMZN-c214038f1441",
+      "kind": "none",
+      "low": null,
+      "statement_date": "2024-02-02",
+      "year": null
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001018724-26-000002",
+          "filed": "2026-02-05",
+          "form": "8-K",
+          "id": "AMZN-c47bb443e163",
+          "quote": "\u201cWith such strong demand for our existing offerings and seminal opportunities like AI, chips, robotics, and low earth orbit satellites, we expect to invest about $200 billion in capital expenditures across Amazon in 2026, and anticipate strong long-term return on invested capital.\u201d",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm"
+        }
+      ],
+      "high": 200000000000,
+      "id": "AMZN-c47bb443e163",
+      "kind": "numeric_point",
+      "low": 200000000000,
+      "statement_date": "2026-02-05",
+      "year": 2026
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001018724-26-000026",
+          "filed": "2026-07-31",
+          "form": "10-Q",
+          "id": "AMZN-c867245052dc",
+          "quote": "Cash capital expenditures were $31.4 billion and $53.1 billion during Q2 2025 and Q2 2026, and $55.6 billion and $96.3 billion for the six months ended June 30, 2025 and 2026, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2026.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm"
+        }
+      ],
+      "high": null,
+      "id": "AMZN-c867245052dc",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-07-31",
+      "year": null
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001018724-26-000038",
+          "filed": "2026-10-29",
+          "form": "8-K",
+          "id": "AMZN-d3b4e72e2120",
+          "quote": "\u2022We continue to expect 2026 cash capital expenditures to be approximately $220 billion.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm"
+        }
+      ],
+      "high": 220000000000,
+      "id": "AMZN-d3b4e72e2120",
+      "kind": "numeric_point",
+      "low": 220000000000,
+      "statement_date": "2026-10-29",
+      "year": 2026
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001018724-26-000014",
+          "filed": "2026-04-30",
+          "form": "10-Q",
+          "id": "AMZN-d70575c6fe05",
+          "quote": "Cash capital expenditures were $24.3 billion and $43.2 billion during Q1 2025 and Q1 2026, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2026.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm"
+        }
+      ],
+      "high": null,
+      "id": "AMZN-d70575c6fe05",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-04-30",
+      "year": null
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001018724-26-000040",
+          "filed": "2026-10-30",
+          "form": "10-Q",
+          "id": "AMZN-dc0d3829d4de",
+          "quote": "\u2022We continue to expect 2026 cash capital expenditures to be approximately $220 billion.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
+        }
+      ],
+      "high": 220000000000,
+      "id": "AMZN-dc0d3829d4de",
+      "kind": "numeric_point",
+      "low": 220000000000,
+      "statement_date": "2026-10-30",
+      "year": 2026
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001018724-24-000161",
+          "filed": "2024-11-01",
+          "form": "10-Q",
+          "id": "AMZN-e3b7831c7f96",
+          "quote": "We expect cash capital expenditures to meaningfully increase in 2024, primarily driven by investments in technology infrastructure.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000161/amzn-20240930.htm"
+        }
+      ],
+      "high": null,
+      "id": "AMZN-e3b7831c7f96",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-11-01",
+      "year": 2024
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001018724-25-000086",
+          "filed": "2025-08-01",
+          "form": "10-Q",
+          "id": "AMZN-f2868c97f3ce",
+          "quote": "Cash capital expenditures were $16.4 billion and $31.4 billion during Q2 2024 and Q2 2025, and $30.3 billion and $55.6 billion for the six months ended June 30, 2024 and 2025, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2025.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm"
+        }
+      ],
+      "high": null,
+      "id": "AMZN-f2868c97f3ce",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-08-01",
+      "year": null
+    },
+    {
+      "company": "AMZN",
+      "definition": "unresolved",
+      "direction": "down",
+      "evidence": [
+        {
+          "accession": "0001018724-23-000008",
+          "filed": "2023-04-28",
+          "form": "10-Q",
+          "id": "AMZN-fe5dd79be81f",
+          "quote": "We expect cash capital expenditures to decrease in 2023, primarily due to lower spending on our fulfillment network.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000008/amzn-20230331.htm"
+        }
+      ],
+      "high": null,
+      "id": "AMZN-fe5dd79be81f",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-04-28",
+      "year": 2023
+    },
+    {
+      "company": "GOOGL",
+      "definition": "unresolved",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001652044-26-000084",
+          "filed": "2026-10-29",
+          "form": "10-Q",
+          "id": "GOOGL-0efa8facc4f3",
+          "quote": "The net proceeds received by the company were $20.5 billion which will be used for general corporate purposes, including capital expenditures to scale AI infrastructure and global compute.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+        }
+      ],
+      "high": null,
+      "id": "GOOGL-0efa8facc4f3",
+      "kind": "none",
+      "low": null,
+      "statement_date": "2026-10-28",
+      "year": null
+    },
+    {
+      "company": "GOOGL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001652044-23-000016",
+          "filed": "2023-02-03",
+          "form": "10-K",
+          "id": "GOOGL-30a76b71465b",
+          "quote": "\u2022As we continue to serve our users and expand our businesses, we will invest heavily in operating and capital expenditures.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000016/goog-20221231.htm"
+        }
+      ],
+      "high": null,
+      "id": "GOOGL-30a76b71465b",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-02-03",
+      "year": null
+    },
+    {
+      "company": "GOOGL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001652044-26-000071",
+          "filed": "2026-07-23",
+          "form": "10-Q",
+          "id": "GOOGL-4322ea1b57c8",
+          "quote": "Aggregate net proceeds were $19.0 billion which will be used for general corporate purposes, including capital expenditures to scale AI infrastructure and global compute.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm"
+        }
+      ],
+      "high": null,
+      "id": "GOOGL-4322ea1b57c8",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-07-22",
+      "year": null
+    },
+    {
+      "company": "GOOGL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001652044-24-000022",
+          "filed": "2024-01-31",
+          "form": "10-K",
+          "id": "GOOGL-586bf6865ae7",
+          "quote": "\u2022As we continue to serve our users and expand our businesses, we will invest heavily in operating and capital expenditures.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000022/goog-20231231.htm"
+        }
+      ],
+      "high": null,
+      "id": "GOOGL-586bf6865ae7",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-01-31",
+      "year": null
+    },
+    {
+      "company": "GOOGL",
+      "definition": "capex",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001652044-25-000056",
+          "filed": "2025-07-23",
+          "form": "8-K",
+          "id": "GOOGL-9eb6791813d9",
+          "quote": "With this strong and growing demand for our Cloud products and services, we are increasing our investment in capital expenditures in 2025 to approximately $85 billion and are excited by the opportunity ahead.\u201d",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000056/googexhibit991q22025.htm"
+        }
+      ],
+      "high": 85000000000,
+      "id": "GOOGL-9eb6791813d9",
+      "kind": "numeric_point",
+      "low": 85000000000,
+      "statement_date": "2025-07-23",
+      "year": 2025
+    },
+    {
+      "company": "GOOGL",
+      "definition": "capex",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001652044-26-000012",
+          "filed": "2026-02-04",
+          "form": "8-K",
+          "id": "GOOGL-a4902aedb13c",
+          "quote": "To meet customer demand and capitalize on the growing opportunities we have ahead of us, our 2026 CapEx investments are anticipated to be in the range of $175 to $185 billion.\u201d",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm"
+        }
+      ],
+      "high": 185000000000,
+      "id": "GOOGL-a4902aedb13c",
+      "kind": "numeric_range",
+      "low": 175000000000,
+      "statement_date": "2026-02-04",
+      "year": 2026
+    },
+    {
+      "company": "GOOGL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001652044-25-000014",
+          "filed": "2025-02-05",
+          "form": "10-K",
+          "id": "GOOGL-a93e24526461",
+          "quote": "\u2022As we continue to serve our users and expand our businesses, we will invest heavily in operating and capital expenditures.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm"
+        }
+      ],
+      "high": null,
+      "id": "GOOGL-a93e24526461",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-02-05",
+      "year": null
+    },
+    {
+      "company": "GOOGL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001652044-26-000018",
+          "filed": "2026-02-05",
+          "form": "10-K",
+          "id": "GOOGL-aa8941d7cb74",
+          "quote": "We invested heavily in capital expenditures in 2025 and in 2026, we expect to significantly increase, relative to 2025, our investment in our technical infrastructure, including servers and network equipment, and data centers.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm"
+        }
+      ],
+      "high": null,
+      "id": "GOOGL-aa8941d7cb74",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-02-04",
+      "year": null
+    },
+    {
+      "company": "GOOGL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001652044-26-000084",
+          "filed": "2026-10-29",
+          "form": "10-Q",
+          "id": "GOOGL-aaa8007191b1",
+          "quote": "Aggregate net proceeds were $19.0 billion which will be used for general corporate purposes, including capital expenditures to scale AI infrastructure and global compute.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+        }
+      ],
+      "high": null,
+      "id": "GOOGL-aaa8007191b1",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-10-28",
+      "year": null
+    },
+    {
+      "company": "GOOGL",
+      "definition": "capex",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001652044-25-000010",
+          "filed": "2025-02-04",
+          "form": "8-K",
+          "id": "GOOGL-bdae6435bf55",
+          "quote": "We are confident about the opportunities ahead, and to accelerate our progress, we expect to invest approximately $75 billion in capital expenditures in 2025.\u201d",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000010/googexhibit991q42024.htm"
+        }
+      ],
+      "high": 75000000000,
+      "id": "GOOGL-bdae6435bf55",
+      "kind": "numeric_point",
+      "low": 75000000000,
+      "statement_date": "2025-02-04",
+      "year": 2025
+    },
+    {
+      "company": "GOOGL",
+      "definition": "capex",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001652044-25-000087",
+          "filed": "2025-10-29",
+          "form": "8-K",
+          "id": "GOOGL-cbe5e60f03e9",
+          "quote": "\u2022With the growth across our business and demand from Cloud customers, we now expect 2025 capital expenditures to be in a range of $91 billion to $93 billion.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000087/googexhibit991q32025.htm"
+        }
+      ],
+      "high": 93000000000,
+      "id": "GOOGL-cbe5e60f03e9",
+      "kind": "numeric_range",
+      "low": 91000000000,
+      "statement_date": "2025-10-29",
+      "year": 2025
+    },
+    {
+      "company": "GOOGL",
+      "definition": "unresolved",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001652044-26-000071",
+          "filed": "2026-07-23",
+          "form": "10-Q",
+          "id": "GOOGL-d2de1d015e67",
+          "quote": "The net proceeds received by the company were $20.5 billion which will be used for general corporate purposes, including capital expenditures to scale AI infrastructure and global compute.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm"
+        }
+      ],
+      "high": null,
+      "id": "GOOGL-d2de1d015e67",
+      "kind": "none",
+      "low": null,
+      "statement_date": "2026-07-22",
+      "year": null
+    },
+    {
+      "company": "GOOGL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001652044-25-000091",
+          "filed": "2025-10-30",
+          "form": "10-Q",
+          "id": "GOOGL-e9a2680a71e1",
+          "quote": "We expect full year 2025 capital expenditures to exceed full year 2024.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm"
+        }
+      ],
+      "high": null,
+      "id": "GOOGL-e9a2680a71e1",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-10-29",
+      "year": 2025
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001326801-25-000014",
+          "filed": "2025-01-29",
+          "form": "8-K",
+          "id": "META-0022f52baf5b",
+          "quote": "The majority of our capital expenditures in 2025 will continue to be directed to our core business.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000014/meta-12312024xexhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-0022f52baf5b",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-01-29",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001326801-25-000050",
+          "filed": "2025-04-30",
+          "form": "8-K",
+          "id": "META-0b8f3f671227",
+          "quote": "The majority of our capital expenditures in 2025 will continue to be directed to our core business.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000050/meta-03312025xexhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-0b8f3f671227",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-04-30",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001326801-25-000014",
+          "filed": "2025-01-29",
+          "form": "8-K",
+          "id": "META-129ecfe84188",
+          "quote": "We expect capital expenditures growth in 2025 will be driven by increased investment to support both our generative AI efforts and core business.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000014/meta-12312024xexhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-129ecfe84188",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-01-29",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001326801-23-000100",
+          "filed": "2023-10-25",
+          "form": "8-K",
+          "id": "META-16a6514fd301",
+          "quote": "Given our increased capital investments in recent years, we expect depreciation expenses in 2024 to increase by a larger amount than in 2023.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000100/meta09302023-exhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-16a6514fd301",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-10-25",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001628280-26-066700",
+          "filed": "2026-10-21",
+          "form": "8-K",
+          "id": "META-174c0d47af55",
+          "quote": "We anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $135-145 billion, narrowed from our prior outlook of $130-145 billion.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm"
+        },
+        {
+          "accession": "0001628280-26-066773",
+          "filed": "2026-10-22",
+          "form": "10-Q",
+          "id": "META-6fd31b61c17e",
+          "quote": "We anticipate making capital expenditures of approximately $135 billion to $145 billion in 2026 to support our AI efforts and core business.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm"
+        }
+      ],
+      "high": 145000000000,
+      "id": "META-174c0d47af55",
+      "kind": "numeric_range",
+      "low": 135000000000,
+      "statement_date": "2026-10-21",
+      "year": 2026
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001628280-26-003832",
+          "filed": "2026-01-28",
+          "form": "8-K",
+          "id": "META-20b5d82cf9c7",
+          "quote": "We anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $115-135 billion, with year-over-year growth driven by increased investment to support our Meta Superintelligence Labs efforts and core business.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003832/meta-12312025xexhibit991.htm"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "id": "META-f8dc7cc176b4",
+          "quote": "We anticipate making capital expenditures of approximately $115 billion to $135 billion in 2026 to support our AI efforts and core business.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm"
+        }
+      ],
+      "high": 135000000000,
+      "id": "META-20b5d82cf9c7",
+      "kind": "numeric_range",
+      "low": 115000000000,
+      "statement_date": "2026-01-28",
+      "year": 2026
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "down",
+      "evidence": [
+        {
+          "accession": "0001326801-23-000100",
+          "filed": "2023-10-25",
+          "form": "8-K",
+          "id": "META-228d3713dc46",
+          "quote": "Please note that our outlook for 2024 expenses, capital expenditures and tax rate are preliminary estimates.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000100/meta09302023-exhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-228d3713dc46",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-10-25",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001326801-23-000013",
+          "filed": "2023-02-02",
+          "form": "10-K",
+          "id": "META-26353ce5b627",
+          "quote": "We anticipate making capital expenditures of approximately $30 billion to $33 billion in 2023.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+        }
+      ],
+      "high": 33000000000,
+      "id": "META-26353ce5b627",
+      "kind": "numeric_range",
+      "low": 30000000000,
+      "statement_date": "2023-02-01",
+      "year": 2023
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001628280-25-036719",
+          "filed": "2025-07-30",
+          "form": "8-K",
+          "id": "META-27d24bc5895b",
+          "quote": "While the infrastructure planning process remains highly dynamic, we currently expect another year of similarly significant capital expenditures dollar growth in 2026 as we continue aggressively pursuing opportunities to bring additional capacity online to meet the needs of our artificial intelligence efforts and business operations.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036719/meta-06302025xexhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-27d24bc5895b",
+      "kind": "none",
+      "low": null,
+      "statement_date": "2025-07-30",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001326801-23-000008",
+          "filed": "2023-02-01",
+          "form": "8-K",
+          "id": "META-4b7d6ad43db5",
+          "quote": "We expect capital expenditures to be in the range of $30-33 billion, lowered from our prior estimate of $34-37 billion.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000008/meta-12312022xexhibit991.htm"
+        }
+      ],
+      "high": 33000000000,
+      "id": "META-4b7d6ad43db5",
+      "kind": "numeric_range",
+      "low": 30000000000,
+      "statement_date": "2023-02-01",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001326801-23-000100",
+          "filed": "2023-10-25",
+          "form": "8-K",
+          "id": "META-50f459e4ced2",
+          "quote": "We anticipate our full-year 2024 capital expenditures will be in the range of $30-35 billion, with growth driven by investments in servers, including both non-artificial intelligence (AI) and AI hardware, and data centers as we ramp up construction on sites with the new data center architecture we announced late last year.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000100/meta09302023-exhibit991.htm"
+        }
+      ],
+      "high": 35000000000,
+      "id": "META-50f459e4ced2",
+      "kind": "numeric_range",
+      "low": 30000000000,
+      "statement_date": "2023-10-25",
+      "year": 2024
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001326801-24-000065",
+          "filed": "2024-07-31",
+          "form": "8-K",
+          "id": "META-52ff18465a18",
+          "quote": "While we continue to refine our plans for next year, we currently expect significant capital expenditures growth in 2025 as we invest to support our artificial intelligence research and product development efforts.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000065/meta-06302024xexhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-52ff18465a18",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-07-31",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001326801-24-000077",
+          "filed": "2024-10-30",
+          "form": "8-K",
+          "id": "META-579d02d3d7dd",
+          "quote": "Given this, along with the back-end weighted nature of our 2024 capital expenditures, we expect a significant acceleration in infrastructure expense growth next year as we recognize higher growth in depreciation and operating expenses of our expanded infrastructure fleet.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000077/meta-09302024xexhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-579d02d3d7dd",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-10-30",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001326801-23-000063",
+          "filed": "2023-04-26",
+          "form": "8-K",
+          "id": "META-59f76947a9c2",
+          "quote": "We expect capital expenditures to be in the range of $30-33 billion, unchanged from our prior estimate.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000063/meta03312023-exhibit991.htm"
+        }
+      ],
+      "high": 33000000000,
+      "id": "META-59f76947a9c2",
+      "kind": "numeric_range",
+      "low": 30000000000,
+      "statement_date": "2023-04-26",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001326801-23-000089",
+          "filed": "2023-07-26",
+          "form": "8-K",
+          "id": "META-5bf4d801c636",
+          "quote": "Looking ahead, while we will continue to refine our plans as we progress throughout this year, we currently expect total capital expenditures to grow in 2024, driven by our investments across both data centers and servers, particularly in support of our AI work.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000089/meta06302023-exhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-5bf4d801c636",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-07-26",
+      "year": 2024
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001326801-23-000013",
+          "filed": "2023-02-02",
+          "form": "10-K",
+          "id": "META-70705cad0ce4",
+          "quote": "We intend to use the net proceeds from the offering for general corporate purposes, which may include, but are not limited to, capital expenditures, repurchases of outstanding shares of our common stock, acquisitions, or investments.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-70705cad0ce4",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-02-01",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001326801-23-000103",
+          "filed": "2023-10-26",
+          "form": "10-Q",
+          "id": "META-75e8b40989f8",
+          "quote": "We anticipate making capital expenditures of approximately $27 billion to $29 billion and $30 billion to $35 billion in 2023 and 2024, respectively.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000103/meta-20230930.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-75e8b40989f8",
+      "kind": "none",
+      "low": null,
+      "statement_date": "2023-10-25",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001628280-25-047114",
+          "filed": "2025-10-29",
+          "form": "8-K",
+          "id": "META-766f8c9c06bc",
+          "quote": "We currently expect 2025 capital expenditures, including principal payments on finance leases, to be in the range of $70-72 billion, increased from our prior outlook of $66-72 billion.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-09302025xexhibit991.htm"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "filed": "2025-10-30",
+          "form": "10-Q",
+          "id": "META-78da308d4257",
+          "quote": "We anticipate making capital expenditures of approximately $70 billion to $72 billion in 2025 to support our core business and AI efforts, and expect significant capital expenditures growth in 2026.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
+        }
+      ],
+      "high": 72000000000,
+      "id": "META-766f8c9c06bc",
+      "kind": "numeric_range",
+      "low": 70000000000,
+      "statement_date": "2025-10-29",
+      "year": 2025
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001628280-25-047114",
+          "filed": "2025-10-29",
+          "form": "8-K",
+          "id": "META-77297c4cb424",
+          "quote": "As a result, our current expectation is that capital expenditures dollar growth will be notably larger in 2026 than 2025.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-09302025xexhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-77297c4cb424",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-10-29",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001326801-23-000089",
+          "filed": "2023-07-26",
+          "form": "8-K",
+          "id": "META-7a70f631e0cd",
+          "quote": "We expect our full-year 2023 capital expenditures to be in the range of $27-30 billion, lowered from our prior estimate of $30-33 billion.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000089/meta06302023-exhibit991.htm"
+        },
+        {
+          "accession": "0001326801-23-000093",
+          "filed": "2023-07-27",
+          "form": "10-Q",
+          "id": "META-f6f36e068c3a",
+          "quote": "We anticipate making capital expenditures of approximately $27 billion to $30 billion in 2023.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000093/meta-20230630.htm"
+        }
+      ],
+      "high": 30000000000,
+      "id": "META-7a70f631e0cd",
+      "kind": "numeric_range",
+      "low": 27000000000,
+      "statement_date": "2023-07-26",
+      "year": 2023
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001326801-24-000010",
+          "filed": "2024-02-01",
+          "form": "8-K",
+          "id": "META-7dcf3e00303f",
+          "quote": "We anticipate our full-year 2024 capital expenditures will be in the range of $30-37 billion, a $2 billion increase of the high end of our prior range.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000010/meta-12312023xexhibit991.htm"
+        },
+        {
+          "accession": "0001326801-24-000012",
+          "filed": "2024-02-02",
+          "form": "10-K",
+          "id": "META-6e73e0ba7afe",
+          "quote": "We anticipate making capital expenditures of approximately $30 billion to $37 billion in 2024.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm"
+        }
+      ],
+      "high": 37000000000,
+      "id": "META-7dcf3e00303f",
+      "kind": "numeric_range",
+      "low": 30000000000,
+      "statement_date": "2024-02-01",
+      "year": 2024
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001628280-26-050596",
+          "filed": "2026-07-29",
+          "form": "8-K",
+          "id": "META-83135f9b5d89",
+          "quote": "We anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $130-145 billion, narrowed from our prior outlook of $125-145 billion.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm"
+        },
+        {
+          "accession": "0001628280-26-050705",
+          "filed": "2026-07-30",
+          "form": "10-Q",
+          "id": "META-b3a21f961f2e",
+          "quote": "We anticipate making capital expenditures of approximately $130 billion to $145 billion in 2026 to support our AI efforts and core business.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm"
+        }
+      ],
+      "high": 145000000000,
+      "id": "META-83135f9b5d89",
+      "kind": "numeric_range",
+      "low": 130000000000,
+      "statement_date": "2026-07-29",
+      "year": 2026
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001628280-26-028364",
+          "filed": "2026-04-29",
+          "form": "8-K",
+          "id": "META-933482d0ff99",
+          "quote": "We anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $125-145 billion, increased from our prior range of $115-135 billion.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/meta-03312026xexhibit991.htm"
+        },
+        {
+          "accession": "0001628280-26-028526",
+          "filed": "2026-04-30",
+          "form": "10-Q",
+          "id": "META-374a5a3ca072",
+          "quote": "We anticipate making capital expenditures of approximately $125 billion to $145 billion in 2026 to support our AI efforts and core business.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028526/meta-20260331.htm"
+        }
+      ],
+      "high": 145000000000,
+      "id": "META-933482d0ff99",
+      "kind": "numeric_range",
+      "low": 125000000000,
+      "statement_date": "2026-04-29",
+      "year": 2026
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001326801-24-000077",
+          "filed": "2024-10-30",
+          "form": "8-K",
+          "id": "META-986faab00e1b",
+          "quote": "We continue to expect significant capital expenditures growth in 2025.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000077/meta-09302024xexhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-986faab00e1b",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-10-30",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001326801-24-000044",
+          "filed": "2024-04-24",
+          "form": "8-K",
+          "id": "META-9f65bf3b2539",
+          "quote": "While we are not providing guidance for years beyond 2024, we expect capital expenditures will continue to increase next year as we invest aggressively to support our ambitious AI research and product development efforts.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000044/meta-03312024xexhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-9f65bf3b2539",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-04-24",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001326801-23-000100",
+          "filed": "2023-10-25",
+          "form": "8-K",
+          "id": "META-ab5e515e911a",
+          "quote": "We expect 2023 capital expenditures to be in the range of $27-29 billion, updated from our prior estimate of $27-30 billion.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000100/meta09302023-exhibit991.htm"
+        }
+      ],
+      "high": 29000000000,
+      "id": "META-ab5e515e911a",
+      "kind": "numeric_range",
+      "low": 27000000000,
+      "statement_date": "2023-10-25",
+      "year": 2023
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001628280-25-047114",
+          "filed": "2025-10-29",
+          "form": "8-K",
+          "id": "META-b8134f53c05a",
+          "quote": "We anticipate this will provide further upward pressure on our capital expenditures and expense plans next year.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-09302025xexhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-b8134f53c05a",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-10-29",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001326801-23-000100",
+          "filed": "2023-10-25",
+          "form": "8-K",
+          "id": "META-bb0f6da18158",
+          "quote": "We are also sharing a preliminary outlook for 2024 expenses, capital expenditures and our tax rate.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000100/meta09302023-exhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-bb0f6da18158",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-10-25",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001326801-24-000065",
+          "filed": "2024-07-31",
+          "form": "8-K",
+          "id": "META-bbf99af5983f",
+          "quote": "We anticipate our full-year 2024 capital expenditures will be in the range of $37-40 billion, updated from our prior range of $35-40 billion.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000065/meta-06302024xexhibit991.htm"
+        },
+        {
+          "accession": "0001326801-24-000069",
+          "filed": "2024-08-01",
+          "form": "10-Q",
+          "id": "META-09641528e6b6",
+          "quote": "We anticipate making capital expenditures of approximately $37 billion to $40 billion in 2024.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000069/meta-20240630.htm"
+        }
+      ],
+      "high": 40000000000,
+      "id": "META-bbf99af5983f",
+      "kind": "numeric_range",
+      "low": 37000000000,
+      "statement_date": "2024-07-31",
+      "year": 2024
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001326801-24-000010",
+          "filed": "2024-02-01",
+          "form": "8-K",
+          "id": "META-bc5328ff1dfa",
+          "quote": "Given our increased capital investments in recent years, we expect depreciation expenses in 2024 to increase by a larger amount than in 2023.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000010/meta-12312023xexhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-bc5328ff1dfa",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-02-01",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001628280-25-036719",
+          "filed": "2025-07-30",
+          "form": "8-K",
+          "id": "META-c42ae4ac2ad9",
+          "quote": "We currently expect 2025 capital expenditures, including principal payments on finance leases, to be in the range of $66-72 billion, narrowed from our prior outlook of $64-72 billion and up approximately $30 billion year-over-year at the mid-point.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036719/meta-06302025xexhibit991.htm"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "filed": "2025-07-31",
+          "form": "10-Q",
+          "id": "META-064f97b176ad",
+          "quote": "We anticipate making capital expenditures of approximately $66 billion to $72 billion in 2025 to support our core business and AI efforts.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm"
+        }
+      ],
+      "high": 72000000000,
+      "id": "META-c42ae4ac2ad9",
+      "kind": "numeric_range",
+      "low": 66000000000,
+      "statement_date": "2025-07-30",
+      "year": 2025
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001326801-23-000089",
+          "filed": "2023-07-26",
+          "form": "8-K",
+          "id": "META-ca4926c279c8",
+          "quote": "Given our increased capital investments in recent years, we expect depreciation expenses in 2024 to increase by a larger amount than in 2023.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000089/meta06302023-exhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-ca4926c279c8",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-07-26",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001326801-24-000069",
+          "filed": "2024-08-01",
+          "form": "10-Q",
+          "id": "META-ca9f97d191ab",
+          "quote": "We currently expect our capital expenditures to grow significantly in 2025 as we invest to support our AI research and product development efforts.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000069/meta-20240630.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-ca9f97d191ab",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-07-31",
+      "year": 2025
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001326801-23-000089",
+          "filed": "2023-07-26",
+          "form": "8-K",
+          "id": "META-d316e24b28e0",
+          "quote": "The reduced forecast is due to both cost savings, particularly on non-AI servers, as well as shifts in capital expenditures into 2024 from delays in projects and equipment deliveries rather than a reduction in overall investment plans.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000089/meta06302023-exhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-d316e24b28e0",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-07-26",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001326801-25-000050",
+          "filed": "2025-04-30",
+          "form": "8-K",
+          "id": "META-e5c11ca5d93f",
+          "quote": "We anticipate our full year 2025 capital expenditures, including principal payments on finance leases, will be in the range of $64-72 billion, increased from our prior outlook of $60-65 billion.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000050/meta-03312025xexhibit991.htm"
+        },
+        {
+          "accession": "0001326801-25-000054",
+          "filed": "2025-05-01",
+          "form": "10-Q",
+          "id": "META-71ca47706da6",
+          "quote": "We anticipate making capital expenditures of approximately $64 billion to $72 billion in 2025 to support our core business and generative AI efforts.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm"
+        }
+      ],
+      "high": 72000000000,
+      "id": "META-e5c11ca5d93f",
+      "kind": "numeric_range",
+      "low": 64000000000,
+      "statement_date": "2025-04-30",
+      "year": 2025
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001326801-23-000067",
+          "filed": "2023-04-27",
+          "form": "10-Q",
+          "id": "META-e67833aed826",
+          "quote": "We anticipate making capital expenditures of approximately $30 billion to $33 billion in 2023.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000067/meta-20230331.htm"
+        }
+      ],
+      "high": 33000000000,
+      "id": "META-e67833aed826",
+      "kind": "numeric_range",
+      "low": 30000000000,
+      "statement_date": "2023-04-26",
+      "year": 2023
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001326801-23-000100",
+          "filed": "2023-10-25",
+          "form": "8-K",
+          "id": "META-e919e8372d0a",
+          "quote": "In the future, we expect to provide our initial forward year expense, capital expenditures and tax rate outlooks on the fourth quarter call.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000100/meta09302023-exhibit991.htm"
+        }
+      ],
+      "high": null,
+      "id": "META-e919e8372d0a",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-10-25",
+      "year": null
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001326801-24-000044",
+          "filed": "2024-04-24",
+          "form": "8-K",
+          "id": "META-f01132f9576c",
+          "quote": "We anticipate our full-year 2024 capital expenditures will be in the range of $35-40 billion, increased from our prior range of $30-37 billion as we continue to accelerate our infrastructure investments to support our artificial intelligence (AI) roadmap.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000044/meta-03312024xexhibit991.htm"
+        },
+        {
+          "accession": "0001326801-24-000049",
+          "filed": "2024-04-25",
+          "form": "10-Q",
+          "id": "META-ade2a0568e49",
+          "quote": "We anticipate making capital expenditures of approximately $35 billion to $40 billion in 2024.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000049/meta-20240331.htm"
+        }
+      ],
+      "high": 40000000000,
+      "id": "META-f01132f9576c",
+      "kind": "numeric_range",
+      "low": 35000000000,
+      "statement_date": "2024-04-24",
+      "year": 2024
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001326801-25-000014",
+          "filed": "2025-01-29",
+          "form": "8-K",
+          "id": "META-f16c29a5200c",
+          "quote": "We anticipate our full year 2025 capital expenditures will be in the range of $60-65 billion.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000014/meta-12312024xexhibit991.htm"
+        },
+        {
+          "accession": "0001326801-25-000017",
+          "filed": "2025-01-30",
+          "form": "10-K",
+          "id": "META-82f178df6a6d",
+          "quote": "We anticipate making capital expenditures of approximately $60 billion to $65 billion in 2025 to support our core business and generative AI efforts.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
+        }
+      ],
+      "high": 65000000000,
+      "id": "META-f16c29a5200c",
+      "kind": "numeric_range",
+      "low": 60000000000,
+      "statement_date": "2025-01-29",
+      "year": 2025
+    },
+    {
+      "company": "META",
+      "definition": "capex_lease_adjusted",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001326801-24-000077",
+          "filed": "2024-10-30",
+          "form": "8-K",
+          "id": "META-faa9f14ada3e",
+          "quote": "We anticipate our full-year 2024 capital expenditures will be in the range of $38-40 billion, updated from our prior range of $37-40 billion.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000077/meta-09302024xexhibit991.htm"
+        },
+        {
+          "accession": "0001326801-24-000081",
+          "filed": "2024-10-31",
+          "form": "10-Q",
+          "id": "META-5c77beb491c0",
+          "quote": "We anticipate making capital expenditures of approximately $38 billion to $40 billion in 2024 and continue to expect significant capital expenditures growth in 2025.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000081/meta-20240930.htm"
+        }
+      ],
+      "high": 40000000000,
+      "id": "META-faa9f14ada3e",
+      "kind": "numeric_range",
+      "low": 38000000000,
+      "statement_date": "2024-10-30",
+      "year": 2024
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-23-014423",
+          "filed": "2023-04-25",
+          "form": "10-Q",
+          "id": "MSFT-03b5d8fb0a8b",
+          "quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, material capital expenditures, and the transition tax related to the Tax Cuts and Jobs Act (\u201cTCJA\u201d), for at least the next 12 months and thereafter for the foreseeable future.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023014423/msft-20230331.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-03b5d8fb0a8b",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-04-25",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0001564590-23-000733",
+          "filed": "2023-01-24",
+          "form": "10-Q",
+          "id": "MSFT-03ff80285256",
+          "quote": "The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000156459023000733/msft-10q_20221231.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-03ff80285256",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-01-24",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0001564590-23-000733",
+          "filed": "2023-01-24",
+          "form": "10-Q",
+          "id": "MSFT-173f85635772",
+          "quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, material capital expenditures, and the transition tax related to the Tax Cuts and Jobs Act (\u201cTCJA\u201d), for at least the next 12 months and thereafter for the foreseeable future.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000156459023000733/msft-10q_20221231.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-173f85635772",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-01-24",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-23-035122",
+          "filed": "2023-07-27",
+          "form": "10-K",
+          "id": "MSFT-1dbca946ec99",
+          "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-1dbca946ec99",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-07-27",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0001193125-26-323660",
+          "filed": "2026-07-29",
+          "form": "10-K",
+          "id": "MSFT-220faf48a447",
+          "quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, and material capital expenditures, for at least the next 12 months and thereafter for the foreseeable future.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-220faf48a447",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-07-29",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0001193125-25-256321",
+          "filed": "2025-10-29",
+          "form": "10-Q",
+          "id": "MSFT-26566e150dbe",
+          "quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, and material capital expenditures, for at least the next 12 months and thereafter for the foreseeable future.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-26566e150dbe",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-10-29",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001564590-23-000733",
+          "filed": "2023-01-24",
+          "form": "10-Q",
+          "id": "MSFT-2aea0168fab8",
+          "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000156459023000733/msft-10q_20221231.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-2aea0168fab8",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-01-24",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-25-061046",
+          "filed": "2025-04-30",
+          "form": "10-Q",
+          "id": "MSFT-2cf3116e6eb1",
+          "quote": "The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-2cf3116e6eb1",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-04-30",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-24-118967",
+          "filed": "2024-10-30",
+          "form": "10-Q",
+          "id": "MSFT-300aa196b170",
+          "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-300aa196b170",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-10-30",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-25-010491",
+          "filed": "2025-01-29",
+          "form": "10-Q",
+          "id": "MSFT-322433dcaf0e",
+          "quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, material capital expenditures, and the transition tax related to the Tax Cuts and Jobs Act (\u201cTCJA\u201d), for at least the next 12 months and thereafter for the foreseeable future.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-322433dcaf0e",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-01-29",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-24-048288",
+          "filed": "2024-04-25",
+          "form": "10-Q",
+          "id": "MSFT-38292d66dc48",
+          "quote": "The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024048288/msft-20240331.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-38292d66dc48",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-04-25",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-24-118967",
+          "filed": "2024-10-30",
+          "form": "10-Q",
+          "id": "MSFT-3b28a17f1b0c",
+          "quote": "The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-3b28a17f1b0c",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-10-30",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-25-100235",
+          "filed": "2025-07-30",
+          "form": "10-K",
+          "id": "MSFT-4378b0715d01",
+          "quote": "The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-4378b0715d01",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-07-30",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0001193125-26-436133",
+          "filed": "2026-10-28",
+          "form": "10-Q",
+          "id": "MSFT-47b51ddf10f4",
+          "quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, and material capital expenditures, for at least the next 12 months and thereafter for the foreseeable future.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-47b51ddf10f4",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-10-28",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-24-118967",
+          "filed": "2024-10-30",
+          "form": "10-Q",
+          "id": "MSFT-4c4b873b07e8",
+          "quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, material capital expenditures, and the transition tax related to the Tax Cuts and Jobs Act (\u201cTCJA\u201d), for at least the next 12 months and thereafter for the foreseeable future.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-4c4b873b07e8",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-10-30",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-23-054855",
+          "filed": "2023-10-24",
+          "form": "10-Q",
+          "id": "MSFT-4f4b7add803b",
+          "quote": "The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023054855/msft-20230930.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-4f4b7add803b",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-10-24",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0001193125-26-027207",
+          "filed": "2026-01-28",
+          "form": "10-Q",
+          "id": "MSFT-53640f83ce59",
+          "quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, and material capital expenditures, for at least the next 12 months and thereafter for the foreseeable future.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/msft-20251231.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-53640f83ce59",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-01-28",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0001193125-26-191507",
+          "filed": "2026-04-29",
+          "form": "10-Q",
+          "id": "MSFT-5838363dcc8c",
+          "quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, and material capital expenditures, for at least the next 12 months and thereafter for the foreseeable future.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-5838363dcc8c",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-04-29",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0001193125-25-256321",
+          "filed": "2025-10-29",
+          "form": "10-Q",
+          "id": "MSFT-606492c92510",
+          "quote": "The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-606492c92510",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-10-29",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-23-054855",
+          "filed": "2023-10-24",
+          "form": "10-Q",
+          "id": "MSFT-62a656ce2a71",
+          "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023054855/msft-20230930.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-62a656ce2a71",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-10-24",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-25-010491",
+          "filed": "2025-01-29",
+          "form": "10-Q",
+          "id": "MSFT-6510dec9a086",
+          "quote": "The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-6510dec9a086",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-01-29",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0001193125-26-027207",
+          "filed": "2026-01-28",
+          "form": "10-Q",
+          "id": "MSFT-6aab279ffa5e",
+          "quote": "The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/msft-20251231.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-6aab279ffa5e",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-01-28",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-24-008814",
+          "filed": "2024-01-30",
+          "form": "10-Q",
+          "id": "MSFT-6b62156330b3",
+          "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024008814/msft-20231231.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-6b62156330b3",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-01-30",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001193125-26-436133",
+          "filed": "2026-10-28",
+          "form": "10-Q",
+          "id": "MSFT-766e439b47a6",
+          "quote": "We will continue to invest in capital expenditures to support growth in our cloud offerings and our investments in AI training and other infrastructure.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-766e439b47a6",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-10-28",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-25-010491",
+          "filed": "2025-01-29",
+          "form": "10-Q",
+          "id": "MSFT-7c9142ab69b1",
+          "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-7c9142ab69b1",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-01-29",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-23-054855",
+          "filed": "2023-10-24",
+          "form": "10-Q",
+          "id": "MSFT-7f5050f873ac",
+          "quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, material capital expenditures, and the transition tax related to the Tax Cuts and Jobs Act (\u201cTCJA\u201d), for at least the next 12 months and thereafter for the foreseeable future.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023054855/msft-20230930.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-7f5050f873ac",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-10-24",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-24-008814",
+          "filed": "2024-01-30",
+          "form": "10-Q",
+          "id": "MSFT-87c303ac65ce",
+          "quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, material capital expenditures, and the transition tax related to the Tax Cuts and Jobs Act (\u201cTCJA\u201d), for at least the next 12 months and thereafter for the foreseeable future.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024008814/msft-20231231.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-87c303ac65ce",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-01-30",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-25-100235",
+          "filed": "2025-07-30",
+          "form": "10-K",
+          "id": "MSFT-8ddb90de6819",
+          "quote": "We will continue to invest in capital expenditures to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-8ddb90de6819",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-07-30",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-24-048288",
+          "filed": "2024-04-25",
+          "form": "10-Q",
+          "id": "MSFT-97e0f21b42a6",
+          "quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, material capital expenditures, and the transition tax related to the Tax Cuts and Jobs Act (\u201cTCJA\u201d), for at least the next 12 months and thereafter for the foreseeable future.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024048288/msft-20240331.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-97e0f21b42a6",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-04-25",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-23-014423",
+          "filed": "2023-04-25",
+          "form": "10-Q",
+          "id": "MSFT-9c1b94d3d1c9",
+          "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in artificial intelligence infrastructure.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023014423/msft-20230331.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-9c1b94d3d1c9",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-04-25",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001193125-26-027207",
+          "filed": "2026-01-28",
+          "form": "10-Q",
+          "id": "MSFT-a224d163f564",
+          "quote": "We will continue to invest in capital expenditures to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/msft-20251231.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-a224d163f564",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-01-28",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-24-087843",
+          "filed": "2024-07-30",
+          "form": "10-K",
+          "id": "MSFT-ad61b7bd330b",
+          "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-ad61b7bd330b",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-07-30",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-24-087843",
+          "filed": "2024-07-30",
+          "form": "10-K",
+          "id": "MSFT-b2805cdd4c71",
+          "quote": "The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-b2805cdd4c71",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-07-30",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-25-061046",
+          "filed": "2025-04-30",
+          "form": "10-Q",
+          "id": "MSFT-b44ce4512f41",
+          "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-b44ce4512f41",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-04-30",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-23-014423",
+          "filed": "2023-04-25",
+          "form": "10-Q",
+          "id": "MSFT-b97c71ad0746",
+          "quote": "The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023014423/msft-20230331.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-b97c71ad0746",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-04-25",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-24-048288",
+          "filed": "2024-04-25",
+          "form": "10-Q",
+          "id": "MSFT-beceabcd3bbc",
+          "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024048288/msft-20240331.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-beceabcd3bbc",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-04-25",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-24-087843",
+          "filed": "2024-07-30",
+          "form": "10-K",
+          "id": "MSFT-d77c96d12d75",
+          "quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, material capital expenditures, and the transition tax related to the Tax Cuts and Jobs Act (\u201cTCJA\u201d), for at least the next 12 months and thereafter for the foreseeable future.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-d77c96d12d75",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-07-30",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0001193125-26-323660",
+          "filed": "2026-07-29",
+          "form": "10-K",
+          "id": "MSFT-da1d7354f38b",
+          "quote": "The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-da1d7354f38b",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-07-29",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001193125-26-323660",
+          "filed": "2026-07-29",
+          "form": "10-K",
+          "id": "MSFT-df4e56fd215b",
+          "quote": "We will continue to invest in capital expenditures to support growth in our cloud offerings and our investments in AI training and other infrastructure.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-df4e56fd215b",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-07-29",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-23-035122",
+          "filed": "2023-07-27",
+          "form": "10-K",
+          "id": "MSFT-e3a5e0a6c5bb",
+          "quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, material capital expenditures, and the transition tax related to the Tax Cuts and Jobs Act (\u201cTCJA\u201d), for at least the next 12 months and thereafter for the foreseeable future.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-e3a5e0a6c5bb",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-07-27",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-24-008814",
+          "filed": "2024-01-30",
+          "form": "10-Q",
+          "id": "MSFT-e3ee40321b25",
+          "quote": "The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024008814/msft-20231231.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-e3ee40321b25",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-01-30",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001193125-25-256321",
+          "filed": "2025-10-29",
+          "form": "10-Q",
+          "id": "MSFT-e40fa67e8d26",
+          "quote": "We will continue to invest in capital expenditures to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-e40fa67e8d26",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-10-29",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-25-061046",
+          "filed": "2025-04-30",
+          "form": "10-Q",
+          "id": "MSFT-e54bafe78c59",
+          "quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, material capital expenditures, and the transition tax related to the Tax Cuts and Jobs Act (\u201cTCJA\u201d), for at least the next 12 months and thereafter for the foreseeable future.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-e54bafe78c59",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-04-30",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0001193125-26-436133",
+          "filed": "2026-10-28",
+          "form": "10-Q",
+          "id": "MSFT-e982cb5221a5",
+          "quote": "The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-e982cb5221a5",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-10-28",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-25-100235",
+          "filed": "2025-07-30",
+          "form": "10-K",
+          "id": "MSFT-ec24a3ec280a",
+          "quote": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, material capital expenditures, and the transition tax related to the Tax Cuts and Jobs Act (\u201cTCJA\u201d), for at least the next 12 months and thereafter for the foreseeable future.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-ec24a3ec280a",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-07-30",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0000950170-23-035122",
+          "filed": "2023-07-27",
+          "form": "10-K",
+          "id": "MSFT-ed716bad49cb",
+          "quote": "The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-ed716bad49cb",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-07-27",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0001193125-26-191507",
+          "filed": "2026-04-29",
+          "form": "10-Q",
+          "id": "MSFT-f4267384617f",
+          "quote": "The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-f4267384617f",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-04-29",
+      "year": null
+    },
+    {
+      "company": "MSFT",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001193125-26-191507",
+          "filed": "2026-04-29",
+          "form": "10-Q",
+          "id": "MSFT-f9842abbda9f",
+          "quote": "We will continue to invest in capital expenditures to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm"
+        }
+      ],
+      "high": null,
+      "id": "MSFT-f9842abbda9f",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-04-29",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-24-134973",
+          "filed": "2024-12-10",
+          "form": "10-Q",
+          "id": "ORCL-24d58f8791fd",
+          "quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations, and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/orcl-20241130.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-24d58f8791fd",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-12-10",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-24-029904",
+          "filed": "2024-03-12",
+          "form": "10-Q",
+          "id": "ORCL-24febaa33152",
+          "quote": "Our unconditional purchase obligations are primarily related to capital expenditures for our data centers and a significant majority of these obligations are expected to be settled within the next twelve months.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024029904/orcl-20240229.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-24febaa33152",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-03-12",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "unresolved",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0000950170-23-047713",
+          "filed": "2023-09-12",
+          "form": "10-Q",
+          "id": "ORCL-25b9bf3b816e",
+          "quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations, and our $6.0 billion, five-year revolving credit agreement will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017023047713/orcl-20230831.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-25b9bf3b816e",
+      "kind": "none",
+      "low": null,
+      "statement_date": "2023-09-12",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-24-075605",
+          "filed": "2024-06-20",
+          "form": "10-K",
+          "id": "ORCL-28de66785419",
+          "quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations, and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-28de66785419",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-06-20",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001193125-26-101045",
+          "filed": "2026-03-11",
+          "form": "10-Q",
+          "id": "ORCL-290ea6235bd1",
+          "quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from future sales of our common stock under the ATM Program, cash generated from operations and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526101045/orcl-20260228.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-290ea6235bd1",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-03-11",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-23-069682",
+          "filed": "2023-12-12",
+          "form": "10-Q",
+          "id": "ORCL-2c3647a613cc",
+          "quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations, and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017023069682/orcl-20231130.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-2c3647a613cc",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2023-12-12",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "capex",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001193125-26-265848",
+          "filed": "2026-06-10",
+          "form": "8-K",
+          "id": "ORCL-40941c832f82",
+          "quote": "\"Safe Harbor\" Statement: Statements in this press release relating to future plans, expectations, beliefs, intentions and prospects, including statements regarding expected future revenues, cloud revenue growth, earnings per share, remaining performance obligations, future customer demand for AI and cloud infrastructure services, future capital expenditures and financing requirements, planned debt and equity financing activities, planned datacenter expansion and technology deployment, future product offerings and enhancements, anticipated benefits of AI technologies and AI-enabled healthcare solutions, expected growth of Oracle Health, future market opportunities and future dividend payments are \"forward-looking statements\" and are subject to material risks and uncertainties.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-ex99_1.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-40941c832f82",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-06-10",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-25-087926",
+          "filed": "2025-06-18",
+          "form": "10-K",
+          "id": "ORCL-40f2e441e781",
+          "quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017025087926/orcl-20250531.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-40f2e441e781",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-06-18",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "capex",
+      "direction": "down",
+      "evidence": [
+        {
+          "accession": "0001193125-26-100148",
+          "filed": "2026-03-10",
+          "form": "8-K",
+          "id": "ORCL-590117a041e3",
+          "quote": "\"Safe Harbor\" Statement: Statements in this press release relating to future plans, expectations, beliefs, intentions and prospects, including our expectations that we will not need to raise capital to support our new large-scale AI contracts signed in Q3, our intention not to issue additional bonds in calendar year 2026, growing demand for cloud computing increasing our revenue growth, expected future total revenues, expected future total Cloud revenue, expected future non-GAAP earnings per share, and expected future capital expenditures are \"forward-looking statements\" and are subject to material risks and uncertainties.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526100148/orcl-ex99_1.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-590117a041e3",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-03-10",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001193125-25-200095",
+          "filed": "2025-09-10",
+          "form": "10-Q",
+          "id": "ORCL-74c9d6d8951b",
+          "quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525200095/orcl-20250831.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-74c9d6d8951b",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-09-10",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "capex",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001193125-26-100148",
+          "filed": "2026-03-10",
+          "form": "8-K",
+          "id": "ORCL-79edcbe4a6e1",
+          "quote": "For fiscal year 2026, we expect revenue of $67 billion and capital expenditures of $50 billion.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526100148/orcl-ex99_1.htm"
+        }
+      ],
+      "high": 50000000000,
+      "id": "ORCL-79edcbe4a6e1",
+      "kind": "numeric_point",
+      "low": 50000000000,
+      "statement_date": "2026-03-10",
+      "year": 2026
+    },
+    {
+      "company": "ORCL",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0001193125-26-277521",
+          "filed": "2026-06-22",
+          "form": "10-K",
+          "id": "ORCL-7dae20ae62d0",
+          "quote": "We believe that our current cash, cash equivalents and marketable securities balances, together with cash generated from operations and available financing arrangements, will be sufficient to meet our working capital, committed capital expenditures and contractual obligations for at least the next twelve months.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-7dae20ae62d0",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-06-22",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "unresolved",
+      "direction": "flat",
+      "evidence": [
+        {
+          "accession": "0001193125-26-389274",
+          "filed": "2026-09-11",
+          "form": "10-Q",
+          "id": "ORCL-7e9fdb45f82e",
+          "quote": "We believe that our current cash, cash equivalents and marketable securities balances, together with cash generated from operations and available financing arrangements, will be sufficient to meet our working capital, committed capital expenditures and contractual obligations for at least the next twelve months.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-7e9fdb45f82e",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-09-11",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-25-037143",
+          "filed": "2025-03-11",
+          "form": "10-Q",
+          "id": "ORCL-8145d33c902e",
+          "quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations, and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017025037143/orcl-20250228.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-8145d33c902e",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-03-11",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "capex",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001193125-26-265848",
+          "filed": "2026-06-10",
+          "form": "8-K",
+          "id": "ORCL-832555bfd3eb",
+          "quote": "We believe this supplemental presentation of net cash outlay for capital expenditures is useful because it provides additional information about the cash requirement for funding of our capital expenditures and is used by management when forecasting expected capital expenditures.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-ex99_1.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-832555bfd3eb",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-06-10",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "capex",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001193125-26-387905",
+          "filed": "2026-09-10",
+          "form": "8-K",
+          "id": "ORCL-975305fbfff9",
+          "quote": "We believe this supplemental presentation of net cash outlay for capital expenditures is useful because it provides additional information about the cash requirement for funding of our capital expenditures and is used by management when forecasting expected capital expenditures.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-975305fbfff9",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-09-10",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-24-029904",
+          "filed": "2024-03-12",
+          "form": "10-Q",
+          "id": "ORCL-ac0ada9c7a0f",
+          "quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations, and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024029904/orcl-20240229.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-ac0ada9c7a0f",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-03-12",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "unresolved",
+      "direction": null,
+      "evidence": [
+        {
+          "accession": "0001564590-23-003413",
+          "filed": "2023-03-10",
+          "form": "10-Q",
+          "id": "ORCL-b9687fa1e665",
+          "quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations, and our $6.0 billion, five-year revolving credit agreement will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000156459023003413/orcl-10q_20230228.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-b9687fa1e665",
+      "kind": "none",
+      "low": null,
+      "statement_date": "2023-03-10",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "capex",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001193125-26-389274",
+          "filed": "2026-09-11",
+          "form": "10-Q",
+          "id": "ORCL-ba66de696e44",
+          "quote": "We expect our capital expenditures in fiscal 2027 to be higher than fiscal 2026 as we increase our existing data center capacity and establish data centers in new geographic locations in order to meet current and expected customer demand for our cloud offerings.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-ba66de696e44",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-09-11",
+      "year": 2027
+    },
+    {
+      "company": "ORCL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0001193125-25-315925",
+          "filed": "2025-12-11",
+          "form": "10-Q",
+          "id": "ORCL-ebce6ed178da",
+          "quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-ebce6ed178da",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2025-12-11",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "unresolved",
+      "direction": "up",
+      "evidence": [
+        {
+          "accession": "0000950170-24-104905",
+          "filed": "2024-09-10",
+          "form": "10-Q",
+          "id": "ORCL-edff150ac60b",
+          "quote": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations, and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024104905/orcl-20240831.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-edff150ac60b",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2024-09-10",
+      "year": null
+    },
+    {
+      "company": "ORCL",
+      "definition": "unresolved",
+      "direction": "down",
+      "evidence": [
+        {
+          "accession": "0001193125-26-277521",
+          "filed": "2026-06-22",
+          "form": "10-K",
+          "id": "ORCL-f0ff0fb2e20e",
+          "quote": "Our stock repurchase authorization does not have an expiration date and the pace of any future repurchase activity will depend on factors such as our working capital needs, our cash requirements for capital expenditures, acquisitions and dividend payments, our debt repayment obligations or repurchases of our debt, our stock price and economic and market conditions.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm"
+        }
+      ],
+      "high": null,
+      "id": "ORCL-f0ff0fb2e20e",
+      "kind": "directional",
+      "low": null,
+      "statement_date": "2026-06-22",
+      "year": null
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Capital spending and filed guidance | SEC capex tracker</title>
+<style>
+:root{color-scheme:light dark;--bg:#f5f7f5;--paper:#fff;--ink:#152b2a;--muted:#4b635f;--line:#cedad5;--accent:#006c58;--alt:#995314;--wash:#e2f0e9}
+@media(prefers-color-scheme:dark){:root{--bg:#101a19;--paper:#172522;--ink:#edf4ee;--muted:#b1c8be;--line:#394f49;--accent:#77ddba;--alt:#ffb57c;--wash:#233e33}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:1rem/1.55 Inter,Arial,sans-serif}
+main,header,footer{width:min(1100px,92%);margin:auto}header,footer{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--line)}
+nav,footer{display:flex;gap:1.25rem;flex-wrap:wrap}a{color:var(--accent);text-underline-offset:3px}header a,footer a{font-size:.9rem}
+h1,h2{font-family:"Source Serif 4",Georgia,serif;font-weight:500;line-height:1.03;letter-spacing:-.045em;margin:0}h1{font-size:clamp(2.7rem,6vw,5.5rem);max-width:850px}h2{font-size:clamp(2rem,4vw,3rem)}
+section{padding:clamp(2.2rem,5vw,4.5rem) 0;border-bottom:1px solid var(--line)}h3{margin:.2rem 0 .7rem}p{max-width:78ch}
+.lead{font-size:clamp(1.08rem,2vw,1.35rem);max-width:78ch}.tag,legend,label,output{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.88rem}.tag{color:var(--accent);margin:0 0 1.1rem}
+.graph{background:var(--paper);border:1px solid var(--line);border-radius:14px;margin-top:1.5rem;padding:clamp(1rem,3vw,1.8rem)}
+.graphhead,.controls,.legend{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}.legend{justify-content:flex-start;color:var(--muted);font-size:.9rem}.symbol{font-weight:800;color:var(--accent)}.secondary{color:var(--alt)}
+canvas{width:100%;height:260px;display:block;margin:1rem 0}.controls{border-top:1px solid var(--line);padding-top:.9rem;justify-content:flex-start}input[type=range]{flex:1;min-width:100px;accent-color:var(--accent)}select{font:inherit;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:5px;padding:.3rem}
+output{min-height:1.5em;display:block}.lane{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:center;gap:10px;margin:12px 0}.node{padding:.8rem;background:var(--wash);border:1px solid var(--line);border-radius:6px}.result{border-left:4px solid var(--accent);padding:.6rem 1rem;margin:1rem 0}
+details{padding:1rem 0;border-bottom:1px solid var(--line)}summary{font-weight:650;cursor:pointer}details p{margin:.6rem 0}
+table{width:100%;border-collapse:collapse;font-size:.94rem}th,td{text-align:left;padding:.6rem .7rem;border-bottom:1px solid var(--line);white-space:nowrap}th{font-weight:600;color:var(--muted)}.scroll{overflow-x:auto;background:var(--paper);border:1px solid var(--line);border-radius:8px;margin:1rem 0 1.5rem}.note{font-size:.9rem;color:var(--muted)}
+footer{justify-content:flex-start;border:0;padding:1.8rem 0 3rem}
+@media(max-width:650px){header{display:grid;gap:.35rem}nav{gap:1rem}canvas{height:220px}.lane{grid-template-columns:1fr}.lane b{display:none}.node{border-left:3px solid var(--accent)}.controls output{width:100%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head>
+<body>
+<header><strong>SEC capex tracker</strong><nav aria-label="Page sections"><a href="#guidance">Guidance</a><a href="#workflow">Workflow</a><a href="#evaluation">Evaluation</a></nav></header>
+<main>
+<section><p class="tag">Reported capital expenditure · <span id="issuerCount"></span> issuers</p><h1>Capital spending and operating cash flow</h1><p class="lead" id="headline"></p>
+<div class="graph"><div class="graphhead"><h3>Trailing four quarters</h3><div class="legend"><span><b class="symbol">━</b> Capex</span><span><b class="symbol secondary">┄</b> Operating cash flow</span></div></div>
+<canvas id="financial" role="img" aria-label="Capital expenditure and operating cash flow in billions over time. Select a quarter below for values."></canvas>
+<div class="controls"><label for="quarter">Quarter</label><input type="range" id="quarter" min="0" step="1"><output id="quarterValue" for="quarter"></output></div></div>
+<p class="note">USD billions. Each complete trailing window covers <span id="windowN"></span> company-quarters. Reported spending includes non-AI activities.</p></section>
+<section id="guidance"><h2>Guidance versus actual spending</h2><p class="lead" id="finding"></p><div class="graph"><div class="graphhead"><label for="fy">Issuer and fiscal year <select id="fy"></select></label><span class="legend">Forecast range and midpoint · Fiscal-year actual</span></div>
+<canvas id="guide" role="img" aria-label="Each approved range is plotted on its filing date, with fiscal-year actual when available."></canvas>
+<div class="controls"><label for="observation">Filing</label><input id="observation" type="range" min="0" step="1"><output id="obsValue"></output><a id="source">SEC filing</a></div></div></section>
+<section id="workflow"><h2>From SEC filing to finding</h2><div role="group" aria-label="System diagram showing two evidence paths and their join">
+<div class="lane"><span class="node">Weekly Action · XBRL facts</span><b>→</b><span class="node">Fiscal quarters and validation</span><b>→</b><span class="node">Actuals by definition</span></div>
+<div class="lane"><span class="node">Weekly Action · Filing text</span><b>→</b><span class="node">Rules and quote verification</span><b>→</b><span class="node">Corroboration or human review</span></div>
+<p class="result">Approved claims + four matched fiscal quarters → filing comparison, chart and README</p></div>
+<details open><summary>Derive the actual</summary><p>Oracle's FY2018 Q4 revenue fact repeated the full-year $39.383B. The tracker used annual minus nine months to obtain $11.014B and logged the discrepancy.</p></details>
+<details><summary>Verify a filed claim</summary><p>Meta's February 2024 release and 10-K each stated $30B to $37B for FY2024. Two source definitions included lease principal. The ledger approved one claim. <a data-doc="docs/TRACE_EXAMPLE.md">Read both filings</a></p></details>
+<details><summary>Choose the extractor</summary><p>The rules recovered all 13 held-out positives. The local model recovered five and got zero of nine dollar bounds right. Later dev runs tested separate language jobs.</p></details>
+<details><summary>Ground the quarterly paragraph</summary><p id="changed"></p><p>Amounts and directions come from a fixed plan. A rejected draft falls back to the checked template.</p></details></section>
+<section id="evaluation"><h2>What the tests measured</h2><h3>Frozen later-year test</h3><div class="scroll"><table><thead><tr><th>Extractor</th><th>Precision</th><th>Recall</th><th>Dollar bounds</th><th>All checks</th></tr></thead><tbody id="test"></tbody></table></div>
+<h3>Local dev bake-off</h3><div class="scroll"><table><thead><tr><th>Method</th><th>Precision</th><th>Recall</th><th>All checks</th><th>Extract s/item</th><th>Grounded plans</th><th>Draft s/plan</th></tr></thead><tbody id="models"></tbody></table></div>
+<p class="note">Fractions show correct / eligible. Extraction timing covers 21 dev passages. Rephrasing uses six dev-period plans. The post-fix diagnostic verified 8/13 rules predictions and is separate from the original test.</p></section></main>
+<footer><a data-doc="README.md">Repository</a><a data-doc="docs/WALKTHROUGH.md">Interview walkthrough</a><a data-doc="docs/decisions">Decisions</a><a data-doc="docs/FAILURES.md">Failure log</a><a data-doc="docs/AI_DEVELOPMENT.md">AI development</a></footer>
+<script type="application/json" id="evidence">{"issuers":5,"headline":"In the four quarters to Q3 2026, Microsoft, Alphabet, Amazon, Meta and Oracle spent $691.0B on capex, equal to 95% of their operating cash flow, up from 64% a year earlier.","finding":"Meta raised the midpoint in 9 of 9 revisions and actual spending was a median +15.5% versus the first approved midpoint (n=3 completed fiscal years), based on 13 auto-corroborated SEC claims (13/13 from Meta, pending human audit).","actuals":[{"q":"2017Q4","capex":42.604,"ocf":136.234},{"q":"2018Q1","capex":50.971,"ocf":143.06},{"q":"2018Q2","capex":57.313,"ocf":150.933},{"q":"2018Q3","capex":62.302,"ocf":161.826},{"q":"2018Q4","capex":68.172,"ocf":169.332},{"q":"2019Q1","capex":66.516,"ocf":175.695},{"q":"2019Q2","capex":67.763,"ocf":186.629},{"q":"2019Q3","capex":70.534,"ocf":189.437},{"q":"2019Q4","capex":70.648,"ocf":197.271},{"q":"2020Q1","capex":76.396,"ocf":203.768},{"q":"2020Q2","capex":79.893,"ocf":213.64},{"q":"2020Q3","capex":86.662,"ocf":225.241},{"q":"2020Q4","capex":97.009,"ocf":251.931},{"q":"2021Q1","capex":104.318,"ocf":267.526},{"q":"2021Q2","capex":114.63,"ocf":282.167},{"q":"2021Q3","capex":122.914,"ocf":294.956},{"q":"2021Q4","capex":130.717,"ocf":289.826},{"q":"2022Q1","capex":139.506,"ocf":293.822},{"q":"2022Q2","capex":146.33,"ocf":287.615},{"q":"2022Q3","capex":153.576,"ocf":284.783},{"q":"2022Q4","capex":157.762,"ocf":288.181},{"q":"2023Q1","capex":157.697,"ocf":293.569},{"q":"2023Q2","capex":154.612,"ocf":321.24},{"q":"2023Q3","capex":151.842,"ocf":357.031},{"q":"2023Q4","capex":154.162,"ocf":377.491},{"q":"2024Q1","capex":163.571,"ocf":410.955},{"q":"2024Q2","capex":183.888,"ocf":428.654},{"q":"2024Q3","capex":206.792,"ocf":441.822},{"q":"2024Q4","capex":239.087,"ocf":478.374},{"q":"2025Q1","capex":270.888,"ocf":494.067},{"q":"2025Q2","capex":312.564,"ocf":514.127},{"q":"2025Q3","capex":357.172,"ocf":558.262},{"q":"2025Q4","capex":411.528,"ocf":602.829},{"q":"2026Q1","capex":482.149,"ocf":640.539},{"q":"2026Q2","capex":566.366,"ocf":692.291},{"q":"2026Q3","capex":691.015,"ocf":723.756}],"guidance":[{"id":"META-7a70f631e0cd","company":"META","fiscal_year":"2023","date":"2023-07-26","end":"2023-12-31","series":"capex_lease_adjusted","stage":"initial","low":"27000000000","high":"30000000000","direction":"","revision_usd":"","actual":"28103000000","gap":"-0.013929824561403459","source":"https://www.sec.gov/Archives/edgar/data/1326801/000132680123000089/meta06302023-exhibit991.htm","approved_by":"auto-corroborated"},{"id":"META-7dcf3e00303f","company":"META","fiscal_year":"2024","date":"2024-02-01","end":"2024-12-31","series":"capex_lease_adjusted","stage":"initial","low":"30000000000","high":"37000000000","direction":"","revision_usd":"","actual":"39225000000","gap":"0.17089552238805972","source":"https://www.sec.gov/Archives/edgar/data/1326801/000132680124000010/meta-12312023xexhibit991.htm","approved_by":"auto-corroborated"},{"id":"META-f01132f9576c","company":"META","fiscal_year":"2024","date":"2024-04-24","end":"2024-12-31","series":"capex_lease_adjusted","stage":"revision","low":"35000000000","high":"40000000000","direction":"","revision_usd":"4000000000.0","actual":"39225000000","gap":"0.17089552238805972","source":"https://www.sec.gov/Archives/edgar/data/1326801/000132680124000044/meta-03312024xexhibit991.htm","approved_by":"auto-corroborated"},{"id":"META-bbf99af5983f","company":"META","fiscal_year":"2024","date":"2024-07-31","end":"2024-12-31","series":"capex_lease_adjusted","stage":"revision","low":"37000000000","high":"40000000000","direction":"","revision_usd":"1000000000.0","actual":"39225000000","gap":"0.17089552238805972","source":"https://www.sec.gov/Archives/edgar/data/1326801/000132680124000065/meta-06302024xexhibit991.htm","approved_by":"auto-corroborated"},{"id":"META-faa9f14ada3e","company":"META","fiscal_year":"2024","date":"2024-10-30","end":"2024-12-31","series":"capex_lease_adjusted","stage":"revision","low":"38000000000","high":"40000000000","direction":"","revision_usd":"500000000.0","actual":"39225000000","gap":"0.17089552238805972","source":"https://www.sec.gov/Archives/edgar/data/1326801/000132680124000077/meta-09302024xexhibit991.htm","approved_by":"auto-corroborated"},{"id":"META-f16c29a5200c","company":"META","fiscal_year":"2025","date":"2025-01-29","end":"2025-12-31","series":"capex_lease_adjusted","stage":"initial","low":"60000000000","high":"65000000000","direction":"","revision_usd":"","actual":"72215000000","gap":"0.15544000000000002","source":"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000014/meta-12312024xexhibit991.htm","approved_by":"auto-corroborated"},{"id":"META-e5c11ca5d93f","company":"META","fiscal_year":"2025","date":"2025-04-30","end":"2025-12-31","series":"capex_lease_adjusted","stage":"revision","low":"64000000000","high":"72000000000","direction":"","revision_usd":"5500000000.0","actual":"72215000000","gap":"0.15544000000000002","source":"https://www.sec.gov/Archives/edgar/data/1326801/000132680125000050/meta-03312025xexhibit991.htm","approved_by":"auto-corroborated"},{"id":"META-c42ae4ac2ad9","company":"META","fiscal_year":"2025","date":"2025-07-30","end":"2025-12-31","series":"capex_lease_adjusted","stage":"revision","low":"66000000000","high":"72000000000","direction":"","revision_usd":"1000000000.0","actual":"72215000000","gap":"0.15544000000000002","source":"https://www.sec.gov/Archives/edgar/data/1326801/000162828025036719/meta-06302025xexhibit991.htm","approved_by":"auto-corroborated"},{"id":"META-766f8c9c06bc","company":"META","fiscal_year":"2025","date":"2025-10-29","end":"2025-12-31","series":"capex_lease_adjusted","stage":"revision","low":"70000000000","high":"72000000000","direction":"","revision_usd":"2000000000.0","actual":"72215000000","gap":"0.15544000000000002","source":"https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-09302025xexhibit991.htm","approved_by":"auto-corroborated"},{"id":"META-20b5d82cf9c7","company":"META","fiscal_year":"2026","date":"2026-01-28","end":"2026-12-31","series":"capex_lease_adjusted","stage":"initial","low":"115000000000","high":"135000000000","direction":"","revision_usd":"","actual":"","gap":"","source":"https://www.sec.gov/Archives/edgar/data/1326801/000162828026003832/meta-12312025xexhibit991.htm","approved_by":"auto-corroborated"},{"id":"META-933482d0ff99","company":"META","fiscal_year":"2026","date":"2026-04-29","end":"2026-12-31","series":"capex_lease_adjusted","stage":"revision","low":"125000000000","high":"145000000000","direction":"","revision_usd":"10000000000.0","actual":"","gap":"","source":"https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/meta-03312026xexhibit991.htm","approved_by":"auto-corroborated"},{"id":"META-83135f9b5d89","company":"META","fiscal_year":"2026","date":"2026-07-29","end":"2026-12-31","series":"capex_lease_adjusted","stage":"revision","low":"130000000000","high":"145000000000","direction":"","revision_usd":"2500000000.0","actual":"","gap":"","source":"https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm","approved_by":"auto-corroborated"},{"id":"META-174c0d47af55","company":"META","fiscal_year":"2026","date":"2026-10-21","end":"2026-12-31","series":"capex_lease_adjusted","stage":"revision","low":"135000000000","high":"145000000000","direction":"","revision_usd":"2500000000.0","actual":"","gap":"","source":"https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm","approved_by":"auto-corroborated"}],"models":[{"name":"rules","scores":{"numeric_accuracy":{"correct":4,"n":4,"value":1.0},"period_accuracy":{"correct":7,"n":7,"value":1.0},"precision":{"correct":8,"n":8,"value":1.0},"recall":{"correct":8,"n":8,"value":1.0},"verification":{"correct":5,"n":8,"value":0.625}},"passed":0,"plans":0,"extract_seconds":0.00018571023940153065,"draft_seconds":null},{"name":"qwen2.5:1.5b-instruct","scores":{"numeric_accuracy":{"correct":0,"n":4,"value":0.0},"period_accuracy":{"correct":0,"n":7,"value":0.0},"precision":{"correct":4,"n":9,"value":0.4444444444444444},"recall":{"correct":4,"n":8,"value":0.5},"verification":{"correct":0,"n":9,"value":0.0}},"passed":6,"plans":6,"extract_seconds":2.3846966387619046,"draft_seconds":1.6056723683333332},{"name":"qwen2.5:3b-instruct","scores":{"numeric_accuracy":{"correct":0,"n":4,"value":0.0},"period_accuracy":{"correct":0,"n":7,"value":0.0},"precision":{"correct":3,"n":3,"value":1.0},"recall":{"correct":3,"n":8,"value":0.375},"verification":{"correct":0,"n":3,"value":0.0}},"passed":6,"plans":6,"extract_seconds":3.344138152809524,"draft_seconds":3.3781814165},{"name":"llama3.2:3b","scores":{"numeric_accuracy":{"correct":0,"n":4,"value":0.0},"period_accuracy":{"correct":0,"n":7,"value":0.0},"precision":{"correct":1,"n":2,"value":0.5},"recall":{"correct":1,"n":8,"value":0.125},"verification":{"correct":1,"n":2,"value":0.5}},"passed":3,"plans":6,"extract_seconds":3.3604305931428575,"draft_seconds":5.2037417496666665},{"name":"phi3.5","scores":{"numeric_accuracy":{"correct":2,"n":4,"value":0.5},"period_accuracy":{"correct":3,"n":7,"value":0.42857142857142855},"precision":{"correct":6,"n":10,"value":0.6},"recall":{"correct":6,"n":8,"value":0.75},"verification":{"correct":4,"n":10,"value":0.4}},"passed":1,"plans":6,"extract_seconds":4.16688274804762,"draft_seconds":3.236467923333333}],"test":{"ollama":{"numeric_accuracy":{"correct":0,"n":9,"value":0.0},"period_accuracy":{"correct":0,"n":13,"value":0.0},"precision":{"correct":5,"n":7,"value":0.7142857142857143},"recall":{"correct":5,"n":13,"value":0.38461538461538464},"verification":{"correct":0,"n":7,"value":0.0}},"rules":{"numeric_accuracy":{"correct":9,"n":9,"value":1.0},"period_accuracy":{"correct":13,"n":13,"value":1.0},"precision":{"correct":13,"n":13,"value":1.0},"recall":{"correct":13,"n":13,"value":1.0},"verification":{"correct":7,"n":13,"value":0.5384615384615384}}},"changed":"Aggregate capex rose from $181.5B in Q2 2026 to $230.4B in Q3 2026. Aggregate capex rose from $105.8B in Q3 2025 to $230.4B in Q3 2026. Meta guided to $135.0B to $145.0B for FY2026."}</script>
+<script>
+"use strict";
+const byId=id=>document.getElementById(id);
+const data=JSON.parse(byId("evidence").textContent);
+byId("issuerCount").textContent=data.issuers;byId("windowN").textContent=data.issuers*4;
+const money=n=>"$"+n.toFixed(1)+"B";
+const pct=(v)=>v && v.n ? v.correct+"/"+v.n : "Not measured";
+const seconds=n=>n==null?"Not measured":n.toFixed(n<0.01?4:2);
+for(const id of ["headline","finding","changed"]) byId(id).textContent=data[id];
+document.querySelectorAll("[data-doc]").forEach(a=>{
+  const kind=a.dataset.doc==="docs/decisions"?"tree":"blob";
+  a.href="https://github.com/davidgold00/capex-tracker-ai/"+kind+"/main/"+a.dataset.doc;
+});
+function addRow(id,cells){
+  const row=byId(id).insertRow();
+  cells.forEach(value=>{row.insertCell().textContent=value});
+}
+Object.entries(data.test).forEach(([key,v])=>addRow("test",[key==="ollama"?"Qwen 1.5B":"Rules",pct(v.precision),pct(v.recall),pct(v.numeric_accuracy),pct(v.verification)]));
+data.models.forEach(m=>addRow("models",[m.name,pct(m.scores.precision),pct(m.scores.recall),pct(m.scores.verification),seconds(m.extract_seconds),m.plans?m.passed+"/"+m.plans:"Not measured",seconds(m.draft_seconds)]));
+const groups=new Map();
+for(const r of data.guidance){
+  const key=r.company+" FY"+r.fiscal_year+" · "+(r.series==="capex_lease_adjusted"?"lease-inclusive":"reported");
+  if(!groups.has(key))groups.set(key,[]);
+  groups.get(key).push(r);
+}
+for(const key of groups.keys())byId("fy").add(new Option(key,key));
+const initialYear=[...groups.keys()].find(key=>key.startsWith("META FY2024"));
+if(initialYear)byId("fy").value=initialYear;
+const quarter=byId("quarter"),obs=byId("observation");
+quarter.max=Math.max(data.actuals.length-1,0);quarter.value=quarter.max;
+function plot(id,points){
+  const c=byId(id),ctx=c.getContext("2d"),w=c.clientWidth,h=c.clientHeight,dpr=window.devicePixelRatio||1;
+  c.width=Math.round(w*dpr);c.height=Math.round(h*dpr);ctx.scale(dpr,dpr);
+  const style=getComputedStyle(document.documentElement),color=key=>style.getPropertyValue(key).trim();
+  const pad={l:48,r:16,t:15,b:35},ww=w-pad.l-pad.r,hh=h-pad.t-pad.b;
+  if(!points.length)return;
+  const values=points.flatMap(p=>[p.a,p.b,p.lo,p.hi]).filter(Number.isFinite);
+  const top=Math.max(1,Math.ceil(Math.max(...values,1)/4)*4);
+  const xmin=points[0].x,xmax=points[points.length-1].x;
+  const x=p=>pad.l+(xmax===xmin?0.5:(p.x-xmin)/(xmax-xmin))*ww, y=v=>pad.t+(1-v/top)*hh;
+  ctx.font="12px system-ui";ctx.lineWidth=1;ctx.textAlign="right";
+  for(let i=0;i<=4;i++){const v=top*i/4;ctx.strokeStyle=color("--line");ctx.beginPath();ctx.moveTo(pad.l,y(v));ctx.lineTo(w-pad.r,y(v));ctx.stroke();ctx.fillStyle=color("--muted");ctx.fillText("$"+Math.round(v)+"B",pad.l-7,y(v)+4)}
+  const first=points[0],last=points[points.length-1];
+  ctx.textAlign="left";ctx.fillText(first.label,pad.l,h-7);
+  if(first!==last){ctx.textAlign="right";ctx.fillText(last.label,w-pad.r,h-7)}
+  for(const [which,col,dash] of [["a","--accent",[]],["b","--alt",[6,4]]]){
+    ctx.strokeStyle=color(col);ctx.lineWidth=2.5;ctx.setLineDash(dash);ctx.beginPath();let started=false;
+    for(const p of points){if(Number.isFinite(p[which])){if(started)ctx.lineTo(x(p),y(p[which]));else ctx.moveTo(x(p),y(p[which]));started=true}else started=false}ctx.stroke();ctx.setLineDash([]);
+  }
+  for(const p of points){
+    if(Number.isFinite(p.lo)){ctx.strokeStyle=color("--accent");ctx.beginPath();ctx.moveTo(x(p),y(p.lo));ctx.lineTo(x(p),y(p.hi));ctx.stroke()}
+    if(p.mark || p.annual || Number.isFinite(p.lo)){
+      const v=p.annual?p.b:p.a;
+      if(!Number.isFinite(v))continue;
+      ctx.fillStyle=color(p.annual?"--alt":"--accent");ctx.beginPath();
+      if(p.annual)ctx.rect(x(p)-4,y(v)-4,8,8);else ctx.arc(x(p),y(v),p.mark?6:3,0,2*Math.PI);
+      ctx.fill();
+    }
+  }
+}
+function drawQuarter(){
+  const i=Number(quarter.value),r=data.actuals[i];if(!r)return;
+  byId("quarterValue").textContent=r.q+" · Capex "+money(r.capex)+" · OCF "+money(r.ocf);
+  plot("financial",data.actuals.map((v,j)=>({x:j,label:v.q,a:v.capex,b:v.ocf,mark:i===j})));
+}
+function drawGuidance(){
+  const rows=groups.get(byId("fy").value)||[],i=Number(obs.value),r=rows[i];
+  if(!r){byId("obsValue").textContent="No approved observations.";return}
+  const points=rows.filter(v=>v.low!=="").map(v=>({x:Date.parse(v.date),label:v.date,
+    a:(Number(v.low)+Number(v.high))/2e9,lo:Number(v.low)/1e9,hi:Number(v.high)/1e9,mark:v===r}));
+  if(r.actual!=="")points.push({x:Date.parse(r.end),label:r.end,b:Number(r.actual)/1e9,annual:true});
+  plot("guide",points.sort((left,right)=>left.x-right.x));
+  const range=r.low===""?r.direction:money(Number(r.low)/1e9)+" to "+money(Number(r.high)/1e9);
+  byId("obsValue").textContent=r.date+" · "+range+" · Actual "+(r.actual===""?"Not measured":money(Number(r.actual)/1e9));
+  byId("source").href=r.source;
+}
+function changeYear(){obs.max=Math.max((groups.get(byId("fy").value)||[]).length-1,0);obs.value=0;drawGuidance()}
+quarter.addEventListener("input",drawQuarter);obs.addEventListener("input",drawGuidance);
+byId("fy").addEventListener("change",changeYear);
+window.addEventListener("resize",()=>{drawQuarter();drawGuidance()});
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change",()=>{drawQuarter();drawGuidance()});
+drawQuarter();changeYear();
+</script></body></html>

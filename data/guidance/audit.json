@@ -1,3 +1,1072 @@
 {
-  "decisions": {}
+  "decisions": {
+    "META-174c0d47af55": {
+      "approved_by": "auto-corroborated",
+      "decision": "approve",
+      "edits": {
+        "decision": "",
+        "edit_direction": "",
+        "edit_high": "",
+        "edit_kind": "",
+        "edit_low": "",
+        "edit_period": ""
+      },
+      "evidence_ids": [
+        "META-174c0d47af55",
+        "META-6fd31b61c17e"
+      ],
+      "reason": "Verified rules in distinct release and periodic filing",
+      "row": {
+        "accession": "0001628280-26-066700",
+        "approved_by": "auto-corroborated",
+        "calendar_end": "2026-12-31",
+        "calendar_start": "2026-01-01",
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "direction": null,
+        "dual_match": false,
+        "evidence_quote": "We anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $135-145 billion, narrowed from our prior outlook of $130-145 billion.",
+        "form": "8-K",
+        "high": 145000000000,
+        "id": "META-174c0d47af55",
+        "kind": "numeric_range",
+        "low": 135000000000,
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "period": 2026,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+        "statement_date": "2026-10-21",
+        "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+      }
+    },
+    "META-20b5d82cf9c7": {
+      "approved_by": "auto-corroborated",
+      "decision": "approve",
+      "edits": {
+        "decision": "",
+        "edit_direction": "",
+        "edit_high": "",
+        "edit_kind": "",
+        "edit_low": "",
+        "edit_period": ""
+      },
+      "evidence_ids": [
+        "META-20b5d82cf9c7",
+        "META-f8dc7cc176b4"
+      ],
+      "reason": "Verified rules in distinct release and periodic filing",
+      "row": {
+        "accession": "0001628280-26-003832",
+        "approved_by": "auto-corroborated",
+        "calendar_end": "2026-12-31",
+        "calendar_start": "2026-01-01",
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "direction": null,
+        "dual_match": false,
+        "evidence_quote": "We anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $115-135 billion, with year-over-year growth driven by increased investment to support our Meta Superintelligence Labs efforts and core business.",
+        "form": "8-K",
+        "high": 135000000000,
+        "id": "META-20b5d82cf9c7",
+        "kind": "numeric_range",
+        "low": 115000000000,
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "period": 2026,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003832/meta-12312025xexhibit991.htm",
+        "statement_date": "2026-01-28",
+        "verification": "{\"ollama\": [\"() Value error, Only numeric guidance can have dollar bounds\", \"('confidence',) Input should be less than or equal to 1\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+      }
+    },
+    "META-766f8c9c06bc": {
+      "approved_by": "auto-corroborated",
+      "decision": "approve",
+      "edits": {
+        "decision": "",
+        "edit_direction": "",
+        "edit_high": "",
+        "edit_kind": "",
+        "edit_low": "",
+        "edit_period": ""
+      },
+      "evidence_ids": [
+        "META-766f8c9c06bc",
+        "META-78da308d4257"
+      ],
+      "reason": "Verified rules in distinct release and periodic filing",
+      "row": {
+        "accession": "0001628280-25-047114",
+        "approved_by": "auto-corroborated",
+        "calendar_end": "2025-12-31",
+        "calendar_start": "2025-01-01",
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "direction": null,
+        "dual_match": false,
+        "evidence_quote": "We currently expect 2025 capital expenditures, including principal payments on finance leases, to be in the range of $70-72 billion, increased from our prior outlook of $66-72 billion.",
+        "form": "8-K",
+        "high": 72000000000,
+        "id": "META-766f8c9c06bc",
+        "kind": "numeric_range",
+        "low": 70000000000,
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "period": 2025,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-09302025xexhibit991.htm",
+        "statement_date": "2025-10-29",
+        "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+      }
+    },
+    "META-7a70f631e0cd": {
+      "approved_by": "auto-corroborated",
+      "decision": "approve",
+      "edits": {
+        "decision": "",
+        "edit_direction": "",
+        "edit_high": "",
+        "edit_kind": "",
+        "edit_low": "",
+        "edit_period": ""
+      },
+      "evidence_ids": [
+        "META-7a70f631e0cd",
+        "META-f6f36e068c3a"
+      ],
+      "reason": "Verified rules in distinct release and periodic filing",
+      "row": {
+        "accession": "0001326801-23-000089",
+        "approved_by": "auto-corroborated",
+        "calendar_end": "2023-12-31",
+        "calendar_start": "2023-01-01",
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "direction": null,
+        "dual_match": false,
+        "evidence_quote": "We expect our full-year 2023 capital expenditures to be in the range of $27-30 billion, lowered from our prior estimate of $30-33 billion.",
+        "form": "8-K",
+        "high": 30000000000,
+        "id": "META-7a70f631e0cd",
+        "kind": "numeric_range",
+        "low": 27000000000,
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "period": 2023,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000089/meta06302023-exhibit991.htm",
+        "statement_date": "2023-07-26",
+        "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+      }
+    },
+    "META-7dcf3e00303f": {
+      "approved_by": "auto-corroborated",
+      "decision": "approve",
+      "edits": {
+        "decision": "",
+        "edit_direction": "",
+        "edit_high": "",
+        "edit_kind": "",
+        "edit_low": "",
+        "edit_period": ""
+      },
+      "evidence_ids": [
+        "META-7dcf3e00303f",
+        "META-6e73e0ba7afe"
+      ],
+      "reason": "Verified rules in distinct release and periodic filing",
+      "row": {
+        "accession": "0001326801-24-000010",
+        "approved_by": "auto-corroborated",
+        "calendar_end": "2024-12-31",
+        "calendar_start": "2024-01-01",
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "direction": null,
+        "dual_match": false,
+        "evidence_quote": "We anticipate our full-year 2024 capital expenditures will be in the range of $30-37 billion, a $2 billion increase of the high end of our prior range.",
+        "form": "8-K",
+        "high": 37000000000,
+        "id": "META-7dcf3e00303f",
+        "kind": "numeric_range",
+        "low": 30000000000,
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "period": 2024,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000010/meta-12312023xexhibit991.htm",
+        "statement_date": "2024-02-01",
+        "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+      }
+    },
+    "META-83135f9b5d89": {
+      "approved_by": "auto-corroborated",
+      "decision": "approve",
+      "edits": {
+        "decision": "",
+        "edit_direction": "",
+        "edit_high": "",
+        "edit_kind": "",
+        "edit_low": "",
+        "edit_period": ""
+      },
+      "evidence_ids": [
+        "META-83135f9b5d89",
+        "META-b3a21f961f2e"
+      ],
+      "reason": "Verified rules in distinct release and periodic filing",
+      "row": {
+        "accession": "0001628280-26-050596",
+        "approved_by": "auto-corroborated",
+        "calendar_end": "2026-12-31",
+        "calendar_start": "2026-01-01",
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "direction": null,
+        "dual_match": false,
+        "evidence_quote": "We anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $130-145 billion, narrowed from our prior outlook of $125-145 billion.",
+        "form": "8-K",
+        "high": 145000000000,
+        "id": "META-83135f9b5d89",
+        "kind": "numeric_range",
+        "low": 130000000000,
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "period": 2026,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm",
+        "statement_date": "2026-07-29",
+        "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+      }
+    },
+    "META-933482d0ff99": {
+      "approved_by": "auto-corroborated",
+      "decision": "approve",
+      "edits": {
+        "decision": "",
+        "edit_direction": "",
+        "edit_high": "",
+        "edit_kind": "",
+        "edit_low": "",
+        "edit_period": ""
+      },
+      "evidence_ids": [
+        "META-933482d0ff99",
+        "META-374a5a3ca072"
+      ],
+      "reason": "Verified rules in distinct release and periodic filing",
+      "row": {
+        "accession": "0001628280-26-028364",
+        "approved_by": "auto-corroborated",
+        "calendar_end": "2026-12-31",
+        "calendar_start": "2026-01-01",
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "direction": null,
+        "dual_match": false,
+        "evidence_quote": "We anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $125-145 billion, increased from our prior range of $115-135 billion.",
+        "form": "8-K",
+        "high": 145000000000,
+        "id": "META-933482d0ff99",
+        "kind": "numeric_range",
+        "low": 125000000000,
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "period": 2026,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/meta-03312026xexhibit991.htm",
+        "statement_date": "2026-04-29",
+        "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+      }
+    },
+    "META-bbf99af5983f": {
+      "approved_by": "auto-corroborated",
+      "decision": "approve",
+      "edits": {
+        "decision": "",
+        "edit_direction": "",
+        "edit_high": "",
+        "edit_kind": "",
+        "edit_low": "",
+        "edit_period": ""
+      },
+      "evidence_ids": [
+        "META-bbf99af5983f",
+        "META-09641528e6b6"
+      ],
+      "reason": "Verified rules in distinct release and periodic filing",
+      "row": {
+        "accession": "0001326801-24-000065",
+        "approved_by": "auto-corroborated",
+        "calendar_end": "2024-12-31",
+        "calendar_start": "2024-01-01",
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "direction": null,
+        "dual_match": false,
+        "evidence_quote": "We anticipate our full-year 2024 capital expenditures will be in the range of $37-40 billion, updated from our prior range of $35-40 billion.",
+        "form": "8-K",
+        "high": 40000000000,
+        "id": "META-bbf99af5983f",
+        "kind": "numeric_range",
+        "low": 37000000000,
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "period": 2024,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000065/meta-06302024xexhibit991.htm",
+        "statement_date": "2024-07-31",
+        "verification": "{\"ollama\": [\"() Value error, Only numeric guidance can have dollar bounds\", \"('confidence',) Input should be less than or equal to 1\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+      }
+    },
+    "META-c42ae4ac2ad9": {
+      "approved_by": "auto-corroborated",
+      "decision": "approve",
+      "edits": {
+        "decision": "",
+        "edit_direction": "",
+        "edit_high": "",
+        "edit_kind": "",
+        "edit_low": "",
+        "edit_period": ""
+      },
+      "evidence_ids": [
+        "META-c42ae4ac2ad9",
+        "META-064f97b176ad"
+      ],
+      "reason": "Verified rules in distinct release and periodic filing",
+      "row": {
+        "accession": "0001628280-25-036719",
+        "approved_by": "auto-corroborated",
+        "calendar_end": "2025-12-31",
+        "calendar_start": "2025-01-01",
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "direction": null,
+        "dual_match": false,
+        "evidence_quote": "We currently expect 2025 capital expenditures, including principal payments on finance leases, to be in the range of $66-72 billion, narrowed from our prior outlook of $64-72 billion and up approximately $30 billion year-over-year at the mid-point.",
+        "form": "8-K",
+        "high": 72000000000,
+        "id": "META-c42ae4ac2ad9",
+        "kind": "numeric_range",
+        "low": 66000000000,
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "period": 2025,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036719/meta-06302025xexhibit991.htm",
+        "statement_date": "2025-07-30",
+        "verification": "{\"ollama\": [\"() Value error, Only numeric guidance can have dollar bounds\", \"() Value error, Only qualitative guidance uses direction\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+      }
+    },
+    "META-e5c11ca5d93f": {
+      "approved_by": "auto-corroborated",
+      "decision": "approve",
+      "edits": {
+        "decision": "",
+        "edit_direction": "",
+        "edit_high": "",
+        "edit_kind": "",
+        "edit_low": "",
+        "edit_period": ""
+      },
+      "evidence_ids": [
+        "META-e5c11ca5d93f",
+        "META-71ca47706da6"
+      ],
+      "reason": "Verified rules in distinct release and periodic filing",
+      "row": {
+        "accession": "0001326801-25-000050",
+        "approved_by": "auto-corroborated",
+        "calendar_end": "2025-12-31",
+        "calendar_start": "2025-01-01",
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "direction": null,
+        "dual_match": false,
+        "evidence_quote": "We anticipate our full year 2025 capital expenditures, including principal payments on finance leases, will be in the range of $64-72 billion, increased from our prior outlook of $60-65 billion.",
+        "form": "8-K",
+        "high": 72000000000,
+        "id": "META-e5c11ca5d93f",
+        "kind": "numeric_range",
+        "low": 64000000000,
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "period": 2025,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000050/meta-03312025xexhibit991.htm",
+        "statement_date": "2025-04-30",
+        "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+      }
+    },
+    "META-f01132f9576c": {
+      "approved_by": "auto-corroborated",
+      "decision": "approve",
+      "edits": {
+        "decision": "",
+        "edit_direction": "",
+        "edit_high": "",
+        "edit_kind": "",
+        "edit_low": "",
+        "edit_period": ""
+      },
+      "evidence_ids": [
+        "META-f01132f9576c",
+        "META-ade2a0568e49"
+      ],
+      "reason": "Verified rules in distinct release and periodic filing",
+      "row": {
+        "accession": "0001326801-24-000044",
+        "approved_by": "auto-corroborated",
+        "calendar_end": "2024-12-31",
+        "calendar_start": "2024-01-01",
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "direction": null,
+        "dual_match": false,
+        "evidence_quote": "We anticipate our full-year 2024 capital expenditures will be in the range of $35-40 billion, increased from our prior range of $30-37 billion as we continue to accelerate our infrastructure investments to support our artificial intelligence (AI) roadmap.",
+        "form": "8-K",
+        "high": 40000000000,
+        "id": "META-f01132f9576c",
+        "kind": "numeric_range",
+        "low": 35000000000,
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "period": 2024,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000044/meta-03312024xexhibit991.htm",
+        "statement_date": "2024-04-24",
+        "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+      }
+    },
+    "META-f16c29a5200c": {
+      "approved_by": "auto-corroborated",
+      "decision": "approve",
+      "edits": {
+        "decision": "",
+        "edit_direction": "",
+        "edit_high": "",
+        "edit_kind": "",
+        "edit_low": "",
+        "edit_period": ""
+      },
+      "evidence_ids": [
+        "META-f16c29a5200c",
+        "META-82f178df6a6d"
+      ],
+      "reason": "Verified rules in distinct release and periodic filing",
+      "row": {
+        "accession": "0001326801-25-000014",
+        "approved_by": "auto-corroborated",
+        "calendar_end": "2025-12-31",
+        "calendar_start": "2025-01-01",
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "direction": null,
+        "dual_match": false,
+        "evidence_quote": "We anticipate our full year 2025 capital expenditures will be in the range of $60-65 billion.",
+        "form": "8-K",
+        "high": 65000000000,
+        "id": "META-f16c29a5200c",
+        "kind": "numeric_range",
+        "low": 60000000000,
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "period": 2025,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000014/meta-12312024xexhibit991.htm",
+        "statement_date": "2025-01-29",
+        "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+      }
+    },
+    "META-faa9f14ada3e": {
+      "approved_by": "auto-corroborated",
+      "decision": "approve",
+      "edits": {
+        "decision": "",
+        "edit_direction": "",
+        "edit_high": "",
+        "edit_kind": "",
+        "edit_low": "",
+        "edit_period": ""
+      },
+      "evidence_ids": [
+        "META-faa9f14ada3e",
+        "META-5c77beb491c0"
+      ],
+      "reason": "Verified rules in distinct release and periodic filing",
+      "row": {
+        "accession": "0001326801-24-000077",
+        "approved_by": "auto-corroborated",
+        "calendar_end": "2024-12-31",
+        "calendar_start": "2024-01-01",
+        "company": "META",
+        "comparison_series": "capex_lease_adjusted",
+        "definition_note": "Capital expenditures, including principal payments on finance leases",
+        "direction": null,
+        "dual_match": false,
+        "evidence_quote": "We anticipate our full-year 2024 capital expenditures will be in the range of $38-40 billion, updated from our prior range of $37-40 billion.",
+        "form": "8-K",
+        "high": 40000000000,
+        "id": "META-faa9f14ada3e",
+        "kind": "numeric_range",
+        "low": 38000000000,
+        "mapping_reason": "The issuer explicitly adds lease principal.",
+        "period": 2024,
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000077/meta-09302024xexhibit991.htm",
+        "statement_date": "2024-10-30",
+        "verification": "{\"ollama\": [\"() Value error, Only numeric guidance can have dollar bounds\", \"('confidence',) Input should be less than or equal to 1\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+      }
+    }
+  },
+  "history": [
+    {
+      "after": {
+        "approved_by": "auto-corroborated",
+        "decision": "approve",
+        "edits": {
+          "decision": "",
+          "edit_direction": "",
+          "edit_high": "",
+          "edit_kind": "",
+          "edit_low": "",
+          "edit_period": ""
+        },
+        "evidence_ids": [
+          "META-174c0d47af55",
+          "META-6fd31b61c17e"
+        ],
+        "reason": "Verified rules in distinct release and periodic filing",
+        "row": {
+          "accession": "0001628280-26-066700",
+          "approved_by": "auto-corroborated",
+          "calendar_end": "2026-12-31",
+          "calendar_start": "2026-01-01",
+          "company": "META",
+          "comparison_series": "capex_lease_adjusted",
+          "definition_note": "Capital expenditures, including principal payments on finance leases",
+          "direction": null,
+          "dual_match": false,
+          "evidence_quote": "We anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $135-145 billion, narrowed from our prior outlook of $130-145 billion.",
+          "form": "8-K",
+          "high": 145000000000,
+          "id": "META-174c0d47af55",
+          "kind": "numeric_range",
+          "low": 135000000000,
+          "mapping_reason": "The issuer explicitly adds lease principal.",
+          "period": 2026,
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+          "statement_date": "2026-10-21",
+          "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+        }
+      },
+      "before": null,
+      "id": "META-174c0d47af55"
+    },
+    {
+      "after": {
+        "approved_by": "auto-corroborated",
+        "decision": "approve",
+        "edits": {
+          "decision": "",
+          "edit_direction": "",
+          "edit_high": "",
+          "edit_kind": "",
+          "edit_low": "",
+          "edit_period": ""
+        },
+        "evidence_ids": [
+          "META-20b5d82cf9c7",
+          "META-f8dc7cc176b4"
+        ],
+        "reason": "Verified rules in distinct release and periodic filing",
+        "row": {
+          "accession": "0001628280-26-003832",
+          "approved_by": "auto-corroborated",
+          "calendar_end": "2026-12-31",
+          "calendar_start": "2026-01-01",
+          "company": "META",
+          "comparison_series": "capex_lease_adjusted",
+          "definition_note": "Capital expenditures, including principal payments on finance leases",
+          "direction": null,
+          "dual_match": false,
+          "evidence_quote": "We anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $115-135 billion, with year-over-year growth driven by increased investment to support our Meta Superintelligence Labs efforts and core business.",
+          "form": "8-K",
+          "high": 135000000000,
+          "id": "META-20b5d82cf9c7",
+          "kind": "numeric_range",
+          "low": 115000000000,
+          "mapping_reason": "The issuer explicitly adds lease principal.",
+          "period": 2026,
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003832/meta-12312025xexhibit991.htm",
+          "statement_date": "2026-01-28",
+          "verification": "{\"ollama\": [\"() Value error, Only numeric guidance can have dollar bounds\", \"('confidence',) Input should be less than or equal to 1\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+        }
+      },
+      "before": null,
+      "id": "META-20b5d82cf9c7"
+    },
+    {
+      "after": {
+        "approved_by": "auto-corroborated",
+        "decision": "approve",
+        "edits": {
+          "decision": "",
+          "edit_direction": "",
+          "edit_high": "",
+          "edit_kind": "",
+          "edit_low": "",
+          "edit_period": ""
+        },
+        "evidence_ids": [
+          "META-766f8c9c06bc",
+          "META-78da308d4257"
+        ],
+        "reason": "Verified rules in distinct release and periodic filing",
+        "row": {
+          "accession": "0001628280-25-047114",
+          "approved_by": "auto-corroborated",
+          "calendar_end": "2025-12-31",
+          "calendar_start": "2025-01-01",
+          "company": "META",
+          "comparison_series": "capex_lease_adjusted",
+          "definition_note": "Capital expenditures, including principal payments on finance leases",
+          "direction": null,
+          "dual_match": false,
+          "evidence_quote": "We currently expect 2025 capital expenditures, including principal payments on finance leases, to be in the range of $70-72 billion, increased from our prior outlook of $66-72 billion.",
+          "form": "8-K",
+          "high": 72000000000,
+          "id": "META-766f8c9c06bc",
+          "kind": "numeric_range",
+          "low": 70000000000,
+          "mapping_reason": "The issuer explicitly adds lease principal.",
+          "period": 2025,
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-09302025xexhibit991.htm",
+          "statement_date": "2025-10-29",
+          "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+        }
+      },
+      "before": null,
+      "id": "META-766f8c9c06bc"
+    },
+    {
+      "after": {
+        "approved_by": "auto-corroborated",
+        "decision": "approve",
+        "edits": {
+          "decision": "",
+          "edit_direction": "",
+          "edit_high": "",
+          "edit_kind": "",
+          "edit_low": "",
+          "edit_period": ""
+        },
+        "evidence_ids": [
+          "META-7a70f631e0cd",
+          "META-f6f36e068c3a"
+        ],
+        "reason": "Verified rules in distinct release and periodic filing",
+        "row": {
+          "accession": "0001326801-23-000089",
+          "approved_by": "auto-corroborated",
+          "calendar_end": "2023-12-31",
+          "calendar_start": "2023-01-01",
+          "company": "META",
+          "comparison_series": "capex_lease_adjusted",
+          "definition_note": "Capital expenditures, including principal payments on finance leases",
+          "direction": null,
+          "dual_match": false,
+          "evidence_quote": "We expect our full-year 2023 capital expenditures to be in the range of $27-30 billion, lowered from our prior estimate of $30-33 billion.",
+          "form": "8-K",
+          "high": 30000000000,
+          "id": "META-7a70f631e0cd",
+          "kind": "numeric_range",
+          "low": 27000000000,
+          "mapping_reason": "The issuer explicitly adds lease principal.",
+          "period": 2023,
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000089/meta06302023-exhibit991.htm",
+          "statement_date": "2023-07-26",
+          "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+        }
+      },
+      "before": null,
+      "id": "META-7a70f631e0cd"
+    },
+    {
+      "after": {
+        "approved_by": "auto-corroborated",
+        "decision": "approve",
+        "edits": {
+          "decision": "",
+          "edit_direction": "",
+          "edit_high": "",
+          "edit_kind": "",
+          "edit_low": "",
+          "edit_period": ""
+        },
+        "evidence_ids": [
+          "META-7dcf3e00303f",
+          "META-6e73e0ba7afe"
+        ],
+        "reason": "Verified rules in distinct release and periodic filing",
+        "row": {
+          "accession": "0001326801-24-000010",
+          "approved_by": "auto-corroborated",
+          "calendar_end": "2024-12-31",
+          "calendar_start": "2024-01-01",
+          "company": "META",
+          "comparison_series": "capex_lease_adjusted",
+          "definition_note": "Capital expenditures, including principal payments on finance leases",
+          "direction": null,
+          "dual_match": false,
+          "evidence_quote": "We anticipate our full-year 2024 capital expenditures will be in the range of $30-37 billion, a $2 billion increase of the high end of our prior range.",
+          "form": "8-K",
+          "high": 37000000000,
+          "id": "META-7dcf3e00303f",
+          "kind": "numeric_range",
+          "low": 30000000000,
+          "mapping_reason": "The issuer explicitly adds lease principal.",
+          "period": 2024,
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000010/meta-12312023xexhibit991.htm",
+          "statement_date": "2024-02-01",
+          "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+        }
+      },
+      "before": null,
+      "id": "META-7dcf3e00303f"
+    },
+    {
+      "after": {
+        "approved_by": "auto-corroborated",
+        "decision": "approve",
+        "edits": {
+          "decision": "",
+          "edit_direction": "",
+          "edit_high": "",
+          "edit_kind": "",
+          "edit_low": "",
+          "edit_period": ""
+        },
+        "evidence_ids": [
+          "META-83135f9b5d89",
+          "META-b3a21f961f2e"
+        ],
+        "reason": "Verified rules in distinct release and periodic filing",
+        "row": {
+          "accession": "0001628280-26-050596",
+          "approved_by": "auto-corroborated",
+          "calendar_end": "2026-12-31",
+          "calendar_start": "2026-01-01",
+          "company": "META",
+          "comparison_series": "capex_lease_adjusted",
+          "definition_note": "Capital expenditures, including principal payments on finance leases",
+          "direction": null,
+          "dual_match": false,
+          "evidence_quote": "We anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $130-145 billion, narrowed from our prior outlook of $125-145 billion.",
+          "form": "8-K",
+          "high": 145000000000,
+          "id": "META-83135f9b5d89",
+          "kind": "numeric_range",
+          "low": 130000000000,
+          "mapping_reason": "The issuer explicitly adds lease principal.",
+          "period": 2026,
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm",
+          "statement_date": "2026-07-29",
+          "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+        }
+      },
+      "before": null,
+      "id": "META-83135f9b5d89"
+    },
+    {
+      "after": {
+        "approved_by": "auto-corroborated",
+        "decision": "approve",
+        "edits": {
+          "decision": "",
+          "edit_direction": "",
+          "edit_high": "",
+          "edit_kind": "",
+          "edit_low": "",
+          "edit_period": ""
+        },
+        "evidence_ids": [
+          "META-933482d0ff99",
+          "META-374a5a3ca072"
+        ],
+        "reason": "Verified rules in distinct release and periodic filing",
+        "row": {
+          "accession": "0001628280-26-028364",
+          "approved_by": "auto-corroborated",
+          "calendar_end": "2026-12-31",
+          "calendar_start": "2026-01-01",
+          "company": "META",
+          "comparison_series": "capex_lease_adjusted",
+          "definition_note": "Capital expenditures, including principal payments on finance leases",
+          "direction": null,
+          "dual_match": false,
+          "evidence_quote": "We anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $125-145 billion, increased from our prior range of $115-135 billion.",
+          "form": "8-K",
+          "high": 145000000000,
+          "id": "META-933482d0ff99",
+          "kind": "numeric_range",
+          "low": 125000000000,
+          "mapping_reason": "The issuer explicitly adds lease principal.",
+          "period": 2026,
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/meta-03312026xexhibit991.htm",
+          "statement_date": "2026-04-29",
+          "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+        }
+      },
+      "before": null,
+      "id": "META-933482d0ff99"
+    },
+    {
+      "after": {
+        "approved_by": "auto-corroborated",
+        "decision": "approve",
+        "edits": {
+          "decision": "",
+          "edit_direction": "",
+          "edit_high": "",
+          "edit_kind": "",
+          "edit_low": "",
+          "edit_period": ""
+        },
+        "evidence_ids": [
+          "META-bbf99af5983f",
+          "META-09641528e6b6"
+        ],
+        "reason": "Verified rules in distinct release and periodic filing",
+        "row": {
+          "accession": "0001326801-24-000065",
+          "approved_by": "auto-corroborated",
+          "calendar_end": "2024-12-31",
+          "calendar_start": "2024-01-01",
+          "company": "META",
+          "comparison_series": "capex_lease_adjusted",
+          "definition_note": "Capital expenditures, including principal payments on finance leases",
+          "direction": null,
+          "dual_match": false,
+          "evidence_quote": "We anticipate our full-year 2024 capital expenditures will be in the range of $37-40 billion, updated from our prior range of $35-40 billion.",
+          "form": "8-K",
+          "high": 40000000000,
+          "id": "META-bbf99af5983f",
+          "kind": "numeric_range",
+          "low": 37000000000,
+          "mapping_reason": "The issuer explicitly adds lease principal.",
+          "period": 2024,
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000065/meta-06302024xexhibit991.htm",
+          "statement_date": "2024-07-31",
+          "verification": "{\"ollama\": [\"() Value error, Only numeric guidance can have dollar bounds\", \"('confidence',) Input should be less than or equal to 1\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+        }
+      },
+      "before": null,
+      "id": "META-bbf99af5983f"
+    },
+    {
+      "after": {
+        "approved_by": "auto-corroborated",
+        "decision": "approve",
+        "edits": {
+          "decision": "",
+          "edit_direction": "",
+          "edit_high": "",
+          "edit_kind": "",
+          "edit_low": "",
+          "edit_period": ""
+        },
+        "evidence_ids": [
+          "META-c42ae4ac2ad9",
+          "META-064f97b176ad"
+        ],
+        "reason": "Verified rules in distinct release and periodic filing",
+        "row": {
+          "accession": "0001628280-25-036719",
+          "approved_by": "auto-corroborated",
+          "calendar_end": "2025-12-31",
+          "calendar_start": "2025-01-01",
+          "company": "META",
+          "comparison_series": "capex_lease_adjusted",
+          "definition_note": "Capital expenditures, including principal payments on finance leases",
+          "direction": null,
+          "dual_match": false,
+          "evidence_quote": "We currently expect 2025 capital expenditures, including principal payments on finance leases, to be in the range of $66-72 billion, narrowed from our prior outlook of $64-72 billion and up approximately $30 billion year-over-year at the mid-point.",
+          "form": "8-K",
+          "high": 72000000000,
+          "id": "META-c42ae4ac2ad9",
+          "kind": "numeric_range",
+          "low": 66000000000,
+          "mapping_reason": "The issuer explicitly adds lease principal.",
+          "period": 2025,
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036719/meta-06302025xexhibit991.htm",
+          "statement_date": "2025-07-30",
+          "verification": "{\"ollama\": [\"() Value error, Only numeric guidance can have dollar bounds\", \"() Value error, Only qualitative guidance uses direction\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+        }
+      },
+      "before": null,
+      "id": "META-c42ae4ac2ad9"
+    },
+    {
+      "after": {
+        "approved_by": "auto-corroborated",
+        "decision": "approve",
+        "edits": {
+          "decision": "",
+          "edit_direction": "",
+          "edit_high": "",
+          "edit_kind": "",
+          "edit_low": "",
+          "edit_period": ""
+        },
+        "evidence_ids": [
+          "META-e5c11ca5d93f",
+          "META-71ca47706da6"
+        ],
+        "reason": "Verified rules in distinct release and periodic filing",
+        "row": {
+          "accession": "0001326801-25-000050",
+          "approved_by": "auto-corroborated",
+          "calendar_end": "2025-12-31",
+          "calendar_start": "2025-01-01",
+          "company": "META",
+          "comparison_series": "capex_lease_adjusted",
+          "definition_note": "Capital expenditures, including principal payments on finance leases",
+          "direction": null,
+          "dual_match": false,
+          "evidence_quote": "We anticipate our full year 2025 capital expenditures, including principal payments on finance leases, will be in the range of $64-72 billion, increased from our prior outlook of $60-65 billion.",
+          "form": "8-K",
+          "high": 72000000000,
+          "id": "META-e5c11ca5d93f",
+          "kind": "numeric_range",
+          "low": 64000000000,
+          "mapping_reason": "The issuer explicitly adds lease principal.",
+          "period": 2025,
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000050/meta-03312025xexhibit991.htm",
+          "statement_date": "2025-04-30",
+          "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+        }
+      },
+      "before": null,
+      "id": "META-e5c11ca5d93f"
+    },
+    {
+      "after": {
+        "approved_by": "auto-corroborated",
+        "decision": "approve",
+        "edits": {
+          "decision": "",
+          "edit_direction": "",
+          "edit_high": "",
+          "edit_kind": "",
+          "edit_low": "",
+          "edit_period": ""
+        },
+        "evidence_ids": [
+          "META-f01132f9576c",
+          "META-ade2a0568e49"
+        ],
+        "reason": "Verified rules in distinct release and periodic filing",
+        "row": {
+          "accession": "0001326801-24-000044",
+          "approved_by": "auto-corroborated",
+          "calendar_end": "2024-12-31",
+          "calendar_start": "2024-01-01",
+          "company": "META",
+          "comparison_series": "capex_lease_adjusted",
+          "definition_note": "Capital expenditures, including principal payments on finance leases",
+          "direction": null,
+          "dual_match": false,
+          "evidence_quote": "We anticipate our full-year 2024 capital expenditures will be in the range of $35-40 billion, increased from our prior range of $30-37 billion as we continue to accelerate our infrastructure investments to support our artificial intelligence (AI) roadmap.",
+          "form": "8-K",
+          "high": 40000000000,
+          "id": "META-f01132f9576c",
+          "kind": "numeric_range",
+          "low": 35000000000,
+          "mapping_reason": "The issuer explicitly adds lease principal.",
+          "period": 2024,
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000044/meta-03312024xexhibit991.htm",
+          "statement_date": "2024-04-24",
+          "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+        }
+      },
+      "before": null,
+      "id": "META-f01132f9576c"
+    },
+    {
+      "after": {
+        "approved_by": "auto-corroborated",
+        "decision": "approve",
+        "edits": {
+          "decision": "",
+          "edit_direction": "",
+          "edit_high": "",
+          "edit_kind": "",
+          "edit_low": "",
+          "edit_period": ""
+        },
+        "evidence_ids": [
+          "META-f16c29a5200c",
+          "META-82f178df6a6d"
+        ],
+        "reason": "Verified rules in distinct release and periodic filing",
+        "row": {
+          "accession": "0001326801-25-000014",
+          "approved_by": "auto-corroborated",
+          "calendar_end": "2025-12-31",
+          "calendar_start": "2025-01-01",
+          "company": "META",
+          "comparison_series": "capex_lease_adjusted",
+          "definition_note": "Capital expenditures, including principal payments on finance leases",
+          "direction": null,
+          "dual_match": false,
+          "evidence_quote": "We anticipate our full year 2025 capital expenditures will be in the range of $60-65 billion.",
+          "form": "8-K",
+          "high": 65000000000,
+          "id": "META-f16c29a5200c",
+          "kind": "numeric_range",
+          "low": 60000000000,
+          "mapping_reason": "The issuer explicitly adds lease principal.",
+          "period": 2025,
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000014/meta-12312024xexhibit991.htm",
+          "statement_date": "2025-01-29",
+          "verification": "{\"ollama\": [\"('confidence',) Input should be less than or equal to 1\", \"() Value error, Only numeric guidance can have dollar bounds\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+        }
+      },
+      "before": null,
+      "id": "META-f16c29a5200c"
+    },
+    {
+      "after": {
+        "approved_by": "auto-corroborated",
+        "decision": "approve",
+        "edits": {
+          "decision": "",
+          "edit_direction": "",
+          "edit_high": "",
+          "edit_kind": "",
+          "edit_low": "",
+          "edit_period": ""
+        },
+        "evidence_ids": [
+          "META-faa9f14ada3e",
+          "META-5c77beb491c0"
+        ],
+        "reason": "Verified rules in distinct release and periodic filing",
+        "row": {
+          "accession": "0001326801-24-000077",
+          "approved_by": "auto-corroborated",
+          "calendar_end": "2024-12-31",
+          "calendar_start": "2024-01-01",
+          "company": "META",
+          "comparison_series": "capex_lease_adjusted",
+          "definition_note": "Capital expenditures, including principal payments on finance leases",
+          "direction": null,
+          "dual_match": false,
+          "evidence_quote": "We anticipate our full-year 2024 capital expenditures will be in the range of $38-40 billion, updated from our prior range of $37-40 billion.",
+          "form": "8-K",
+          "high": 40000000000,
+          "id": "META-faa9f14ada3e",
+          "kind": "numeric_range",
+          "low": 38000000000,
+          "mapping_reason": "The issuer explicitly adds lease principal.",
+          "period": 2024,
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000077/meta-09302024xexhibit991.htm",
+          "statement_date": "2024-10-30",
+          "verification": "{\"ollama\": [\"() Value error, Only numeric guidance can have dollar bounds\", \"('confidence',) Input should be less than or equal to 1\"], \"rules\": [{\"annual_period\": true, \"capex_outlook\": true, \"comparison_series\": true, \"direction\": true, \"dollars_and_units\": true, \"verbatim_quote\": true}]}"
+        }
+      },
+      "before": null,
+      "id": "META-faa9f14ada3e"
+    }
+  ]
 }

@@ -4,6 +4,7 @@ import argparse
 import hashlib
 import json
 import re
+from datetime import datetime
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -12,7 +13,14 @@ from capex_tracker.sec_client import SecClient, SecRequestError
 
 RAW = Path("data/raw/guidance")
 DATA = Path("data/guidance")
-CIKS = {"META": 1326801, "GOOGL": 1652044, "MSFT": 789019, "AMZN": 1018724, "ORCL": 1341439}
+CIKS = {
+    "META": 1326801,
+    "GOOGL": 1652044,
+    "MSFT": 789019,
+    "AMZN": 1018724,
+    "ORCL": 1341439,
+    "CRWV": 1769628,
+}
 CAPEX = re.compile(r"\b(capital (?:expenditures?|spending|investments?)|capex)\b", re.I)
 FUTURE = re.compile(
     r"\b(expect\w*|anticipat\w*|outlook|forecast\w*|guidance|project(?:ed|ions?)|"
@@ -124,11 +132,18 @@ def submissions(client, cik, refresh):
         for row in zip(
             *(
                 table[k]
-                for k in ("form", "items", "filingDate", "accessionNumber", "primaryDocument")
+                for k in (
+                    "form",
+                    "items",
+                    "filingDate",
+                    "accessionNumber",
+                    "primaryDocument",
+                    "reportDate",
+                )
             ),
             strict=True,
         ):
-            form, items, filed, _, _ = row
+            form, items, filed, *_ = row
             if filed >= "2023-01-01" and (
                 form in ("10-K", "10-Q") or (form == "8-K" and "2.02" in items)
             ):
@@ -145,14 +160,37 @@ def exhibit(client, base, accession):
     raise ValueError("EX-99.1 not located")
 
 
-def fetch(refresh=False):
-    client = SecClient(load_config())
+def results_period(text):
+    """Use the release's dated results announcement, never the forecast year."""
+    m = re.search(
+        r"financial results for the (?:quarter|three months)(?: and full year)? "
+        r"ended ([A-Za-z]+ \d{1,2}, 20\d{2})",
+        text[:2000],
+        re.I,
+    )
+    if m:
+        try:
+            return datetime.strptime(m[1], "%B %d, %Y").date().isoformat()
+        except ValueError:
+            pass
+    return None
+
+
+def fetch(refresh=False, on_new=None):
+    config = load_config()
+    client = SecClient(config)
     docs = RAW / "clean"
     docs.mkdir(parents=True, exist_ok=True)
     DATA.mkdir(parents=True, exist_ok=True)
-    manifest = []
-    for ticker, cik in CIKS.items():
-        for form, _, filed, accession, primary in submissions(client, cik, refresh):
+    path = DATA / "sources.json"
+    existing = json.loads(path.read_text()) if on_new and path.exists() else []
+    manifest = {r["accession"]: r for r in existing}
+    for company in config.spenders:
+        ticker = company.ticker
+        cik = CIKS[ticker]
+        for form, _, filed, accession, primary, report_date in submissions(client, cik, refresh):
+            if on_new and manifest.get(accession, {}).get("sha256"):
+                continue
             base = f"https://www.sec.gov/Archives/edgar/data/{cik}/{accession.replace('-', '')}/"
             row = dict(
                 company=ticker, form=form, filed=filed, accession=accession, url=base + primary
@@ -163,16 +201,21 @@ def fetch(refresh=False):
                 raw = download(client, row["url"])
                 text = clean(raw.decode("utf-8", errors="replace"), form)
                 row.update(
+                    results_period=results_period(text) if form == "8-K" else report_date,
                     sha256=digest(text),
                     raw_sha256=hashlib.sha256(raw).hexdigest(),
                     windows=len(windows(text)),
                 )
                 (docs / (accession + ".txt")).write_text(text)
             except (ValueError, SecRequestError) as error:
+                if on_new and isinstance(error, SecRequestError):
+                    raise
                 row["error"] = str(error)
-            manifest.append(row)
+            if on_new and "sha256" in row:
+                on_new(row, text)
+            manifest[accession] = row
         print(ticker, "inventoried", flush=True)
-    ordered = sorted(manifest, key=lambda r: (r["company"], r["filed"], r["accession"]))
+    ordered = sorted(manifest.values(), key=lambda r: (r["company"], r["filed"], r["accession"]))
     temp = DATA / "sources.tmp"
     temp.write_text(json.dumps(ordered, indent=2) + "\n")
     temp.replace(DATA / "sources.json")

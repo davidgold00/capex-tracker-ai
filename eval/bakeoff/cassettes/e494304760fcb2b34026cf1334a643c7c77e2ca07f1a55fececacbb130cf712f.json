@@ -1,0 +1,29 @@
+{
+  "duration_ns": 2274391625,
+  "key": "e494304760fcb2b34026cf1334a643c7c77e2ca07f1a55fececacbb130cf712f",
+  "request": {
+    "format": {
+      "properties": {
+        "paragraph": {
+          "title": "Paragraph",
+          "type": "string"
+        }
+      },
+      "required": [
+        "paragraph"
+      ],
+      "title": "Draft",
+      "type": "object"
+    },
+    "model": "qwen2.5:3b-instruct",
+    "options": {
+      "num_predict": 350,
+      "seed": 42,
+      "temperature": 0
+    },
+    "prompt": "{\"planned_facts\": [[\"Aggregate capex rose from $35.3B in Q2 2023 to $38.3B in Q3 2023.\", \"In Q3 2023, aggregate capex rose to $38.3B from $35.3B in Q2 2023.\"], [\"Aggregate capex fell from $41.0B in Q3 2022 to $38.3B in Q3 2023.\", \"In Q3 2023, aggregate capex fell to $38.3B from $41.0B in Q3 2022.\"]]}\nRepair the draft: Dollar value or its comparison period differs from the ledger; Unsupported company, period, claim or wording: In Q3 2023, aggregate capex fell from $41.0B in Q3 2022 to $38.3B.; Missing required quarter comparison or approved guidance",
+    "stream": false,
+    "system": "The planner has fixed the facts, values, periods and directions. Each planned_facts group contains allowed phrasings of one required sentence. Select exactly one complete sentence per group and join them with a space in a readable order. Return a JSON object with the paragraph field. Include no headings or commentary."
+  },
+  "response": "{\"paragraph\": \"Aggregate capex rose from $35.3B in Q2 2023 to $38.3B in Q3 2023. In Q3 2023, aggregate capex fell to $38.3B from $41.0B in Q3 2022.\"}"
+}

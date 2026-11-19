@@ -1,0 +1,66 @@
+{
+  "duration_ns": 2162506042,
+  "key": "ab1ea92ae91f63f93c53e62947f443652ceb0adbf2846704463689539a45ae1c",
+  "request": {
+    "format": {
+      "properties": {
+        "company_wide": {
+          "title": "Company Wide",
+          "type": "boolean"
+        },
+        "confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "direction": {
+          "enum": [
+            "up",
+            "down",
+            "flat",
+            "none"
+          ],
+          "title": "Direction",
+          "type": "string"
+        },
+        "quote": {
+          "title": "Quote",
+          "type": "string"
+        },
+        "year": {
+          "anyOf": [
+            {
+              "maximum": 2100,
+              "minimum": 2000,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Year"
+        }
+      },
+      "required": [
+        "direction",
+        "year",
+        "company_wide",
+        "quote",
+        "confidence"
+      ],
+      "title": "Verdict",
+      "type": "object"
+    },
+    "model": "phi3.5",
+    "options": {
+      "num_predict": 350,
+      "seed": 42,
+      "temperature": 0
+    },
+    "prompt": "{\"passage\": \"While we continue to refine our plans for next year, we currently expect significant capital expenditures growth in 2025 as we invest to support our artificial intelligence research and product development efforts.\"}",
+    "stream": false,
+    "system": "Read the issuer's SEC filing passage as evidence. Classify only an explicit forward direction for company-wide capital expenditures. Exclude liquidity, general plans to invest, historical spending, depreciation expense, segment spending, and dollar range forecasts. Use up, down, flat or none. Return the target fiscal year only if explicitly stated, otherwise null. For a positive direction, copy the exact continuous evidence from the passage, including the spending measure, direction and any year. Give confidence from 0 to 1. An unclear scope means company_wide=false."
+  },
+  "response": "{\n  \"direction\": \"up\",\n  \"year\": 2025,\n  \"company_wide\": true,\n  \"quote\": \"significant capital expenditures growth in 2025\",\n  \"confidence\": 0.95\n}"
+}

@@ -5,6 +5,7 @@
     "filed": "2023-02-02",
     "accession": "0001018724-23-000002",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000002/amzn-20221231xex991.htm",
+    "results_period": null,
     "sha256": "33bb5d5ca10dfbf4a4a2ee370d77525692f8fafdc6a865293474c0d72fcc9188",
     "raw_sha256": "bdd209358629754e245aaf25f5d3457d5f552b7997b5ff6afc6b748990ba2fda",
     "windows": 0
@@ -15,6 +16,7 @@
     "filed": "2023-02-03",
     "accession": "0001018724-23-000004",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000004/amzn-20221231.htm",
+    "results_period": "2022-12-31",
     "sha256": "468c67dac9a269b5eab594a1f85c6467ab9115465f181d53ca69423ce2d4c51d",
     "raw_sha256": "8b409b966a6e6174c3d6d759d8f68bb06a358af442a8cf885f389e79ec573997",
     "windows": 0
@@ -25,6 +27,7 @@
     "filed": "2023-04-27",
     "accession": "0001018724-23-000006",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000006/amzn-20230331xex991.htm",
+    "results_period": null,
     "sha256": "a1a44580e136125cb824e0f544dfd278b22bc59de03fff8b590bf2acf49b2eb8",
     "raw_sha256": "c1f018b7a8a188628ce46f496e597100bd84c4495567240deb3cd4ef3488a6a2",
     "windows": 0
@@ -35,6 +38,7 @@
     "filed": "2023-04-28",
     "accession": "0001018724-23-000008",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000008/amzn-20230331.htm",
+    "results_period": "2023-03-31",
     "sha256": "559cebf35e99ebf673a41a042a5439df5b14c448dea36cca3575ad1fdd330d34",
     "raw_sha256": "1c84a1829d56f332df09a6b62c12c9e2f385b6874c3c06b8b019a69c62fd6399",
     "windows": 1
@@ -45,6 +49,7 @@
     "filed": "2023-08-03",
     "accession": "0001018724-23-000010",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000010/amzn-20230630xex991.htm",
+    "results_period": null,
     "sha256": "ad74b714e35c4e9fa45db389f3a97fdae066899370872063eb148f5e99c038d3",
     "raw_sha256": "2f4ecce68dc8d85391aed6f099a2ea81eb6724fc9f72b88e16defb964ae49d5d",
     "windows": 0
@@ -55,6 +60,7 @@
     "filed": "2023-08-04",
     "accession": "0001018724-23-000012",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000012/amzn-20230630.htm",
+    "results_period": "2023-06-30",
     "sha256": "98ae026f40a881b9bf57000c70f265301577514e849b49fc2b8ab3370e59ddea",
     "raw_sha256": "7c52d88c32480555902aa73d137da8b918434fbeff798489005f925bb6605e9f",
     "windows": 1
@@ -65,6 +71,7 @@
     "filed": "2023-10-26",
     "accession": "0001018724-23-000016",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000016/amzn-20230930xex991.htm",
+    "results_period": null,
     "sha256": "902b8fb044bea88083dab89820292724759032ab74c4f3ea9902a97c49a47775",
     "raw_sha256": "7b059260a924b5132038f62eb28c68451e16e0484e9da72684622ae2f45ade1f",
     "windows": 0
@@ -75,6 +82,7 @@
     "filed": "2023-10-27",
     "accession": "0001018724-23-000018",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000018/amzn-20230930.htm",
+    "results_period": "2023-09-30",
     "sha256": "72816fc07debd1b99f2e74b47ad3bd856b62dfc2cbbf651cbed6b3f494cc40d4",
     "raw_sha256": "6757f30b3e1d32bc6f99b6b32a89c506952152a1dbf5e142e24ec16044c78c5e",
     "windows": 1
@@ -85,6 +93,7 @@
     "filed": "2024-02-01",
     "accession": "0001018724-24-000006",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000006/amzn-20231231xex991.htm",
+    "results_period": null,
     "sha256": "7e1aff6f5af3e6b2ddddc25006c9eb43f7d1bb57b40fd887e8db784b794c3d42",
     "raw_sha256": "8b22fa2f5735f0971bdf42c95e2be759407323db216330d8231b68e892067320",
     "windows": 0
@@ -95,6 +104,7 @@
     "filed": "2024-02-02",
     "accession": "0001018724-24-000008",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm",
+    "results_period": "2023-12-31",
     "sha256": "e4bd191eaaf84b39afa72091cacda6687eb107afa0b33a40441ceb4981ba725d",
     "raw_sha256": "1864bd56e0ea1374f19dd121065322e6cc51e24d996bb8377ad19c436d66db44",
     "windows": 1
@@ -105,6 +115,7 @@
     "filed": "2024-04-30",
     "accession": "0001018724-24-000081",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000081/amzn-20240331xex991.htm",
+    "results_period": null,
     "sha256": "935143c9794f207f4eae59871ce328f1ed7582f6ed117a1f338094f247496b9a",
     "raw_sha256": "c5c9522425ee50b9b422885c17b5ed90798ff0aa237ac3f2c48025923901da63",
     "windows": 1
@@ -115,6 +126,7 @@
     "filed": "2024-05-01",
     "accession": "0001018724-24-000083",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000083/amzn-20240331.htm",
+    "results_period": "2024-03-31",
     "sha256": "10a415dbe6819ee9001f90e15bcd380c6a87c8849f9f6015048f77eefe6a13fc",
     "raw_sha256": "f499a536eabed4c2458ca3d27337a0763c004f8e8362a1b9985ef60030387a18",
     "windows": 1
@@ -125,6 +137,7 @@
     "filed": "2024-08-01",
     "accession": "0001018724-24-000128",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000128/amzn-20240630xex991.htm",
+    "results_period": null,
     "sha256": "23375ec28fa2401ef1c8d22360023b6c4f7d64b24b19f88b97f77097e7809b5d",
     "raw_sha256": "ceac01d009c06cbc7a787db1f4b7f2c29fd26cbb7c19951adf9e304ee88fe985",
     "windows": 0
@@ -135,6 +148,7 @@
     "filed": "2024-08-02",
     "accession": "0001018724-24-000130",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000130/amzn-20240630.htm",
+    "results_period": "2024-06-30",
     "sha256": "5ae5a7a47bc7bdaacb3439f1571f13850a80c5a0e80fc1d4704f1b11b873dc10",
     "raw_sha256": "efbc937f7407c47ece340171419c19e5b469b1271df28fad07fba1b914d6e1ea",
     "windows": 1
@@ -145,6 +159,7 @@
     "filed": "2024-10-31",
     "accession": "0001018724-24-000158",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000158/amzn-20240930xex991.htm",
+    "results_period": null,
     "sha256": "3c412843d8b682053d6bd234a0003741ba0c3b6ad3ead35ac35c6f6319f1db46",
     "raw_sha256": "3464088ce714296811d3aee97b0df123040095776d5d5c623ea509508f130023",
     "windows": 0
@@ -155,6 +170,7 @@
     "filed": "2024-11-01",
     "accession": "0001018724-24-000161",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000161/amzn-20240930.htm",
+    "results_period": "2024-09-30",
     "sha256": "74cb2267611695fb22032fc9618c2e142a47cc54a650e76bde7f9d65e4ac1d5b",
     "raw_sha256": "351feceb156c9729b47c98acef32a2d84f9d7f62765beaf003253d3e8c863efd",
     "windows": 1
@@ -165,6 +181,7 @@
     "filed": "2025-02-06",
     "accession": "0001018724-25-000002",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000002/amzn-20241231xex991.htm",
+    "results_period": null,
     "sha256": "5249ec23fe97e1d8f1fb8baba4d6252c13d950aff6944a378a204339f194e19f",
     "raw_sha256": "bab7e95596ad922cd4edef04b02f60c8b0a26a2cca3c5850ecc60d34437f97cf",
     "windows": 0
@@ -175,6 +192,7 @@
     "filed": "2025-02-07",
     "accession": "0001018724-25-000004",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
+    "results_period": "2024-12-31",
     "sha256": "9f7f65d4a57a5d1f1dbfebde755b34ec20b43215e7575b85ce31f35263a6dd14",
     "raw_sha256": "a6ce053b296d488811bb800d8f883bd1fb5d36502c5424028c3c4395dd68763e",
     "windows": 1
@@ -185,6 +203,7 @@
     "filed": "2025-05-01",
     "accession": "0001018724-25-000034",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000034/amzn-20250331xex991.htm",
+    "results_period": null,
     "sha256": "512e3be14cf791202f8b92e4416600822ce11ab94a81bd5f8df46170fcff65c5",
     "raw_sha256": "b6223a67e007aed7c5f20f088c6edab33eb5ad586ee1851d802f69eaaf01466a",
     "windows": 0
@@ -195,6 +214,7 @@
     "filed": "2025-05-02",
     "accession": "0001018724-25-000036",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+    "results_period": "2025-03-31",
     "sha256": "8223f29893832ae3e06b2f9b0e7daf5fe3f5bda755de7317b97b57d268b7ffe6",
     "raw_sha256": "e37180be577b82df310200b1d3610202fda6872e5a7d61fe081f33a2b3023101",
     "windows": 1
@@ -205,6 +225,7 @@
     "filed": "2025-07-31",
     "accession": "0001018724-25-000084",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000084/amzn-20250630xex991.htm",
+    "results_period": null,
     "sha256": "436f1d47d67565b8333a947afda82b49b0b9714551eeb86833067789adbdc9ef",
     "raw_sha256": "831907eb9d07d10d9b3cf0ccaaccd402a3174fd2292ff736ab62580e2a01dab2",
     "windows": 0
@@ -215,6 +236,7 @@
     "filed": "2025-08-01",
     "accession": "0001018724-25-000086",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+    "results_period": "2025-06-30",
     "sha256": "ac668447568c2b1cf13db6ccf582a66e48343d33d77ba1145e3613c52babf73d",
     "raw_sha256": "ded0385afc1d6ab0789742696fc7370f1fe8e673514e845c4c5f6dd5f4378eac",
     "windows": 1
@@ -225,6 +247,7 @@
     "filed": "2025-10-30",
     "accession": "0001018724-25-000121",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000121/amzn-20250930xex991.htm",
+    "results_period": null,
     "sha256": "ca9691461d264bba48f20785758ea1c6a086bea56bad4fae73dc714e17b84fe2",
     "raw_sha256": "2be2bd88c0e1b0cbc1bfcf77859502221a7edc05bdac2d7c2660bceed7ddcb4d",
     "windows": 0
@@ -235,6 +258,7 @@
     "filed": "2025-10-31",
     "accession": "0001018724-25-000123",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+    "results_period": "2025-09-30",
     "sha256": "15347758afb3107d3ff40fd6d02bcec37261f046d5a36fa765957709994d79a5",
     "raw_sha256": "f9dc0d026ccb4168b1fdb8814dfb17a2432c194ec568379554194a9ce4b930f2",
     "windows": 1
@@ -245,6 +269,7 @@
     "filed": "2026-02-05",
     "accession": "0001018724-26-000002",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm",
+    "results_period": null,
     "sha256": "775a0f6b437b22059ad211d6f682911d59cd1b4ecbce6e3f3feee6205517d210",
     "raw_sha256": "3040e9a3a6298bf25da2a097e6c2027fd5cbacbdba30433b091d16026dc3d6a3",
     "windows": 1
@@ -255,6 +280,7 @@
     "filed": "2026-02-06",
     "accession": "0001018724-26-000004",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+    "results_period": "2025-12-31",
     "sha256": "b4bdda211b959f56e0767d29fb5bdd21232ab0147616a76e12bd4b033bd6aaea",
     "raw_sha256": "76d7a40c83edb532bfd48c1da4b1bdda1c14f0a28c8d82aa046b67855ed27f03",
     "windows": 1
@@ -265,6 +291,7 @@
     "filed": "2026-04-29",
     "accession": "0001018724-26-000012",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000012/amzn-20260331xex991.htm",
+    "results_period": null,
     "sha256": "3382cb2103673ce33e5e217b97fe27dd40dfa2192130b6ce6daa37fc815ac66a",
     "raw_sha256": "f9fb172506a8454d80c1adcfbc7c14efc5f0225f3728e3f3bb377965e8d3d202",
     "windows": 0
@@ -275,6 +302,7 @@
     "filed": "2026-04-30",
     "accession": "0001018724-26-000014",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm",
+    "results_period": "2026-03-31",
     "sha256": "fb66f05bc76b5e9871e9674db326f4be36f20e5db2d11dc56e945315c076fd89",
     "raw_sha256": "5a47c137022a163a993ca5937ee9089ec04776e80b86bd447706f0cd113ba135",
     "windows": 1
@@ -285,6 +313,7 @@
     "filed": "2026-07-30",
     "accession": "0001018724-26-000024",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm",
+    "results_period": null,
     "sha256": "1b85cd9e5215cc578bdf93b34dc19b90d9bd6601db23907d9aa8ee67fee2ef6d",
     "raw_sha256": "c48c05149809712fd31384384473b6b9710b037dc8d1f6c641d155a499dbce2a",
     "windows": 0
@@ -295,6 +324,7 @@
     "filed": "2026-07-31",
     "accession": "0001018724-26-000026",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+    "results_period": "2026-06-30",
     "sha256": "aa4b70b20168f3bbb2e2186285ab7b1d55eec84ed8096deb0849b414b03e4b56",
     "raw_sha256": "7bd2fae20369fb3871881aa159aeb413c652c0046f0f34e23b527f8409d16ac6",
     "windows": 1
@@ -305,6 +335,7 @@
     "filed": "2026-10-29",
     "accession": "0001018724-26-000038",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",
+    "results_period": null,
     "sha256": "c2117463817343c44a005cd7eb4bb0be97d6433dcac6f9a2d28941e364433987",
     "raw_sha256": "a824be9fc31a5219e9667c5f80391b3e9365f5f17223c29142d18a7372d9e79a",
     "windows": 1
@@ -315,6 +346,7 @@
     "filed": "2026-10-30",
     "accession": "0001018724-26-000040",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+    "results_period": "2026-09-30",
     "sha256": "c1272c41e396efb5830f108e296183795231f29679045d9a2f1dad3ab5325942",
     "raw_sha256": "f0f2dd95692c8d88d073a9d90b83e806b4d073d047007a8860d30cbb5863f273",
     "windows": 3
@@ -325,6 +357,7 @@
     "filed": "2023-02-02",
     "accession": "0001652044-23-000013",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000013/googexhibit991q42022.htm",
+    "results_period": null,
     "sha256": "d1aed2784132c945e4d0e47ce7b6a34b7e58a32119e9fb4d2f7dd1f3fb5d3104",
     "raw_sha256": "51832b8e46f44ce81941ab139f4b6455ce6564e9fbf91a36e0233b97f499d7d0",
     "windows": 0
@@ -335,6 +368,7 @@
     "filed": "2023-02-03",
     "accession": "0001652044-23-000016",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000016/goog-20221231.htm",
+    "results_period": "2022-12-31",
     "sha256": "36662d57059d3253369f247a300ce9f8dafcc71d303849cddf62ec0935ea0762",
     "raw_sha256": "71387fee45c562c381c73fd1de02834557be0ca414237116a2aac830102544a8",
     "windows": 1
@@ -345,6 +379,7 @@
     "filed": "2023-04-20",
     "accession": "0001652044-23-000034",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000034/googex991q12023blogpost.htm",
+    "results_period": null,
     "sha256": "bb6b11cfb96d8ee2a0ab113d4809d522582c0c550fbc2b4ac2f30a88dce5a552",
     "raw_sha256": "d3e7fc03ca457727e182fd5701a639dc19e3de7b84227da534edb6fcf23302a0",
     "windows": 0
@@ -355,6 +390,7 @@
     "filed": "2023-04-25",
     "accession": "0001652044-23-000041",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000041/googexhibit991q12023.htm",
+    "results_period": "2023-03-31",
     "sha256": "adadffb0f6cd80e4b4fa8b04e84f7db98b5bf19fc572e3e334f4bc27ecdc4f79",
     "raw_sha256": "72745d86406bfafbb1f7cf7ac36de89357a310b24fcee758d623779114848e24",
     "windows": 0
@@ -365,6 +401,7 @@
     "filed": "2023-04-26",
     "accession": "0001652044-23-000045",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000045/goog-20230331.htm",
+    "results_period": "2023-03-31",
     "sha256": "bc5ac983d84887a05df445964b7fcc550a66ae6ec4b6a5d96465818812e31e95",
     "raw_sha256": "3e07e3a9beea2536c1e2a20daae2a23c84315c7733b7afb3a676ad8fd08c8e1f",
     "windows": 0
@@ -375,6 +412,7 @@
     "filed": "2023-07-25",
     "accession": "0001652044-23-000067",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000067/googexhibit991q22023.htm",
+    "results_period": "2023-06-30",
     "sha256": "d6d8462451d0160501f1c4dfb63a3d2507ee582927bce060d00cd88a4ec41cb7",
     "raw_sha256": "8b7381eaf1c0009c2815f26afe92ed16940aef76ec50007a61d6d79244dac56f",
     "windows": 0
@@ -385,6 +423,7 @@
     "filed": "2023-07-26",
     "accession": "0001652044-23-000070",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000070/goog-20230630.htm",
+    "results_period": "2023-06-30",
     "sha256": "c0b19ed2b8ecb74b90f8db52808fbc7011a5350fed45378b40ff30d36ab130f1",
     "raw_sha256": "4ae0adb4e9ce1f989f335f2ebc9820da15e4f45367b58645f0f9fd217e213667",
     "windows": 0
@@ -395,6 +434,7 @@
     "filed": "2023-10-24",
     "accession": "0001652044-23-000088",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000088/googexhibit991q32023.htm",
+    "results_period": "2023-09-30",
     "sha256": "fd9d71bf6c0cf4d4a73e4e4e95c7a05c1d518863eadaf5d7df68832ea5ee0a6e",
     "raw_sha256": "e3f05f048aeb861386775b0ba2be9b9d3aa7bb85c48b264e37340e0a7bde7825",
     "windows": 0
@@ -405,6 +445,7 @@
     "filed": "2023-10-25",
     "accession": "0001652044-23-000094",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000094/goog-20230930.htm",
+    "results_period": "2023-09-30",
     "sha256": "13b45fb61948f42137e602fb9b751d9aea40321f140927c3c2f95e445e01e00e",
     "raw_sha256": "e47226a2c8349260a2eb98a7f10f585bfab14591016285c78db4c2beb67ffe72",
     "windows": 0
@@ -415,6 +456,7 @@
     "filed": "2024-01-30",
     "accession": "0001652044-24-000014",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000014/googexhibit991q42023.htm",
+    "results_period": null,
     "sha256": "50fdbcb9b7d4bbe28097493b91a42f2a96f851ea4d08d595cb51c4fc194e744c",
     "raw_sha256": "1fc18bdebe9f4347aa7c8a24d8dc9274ba31eede18c13b4314d147e60171ee1a",
     "windows": 0
@@ -425,6 +467,7 @@
     "filed": "2024-01-31",
     "accession": "0001652044-24-000022",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000022/goog-20231231.htm",
+    "results_period": "2023-12-31",
     "sha256": "4706702439b846ff2304768b1cd8ab6903f4548980c304cfd94a381cd3c179eb",
     "raw_sha256": "0911de86b9ae22da582f1401ae48bdab51b299b1fe1bc85279017eaf4751adbb",
     "windows": 1
@@ -435,6 +478,7 @@
     "filed": "2024-04-25",
     "accession": "0001652044-24-000047",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000047/googexhibit991q12024.htm",
+    "results_period": "2024-03-31",
     "sha256": "974f730606140cdfe59af91dd7e6d897441807ce453dcae82c7e588756ad51db",
     "raw_sha256": "f235fc17511229c5a1aa1814e79a066fccd75f27bf0f6056843ed2ccb3bd06d1",
     "windows": 0
@@ -445,6 +489,7 @@
     "filed": "2024-04-26",
     "accession": "0001652044-24-000053",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000053/goog-20240331.htm",
+    "results_period": "2024-03-31",
     "sha256": "d37e38decedcdfa5204f1bd66016057c06742d9e59cebcf369a995bc5f1ffe9e",
     "raw_sha256": "16d1f3d6cd76af50ef10dbd2cb1c654c09cb59e813b4661202109db31a30ddfb",
     "windows": 0
@@ -455,6 +500,7 @@
     "filed": "2024-07-23",
     "accession": "0001652044-24-000076",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000076/googexhibit991q22024.htm",
+    "results_period": "2024-06-30",
     "sha256": "847dfd691dac45987c863b689744082d5baa82a287b22110b7a1d0e4a1e6d5ca",
     "raw_sha256": "66568b61718475335bd9966edc200e2d641510374b83f74d46839daaa06a9b15",
     "windows": 0
@@ -465,6 +511,7 @@
     "filed": "2024-07-24",
     "accession": "0001652044-24-000079",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000079/goog-20240630.htm",
+    "results_period": "2024-06-30",
     "sha256": "cf90e9e481131d2548d3b90408f87f3f4ff6bc4a25d8499696929d5e0cd302ab",
     "raw_sha256": "ece395354068849439731781c67a79eae85e26bd5dd24faa4e19c9e5dfc38e57",
     "windows": 0
@@ -475,6 +522,7 @@
     "filed": "2024-10-29",
     "accession": "0001652044-24-000115",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000115/googexhibit991q32024.htm",
+    "results_period": "2024-09-30",
     "sha256": "13796b9fb888bc289a630ae2485cc7398182844ae12b71a24cf4e21fd65b2443",
     "raw_sha256": "2faa3156e00432beda8e3183e97409e5be4bb6cfa1af6b6c4fe4194bde73d706",
     "windows": 0
@@ -485,6 +533,7 @@
     "filed": "2024-10-30",
     "accession": "0001652044-24-000118",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000118/goog-20240930.htm",
+    "results_period": "2024-09-30",
     "sha256": "dcd27acf9ca70c7547dd8e87788e3ae7a24033dd1b9fa30194116f489e7accfb",
     "raw_sha256": "17ee01f5bf05a4c08edda4c49cd7b26bbeef7bfaf90c30c49fbd744cd6160995",
     "windows": 0
@@ -495,6 +544,7 @@
     "filed": "2025-02-04",
     "accession": "0001652044-25-000010",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000010/googexhibit991q42024.htm",
+    "results_period": null,
     "sha256": "2171828767e234d49a607a3af91d3779208d732a704ff88f186ad1d838e3d553",
     "raw_sha256": "83aab51b779c49342e81210e11d88044575b43dc72cd546556623bfa60d1c748",
     "windows": 1
@@ -505,6 +555,7 @@
     "filed": "2025-02-05",
     "accession": "0001652044-25-000014",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
+    "results_period": "2024-12-31",
     "sha256": "5ed083b63475a52370bcd44f94d947653f1ac27c46491b4cb31509dd2b494b7b",
     "raw_sha256": "e45854a50e0fe087c889629cbea50e019f5e5cdf4f808c8f230ada673dd9a194",
     "windows": 1
@@ -515,6 +566,7 @@
     "filed": "2025-04-24",
     "accession": "0001652044-25-000040",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000040/googexhibit991q12025.htm",
+    "results_period": "2025-03-31",
     "sha256": "65f2122b5c7bdcbef071914502e08a29a3a8f50180e9842cbd18a61ed25ab066",
     "raw_sha256": "b7d004b4fc2d1746b890be8c9518aa1b55c37af5a6c314370c99ec98dcf0f53b",
     "windows": 0
@@ -525,6 +577,7 @@
     "filed": "2025-04-25",
     "accession": "0001652044-25-000043",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+    "results_period": "2025-03-31",
     "sha256": "d75d58975aca89f3f57c2ff78559486de87107519ed5b6dc8d9d6aa2bebf3dfd",
     "raw_sha256": "30958deed11a5bfcead58050e3a70e8cd3187ef59c718709fb5f0ac151d17b95",
     "windows": 0
@@ -535,6 +588,7 @@
     "filed": "2025-07-23",
     "accession": "0001652044-25-000056",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000056/googexhibit991q22025.htm",
+    "results_period": "2025-06-30",
     "sha256": "0a7192ab4e9194487d0540a99abac8700778c2b548ed9f7e0203e7c75d9101b3",
     "raw_sha256": "d1024d802fad91491e4c29a52c45cfec5070816e263d34e4610361f42363fb1d",
     "windows": 1
@@ -545,6 +599,7 @@
     "filed": "2025-07-24",
     "accession": "0001652044-25-000062",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+    "results_period": "2025-06-30",
     "sha256": "22a850b38ff75dd7b2587d1fcf1cd700454871f9cf403d75220206fc6d9386e8",
     "raw_sha256": "90c1dbbe9864ea698bb0a85dba7656338e9884a1ad767d5e6750bff7973b633b",
     "windows": 0
@@ -555,6 +610,7 @@
     "filed": "2025-10-29",
     "accession": "0001652044-25-000087",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000087/googexhibit991q32025.htm",
+    "results_period": "2025-09-30",
     "sha256": "bb9ad14d484de3f7c521a32f85bf4db147d95a07beb297372c1d00a35ce80ec8",
     "raw_sha256": "035146db29dd7735e02f7704d2b9e40fdb5e09a48d9c4ed7a98c17d50fa3e7e6",
     "windows": 1
@@ -565,6 +621,7 @@
     "filed": "2025-10-30",
     "accession": "0001652044-25-000091",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+    "results_period": "2025-09-30",
     "sha256": "eae6e037e9d939c75b7a20955465139852bc0551701326ab47b30c0016d99cf4",
     "raw_sha256": "182f1db397f39d9107ad14685e6335bd9bf0fe51abe42809ba792fe4e4b3d081",
     "windows": 1
@@ -575,6 +632,7 @@
     "filed": "2026-02-04",
     "accession": "0001652044-26-000012",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm",
+    "results_period": "2025-12-31",
     "sha256": "8f32551239187340472c4a2ebf19da291ac1ad0ecb05f2a748f76c9db2fc06de",
     "raw_sha256": "19cac19147e1a5cadd4fd09d25aaf00b5c281870386a2daf21f4b13e708965e3",
     "windows": 1
@@ -585,6 +643,7 @@
     "filed": "2026-02-05",
     "accession": "0001652044-26-000018",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+    "results_period": "2025-12-31",
     "sha256": "60b2b46a5ba197534b4d2df8db919bbf85295b0c00e53cdc64d119d865baa9b1",
     "raw_sha256": "6cd47e03a34cdd6847ddeb6d90546a706fac3266e99359e0f1f4a00286497e46",
     "windows": 1
@@ -595,6 +654,7 @@
     "filed": "2026-04-29",
     "accession": "0001652044-26-000043",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000043/googexhibit991q12026.htm",
+    "results_period": "2026-03-31",
     "sha256": "59a96438dbc3f68474c60710ed756d8da2793d2cf737751bdecd03da80c45f0f",
     "raw_sha256": "e82863b6c37f3059b8795b65d2884bb1b8b98fed98e5ba977263f1da8a57db88",
     "windows": 0
@@ -605,6 +665,7 @@
     "filed": "2026-04-30",
     "accession": "0001652044-26-000048",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm",
+    "results_period": "2026-03-31",
     "sha256": "98fdcb2da210850cf2349038653dcc68059b887ada53b2d971703abc99026306",
     "raw_sha256": "e74883f95d118c0dc1488e450ad7ddfcefd137e1415601cc97e7d29c1116116e",
     "windows": 0
@@ -615,6 +676,7 @@
     "filed": "2026-07-22",
     "accession": "0001652044-26-000066",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+    "results_period": "2026-06-30",
     "sha256": "7af15cec6170e7f26a8deda463b351ec9f6ee133e06905e76a5ab35aac675640",
     "raw_sha256": "3da2f9bed3f4d73a4498c577778dc41a1ae2433f274974e2bb08345cf02ae223",
     "windows": 0
@@ -625,6 +687,7 @@
     "filed": "2026-07-23",
     "accession": "0001652044-26-000071",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+    "results_period": "2026-06-30",
     "sha256": "2b9ea8935612ecf7879a6c2a661b681e0e9f0de54862fc1744527b548b1e5807",
     "raw_sha256": "a5f7079d2449fac80bcddd812d494e364f113589f62cf944b426d51fa0ddac10",
     "windows": 2
@@ -635,6 +698,7 @@
     "filed": "2026-10-28",
     "accession": "0001652044-26-000080",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+    "results_period": "2026-09-30",
     "sha256": "cbb709e5738cbf40a788f7695727717441b173d9de951cfbbbe1b1344d4280eb",
     "raw_sha256": "142f91ec04cc02992e8119eaee516c1591a1aadfa7c1fede5ce5a3cf0ffee180",
     "windows": 0
@@ -645,6 +709,7 @@
     "filed": "2026-10-29",
     "accession": "0001652044-26-000084",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+    "results_period": "2026-09-30",
     "sha256": "d260c7695bc7d5e99d6caca19dea22d3a990e07aa3fdd5954bb25e03fee15fd1",
     "raw_sha256": "05e101ee90c126065e67822feabb1b40a91fa17cfab83bc1ac0721ff553b9fea",
     "windows": 2
@@ -655,6 +720,7 @@
     "filed": "2023-02-01",
     "accession": "0001326801-23-000008",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000008/meta-12312022xexhibit991.htm",
+    "results_period": "2022-12-31",
     "sha256": "96a34ca8d83f136300d155f5772986a44617543df64e3aa8066c7983de32cff1",
     "raw_sha256": "40bb9fd146e91c476fddd5a68985dcbe04e18f5a5cf4859a8d4969ac7dbe753d",
     "windows": 1
@@ -665,6 +731,7 @@
     "filed": "2023-02-02",
     "accession": "0001326801-23-000013",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm",
+    "results_period": "2022-12-31",
     "sha256": "4a1ef95d66bdb28ea14b97ab03ac175e716463ba3fe197b6de81ca075b617c5b",
     "raw_sha256": "9e07f09330e9bbeed681fa270d79548730d601a403c4252426d79fc1a2b2ac5d",
     "windows": 2
@@ -675,6 +742,7 @@
     "filed": "2023-04-26",
     "accession": "0001326801-23-000063",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000063/meta03312023-exhibit991.htm",
+    "results_period": "2023-03-31",
     "sha256": "ab671809ec046144732eb58061980aa22f98117c60899c971825650cfb1585b8",
     "raw_sha256": "3db142af0cf60ff9c5be01db8d8e3ce2741a53d02e6388cc5de63bd2e3be35d5",
     "windows": 1
@@ -685,6 +753,7 @@
     "filed": "2023-04-27",
     "accession": "0001326801-23-000067",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000067/meta-20230331.htm",
+    "results_period": "2023-03-31",
     "sha256": "e08655a290dd786da84394cf0e26337ec55332425bade667656b611e2cf6e6e8",
     "raw_sha256": "51c9f6a28336e94a60acd0ae66f6f72e5a229d8b76eb86378dede8a1a61567f4",
     "windows": 1
@@ -695,6 +764,7 @@
     "filed": "2023-07-26",
     "accession": "0001326801-23-000089",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000089/meta06302023-exhibit991.htm",
+    "results_period": "2023-06-30",
     "sha256": "8813cd68e60ca5edcf812e2f48529a7d27bc4f791d582560cd1771da4b2af192",
     "raw_sha256": "5b44944da2e65cd007e09c2ab5f7c58a3481bcbe7b8643e4b75e6077ac6a0883",
     "windows": 4
@@ -705,6 +775,7 @@
     "filed": "2023-07-27",
     "accession": "0001326801-23-000093",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000093/meta-20230630.htm",
+    "results_period": "2023-06-30",
     "sha256": "6178e4026958af5035e6413af575903350eaa316f1d462411f5b9484566a49b4",
     "raw_sha256": "d25de57126bdb6b732013a48c1832b462a672394ce83e3dcb529350fe83e9b87",
     "windows": 1
@@ -715,6 +786,7 @@
     "filed": "2023-10-25",
     "accession": "0001326801-23-000100",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000100/meta09302023-exhibit991.htm",
+    "results_period": "2023-09-30",
     "sha256": "fa87d964240b120cd8808d75b23879208674839c1d14b3f83630c50c3b39771e",
     "raw_sha256": "a2b78d7c51a5b99f4b16fb684107e39106a55c8e8ec08a2640dc48f3d287545a",
     "windows": 6
@@ -725,6 +797,7 @@
     "filed": "2023-10-26",
     "accession": "0001326801-23-000103",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000103/meta-20230930.htm",
+    "results_period": "2023-09-30",
     "sha256": "e406d8b7272b01558200429b834255ee624fc411761d86638e1e5b6264b81945",
     "raw_sha256": "f6046ea9bdc1752705b1280ffcc9d1bc62e05c22c5cd25652b81e5856c415806",
     "windows": 1
@@ -735,6 +808,7 @@
     "filed": "2024-02-01",
     "accession": "0001326801-24-000010",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000010/meta-12312023xexhibit991.htm",
+    "results_period": "2023-12-31",
     "sha256": "abf2a2c04ae4621f648d409e20815604f1f5d32bfc4e5d5b4d279999037db9ed",
     "raw_sha256": "496ebd4343dbf99845ebf3902c2a1d6ff7235ee9f0e9792978d087bea3883c7f",
     "windows": 2
@@ -745,6 +819,7 @@
     "filed": "2024-02-02",
     "accession": "0001326801-24-000012",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm",
+    "results_period": "2023-12-31",
     "sha256": "85364e0cba33cb294f5e780c61f6e454f69b740e6ba31b6f71c1e6531cee9d45",
     "raw_sha256": "b87edd6417296d8dfed914f9b9b2d526484feaaf18866b36271e0f15af1c5f5e",
     "windows": 1
@@ -755,6 +830,7 @@
     "filed": "2024-04-24",
     "accession": "0001326801-24-000044",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000044/meta-03312024xexhibit991.htm",
+    "results_period": "2024-03-31",
     "sha256": "a9b2aa9a26aa09bf06027f5128e9c19049b6bfa2e39aca550b60de2821da803a",
     "raw_sha256": "1f0a8cfceded4d39c4f3c9cf417806ca57a86582a8731a7ab4efd9f67655fe9b",
     "windows": 2
@@ -765,6 +841,7 @@
     "filed": "2024-04-25",
     "accession": "0001326801-24-000049",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000049/meta-20240331.htm",
+    "results_period": "2024-03-31",
     "sha256": "a09dcbd78d084897f8ea3d5f886b2a92482781442f562951cdb676dfff0ac0b6",
     "raw_sha256": "7a09b0b0c2f9e43306f74e031e72df87e3e15d2c28afb029e0c33dd43aaf2f8a",
     "windows": 1
@@ -775,6 +852,7 @@
     "filed": "2024-07-31",
     "accession": "0001326801-24-000065",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000065/meta-06302024xexhibit991.htm",
+    "results_period": "2024-06-30",
     "sha256": "78c98bb55e590c24f7065461784ca46d468b4ee13fe712bfe68e720eb898dcdf",
     "raw_sha256": "5b43617fca5af5b0eb025c67450363725378455d0594bd20c746034d08d1d8c4",
     "windows": 2
@@ -785,6 +863,7 @@
     "filed": "2024-08-01",
     "accession": "0001326801-24-000069",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000069/meta-20240630.htm",
+    "results_period": "2024-06-30",
     "sha256": "bf63dd6daab91e997a774ae356c2dd4b6754f7f9a9d8c09faef7632cc2a488ff",
     "raw_sha256": "6db837e4686467d31f7313b5359589d21bc533187250902405fe33dc31334082",
     "windows": 2
@@ -795,6 +874,7 @@
     "filed": "2024-10-30",
     "accession": "0001326801-24-000077",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000077/meta-09302024xexhibit991.htm",
+    "results_period": "2024-09-30",
     "sha256": "7ff50e39aea85518f9799750d4dfc57f2cd3c301a0ded636b97411afe47fdac0",
     "raw_sha256": "e043b9d7fa38b888de5db68ee5b11ea8d73e4e7e9b50520adb00f09fc7c00184",
     "windows": 3
@@ -805,6 +885,7 @@
     "filed": "2024-10-31",
     "accession": "0001326801-24-000081",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000081/meta-20240930.htm",
+    "results_period": "2024-09-30",
     "sha256": "8bb9478c2812f90f2ab925821e70c846a7e100e1d3cbc4764d1b25373f125dc7",
     "raw_sha256": "2d6be4087dc4d2cc5eff8d171bce282f7651fdf587dec39aed49ae776bf41ba7",
     "windows": 1
@@ -815,6 +896,7 @@
     "filed": "2025-01-29",
     "accession": "0001326801-25-000014",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000014/meta-12312024xexhibit991.htm",
+    "results_period": "2024-12-31",
     "sha256": "e7669ad60f4cf766ce9ab79cc84104d445101e2cc4dd56093eba5234c7f6edbe",
     "raw_sha256": "88b959c6a5cbfc09fe180a40d98358d82e430872bf3aa8eca0bcfd9d40309433",
     "windows": 3
@@ -825,6 +907,7 @@
     "filed": "2025-01-30",
     "accession": "0001326801-25-000017",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+    "results_period": "2024-12-31",
     "sha256": "b03dc4f410da55545ab51b37f7c7ffbe4531bd4d73d66de767cf2e2b536550f9",
     "raw_sha256": "fba414e4192914a6f92f9d527aae372cfeaf72d26853528af44c74f5d9851e0d",
     "windows": 1
@@ -835,6 +918,7 @@
     "filed": "2025-04-30",
     "accession": "0001326801-25-000050",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000050/meta-03312025xexhibit991.htm",
+    "results_period": "2025-03-31",
     "sha256": "e3fe5a7ddb9a8ec3e3306789a45db5754a09ff794fe66d93056367d7a3e34402",
     "raw_sha256": "467f17e3dee7dc4d37d939dc381c0867646aaec6b8f841529dd6bbad781028d8",
     "windows": 2
@@ -845,6 +929,7 @@
     "filed": "2025-05-01",
     "accession": "0001326801-25-000054",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+    "results_period": "2025-03-31",
     "sha256": "a637eb9be7865612627cce06f5ff654e7838412a2ff5b23d608d881553a340ff",
     "raw_sha256": "66bb52cbf602c6855e20375231feae6a8a80980cc7750004d7865b89e940404e",
     "windows": 1
@@ -855,6 +940,7 @@
     "filed": "2025-07-30",
     "accession": "0001628280-25-036719",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036719/meta-06302025xexhibit991.htm",
+    "results_period": "2025-06-30",
     "sha256": "27ca0b6b9c45773f922d29fe9d211317406dbf37b3efa05c5e4a98065098d296",
     "raw_sha256": "8fe1f60066963270e7d57e32d361e68e34ca3561abe734d591913fbe6ffe7f44",
     "windows": 2
@@ -865,6 +951,7 @@
     "filed": "2025-07-31",
     "accession": "0001628280-25-036791",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+    "results_period": "2025-06-30",
     "sha256": "0bcb13e57be79fc3497a938e9b3b1e5f557aeddb1fe07cd79099ffedf74a7fa1",
     "raw_sha256": "d763f402798f3ddf0bce1056b43624d241e2eb5a95854ca1c114911979dcee01",
     "windows": 1
@@ -875,6 +962,7 @@
     "filed": "2025-10-29",
     "accession": "0001628280-25-047114",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-09302025xexhibit991.htm",
+    "results_period": "2025-09-30",
     "sha256": "e8ac3d4ad59f4d7b15b7823ce3164f18b6a1f237644a735b9c68d564ba1b9155",
     "raw_sha256": "019c6ef0a06dc21069a61b820e3789ad8dcb0a165b1115dcc49c782870e62240",
     "windows": 3
@@ -885,6 +973,7 @@
     "filed": "2025-10-30",
     "accession": "0001628280-25-047240",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+    "results_period": "2025-09-30",
     "sha256": "c0a3e653c804b594113d44a5c81ec10ca8cd7c831338d4420cb119416a00e49b",
     "raw_sha256": "a9afbed5ca916a6647308ab21a45cbc69e7a4c5be27b8a7221fab4270ce6a657",
     "windows": 1
@@ -895,6 +984,7 @@
     "filed": "2026-01-28",
     "accession": "0001628280-26-003832",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003832/meta-12312025xexhibit991.htm",
+    "results_period": "2025-12-31",
     "sha256": "5ea4a1e617b84e6d5e0a21346d1bbc906fb446de50c591f0569d57e043198717",
     "raw_sha256": "f52c1c1743e862a714e8196282fc244ed3186264ba45b1c928cce62414704621",
     "windows": 1
@@ -905,6 +995,7 @@
     "filed": "2026-01-29",
     "accession": "0001628280-26-003942",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+    "results_period": "2025-12-31",
     "sha256": "e56169e3a48cb642e8053318f50d65892dcfb21ec81e3acf449184ded26e9156",
     "raw_sha256": "f78fe1cbc2a5c786cbb67362e22a79c19ae606f5cdbae9faed231f210a574053",
     "windows": 1
@@ -915,6 +1006,7 @@
     "filed": "2026-04-29",
     "accession": "0001628280-26-028364",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/meta-03312026xexhibit991.htm",
+    "results_period": "2026-03-31",
     "sha256": "70737fa1978762057b278a426901c026afbdfa40d68dda78d2afe0b1419ea6c4",
     "raw_sha256": "90738e6f458bbea6358aabab4f6d6717337d0e628cffea8f39170bc0b410a3ac",
     "windows": 1
@@ -925,6 +1017,7 @@
     "filed": "2026-04-30",
     "accession": "0001628280-26-028526",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028526/meta-20260331.htm",
+    "results_period": "2026-03-31",
     "sha256": "fb9d9bc356cc8044bca310ff52ce590867132d1cd129c93e85cfbc0633882b54",
     "raw_sha256": "08ebd28b12f9931f6db8c0803cd6b09b1f086451fd7a3625ea4c0dcec6eceb1c",
     "windows": 1
@@ -935,6 +1028,7 @@
     "filed": "2026-07-29",
     "accession": "0001628280-26-050596",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm",
+    "results_period": "2026-06-30",
     "sha256": "dbb94d9acf2041cf084f0c444a1fc010f15d7afc654d6974f9e3ebf53fb36449",
     "raw_sha256": "9141d30cf5fa5063b8f2d041bb4a08548b55a3ce526d4abcd5fd875402bb05cf",
     "windows": 1
@@ -945,6 +1039,7 @@
     "filed": "2026-07-30",
     "accession": "0001628280-26-050705",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
+    "results_period": "2026-06-30",
     "sha256": "926f125272c28cd00e2bc5237836f0e8635b84e17ba821a871f07d7f6e7fa7ff",
     "raw_sha256": "6ed73c37a6bf6c45f5becbf56107d45228849955dd5c6d43e0cd3e0d5e6a4d24",
     "windows": 1
@@ -955,6 +1050,7 @@
     "filed": "2026-10-21",
     "accession": "0001628280-26-066700",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+    "results_period": "2026-09-30",
     "sha256": "2c3d2f21915b1fb14a06feb716f65e31a799d63c8800b7a0b1aed57253283741",
     "raw_sha256": "2ea5ee6ea5f9fb960cae74f5bd421b5e052fdc3a246ade2b534757ccc673801d",
     "windows": 1
@@ -965,6 +1061,7 @@
     "filed": "2026-10-22",
     "accession": "0001628280-26-066773",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+    "results_period": "2026-09-30",
     "sha256": "df3b2df04344b60454df2f6261d80d695bfc0834a35a80bd743fa264f23bded0",
     "raw_sha256": "0ea75a9311407dc3202c051c3166c7dbc7f4714ee77d599691dcab16b75a916e",
     "windows": 1
@@ -975,6 +1072,7 @@
     "filed": "2023-01-24",
     "accession": "0001193125-23-014230",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523014230/d406070dex991.htm",
+    "results_period": null,
     "sha256": "e0a48d809b5bbaf90fa94216073d7f0c13cbdde113e2b9ef5332e36825f18bc9",
     "raw_sha256": "9cf63f7ef6cef90960841a0f4027a9150a0b70473e4c1fed9ff0ea0e48249089",
     "windows": 0
@@ -985,6 +1083,7 @@
     "filed": "2023-01-24",
     "accession": "0001564590-23-000733",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000156459023000733/msft-10q_20221231.htm",
+    "results_period": "2022-12-31",
     "sha256": "f2a865feeac518872ccb772ea077ba871bb47f3c758165c2b3d208e635fcd215",
     "raw_sha256": "71d441c46f19db2cbe8576107d175f6aee4d1e0e0127bb01bcf1d742859bd041",
     "windows": 3
@@ -995,6 +1094,7 @@
     "filed": "2023-04-25",
     "accession": "0000950170-23-014423",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023014423/msft-20230331.htm",
+    "results_period": "2023-03-31",
     "sha256": "e50dd5d3cdf925a723a4d9fd0f9aa871aa781ccfec527ee60cbecfa0539f8b81",
     "raw_sha256": "e5e9b022fef5196872a2170e25e1afcb3dc20510d39653a0c4bc996719c5b8bc",
     "windows": 3
@@ -1005,6 +1105,7 @@
     "filed": "2023-04-25",
     "accession": "0001193125-23-115280",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523115280/d321368dex991.htm",
+    "results_period": null,
     "sha256": "2ab891f945511e2004ed4de67c78abab6602aaf40ac9cd39574daa41b8b57ed2",
     "raw_sha256": "a863d2926377448e46a114115339b2b3ecc11088cdafde5b12631a12c4f6ef6f",
     "windows": 0
@@ -1015,6 +1116,7 @@
     "filed": "2023-07-25",
     "accession": "0000950170-23-034400",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023034400/msft-ex99_1.htm",
+    "results_period": null,
     "sha256": "deaa27cbb56e968dfeae391e62992202b33b35b53287fc4574d3aa0ec1ec5eb4",
     "raw_sha256": "c2babdba6e92d1e68cae89b1c4c4fe941ebcaac655c3ee68438e9ea2065921ec",
     "windows": 0
@@ -1025,6 +1127,7 @@
     "filed": "2023-07-27",
     "accession": "0000950170-23-035122",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+    "results_period": "2023-06-30",
     "sha256": "5cf63204adbf78c435ed8eb055f142602a7816ff7d6494f77a00a10d3baf6ff1",
     "raw_sha256": "bb15beb2778bfa101588d4c911ae00b511ab35cbc01a6e12ae2e89ff9573dc92",
     "windows": 3
@@ -1035,6 +1138,7 @@
     "filed": "2023-10-24",
     "accession": "0000950170-23-054848",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023054848/msft-ex99_1.htm",
+    "results_period": null,
     "sha256": "7172c37b8e177f5b8356b5a2cecdd8d5223a7c72e51ae3b1f57d8a927fc63a44",
     "raw_sha256": "64ca0833c163ba5b264920969e9cf3f61996fa6a405a4782f14531ae43f27b02",
     "windows": 0
@@ -1045,6 +1149,7 @@
     "filed": "2023-10-24",
     "accession": "0000950170-23-054855",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023054855/msft-20230930.htm",
+    "results_period": "2023-09-30",
     "sha256": "95214a90bc13b7ea84af77581fc7b202e95c42d1f02f4cd318c262aedbf07861",
     "raw_sha256": "fb88fdfb88ef9a33a414d1a7639cee0f03598d7d8477e0079a85f708087af4dd",
     "windows": 3
@@ -1055,6 +1160,7 @@
     "filed": "2024-01-30",
     "accession": "0000950170-24-008809",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024008809/msft-ex99_1.htm",
+    "results_period": null,
     "sha256": "2e43122d6c3664330782d0a5a0875c02bc908e1dd1aacb77e32e0b6bc94f2b49",
     "raw_sha256": "99e42fb381a38d0b70afe25ad39058ef7d5e8713a318997bfa0645d684decbbb",
     "windows": 0
@@ -1065,6 +1171,7 @@
     "filed": "2024-01-30",
     "accession": "0000950170-24-008814",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024008814/msft-20231231.htm",
+    "results_period": "2023-12-31",
     "sha256": "809f3fccd6cefd41a834a711ad40cf299b102157afa12060007b8e6dc284256a",
     "raw_sha256": "564dd773096e484410d96030028dcc3bc3f0c4ef0b87afb1941cd1bde26e7340",
     "windows": 3
@@ -1075,6 +1182,7 @@
     "filed": "2024-04-25",
     "accession": "0000950170-24-048268",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024048268/msft-ex99_1.htm",
+    "results_period": null,
     "sha256": "11ef9f8b4ba91c604c222234c34937b0145ca86ddca4e17a57e8113da85534e8",
     "raw_sha256": "27ae19592dd623495539447422c8a111df26bb75ce5e13b89b7c1d7f4046be97",
     "windows": 0
@@ -1085,6 +1193,7 @@
     "filed": "2024-04-25",
     "accession": "0000950170-24-048288",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024048288/msft-20240331.htm",
+    "results_period": "2024-03-31",
     "sha256": "7594b19f67fe36e468e244806a904daf519c1bbbb89b51dd1675556c9821fbc4",
     "raw_sha256": "2340e8d0c3e342f165ff1e7b79b109f142ee79aa0b08f2667cb857d6b04c5df3",
     "windows": 3
@@ -1095,6 +1204,7 @@
     "filed": "2024-07-30",
     "accession": "0000950170-24-087835",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087835/msft-ex99_1.htm",
+    "results_period": null,
     "sha256": "743f45b94ac4403d2b8cb16db7a516fdb71d5e048f9b2eb4818e2d7796b2843f",
     "raw_sha256": "8b0600a77a698d52a49044baf8d296a445bddcdf8e11adbd798396e65d2b8868",
     "windows": 0
@@ -1105,6 +1215,7 @@
     "filed": "2024-07-30",
     "accession": "0000950170-24-087843",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+    "results_period": "2024-06-30",
     "sha256": "5b950f4b6f5b7567d64708897756c764214a7f877efc49434b6b9c11c017ebb0",
     "raw_sha256": "55555624f7536eafeef147c327f8ed7f2339b3ab982d40cae51425b260a1bd51",
     "windows": 3
@@ -1115,6 +1226,7 @@
     "filed": "2024-10-30",
     "accession": "0000950170-24-118955",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118955/msft-ex99_1.htm",
+    "results_period": null,
     "sha256": "0f9dae78216d712830ed86dcd4a5bf32dfae7fbf9a4b8c9964088382f7f3622b",
     "raw_sha256": "b3560e15349374eaf96a4f5d9547d251013a2796ea99b390d76aad73a60c68fe",
     "windows": 0
@@ -1125,6 +1237,7 @@
     "filed": "2024-10-30",
     "accession": "0000950170-24-118967",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+    "results_period": "2024-09-30",
     "sha256": "9c66d6bc3605ed46b0fc64d3cdbab7620d3792c3f03af311eb6e46bc12246eb6",
     "raw_sha256": "67a635b0f72e8a92a2e045ddc7464412e2056aa5ed360e90802e2f189b9f7bc3",
     "windows": 3
@@ -1135,6 +1248,7 @@
     "filed": "2025-01-29",
     "accession": "0000950170-25-010484",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010484/msft-ex99_1.htm",
+    "results_period": null,
     "sha256": "5995223aad810dc38b57c26c4f6acdcfd77157595b4c6f72743c2d07512217ee",
     "raw_sha256": "10e292cf4ded056a340045cd839414f2c3a15bdb69f2b6663c24f22b31847030",
     "windows": 0
@@ -1145,6 +1259,7 @@
     "filed": "2025-01-29",
     "accession": "0000950170-25-010491",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+    "results_period": "2024-12-31",
     "sha256": "627121c8f2d5d40a73634b5965f1e884bdcf886daa20371a50df322d577b6970",
     "raw_sha256": "8a778c2d558e59ea40184ac0610ae37aef28275b22a2b7eb320a2c9ca66543f3",
     "windows": 3
@@ -1155,6 +1270,7 @@
     "filed": "2025-04-30",
     "accession": "0000950170-25-061032",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061032/msft-ex99_1.htm",
+    "results_period": null,
     "sha256": "ed76268c63eccd01d28853218d9d7e665b421b096385628252a6da3a17f1916a",
     "raw_sha256": "bba900f493c6e2eb55c754648b72dbafe65549440c060cd6b4d9a4f6ebee2a4d",
     "windows": 0
@@ -1165,6 +1281,7 @@
     "filed": "2025-04-30",
     "accession": "0000950170-25-061046",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+    "results_period": "2025-03-31",
     "sha256": "a2953d2b6bf5523c4b92069eb940cab1bd5e3974e1cad5c7d13aa8532a64d34a",
     "raw_sha256": "9e3518772d828182911eda6ed1d87746a0dbb0b5a121a6701c4d30d90733288c",
     "windows": 3
@@ -1175,6 +1292,7 @@
     "filed": "2025-07-30",
     "accession": "0000950170-25-100226",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100226/msft-ex99_1.htm",
+    "results_period": null,
     "sha256": "2f8b2df5738e6d972e603e6a72cefbe2e2e81a4b17742cb17afafd6a0d55a3dc",
     "raw_sha256": "d72d760a58619d84643278ae8df96721c01c70db336db6c2c002c51d17b6cfc1",
     "windows": 0
@@ -1185,6 +1303,7 @@
     "filed": "2025-07-30",
     "accession": "0000950170-25-100235",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+    "results_period": "2025-06-30",
     "sha256": "33d65cd38662302af57d3cb31ccd63ac2092dc2b21f6ef720f3c518ae2daf616",
     "raw_sha256": "78a507e1d8afa48d803a7c323d42bb8d4836fa10b87dbd8dd356f3cd86248e0f",
     "windows": 3
@@ -1195,6 +1314,7 @@
     "filed": "2025-10-29",
     "accession": "0001193125-25-256310",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256310/msft-ex99_1.htm",
+    "results_period": null,
     "sha256": "ad1aabfc39b30153dbf109aea8bc5430e6c41a7bdbb07e20f329ee9232437dbf",
     "raw_sha256": "baeca304411cccbe20f5f84c34f9e61d9f35aa32a18081b2ff0ffc0e94b022e8",
     "windows": 0
@@ -1205,6 +1325,7 @@
     "filed": "2025-10-29",
     "accession": "0001193125-25-256321",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm",
+    "results_period": "2025-09-30",
     "sha256": "7115c581d4c59cfbf00e9a5b5f662702ba0fd7c0361f8a60e30b3fc1491a86d5",
     "raw_sha256": "c0b0599c8fe5cfd5f06da76108b87ac12a93cc0088ccc00536280c1f60a5566e",
     "windows": 3
@@ -1215,6 +1336,7 @@
     "filed": "2026-01-28",
     "accession": "0001193125-26-027198",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/msft-ex99_1.htm",
+    "results_period": null,
     "sha256": "eacb3ae09a47a5b9d300eb256b40a2e68f8a72ad3c7dbeae052a10183c346146",
     "raw_sha256": "c12168c74b879b8c85fdd6b8084b08d0fc0c4639a6fee161db2909c5b7c9ec33",
     "windows": 0
@@ -1225,6 +1347,7 @@
     "filed": "2026-01-28",
     "accession": "0001193125-26-027207",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/msft-20251231.htm",
+    "results_period": "2025-12-31",
     "sha256": "4a98cbca54ce2b3636928cdcd3931618f497850165eb3521d571a307e577cef7",
     "raw_sha256": "50369ba60726a25ec887033e9e57f7fbcbe60eb5c4b80962132d480a950dab29",
     "windows": 3
@@ -1235,6 +1358,7 @@
     "filed": "2026-04-29",
     "accession": "0001193125-26-191457",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-ex99_1.htm",
+    "results_period": null,
     "sha256": "0160853a25f0522fff4e1026af962c66a55393ec78f2c45cf11afc91ce01f696",
     "raw_sha256": "9fa555d8bfe86df184a716716c218648177ba64dca2fba9b7a95c4ee0af3c5c9",
     "windows": 0
@@ -1245,6 +1369,7 @@
     "filed": "2026-04-29",
     "accession": "0001193125-26-191507",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
+    "results_period": "2026-03-31",
     "sha256": "7acd0a9a51d27f231b8fdcebd63e6ce07ee5d9a47847c636495442ac02681a67",
     "raw_sha256": "becb5256c472e7772b2e73d150ef2d903232b3af482249e5385e5bad6d5b7301",
     "windows": 3
@@ -1255,6 +1380,7 @@
     "filed": "2026-07-29",
     "accession": "0001193125-26-323632",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm",
+    "results_period": null,
     "sha256": "7761095ef46eb636342e2a37789d70eef33ad119eece5d645f7a64ae79b6ea1b",
     "raw_sha256": "1ee486a49f19236f39f9f06f303a107ea3c59ff88f954cc1e3346dfcb192c454",
     "windows": 0
@@ -1265,6 +1391,7 @@
     "filed": "2026-07-29",
     "accession": "0001193125-26-323660",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+    "results_period": "2026-06-30",
     "sha256": "c3673fdea967883d0416bfa71dd5a1da75ad8d4469a564c8e222297f9ed9db68",
     "raw_sha256": "272a7589057cb08403551d303f80905682cdbf61f4741e495ceb0983446653a0",
     "windows": 3
@@ -1275,6 +1402,7 @@
     "filed": "2026-10-28",
     "accession": "0001193125-26-436122",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm",
+    "results_period": null,
     "sha256": "de3ec1742cff2c02c4d6defd370a2e98267cdf2e40fb7bc3d0dec6387353d190",
     "raw_sha256": "913edaadd93a01d9c0aa2b6fba936040b157951ba33579e7249390bc91e99b63",
     "windows": 0
@@ -1285,6 +1413,7 @@
     "filed": "2026-10-28",
     "accession": "0001193125-26-436133",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+    "results_period": "2026-09-30",
     "sha256": "9a819ee08ecde6eba10b2dda1471ec66b09ae848ff9cd5daac023a163ee36c5a",
     "raw_sha256": "b0a6acbf5de340588e12f990b56ece4e5d67de2922bf5aa9a6ab379c742e92a8",
     "windows": 3
@@ -1295,6 +1424,7 @@
     "filed": "2023-03-09",
     "accession": "0001564590-23-003362",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000156459023003362/orcl-ex991_6.htm",
+    "results_period": null,
     "sha256": "d7b3f90b86a9648e641eda7495d7e5a8f2778c9033a75a1f4377ff8e7cdbe085",
     "raw_sha256": "06cc2f4c9d61b75562016d3b0e5e2de407713a5f80c22f4bc46fc5a14806f666",
     "windows": 0
@@ -1305,6 +1435,7 @@
     "filed": "2023-03-10",
     "accession": "0001564590-23-003413",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000156459023003413/orcl-10q_20230228.htm",
+    "results_period": "2023-02-28",
     "sha256": "80a409ca7f04f70ab06f5467853089971a9ded06cdcaa037e7da14f4137c3dd2",
     "raw_sha256": "d66e75960dec51258700c0495aee4214fb95cf39006b46ef24e1c4fa256095a3",
     "windows": 1
@@ -1315,6 +1446,7 @@
     "filed": "2023-06-12",
     "accession": "0000950170-23-027490",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017023027490/orcl-ex99_1.htm",
+    "results_period": null,
     "sha256": "9410947fcc4a3cfc5a939402ebc18f710de35220455e1e504d2f30933bb126b5",
     "raw_sha256": "200504dbf5d6328048a1544ca724e8677dc9773c6b1a682122f6f43f34a0b82a",
     "windows": 0
@@ -1325,6 +1457,7 @@
     "filed": "2023-06-20",
     "accession": "0000950170-23-028914",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017023028914/orcl-20230531.htm",
+    "results_period": "2023-05-31",
     "sha256": "f756f698a32d97809f8c8028db5424d8b91d72e4ce1de7587b1af21fd59b0e92",
     "raw_sha256": "eb7ba743ac25056f33fd8d6066f0608982487c742675e3eecabc6e7cac25eff5",
     "windows": 0
@@ -1335,6 +1468,7 @@
     "filed": "2023-09-11",
     "accession": "0000950170-23-047471",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017023047471/orcl-ex99_1.htm",
+    "results_period": null,
     "sha256": "32d2ccabdf7fd2a1d21a22e9f096981785fcab6413b95a2391ad4a304ebcdbd8",
     "raw_sha256": "f8ec39bf87de397caf4b1b0851c49262427e59bb10a7b83fbee58b67d64feb53",
     "windows": 0
@@ -1345,6 +1479,7 @@
     "filed": "2023-09-12",
     "accession": "0000950170-23-047713",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017023047713/orcl-20230831.htm",
+    "results_period": "2023-08-31",
     "sha256": "0b06c8c8f126990f70f5e57052b1d1b21e3b9e5c6ee55fab2bf91567263b51bd",
     "raw_sha256": "d26e9c0300804cc36a85059dc6e71b1407efdeaaf65e5a97d56104f46d2fafd9",
     "windows": 1
@@ -1355,6 +1490,7 @@
     "filed": "2023-12-11",
     "accession": "0000950170-23-069410",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017023069410/orcl-ex99_1.htm",
+    "results_period": null,
     "sha256": "83fe582d6c233c1559bac477ebed4883cffec885ae2c0f8928fb2e4117104785",
     "raw_sha256": "31078707ea7a9f8a5e6ce37705951b43a31dbd453386f876999d552402eda999",
     "windows": 0
@@ -1365,6 +1501,7 @@
     "filed": "2023-12-12",
     "accession": "0000950170-23-069682",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017023069682/orcl-20231130.htm",
+    "results_period": "2023-11-30",
     "sha256": "07fd2ca092af5599dd76ff778e2230c27cd79a96c222c5f7c677433bde1c1613",
     "raw_sha256": "6c7fc2209ef9dac30e4e02e61bc6ff48c86ccbeb93a91efe1598a6a6b064ba34",
     "windows": 1
@@ -1375,6 +1512,7 @@
     "filed": "2024-03-11",
     "accession": "0000950170-24-029250",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024029250/orcl-ex99_1.htm",
+    "results_period": null,
     "sha256": "09cbdafa89aad59ce27dcd2264d5ae343e47c27dfd837c01c7adf611c686b1aa",
     "raw_sha256": "f728eb0de6dea81b1301fc123712f1d64cd3fcbb7537b8d07d52360cec1e848d",
     "windows": 0
@@ -1385,6 +1523,7 @@
     "filed": "2024-03-12",
     "accession": "0000950170-24-029904",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024029904/orcl-20240229.htm",
+    "results_period": "2024-02-29",
     "sha256": "087e6f28b7afc5410ec3ee2c871a83284fd79411d85bb4d4322e34a4316a640b",
     "raw_sha256": "41af5ea3dc0c9f9dfd75346411a94e83ab472a22320d96ee9ab671235ce24138",
     "windows": 2
@@ -1395,6 +1534,7 @@
     "filed": "2024-06-11",
     "accession": "0000950170-24-071916",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024071916/orcl-ex99_1.htm",
+    "results_period": null,
     "sha256": "365d1250c8288f86e1e3392a27639a1a9fa0f8a0ed7cc084d56c286c3cf4cbd0",
     "raw_sha256": "b0419b3d9bb51df9b4c793feb6ea9929b010d9926055ae3dc273f30bf230ee3a",
     "windows": 0
@@ -1405,6 +1545,7 @@
     "filed": "2024-06-20",
     "accession": "0000950170-24-075605",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024075605/orcl-20240531.htm",
+    "results_period": "2024-05-31",
     "sha256": "32bb3aa8536e699c26d179114cacfedef54be87e64c2df9940e6870d5b9cd2c9",
     "raw_sha256": "4f056d275f198d8e71382c546ac8e399ed3673cf9852efb41f86341b9932f989",
     "windows": 1
@@ -1415,6 +1556,7 @@
     "filed": "2024-09-09",
     "accession": "0000950170-24-104753",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024104753/orcl-ex99_1.htm",
+    "results_period": null,
     "sha256": "b0c3c1323299ea93e06f72e66ea9438751e1701df3e684efdef5b0febbbe4d17",
     "raw_sha256": "ddeb17f0b2a62cfa28d5087d7ad1c9f9bd7bfb6a57a69bba07a737e3fbde2f44",
     "windows": 0
@@ -1425,6 +1567,7 @@
     "filed": "2024-09-10",
     "accession": "0000950170-24-104905",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024104905/orcl-20240831.htm",
+    "results_period": "2024-08-31",
     "sha256": "836bbfcbb92ec78d630becc4c1021dd228c5f6371f7ac6d791592df00408db21",
     "raw_sha256": "06c226dc38232787ac097ffd863de6dfab8565f5404075a5e21f44104482135e",
     "windows": 1
@@ -1435,6 +1578,7 @@
     "filed": "2024-12-09",
     "accession": "0000950170-24-134537",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024134537/orcl-ex99_1.htm",
+    "results_period": null,
     "sha256": "9d8a11872b5a5dc55d094eb7cf8526793f822cd8b9f5d421b4375c2341cdf0f0",
     "raw_sha256": "c3205a9abe923803b6c7e27b779e2fa5b3f791d2f06fffdd7173f43c55f8d06f",
     "windows": 0
@@ -1445,6 +1589,7 @@
     "filed": "2024-12-10",
     "accession": "0000950170-24-134973",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/orcl-20241130.htm",
+    "results_period": "2024-11-30",
     "sha256": "dfe6a61416bf4aabff3e7dfe3165bebafcc51569972bc496833dde9f9c057400",
     "raw_sha256": "2a4d50922416e943f404e96b0d3cd8b62c8e441172260ba94ed3671486224377",
     "windows": 1
@@ -1455,6 +1600,7 @@
     "filed": "2025-03-10",
     "accession": "0000950170-25-036295",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017025036295/orcl-ex99_1.htm",
+    "results_period": null,
     "sha256": "55aedd3f0d1417e2685e47f81924e3a6a562b4a2f71ffce17c7421618993eb26",
     "raw_sha256": "5c9ecd300383b95e71c7b41270ac1cec2ef4db01c2785e3e8b770b837e0aa268",
     "windows": 0
@@ -1465,6 +1611,7 @@
     "filed": "2025-03-11",
     "accession": "0000950170-25-037143",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017025037143/orcl-20250228.htm",
+    "results_period": "2025-02-28",
     "sha256": "b1b428429ea8b97a20c7c25b865cdd3826cb40ad543cad9489e72027924aa7bd",
     "raw_sha256": "af01bdfd380f9f84b59944c0ba59918126531b51d75139be4ecc07cac29cd941",
     "windows": 1
@@ -1475,6 +1622,7 @@
     "filed": "2025-06-11",
     "accession": "0000950170-25-084831",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017025084831/orcl-ex99_1.htm",
+    "results_period": null,
     "sha256": "556deb72133d35f4c1533f638dc79ae9aaf14ef286f7296800b23bce73d5d1c3",
     "raw_sha256": "f2672ccb2a1024221654e91cec00fd4a09d70901e8dd15415f3ccd0e3f29cc18",
     "windows": 0
@@ -1485,6 +1633,7 @@
     "filed": "2025-06-18",
     "accession": "0000950170-25-087926",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000095017025087926/orcl-20250531.htm",
+    "results_period": "2025-05-31",
     "sha256": "55ba3db138027571a596d3f3719ad472fabb75d4ad6281bb1eb1756bcbb492eb",
     "raw_sha256": "82bc3e68ccb733fa2c6d9b4b376411d7c37826c5dbeb5fda901ad54f4b0c8b38",
     "windows": 1
@@ -1495,6 +1644,7 @@
     "filed": "2025-09-09",
     "accession": "0001193125-25-199175",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525199175/orcl-ex99_1.htm",
+    "results_period": null,
     "sha256": "c2900aa0b603b92ab663894eb02ae09b82fc38ca55c893d13567d64fb1839bf3",
     "raw_sha256": "8b30699c57ef26c3d728098082a69e9f9953b032f4260b63d253ce67cd245771",
     "windows": 0
@@ -1505,6 +1655,7 @@
     "filed": "2025-09-10",
     "accession": "0001193125-25-200095",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525200095/orcl-20250831.htm",
+    "results_period": "2025-08-31",
     "sha256": "f248a18e6e7ae45025f29940300b5674268382d6f553aeebbde8ba849e62299a",
     "raw_sha256": "14c66972504193ec710f7533b3e10d9104c5ec4b7e05b51abb9afb29c9161fdb",
     "windows": 1
@@ -1515,6 +1666,7 @@
     "filed": "2025-12-10",
     "accession": "0001193125-25-314207",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525314207/orcl-ex99_1.htm",
+    "results_period": null,
     "sha256": "8c36e1480353c5f00842fe157ac7564331e0e8cb62ea944c80ef40a68bca5584",
     "raw_sha256": "7ba0cda4dadc8665e99165cf464f7960ff5db633eba6cc37f88923981b664772",
     "windows": 0
@@ -1525,6 +1677,7 @@
     "filed": "2025-12-11",
     "accession": "0001193125-25-315925",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm",
+    "results_period": "2025-11-30",
     "sha256": "9944b1b7dc235db210f1e94896a9871181610c264e01ab76fc79c9ff576e21b2",
     "raw_sha256": "42d604dcc29ed3be794681fcdaa356abcc34a30af00f9ff68fe3efb8ab130a40",
     "windows": 1
@@ -1535,6 +1688,7 @@
     "filed": "2026-03-10",
     "accession": "0001193125-26-100148",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526100148/orcl-ex99_1.htm",
+    "results_period": null,
     "sha256": "ed3e2a2f31819a73915e85781ffdae0d269b08520c69f9179174c0cb96547eee",
     "raw_sha256": "81af1a8fa7eabca7a07a4dc19cdf11e0529dcd891708694585740138ce422583",
     "windows": 2
@@ -1545,6 +1699,7 @@
     "filed": "2026-03-11",
     "accession": "0001193125-26-101045",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526101045/orcl-20260228.htm",
+    "results_period": "2026-02-28",
     "sha256": "973d23bac6e27447414dcca5576730cbca9b3e66ecf58f9396c6805295f09f9b",
     "raw_sha256": "2b7189a0bcf22d15df8fba5c3dd68c1be12f688ef16961ae3f8e0b6cc108f4d7",
     "windows": 1
@@ -1555,6 +1710,7 @@
     "filed": "2026-06-10",
     "accession": "0001193125-26-265848",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-ex99_1.htm",
+    "results_period": null,
     "sha256": "0b0296374c482342e1a1f1b19d8a9b9ff1841018c1f2a5ee742f0b4a0cc66ef1",
     "raw_sha256": "f910af13a99c91997ff1713ee798f34f28c917372cbc31c7cd1637e138a0d95b",
     "windows": 2
@@ -1565,6 +1721,7 @@
     "filed": "2026-06-22",
     "accession": "0001193125-26-277521",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+    "results_period": "2026-05-31",
     "sha256": "8360c1b5220ca721d7c4d590a3b6fb0381e0570aee4f529a646e5eecca2b009a",
     "raw_sha256": "4d11ff78c4c8e04d87ab7041e1dc4d6593c360dbb96afe7911e50c13c9b3ee90",
     "windows": 2
@@ -1575,6 +1732,7 @@
     "filed": "2026-09-10",
     "accession": "0001193125-26-387905",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm",
+    "results_period": null,
     "sha256": "4ebef35ad9680ef1670ea7134b3d7ba84ef21f019f602bfb43c2b07fff12bbd1",
     "raw_sha256": "1a336c0d52afac6c38d78507a8a2db1c4a9d49e93732f80e22ae61393d7a655f",
     "windows": 1
@@ -1585,6 +1743,7 @@
     "filed": "2026-09-11",
     "accession": "0001193125-26-389274",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+    "results_period": "2026-08-31",
     "sha256": "a85223f5223f63c0b9d7cf63238393ec034122ae3b5bdbf9f4088e9a9e34347a",
     "raw_sha256": "8fc25ad53ab76bb3bd150c7bb36398b812b027b0b83f105e43606b05fb42a4d6",
     "windows": 2

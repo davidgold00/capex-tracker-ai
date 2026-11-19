@@ -27,6 +27,11 @@ class Company(_Strict):
     name: str
     role: Role
     color: str
+    enabled: bool = True
+    coverage_start: date | None = None
+
+    def start_at(self, global_start: date) -> date:
+        return max(global_start, self.coverage_start or global_start)
 
     @field_validator("color")
     @classmethod
@@ -94,6 +99,11 @@ class Config(_Strict):
     data_start: date
     chart_start: date
     forms: list[str] = Field(min_length=1)
+
+    @field_validator("companies")
+    @classmethod
+    def _enabled_companies(cls, companies: list[Company]) -> list[Company]:
+        return [company for company in companies if company.enabled]
 
     @model_validator(mode="after")
     def _check_consistency(self) -> Config:

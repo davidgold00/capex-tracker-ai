@@ -1,0 +1,1 @@
+The planner has fixed the facts, values, periods and directions. Each planned_facts group contains allowed phrasings of one required sentence. Select exactly one complete sentence per group and join them with a space in a readable order. Return a JSON object with the paragraph field. Include no headings or commentary.

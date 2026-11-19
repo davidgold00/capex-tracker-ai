@@ -23,7 +23,7 @@ def target_clause(sentence):
     text = re.split(
         r",?\s+(?:lowered from|raised from|increased from|narrowed from|"
         r"updated from|unchanged from|up from|down from|driven by|primarily driven|"
-        r"with growth driven|to support|primarily due to)",
+        r"with growth driven|to support|primarily due to|and continue to expect)",
         sentence,
         flags=re.I,
     )[0]
@@ -148,6 +148,10 @@ def definition(ticker, text):
         )
         if label and "purchases of property and equipment" in text.lower():
             return "capex", label[0], "The cash flow reconciliation identifies purchases of PP&E."
+    if ticker == "ORCL":
+        cash = re.search(r"Capital Expenditures:\s*Cash used for capital expenditures", text, re.I)
+        if cash:
+            return "capex", cash[0], "The MD&A explicitly identifies cash used for capex."
     if ticker == "ORCL" and re.search(
         r"Cash Flows From Investing Activities:[\s\S]{0,1000}?"
         r"\nCapital expenditures\n",

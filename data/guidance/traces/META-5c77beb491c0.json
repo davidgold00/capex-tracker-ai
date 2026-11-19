@@ -15,7 +15,7 @@
     {
       "cassette": null,
       "checks": {
-        "annual_period": false,
+        "annual_period": true,
         "capex_outlook": true,
         "comparison_series": true,
         "direction": true,
@@ -32,7 +32,7 @@
         "proposal": {
           "confidence": 1.0,
           "direction": null,
-          "fiscal_year": null,
+          "fiscal_year": 2024,
           "guidance_kind": "numeric_range",
           "high_usd": 40000000000,
           "low_usd": 38000000000,
@@ -41,7 +41,11 @@
         "source_accession": "0001326801-24-000081",
         "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000081/meta-20240930.htm",
         "statement_date": "2024-10-31",
-        "target_period": null
+        "target_period": {
+          "end": "2024-12-31",
+          "fiscal_year": 2024,
+          "start": "2024-01-01"
+        }
       }
     }
   ],

@@ -71,7 +71,10 @@ def factbook(aggregate, long, approved, config):
     start, end = cutoff(quarter - 1), cutoff(quarter)
     latest_guidance = {}
     for r in sorted(approved, key=lambda r: (r["statement_date"], r["id"])):
-        if start < r["statement_date"] <= end:
+        if (
+            r["company"] in {c.ticker for c in config.spenders}
+            and start < r["statement_date"] <= end
+        ):
             latest_guidance[(r["company"], r["period"], bool(r["low"]))] = r
     for (ticker, year, _), r in sorted(latest_guidance.items()):
         company = config.company(ticker).name
@@ -119,10 +122,19 @@ def check(paragraph, facts):
     return reasons
 
 
+def template(facts):
+    paragraph = " ".join(group[0] for group in facts.groups)
+    return paragraph if not check(paragraph, facts) else ""
+
+
 def publish(text, path: Path, facts):
-    paragraph = ""
+    paragraph = template(facts)
+    label = "template-generated, fact-checked"
     if path.is_file():
         data = json.loads(path.read_text())
         if data.get("facts_sha256") == facts.key and not check(data.get("paragraph", ""), facts):
             paragraph = data["paragraph"]
-    return replace_section(text, "WHAT_CHANGED", paragraph)
+            if data.get("basis", "local-model") == "local-model":
+                label = "local-model rephrasing, fact-checked"
+    body = f"{paragraph}\n\n*{label}*" if paragraph else "Not measured (n=0 complete comparisons)."
+    return replace_section(text, "WHAT_CHANGED", body)

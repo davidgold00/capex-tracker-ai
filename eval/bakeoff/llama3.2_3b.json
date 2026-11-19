@@ -1,0 +1,528 @@
+{
+  "extraction": [
+    {
+      "cassettes": [],
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-d23913057e",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [],
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-e4016a3bbd",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [
+        "cb6b360c4cd459945be092a3d941e46fdaa7ad8306fc6b2a2fe4bafe4d23b6a9",
+        "b4ea98635e7b4ecf4a32d911ce6276ac6f1f29b8b6d13d9c82ff8befb74f4949"
+      ],
+      "gold": {
+        "high": null,
+        "kind": "directional",
+        "low": null,
+        "uncertain": null,
+        "year": 2023
+      },
+      "high": null,
+      "id": "gold-2e528ff279",
+      "kind": "invalid",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [
+        "7882043f635fb30f4f75636564eeb4327308388fc1141ccce24cb78eb92bc8fc",
+        "bfa3c1e547758d33e73b20d1b9dde38c73f0ce1e01c53869da370bd85dbc2785"
+      ],
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-7ab4069e62",
+      "kind": "invalid",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [
+        "495f792460d0146ce415de1a3d693e63df4e4fc9ae85ac4f3c3ef051047705eb",
+        "dfdb0933d08a0ff2942f81887d059381369c3136a9ba42ec028ec7912e22a3fd"
+      ],
+      "gold": {
+        "high": null,
+        "kind": "directional",
+        "low": null,
+        "uncertain": null,
+        "year": 2024
+      },
+      "high": null,
+      "id": "gold-077007b149",
+      "kind": "invalid",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [],
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-e7ea7d3155",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [
+        "781b3b45c828a63d9e96204e6bc784f771cc128638e2a0c8bfb697c0abf85741",
+        "206b21fd152dd39a630636f02c7deadc6d823fcdff07f0d6b94eaf728b29a357"
+      ],
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": "Heavy investment gives no comparison baseline.",
+        "year": null
+      },
+      "high": null,
+      "id": "gold-8d154cc01f",
+      "kind": "invalid",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [],
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-1b093dee99",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [],
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-318f531725",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [],
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-6b2361e4ba",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [
+        "d5e9d52e96e0938a2c04e32daf8055bd6f12c32b3ab47a817b24653e4fd7f9da",
+        "617fe528c353624f60bfe2c793af05b2e1412c3d685b1476a4fd5c417fb1ee48"
+      ],
+      "gold": {
+        "high": 33000000000,
+        "kind": "numeric_range",
+        "low": 30000000000,
+        "uncertain": null,
+        "year": 2023
+      },
+      "high": 33,
+      "id": "gold-842daaf359",
+      "kind": "numeric_range",
+      "low": 30,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [
+        "fb5904e2f9e9abd59a40c35a8c93e3c3e812eaf43137b991c0e40e9f4f21aea1",
+        "e5f5f75ed16130948cd7efe7c655b40d9fc7f6e35b83a90bf0228b914807c3d0"
+      ],
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-8b338844a4",
+      "kind": "invalid",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [
+        "d4a0d2c3add0cc0bbd10cac2d73b731278c3f9abf64ac45d189b567f725ba31b"
+      ],
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-f5972fda04",
+      "kind": "directional",
+      "low": null,
+      "verified": true,
+      "year": 2024
+    },
+    {
+      "cassettes": [
+        "d42eae103d5e673da69ddd5b4fbc0d2567a988b7d098dabe4ab3fd467cdd081e",
+        "61e61c2b2a130ff7f55115a2c22e2dceaf2694ff6537d1ae891bef31ed9923a2"
+      ],
+      "gold": {
+        "high": 30000000000,
+        "kind": "numeric_range",
+        "low": 27000000000,
+        "uncertain": null,
+        "year": 2023
+      },
+      "high": null,
+      "id": "gold-6a4cb46527",
+      "kind": "invalid",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [
+        "fa6299659a3310f0b741534bc0c59708bf5e862abb06c87f6c4a923416995bf3",
+        "39bf32fbe4fd5a132ea9cc11f91854a6de81697f66539511e06b5041c802c9fc"
+      ],
+      "gold": {
+        "high": null,
+        "kind": "directional",
+        "low": null,
+        "uncertain": null,
+        "year": 2024
+      },
+      "high": null,
+      "id": "gold-e539e2f548",
+      "kind": "invalid",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [
+        "b8136a6e8b10e1adb57cf0191a63bb6710b9b04f32198e721ec913f2872ad705",
+        "f8ed36d31097979899c81f90677d47c7c8792f405ecefddc32a27c852f3d6d34"
+      ],
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-2f01815229",
+      "kind": "invalid",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [
+        "cb6722bdf37aac63db5c183e1845515c2135139e343f96a6a21dcc9154b8ed4a",
+        "b1f8255a24e3204e66ce05beb5a9d903f166580bea854ce4f7a0d9bd178fb3d2"
+      ],
+      "gold": {
+        "high": 35000000000,
+        "kind": "numeric_range",
+        "low": 30000000000,
+        "uncertain": null,
+        "year": 2024
+      },
+      "high": null,
+      "id": "gold-a508792e87",
+      "kind": "invalid",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [
+        "0d4eec5b1d35314f81bd56aeacc2882db31c620d3a9252400486d7ec23be4c3b",
+        "b5a7b57645c095f5107859bfde001f6fd4c570e40a23bb41469ea4113e1993a2"
+      ],
+      "gold": {
+        "high": 37000000000,
+        "kind": "numeric_range",
+        "low": 30000000000,
+        "uncertain": null,
+        "year": 2024
+      },
+      "high": null,
+      "id": "gold-b05a1f5a39",
+      "kind": "invalid",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [
+        "c92b601ec83711020bbc623e047a73e6726c67391b23023d0e26d9b172dfebd9",
+        "5b503decdf75a17cb12a865b7f8696fd3a584bdbc00437618ce87b7d2acc9ee1"
+      ],
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-0f96ee97aa",
+      "kind": "invalid",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [
+        "9da2329912d93445497de6badc60eadc13061cd8b8b820dc5926affd15ea294e",
+        "dd941315761ee97f25a85e5503c8cd182089882b4243727630aadbe1ddad98c9"
+      ],
+      "gold": {
+        "high": null,
+        "kind": "directional",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-1b72d79cb0",
+      "kind": "invalid",
+      "low": null,
+      "verified": false,
+      "year": null
+    },
+    {
+      "cassettes": [],
+      "gold": {
+        "high": null,
+        "kind": "none",
+        "low": null,
+        "uncertain": null,
+        "year": null
+      },
+      "high": null,
+      "id": "gold-56a6b3779a",
+      "kind": "none",
+      "low": null,
+      "verified": false,
+      "year": null
+    }
+  ],
+  "extraction_seconds_per_item": 3.3604305931428575,
+  "model": "llama3.2:3b",
+  "rephrasing": [
+    {
+      "attempts": [
+        {
+          "cassette": "a1522219932c5bab34672e088940948db4641972eee71d4fc7eb0b8dcb36507d",
+          "reasons": [
+            "Repeated comparison or guidance",
+            "Repeated comparison or guidance"
+          ]
+        },
+        {
+          "cassette": "128af4ac72a118fcde76802975d5e0827b5db4ebe615249ee79c3d5a9b61d790",
+          "reasons": [
+            "Repeated comparison or guidance",
+            "Repeated comparison or guidance"
+          ]
+        }
+      ],
+      "basis": "template",
+      "facts_sha256": "10c24acd354e3df6da038ae8fa61e93e5f37bbd6231995132c320dc788cdee2a",
+      "model_pass": false,
+      "paragraph": "Aggregate capex rose from $41.0B in Q3 2022 to $41.7B in Q4 2022. Aggregate capex rose from $37.5B in Q4 2021 to $41.7B in Q4 2022.",
+      "quarter": "2022Q4"
+    },
+    {
+      "attempts": [
+        {
+          "cassette": "de486e36545240f3c236626999258d15c6384d8e8a66fb5e074afefa4bf884d2",
+          "reasons": []
+        }
+      ],
+      "basis": "local-model",
+      "facts_sha256": "e29fc3fe2d451be060b5c8fe9908740f18545c80e6132cf8e387fa815c477424",
+      "model_pass": true,
+      "paragraph": "In Q1 2023, aggregate capex fell to $36.6B from $41.7B in Q4 2022. In Q1 2023, aggregate capex fell to $36.6B from $36.6B in Q1 2022.",
+      "quarter": "2023Q1"
+    },
+    {
+      "attempts": [
+        {
+          "cassette": "3ca7c7f192fc5b2070ae21aeeb5fa24ef26c022d27b23807e5a50e16f108cdea",
+          "reasons": []
+        }
+      ],
+      "basis": "local-model",
+      "facts_sha256": "7135f27a9d19b00dd4707f23d8698052effaaa69eef440f23090e7b70a3025c2",
+      "model_pass": true,
+      "paragraph": "In Q2 2023, aggregate capex fell to $35.3B from $36.6B in Q1 2023. In Q2 2023, aggregate capex fell to $35.3B from $38.4B in Q2 2022.",
+      "quarter": "2023Q2"
+    },
+    {
+      "attempts": [
+        {
+          "cassette": "9deb864429b2a6b05a70c9bca1f6937ee436904b163bbb696d2ab9acbeb10da5",
+          "reasons": [
+            "Repeated comparison or guidance",
+            "Repeated comparison or guidance"
+          ]
+        },
+        {
+          "cassette": "49bbd843ef0d1f5799767b5ccfacf6329e3f1e5be41efd471aa8a8d7048ea3f4",
+          "reasons": [
+            "Repeated comparison or guidance",
+            "Repeated comparison or guidance"
+          ]
+        }
+      ],
+      "basis": "template",
+      "facts_sha256": "de454649b2687349d4c89231b444a6269a12f5a5788cda7a852b451d6a9c6adb",
+      "model_pass": false,
+      "paragraph": "Aggregate capex rose from $35.3B in Q2 2023 to $38.3B in Q3 2023. Aggregate capex fell from $41.0B in Q3 2022 to $38.3B in Q3 2023.",
+      "quarter": "2023Q3"
+    },
+    {
+      "attempts": [
+        {
+          "cassette": "769f6cea34980fe3d591f22f967003ffe4080c26abc0a07ad3836c08e8f2afb2",
+          "reasons": [
+            "Repeated comparison or guidance",
+            "Repeated comparison or guidance"
+          ]
+        },
+        {
+          "cassette": "7c6b25a04205e43e05481c3ef9ec0465d7200a907e104361533d305da75f36ac",
+          "reasons": [
+            "Repeated comparison or guidance",
+            "Repeated comparison or guidance"
+          ]
+        }
+      ],
+      "basis": "template",
+      "facts_sha256": "9e575f35a6f36c958ad424c634dcc09890c6eea75529b622b8a8cf74545ba267",
+      "model_pass": false,
+      "paragraph": "Aggregate capex rose from $38.3B in Q3 2023 to $44.0B in Q4 2023. Aggregate capex rose from $41.7B in Q4 2022 to $44.0B in Q4 2023.",
+      "quarter": "2023Q4"
+    },
+    {
+      "attempts": [
+        {
+          "cassette": "b80bd4a326e8e498e87464cba46ef13a40e6e9295442f04531981432af022245",
+          "reasons": [
+            "Repeated comparison or guidance",
+            "Repeated comparison or guidance"
+          ]
+        },
+        {
+          "cassette": "ad44487e07b9cb292ee241045741418828a88543f0ba25d52458e8d7b9e962a3",
+          "reasons": []
+        }
+      ],
+      "basis": "local-model",
+      "facts_sha256": "c32585c50ab9842681129e0fc373930a66cf34be41e3260ad78cfcb12b7278ec",
+      "model_pass": true,
+      "paragraph": "Aggregate capex rose from $44.0B in Q4 2023 to $46.0B in Q1 2024. In Q1 2024, aggregate capex rose to $46.0B from $36.6B in Q1 2023.",
+      "quarter": "2024Q1"
+    }
+  ],
+  "rephrasing_seconds_per_item": 5.2037417496666665,
+  "scores": {
+    "numeric_accuracy": {
+      "correct": 0,
+      "n": 4,
+      "value": 0.0
+    },
+    "period_accuracy": {
+      "correct": 0,
+      "n": 7,
+      "value": 0.0
+    },
+    "precision": {
+      "correct": 1,
+      "n": 2,
+      "value": 0.5
+    },
+    "recall": {
+      "correct": 1,
+      "n": 8,
+      "value": 0.125
+    },
+    "verification": {
+      "correct": 1,
+      "n": 2,
+      "value": 0.5
+    }
+  }
+}

@@ -169,7 +169,7 @@ def computed_rows(rows: Sequence[dict[str, Any]]) -> list[dict[str, Any]]:
 
 def build_long(companies: Sequence[CompanyData], data_start: date) -> pd.DataFrame:
     """The tidy long table. Holds USD values only, so ratios live in the wide table."""
-    rows = [row for data in companies for row in base_rows(data, data_start)]
+    rows = [row for data in companies for row in base_rows(data, data.company.start_at(data_start))]
     rows.extend(computed_rows(rows))
     frame = pd.DataFrame(rows, columns=LONG_COLUMNS)
     return frame.sort_values(["ticker", "period_end", "metric"], ignore_index=True)

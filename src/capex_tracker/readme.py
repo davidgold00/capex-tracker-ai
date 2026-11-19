@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import re
 from collections.abc import Mapping, Sequence
 from pathlib import Path
@@ -156,6 +157,29 @@ def render_updated(long: pd.DataFrame, config: Config) -> str:
     )
 
 
+def render_freshness(long, config):
+    manifest = config.paths.processed_dir.parent / "guidance" / "sources.json"
+    sources = json.loads(manifest.read_text()) if manifest.is_file() else []
+    reported = long.dropna(subset=["accession"]).sort_values(["filed", "accession"])
+    lines = [
+        "| Issuer | Latest filing used in actuals | Latest guidance filing read |",
+        "|---|---|---|",
+    ]
+    for company in config.companies:
+        rows = reported[(reported["ticker"] == company.ticker) & (reported["accession"] != "")]
+        actual = "Not measured"
+        if not rows.empty:
+            r = rows.iloc[-1]
+            actual = f"{r['filed']} {r['form']} (`{r['accession']}`)"
+        docs = [r for r in sources if r["company"] == company.ticker and r.get("sha256")]
+        guidance = "Outside guidance coverage" if company.role == "receiver" else "Not measured"
+        if docs:
+            d = max(docs, key=lambda r: (r["filed"], r["accession"]))
+            guidance = f"[{d['filed']} {d['form']}]({d['url']})"
+        lines.append(f"| {company.name} | {actual} | {guidance} |")
+    return "\n".join(lines)
+
+
 def latest_note(notes_dir: Path) -> Path | None:
     """The newest notes/YYYY-QN.md file, or None."""
     notes = []
@@ -175,6 +199,8 @@ def render_readme(
     text: str, long: pd.DataFrame, wide: pd.DataFrame, aggregate: pd.DataFrame, config: Config
 ) -> str:
     """Return ``text`` with every auto-generated section refreshed."""
+    if "<!-- FRESHNESS:START -->" in text:
+        text = replace_section(text, "FRESHNESS", render_freshness(long, config))
     return apply_sections(
         text,
         {
