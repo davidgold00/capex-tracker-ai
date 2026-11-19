@@ -4,7 +4,7 @@ Tracks five technology companies' capital spending against operating cash flow a
 
 > **Start here**
 >
-> **60 seconds:** Read the two findings below and the [current status](GUIDANCE_PROGRESS.md).
+> **60 seconds:** Open the [interactive explainer](https://davidgold00.github.io/capex-tracker-ai/) once Pages is enabled, or read the two findings below and the [current status](GUIDANCE_PROGRESS.md).
 >
 > **10 minutes:** Follow the [interview walkthrough](docs/WALKTHROUGH.md) and replay one claim with `make demo`.
 >
