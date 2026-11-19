@@ -8,10 +8,10 @@ from capex_tracker.guidance.review import csv_row, decision_input
 from capex_tracker.guidance.sources import DATA
 
 
-def event_dates(manifest):
+def paired_reports(manifest):
     """Date a paired release and periodic report to the first public filing."""
     groups = defaultdict(list)
-    dates = {s["accession"]: s["filed"] for s in manifest}
+    pairs = {}
     for source in manifest:
         if source.get("results_period"):
             groups[source["company"], source["results_period"]].append(source)
@@ -21,7 +21,14 @@ def event_dates(manifest):
         release, periodic = sorted(documents, key=lambda d: d["form"] != "8-K")
         gap = date.fromisoformat(periodic["filed"]) - date.fromisoformat(release["filed"])
         if 0 <= gap.days <= 1:
-            dates[periodic["accession"]] = release["filed"]
+            pairs[periodic["accession"]] = release["accession"]
+    return pairs
+
+
+def event_dates(manifest):
+    dates = {s["accession"]: s["filed"] for s in manifest}
+    for periodic, release in paired_reports(manifest).items():
+        dates[periodic] = dates[release]
     return dates
 
 

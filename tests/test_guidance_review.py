@@ -33,6 +33,8 @@ def test_auto_then_manual_review_is_idempotent(tmp_path, monkeypatch):
         ("needs-review", {"error": "invalid JSON"}),
     ]:
         trace = {"id": cid, "source": row, "passage": passage, "rules": [attempt], "ollama": [b]}
+        if cid == "needs-review":
+            trace["source"] = {**row, "filed": "2025-11-04"}
         (traces / (cid + ".json")).write_text(json.dumps(trace))
     apply(tmp_path, auto=True)
     assert [r["id"] for r in read_csv(tmp_path / "approved.csv")] == ["yes"]

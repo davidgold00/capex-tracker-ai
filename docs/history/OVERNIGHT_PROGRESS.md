@@ -11,3 +11,7 @@ The ledger was empty. All 156 candidate passages were pending, including 53 from
 The 156 passages resolve to 143 review items (MSFT 48, GOOGL 13, AMZN 20, META 40, ORCL 22). Of these, 38 have a proposed annual target and a positive kind (MSFT 0, GOOGL 5, AMZN 12, META 19, ORCL 2). The other 105 are unresolved review items, including abstentions and invalid responses. An inventory count is not a count of usable forecasts.
 
 Thirteen pairs of Meta passages share the same claim. Their releases and periodic reports were filed on adjacent dates. Exact filing-date grouping alone would double-count them. The index uses an earnings release's stated results period and the periodic report's SEC submissions report date. It joins only an unambiguous pair from the same issuer, with the release filed on the same day or one calendar day earlier. Each document keeps its actual filing date, accession, link and quote. Missing targets and unknown definitions remain separate. See [claim inventory](../../data/guidance/claims.json).
+
+## Corroboration
+
+[ADR 005](../decisions/ADR-005-corroboration-approval.md) was committed at bb06a8e before application. The 143 review items produced 13 auto-corroborated claims, all Meta, zero dual-extractor or manual approvals, and 130 pending. Each approval has two independently verified SEC accessions, one release and one periodic report. The ledger records the evidence IDs and basis.
