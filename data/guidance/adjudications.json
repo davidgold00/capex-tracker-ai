@@ -1,0 +1,495 @@
+{
+  "items": {
+    "AMZN-06bd97cc84bf": {
+      "cassette": "9ee5880a0f5fb859225997c59230d6adbd52cf3d7b9abe76ea8852042f9e5fe9",
+      "company_wide": true,
+      "confidence": 0.95,
+      "direction": "up",
+      "eligible": false,
+      "quote": "which we expect to increase in 2026.",
+      "source_sha256": "c1272c41e396efb5830f108e296183795231f29679045d9a2f1dad3ab5325942",
+      "year": 2026
+    },
+    "AMZN-0de8725e6d2d": {
+      "cassette": "763f253db8558a92bdf4022c70c4eceb9bb274988b85cbeea2432819f813f71f",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": true,
+      "quote": "We expect cash capital expenditures to meaningfully increase in 2024",
+      "source_sha256": "10a415dbe6819ee9001f90e15bcd380c6a87c8849f9f6015048f77eefe6a13fc",
+      "year": 2024
+    },
+    "AMZN-1a40d7181f82": {
+      "cassette": "da970a2ef8d4ae2519abe7e4906cb4b336e327ccc772d26fd99f83e8efcbf15a",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": true,
+      "quote": "We expect cash capital expenditures to increase in 2025",
+      "source_sha256": "8223f29893832ae3e06b2f9b0e7daf5fe3f5bda755de7317b97b57d268b7ffe6",
+      "year": 2025
+    },
+    "AMZN-1c9a0118a53b": {
+      "cassette": "5332705a03dcf8e3b281cf3e52375518cc7168b4fb81cf424c9034f1132c3d02",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": true,
+      "quote": "We expect cash capital expenditures to meaningfully increase in 2027, primarily driven by investments in technology infrastructure.",
+      "source_sha256": "c1272c41e396efb5830f108e296183795231f29679045d9a2f1dad3ab5325942",
+      "year": 2027
+    },
+    "AMZN-223bc9dd86d7": {
+      "cassette": "d22430b0e8ae0dd39cded6c4588328b886b07bd3fa57dc0a7ec4a64617018601",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "down",
+      "eligible": true,
+      "quote": "We expect cash capital expenditures to decrease in 2023",
+      "source_sha256": "72816fc07debd1b99f2e74b47ad3bd856b62dfc2cbbf651cbed6b3f494cc40d4",
+      "year": 2023
+    },
+    "AMZN-2a230a014d4c": {
+      "cassette": "4aced1ce747e6535af41f6d58c25c4d6dd5ebc6fc9b3e0d68459b111f4ce61ed",
+      "company_wide": true,
+      "confidence": 0.95,
+      "direction": "up",
+      "eligible": false,
+      "quote": "which we expect to increase in 2026",
+      "source_sha256": "b4bdda211b959f56e0767d29fb5bdd21232ab0147616a76e12bd4b033bd6aaea",
+      "year": 2026
+    },
+    "AMZN-49c5c4fbc842": {
+      "cassette": "d22430b0e8ae0dd39cded6c4588328b886b07bd3fa57dc0a7ec4a64617018601",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "down",
+      "eligible": true,
+      "quote": "We expect cash capital expenditures to decrease in 2023",
+      "source_sha256": "98ae026f40a881b9bf57000c70f265301577514e849b49fc2b8ab3370e59ddea",
+      "year": 2023
+    },
+    "AMZN-9838b3fdadfd": {
+      "cassette": "da970a2ef8d4ae2519abe7e4906cb4b336e327ccc772d26fd99f83e8efcbf15a",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": true,
+      "quote": "We expect cash capital expenditures to increase in 2025",
+      "source_sha256": "9f7f65d4a57a5d1f1dbfebde755b34ec20b43215e7575b85ce31f35263a6dd14",
+      "year": 2025
+    },
+    "AMZN-a8415b61fcbb": {
+      "cassette": "763f253db8558a92bdf4022c70c4eceb9bb274988b85cbeea2432819f813f71f",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": true,
+      "quote": "We expect cash capital expenditures to meaningfully increase in 2024",
+      "source_sha256": "5ae5a7a47bc7bdaacb3439f1571f13850a80c5a0e80fc1d4704f1b11b873dc10",
+      "year": 2024
+    },
+    "AMZN-becb5a99d3fe": {
+      "cassette": "6d09493a9494be5b3b0d3ad443fbb6f9786e007b83c67595c327d072408b43b8",
+      "company_wide": true,
+      "confidence": 0.95,
+      "direction": "up",
+      "eligible": false,
+      "quote": "which we expect to increase in 2025 and 2026.",
+      "source_sha256": "15347758afb3107d3ff40fd6d02bcec37261f046d5a36fa765957709994d79a5",
+      "year": 2025
+    },
+    "AMZN-c214038f1441": {
+      "cassette": "ace5ca3cc93415ee6240b9751f33bd5a8d9aff00e038c7b5916ae344dd6be31a",
+      "company_wide": true,
+      "confidence": 0.95,
+      "direction": "up",
+      "eligible": false,
+      "quote": "which investments we expect to increase in 2024.",
+      "source_sha256": "e4bd191eaaf84b39afa72091cacda6687eb107afa0b33a40441ceb4981ba725d",
+      "year": 2024
+    },
+    "AMZN-c867245052dc": {
+      "cassette": "9c37062d0eb5d19800f70222228b0b972541205d32ca1bbb036834210deb19ca",
+      "company_wide": true,
+      "confidence": 0.95,
+      "direction": "up",
+      "eligible": false,
+      "quote": "which we expect to increase in 2026.",
+      "source_sha256": "aa4b70b20168f3bbb2e2186285ab7b1d55eec84ed8096deb0849b414b03e4b56",
+      "year": 2026
+    },
+    "AMZN-d70575c6fe05": {
+      "cassette": "249c4a337c5aec4d97d7866eb5334c779329a2afa821fbf1108b605af9cf21a9",
+      "company_wide": true,
+      "confidence": 0.95,
+      "direction": "up",
+      "eligible": false,
+      "quote": "both of which we expect to increase in 2026",
+      "source_sha256": "fb66f05bc76b5e9871e9674db326f4be36f20e5db2d11dc56e945315c076fd89",
+      "year": 2026
+    },
+    "AMZN-e3b7831c7f96": {
+      "cassette": "763f253db8558a92bdf4022c70c4eceb9bb274988b85cbeea2432819f813f71f",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": true,
+      "quote": "We expect cash capital expenditures to meaningfully increase in 2024",
+      "source_sha256": "74cb2267611695fb22032fc9618c2e142a47cc54a650e76bde7f9d65e4ac1d5b",
+      "year": 2024
+    },
+    "AMZN-f2868c97f3ce": {
+      "cassette": "acb387dc930417b9b2327f621f101717044002e190d016683b06fd02be0b14dc",
+      "company_wide": true,
+      "confidence": 0.95,
+      "direction": "up",
+      "eligible": false,
+      "quote": "which we expect to increase in 2025",
+      "source_sha256": "ac668447568c2b1cf13db6ccf582a66e48343d33d77ba1145e3613c52babf73d",
+      "year": 2025
+    },
+    "AMZN-fe5dd79be81f": {
+      "cassette": "d22430b0e8ae0dd39cded6c4588328b886b07bd3fa57dc0a7ec4a64617018601",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "down",
+      "eligible": true,
+      "quote": "We expect cash capital expenditures to decrease in 2023",
+      "source_sha256": "559cebf35e99ebf673a41a042a5439df5b14c448dea36cca3575ad1fdd330d34",
+      "year": 2023
+    },
+    "GOOGL-aa8941d7cb74": {
+      "cassette": "d5276effbc4adde4edd4b8e206e98696b4a5b1548b04aa56bd2566328f6d0252",
+      "company_wide": true,
+      "confidence": 0.95,
+      "direction": "up",
+      "eligible": false,
+      "quote": "we expect to significantly increase, relative to 2025, our investment in our technical infrastructure, including servers and network equipment, and data centers.",
+      "source_sha256": "60b2b46a5ba197534b4d2df8db919bbf85295b0c00e53cdc64d119d865baa9b1",
+      "year": 2026
+    },
+    "GOOGL-e9a2680a71e1": {
+      "cassette": "dc458aee366c270d97ebc2528439feff600321e42589a2f52aeb4d97d0f9ac92",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": true,
+      "quote": "We expect full year 2025 capital expenditures to exceed full year 2024.",
+      "source_sha256": "eae6e037e9d939c75b7a20955465139852bc0551701326ab47b30c0016d99cf4",
+      "year": 2025
+    },
+    "META-129ecfe84188": {
+      "cassette": "aeaa3ee84a4510f4b07b4a466b8ec03218b663d64caba58fcf86d12219708b09",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": true,
+      "quote": "We expect capital expenditures growth in 2025 will be driven by increased investment to support both our generative AI efforts and core business.",
+      "source_sha256": "e7669ad60f4cf766ce9ab79cc84104d445101e2cc4dd56093eba5234c7f6edbe",
+      "year": 2025
+    },
+    "META-16a6514fd301": {
+      "cassette": "4fb938aca559e5173a3fa6a04a5b107c6194bf45bdc6c7b7a65b9145ebd0f1b4",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "depreciation expenses in 2024 to increase by a larger amount than in 2023",
+      "source_sha256": "fa87d964240b120cd8808d75b23879208674839c1d14b3f83630c50c3b39771e",
+      "year": 2024
+    },
+    "META-27d24bc5895b": {
+      "cassette": "0cf006625f7c3db3c0ae807ef3d97549f20853961f238057bd7bac876181d479",
+      "company_wide": true,
+      "confidence": 0.95,
+      "direction": "up",
+      "eligible": false,
+      "quote": "another year of similarly significant capital expenditures dollar growth in 2026",
+      "source_sha256": "27ca0b6b9c45773f922d29fe9d211317406dbf37b3efa05c5e4a98065098d296",
+      "year": 2026
+    },
+    "META-52ff18465a18": {
+      "cassette": "ab1ea92ae91f63f93c53e62947f443652ceb0adbf2846704463689539a45ae1c",
+      "company_wide": true,
+      "confidence": 0.95,
+      "direction": "up",
+      "eligible": false,
+      "quote": "significant capital expenditures growth in 2025",
+      "source_sha256": "78c98bb55e590c24f7065461784ca46d468b4ee13fe712bfe68e720eb898dcdf",
+      "year": 2025
+    },
+    "META-579d02d3d7dd": {
+      "cassette": "bc4d217a65de5a18660c5aaf927c55cd9b2710949b3b6a12a4f2c1662b2d6384",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "we expect a significant acceleration in infrastructure expense growth next year",
+      "source_sha256": "7ff50e39aea85518f9799750d4dfc57f2cd3c301a0ded636b97411afe47fdac0",
+      "year": 2024
+    },
+    "META-5bf4d801c636": {
+      "cassette": "40bb8c62534d10c5a9a4f1d914924360024ff2fd282f4048220c9554e479c16f",
+      "company_wide": true,
+      "confidence": 0.95,
+      "direction": "up",
+      "eligible": true,
+      "quote": "we currently expect total capital expenditures to grow in 2024",
+      "source_sha256": "8813cd68e60ca5edcf812e2f48529a7d27bc4f791d582560cd1771da4b2af192",
+      "year": 2024
+    },
+    "META-77297c4cb424": {
+      "cassette": "7650df3bd82143c7dc38d8ecdde2cc2568cb5e31b7dead5f7e08e6be75f2ca83",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": true,
+      "quote": "capital expenditures dollar growth will be notably larger in 2026 than 2025",
+      "source_sha256": "e8ac3d4ad59f4d7b15b7823ce3164f18b6a1f237644a735b9c68d564ba1b9155",
+      "year": 2026
+    },
+    "META-986faab00e1b": {
+      "cassette": "cd4bb753f34631b6f56ce5aa7a317b5295a170719304accd376c6ef460637227",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": true,
+      "quote": "We continue to expect significant capital expenditures growth in 2025.",
+      "source_sha256": "7ff50e39aea85518f9799750d4dfc57f2cd3c301a0ded636b97411afe47fdac0",
+      "year": 2025
+    },
+    "META-9f65bf3b2539": {
+      "cassette": "45d762fc3085ea729e3e8a0ee9308ce5f277ab83252e4f33a978c8b3a0e0e0f0",
+      "company_wide": true,
+      "confidence": 0.95,
+      "direction": "up",
+      "eligible": false,
+      "quote": "capital expenditures will continue to increase next year",
+      "source_sha256": "a9b2aa9a26aa09bf06027f5128e9c19049b6bfa2e39aca550b60de2821da803a",
+      "year": 2024
+    },
+    "META-bc5328ff1dfa": {
+      "cassette": "4fb938aca559e5173a3fa6a04a5b107c6194bf45bdc6c7b7a65b9145ebd0f1b4",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "depreciation expenses in 2024 to increase by a larger amount than in 2023",
+      "source_sha256": "abf2a2c04ae4621f648d409e20815604f1f5d32bfc4e5d5b4d279999037db9ed",
+      "year": 2024
+    },
+    "META-ca4926c279c8": {
+      "cassette": "4fb938aca559e5173a3fa6a04a5b107c6194bf45bdc6c7b7a65b9145ebd0f1b4",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "depreciation expenses in 2024 to increase by a larger amount than in 2023",
+      "source_sha256": "8813cd68e60ca5edcf812e2f48529a7d27bc4f791d582560cd1771da4b2af192",
+      "year": 2024
+    },
+    "META-ca9f97d191ab": {
+      "cassette": "40a938abba5af744f6fcbe6301a9463ba89e0aad0204a009f9f27b28056281bc",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": true,
+      "quote": "We currently expect our capital expenditures to grow significantly in 2025 as we invest to support our AI research and product development efforts.",
+      "source_sha256": "bf63dd6daab91e997a774ae356c2dd4b6754f7f9a9d8c09faef7632cc2a488ff",
+      "year": 2025
+    },
+    "MSFT-1dbca946ec99": {
+      "cassette": "3672c82adc6d7119513e132bedc7fababbf5813142bfbb62cc9edfb09899d5dc",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure.",
+      "source_sha256": "5cf63204adbf78c435ed8eb055f142602a7816ff7d6494f77a00a10d3baf6ff1",
+      "year": null
+    },
+    "MSFT-2aea0168fab8": {
+      "cassette": "dde8d6aba6ebb1a25b036cd16e6d3f9050675f109371c03839d65198f92a5919",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings.",
+      "source_sha256": "f2a865feeac518872ccb772ea077ba871bb47f3c758165c2b3d208e635fcd215",
+      "year": null
+    },
+    "MSFT-300aa196b170": {
+      "cassette": "2deba9d1a850e50378e5f17e5b2a7232e95d558f603d4ca280365cf8ae4f4c1e",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+      "source_sha256": "9c66d6bc3605ed46b0fc64d3cdbab7620d3792c3f03af311eb6e46bc12246eb6",
+      "year": null
+    },
+    "MSFT-62a656ce2a71": {
+      "cassette": "3672c82adc6d7119513e132bedc7fababbf5813142bfbb62cc9edfb09899d5dc",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure.",
+      "source_sha256": "95214a90bc13b7ea84af77581fc7b202e95c42d1f02f4cd318c262aedbf07861",
+      "year": null
+    },
+    "MSFT-6b62156330b3": {
+      "cassette": "3672c82adc6d7119513e132bedc7fababbf5813142bfbb62cc9edfb09899d5dc",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure.",
+      "source_sha256": "809f3fccd6cefd41a834a711ad40cf299b102157afa12060007b8e6dc284256a",
+      "year": null
+    },
+    "MSFT-766e439b47a6": {
+      "cassette": "80191ebe1863ac65f5afa6e595c16cfcaf2f9bf57e8ce53bdb674f3ce0393be8",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "invest in capital expenditures to support growth in our cloud offerings and our investments in AI training and other infrastructure.",
+      "source_sha256": "9a819ee08ecde6eba10b2dda1471ec66b09ae848ff9cd5daac023a163ee36c5a",
+      "year": null
+    },
+    "MSFT-7c9142ab69b1": {
+      "cassette": "2deba9d1a850e50378e5f17e5b2a7232e95d558f603d4ca280365cf8ae4f4c1e",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+      "source_sha256": "627121c8f2d5d40a73634b5965f1e884bdcf886daa20371a50df322d577b6970",
+      "year": null
+    },
+    "MSFT-8ddb90de6819": {
+      "cassette": "f79012b78463bb5ae4db209125927547e04787dbf99565f32dec662071f15647",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "invest in capital expenditures to support growth in our cloud offerings and our investments in AI infrastructure and training",
+      "source_sha256": "33d65cd38662302af57d3cb31ccd63ac2092dc2b21f6ef720f3c518ae2daf616",
+      "year": null
+    },
+    "MSFT-9c1b94d3d1c9": {
+      "cassette": "f323ad68042cf485324537dec90206f5eefac6d50a82d6294ec2308e4e12108a",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in artificial intelligence infrastructure.",
+      "source_sha256": "e50dd5d3cdf925a723a4d9fd0f9aa871aa781ccfec527ee60cbecfa0539f8b81",
+      "year": null
+    },
+    "MSFT-a224d163f564": {
+      "cassette": "f79012b78463bb5ae4db209125927547e04787dbf99565f32dec662071f15647",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "invest in capital expenditures to support growth in our cloud offerings and our investments in AI infrastructure and training",
+      "source_sha256": "4a98cbca54ce2b3636928cdcd3931618f497850165eb3521d571a307e577cef7",
+      "year": null
+    },
+    "MSFT-ad61b7bd330b": {
+      "cassette": "2deba9d1a850e50378e5f17e5b2a7232e95d558f603d4ca280365cf8ae4f4c1e",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+      "source_sha256": "5b950f4b6f5b7567d64708897756c764214a7f877efc49434b6b9c11c017ebb0",
+      "year": null
+    },
+    "MSFT-b44ce4512f41": {
+      "cassette": "2deba9d1a850e50378e5f17e5b2a7232e95d558f603d4ca280365cf8ae4f4c1e",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+      "source_sha256": "a2953d2b6bf5523c4b92069eb940cab1bd5e3974e1cad5c7d13aa8532a64d34a",
+      "year": null
+    },
+    "MSFT-beceabcd3bbc": {
+      "cassette": "2deba9d1a850e50378e5f17e5b2a7232e95d558f603d4ca280365cf8ae4f4c1e",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "We expect capital expenditures to increase in coming years to support growth in our cloud offerings and our investments in AI infrastructure and training.",
+      "source_sha256": "7594b19f67fe36e468e244806a904daf519c1bbbb89b51dd1675556c9821fbc4",
+      "year": null
+    },
+    "MSFT-df4e56fd215b": {
+      "cassette": "80191ebe1863ac65f5afa6e595c16cfcaf2f9bf57e8ce53bdb674f3ce0393be8",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "invest in capital expenditures to support growth in our cloud offerings and our investments in AI training and other infrastructure.",
+      "source_sha256": "c3673fdea967883d0416bfa71dd5a1da75ad8d4469a564c8e222297f9ed9db68",
+      "year": null
+    },
+    "MSFT-e40fa67e8d26": {
+      "cassette": "f79012b78463bb5ae4db209125927547e04787dbf99565f32dec662071f15647",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "invest in capital expenditures to support growth in our cloud offerings and our investments in AI infrastructure and training",
+      "source_sha256": "7115c581d4c59cfbf00e9a5b5f662702ba0fd7c0361f8a60e30b3fc1491a86d5",
+      "year": null
+    },
+    "MSFT-f9842abbda9f": {
+      "cassette": "f79012b78463bb5ae4db209125927547e04787dbf99565f32dec662071f15647",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": false,
+      "quote": "invest in capital expenditures to support growth in our cloud offerings and our investments in AI infrastructure and training",
+      "source_sha256": "7acd0a9a51d27f231b8fdcebd63e6ce07ee5d9a47847c636495442ac02681a67",
+      "year": null
+    },
+    "ORCL-40941c832f82": {
+      "cassette": "8bf34295076cd30516eafc2b72a394c2815354afb66d5eed3f73431531144cb7",
+      "company_wide": false,
+      "confidence": 0.0,
+      "direction": "none",
+      "eligible": false,
+      "quote": "\"forward-looking statements\" and are subject to material risks and uncertainties.",
+      "source_sha256": "0b0296374c482342e1a1f1b19d8a9b9ff1841018c1f2a5ee742f0b4a0cc66ef1",
+      "year": null
+    },
+    "ORCL-590117a041e3": {
+      "cassette": "e54b354c5ad07868262cf503e4e129a543d46e918149bb3c215e438003e7c80d",
+      "company_wide": false,
+      "confidence": 0.8,
+      "direction": "up",
+      "eligible": false,
+      "quote": "expected future capital expenditures",
+      "source_sha256": "ed3e2a2f31819a73915e85781ffdae0d269b08520c69f9179174c0cb96547eee",
+      "year": null
+    },
+    "ORCL-ba66de696e44": {
+      "cassette": "31519397c1b84d031531d214f0183f8bb82ecea024340971dc8c12d27299f9ed",
+      "company_wide": true,
+      "confidence": 1.0,
+      "direction": "up",
+      "eligible": true,
+      "quote": "We expect our capital expenditures in fiscal 2027 to be higher than fiscal 2026",
+      "source_sha256": "a85223f5223f63c0b9d7cf63238393ec034122ae3b5bdbf9f4088e9a9e34347a",
+      "year": 2027
+    }
+  },
+  "model": "phi3.5"
+}

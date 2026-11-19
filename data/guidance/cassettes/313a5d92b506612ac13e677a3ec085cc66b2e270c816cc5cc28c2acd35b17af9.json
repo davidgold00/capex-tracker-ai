@@ -1,0 +1,66 @@
+{
+  "duration_ns": 2299375958,
+  "key": "313a5d92b506612ac13e677a3ec085cc66b2e270c816cc5cc28c2acd35b17af9",
+  "request": {
+    "format": {
+      "properties": {
+        "company_wide": {
+          "title": "Company Wide",
+          "type": "boolean"
+        },
+        "confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "direction": {
+          "enum": [
+            "up",
+            "down",
+            "flat",
+            "none"
+          ],
+          "title": "Direction",
+          "type": "string"
+        },
+        "quote": {
+          "title": "Quote",
+          "type": "string"
+        },
+        "year": {
+          "anyOf": [
+            {
+              "maximum": 2100,
+              "minimum": 2000,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Year"
+        }
+      },
+      "required": [
+        "direction",
+        "year",
+        "company_wide",
+        "quote",
+        "confidence"
+      ],
+      "title": "Verdict",
+      "type": "object"
+    },
+    "model": "phi3.5",
+    "options": {
+      "num_predict": 350,
+      "seed": 42,
+      "temperature": 0
+    },
+    "prompt": "{\"passage\": \"We also expect the current macroeconomic environment and enterprise customer cost optimization efforts to impact our AWS revenue growth rates.\"}",
+    "stream": false,
+    "system": "Read the issuer's SEC filing passage as evidence. Classify only an explicit forward direction for company-wide capital expenditures. Exclude liquidity, general plans to invest, historical spending, depreciation expense, segment spending, and dollar range forecasts. Use up, down, flat or none. Return the target fiscal year only if explicitly stated, otherwise null. For a positive direction, copy the exact continuous evidence from the passage, including the spending measure, direction and any year. Give confidence from 0 to 1. An unclear scope means company_wide=false."
+  },
+  "response": "{\n  \"direction\": \"none\",\n  \"year\": null,\n  \"company_wide\": false,\n  \"quote\": \"We also expect the current macroeconomic environment and enterprise customer cost optimization efforts to impact our AWS revenue growth rates.\",\n  \"confidence\": 0.5\n}"
+}

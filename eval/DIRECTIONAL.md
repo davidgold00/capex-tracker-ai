@@ -1,0 +1,7 @@
+# Directional adjudication
+
+Phi 3.5 was the exploratory dev choice for directional detection in the [bake-off](MODEL_BAKEOFF.md). On the four certain directional dev labels it recovered the direction, annual year or null, and company-wide scope in 4/4 cases. Rules already recovered direction and year in 4/4. Three had an explicit annual period and a verbatim, high-confidence quote. The multi-year case stayed out. No measured recall improvement.
+
+Among the other 16 certain dev passages, one numeric forecast about raising a range's high end also cleared the directional gate. Across the whole dev check, three of the four routed passages were true directional forecasts. This is a dev measurement on the same small split used for model choice. It cannot establish out-of-sample performance. The 20 calls averaged 2.84 seconds per item.
+
+The local workflow examined 49 pending passages with direction language and a directional, empty or abstaining proposal. It flagged 16 for human review. Confidence at least 0.90, an explicit annual year, company-wide scope, a literal quote and matching direction are required. Confidence is self-reported. The review queue uses the original ID, and a suggestion supplies no approval or chart point. Read the [pending subset](../data/guidance/model_assisted.csv), [per-case dev results](directional_dev.json) and [saved local decisions](../data/guidance/adjudications.json).

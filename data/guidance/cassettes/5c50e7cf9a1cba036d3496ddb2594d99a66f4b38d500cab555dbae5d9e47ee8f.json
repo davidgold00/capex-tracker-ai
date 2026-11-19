@@ -1,0 +1,66 @@
+{
+  "duration_ns": 2777708417,
+  "key": "5c50e7cf9a1cba036d3496ddb2594d99a66f4b38d500cab555dbae5d9e47ee8f",
+  "request": {
+    "format": {
+      "properties": {
+        "company_wide": {
+          "title": "Company Wide",
+          "type": "boolean"
+        },
+        "confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "direction": {
+          "enum": [
+            "up",
+            "down",
+            "flat",
+            "none"
+          ],
+          "title": "Direction",
+          "type": "string"
+        },
+        "quote": {
+          "title": "Quote",
+          "type": "string"
+        },
+        "year": {
+          "anyOf": [
+            {
+              "maximum": 2100,
+              "minimum": 2000,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Year"
+        }
+      },
+      "required": [
+        "direction",
+        "year",
+        "company_wide",
+        "quote",
+        "confidence"
+      ],
+      "title": "Verdict",
+      "type": "object"
+    },
+    "model": "phi3.5",
+    "options": {
+      "num_predict": 350,
+      "seed": 42,
+      "temperature": 0
+    },
+    "prompt": "{\"passage\": \"This investment, which is the single largest capital investment in the state\\u2019s history, will create at least 1,000 jobs and support new educational trainings in the state.\"}",
+    "stream": false,
+    "system": "Read the issuer's SEC filing passage as evidence. Classify only an explicit forward direction for company-wide capital expenditures. Exclude liquidity, general plans to invest, historical spending, depreciation expense, segment spending, and dollar range forecasts. Use up, down, flat or none. Return the target fiscal year only if explicitly stated, otherwise null. For a positive direction, copy the exact continuous evidence from the passage, including the spending measure, direction and any year. Give confidence from 0 to 1. An unclear scope means company_wide=false."
+  },
+  "response": "{\n  \"direction\": \"up\",\n  \"year\": null,\n  \"company_wide\": true,\n  \"quote\": \"This investment, which is the single largest capital investment in the state\\u2019s history, will create at least 1,000 jobs and support new educational trainings in the state.\",\n  \"confidence\": 1\n}"
+}

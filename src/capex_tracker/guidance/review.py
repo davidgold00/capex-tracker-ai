@@ -249,6 +249,35 @@ def _apply(directory, auto):
     write_record(audit, {"decisions": events, "history": history})
     write_csv(directory / "approved.csv", FIELDS, approved)
     write_csv(directory / "pending.csv", FIELDS + EDITS, sorted(pending, key=lambda r: r["id"]))
+    suggestions = directory / "adjudications.json"
+    if suggestions.is_file():
+        hints = json.loads(suggestions.read_text())["items"]
+        hashes = {t["id"]: t["source"].get("sha256") for group in groups.values() for t, _ in group}
+        assisted = []
+        for row in sorted(pending, key=lambda r: r["id"]):
+            hint = hints.get(row["id"], {})
+            if (
+                hint.get("eligible")
+                and hint["source_sha256"] == hashes[row["id"]]
+                and hint["quote"] in row["evidence_quote"]
+            ):
+                assisted.append(
+                    dict(
+                        id=row["id"],
+                        bucket="model-assisted",
+                        company=row["company"],
+                        year=hint["year"],
+                        direction=hint["direction"],
+                        quote=hint["quote"],
+                        source_url=row["source_url"],
+                        cassette=hint["cassette"],
+                    )
+                )
+        write_csv(
+            directory / "model_assisted.csv",
+            ["id", "bucket", "company", "year", "direction", "quote", "source_url", "cassette"],
+            assisted,
+        )
     print(f"{len(approved)} approved, {len(pending)} pending.")
 
 
