@@ -8,7 +8,7 @@ Tracks five technology companies' capital spending against operating cash flow a
 >
 > **10 minutes:** Follow the [interview walkthrough](docs/WALKTHROUGH.md) and replay one claim with `make demo`.
 >
-> **Deep dive:** Inspect the [frozen test](eval/test_results.json), [dev bake-off](eval/MODEL_BAKEOFF.md) and [approval policy](docs/decisions/ADR-005-corroboration-approval.md).
+> **Deep dive:** Follow the [system and four workflows](docs/WORKFLOWS.md), then inspect the [frozen test](eval/test_results.json), [dev bake-off](eval/MODEL_BAKEOFF.md) and [approval policy](docs/decisions/ADR-005-corroboration-approval.md).
 
 <!-- HEADLINE:START -->
 **In the four quarters to Q3 2026, Microsoft, Alphabet, Amazon, Meta and Oracle spent $691.0B on capex, equal to 95% of their operating cash flow, up from 64% a year earlier.**
