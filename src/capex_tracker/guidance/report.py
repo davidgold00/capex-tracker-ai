@@ -110,6 +110,33 @@ def finding(rows, audit_status="pending human audit"):
     return f"{movement} and {gap}, based on {bases} SEC claims ({coverage}, {audit_status})."
 
 
+def audit_status(directory):
+    sample = read_csv(directory / "audit_sample.csv")
+    reviewed = sum(
+        r["david_verdict"].strip().lower() in ("correct", "incorrect", "unsure") for r in sample
+    )
+    if reviewed == 0:
+        return "pending human audit"
+    return f"human audit {reviewed}/{len(sample)} verdicts entered"
+
+
+def audit_line(directory):
+    sample = read_csv(directory / "audit_sample.csv")
+    if not sample:
+        return "Human audit: Not measured (n=0 sampled)."
+    if audit_status(directory) == "pending human audit":
+        return f"Human audit pending (n={len(sample)} sampled)."
+    lines = []
+    for policy in ("auto-corroborated", "pending"):
+        votes = Counter(r["david_verdict"].strip().lower() for r in sample if r["policy"] == policy)
+        n = votes["correct"] + votes["incorrect"]
+        agreement = (
+            f"{votes['correct']}/{n} ({votes['correct'] / n:.1%}, n={n})" if n else "Not measured"
+        )
+        lines.append(f"{policy} agreement {agreement}, {votes['unsure']} unsure, {votes['']} blank")
+    return "Human audit: " + ". ".join(lines) + "."
+
+
 def fiscal_table(rows):
     lines = [
         "| Issuer / FY | First approved range | Last approved range | Actual | "
@@ -294,7 +321,8 @@ def render(config, wide, text):
     chart(rows, config, config.paths.charts_dir / "guidance_path.png")
     section = "\n\n".join(
         [
-            finding(rows),
+            finding(rows, audit_status(directory)),
+            audit_line(directory),
             fiscal_table(rows),
             "Initial means the earliest approved range in this filing sample. "
             "Earlier single-source forecasts can remain pending.",

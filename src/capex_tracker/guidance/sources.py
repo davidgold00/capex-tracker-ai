@@ -169,14 +169,18 @@ def results_period(text):
     return None
 
 
-def fetch(refresh=False):
+def fetch(refresh=False, on_new=None):
     client = SecClient(load_config())
     docs = RAW / "clean"
     docs.mkdir(parents=True, exist_ok=True)
     DATA.mkdir(parents=True, exist_ok=True)
-    manifest = []
+    path = DATA / "sources.json"
+    existing = json.loads(path.read_text()) if on_new and path.exists() else []
+    manifest = {r["accession"]: r for r in existing}
     for ticker, cik in CIKS.items():
         for form, _, filed, accession, primary, report_date in submissions(client, cik, refresh):
+            if on_new and manifest.get(accession, {}).get("sha256"):
+                continue
             base = f"https://www.sec.gov/Archives/edgar/data/{cik}/{accession.replace('-', '')}/"
             row = dict(
                 company=ticker, form=form, filed=filed, accession=accession, url=base + primary
@@ -194,10 +198,14 @@ def fetch(refresh=False):
                 )
                 (docs / (accession + ".txt")).write_text(text)
             except (ValueError, SecRequestError) as error:
+                if on_new and isinstance(error, SecRequestError):
+                    raise
                 row["error"] = str(error)
-            manifest.append(row)
+            if on_new and "sha256" in row:
+                on_new(row, text)
+            manifest[accession] = row
         print(ticker, "inventoried", flush=True)
-    ordered = sorted(manifest, key=lambda r: (r["company"], r["filed"], r["accession"]))
+    ordered = sorted(manifest.values(), key=lambda r: (r["company"], r["filed"], r["accession"]))
     temp = DATA / "sources.tmp"
     temp.write_text(json.dumps(ordered, indent=2) + "\n")
     temp.replace(DATA / "sources.json")

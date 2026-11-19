@@ -19,3 +19,7 @@ Thirteen pairs of Meta passages share the same claim. Their releases and periodi
 ## Frozen human audit sample
 
 Seed 20261119. The approved stratum contains only 13 items, so all were included. Sampled 17 of the 130 pending items to reach 30. Both agreement estimates are Not measured (n=0 completed verdicts). Generating the sample again refuses to overwrite any answers.
+
+## Model-free weekly path
+
+A clean-cache live rehearsal on this Mac fetched SEC submissions and XBRL with model imports blocked. Incremental guidance, financial build, charts and README took 4.32 seconds, excluding dependency installation, tests and GitHub issue synchronization. No new guidance document was due. All four original financial CSVs and the validation report matched byte for byte, with zero validation failures and 16 warnings. Tests exercise a new release/report pair, a later conflict that revokes an automatic approval, and idempotent issue synchronization.

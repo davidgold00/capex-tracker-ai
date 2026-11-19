@@ -44,6 +44,8 @@ Last updated: 2026-10-30. Latest filing included: Amazon 10-Q, accession 0001018
 <!-- GUIDANCE:START -->
 Meta raised the midpoint in 9 of 9 revisions and actual spending was a median +15.5% versus the first approved midpoint (n=3 completed fiscal years), based on 13 auto-corroborated SEC claims (13/13 from Meta, pending human audit).
 
+Human audit pending (n=30 sampled).
+
 | Issuer / FY | First approved range | Last approved range | Actual | Gap vs first midpoint |
 |---|---:|---:|---:|---:|
 | META FY2023, including lease principal | $27.0B to $30.0B | $27.0B to $30.0B | $28.1B | -1.4% (n=1) |
@@ -60,7 +62,7 @@ Documents with an identified company-wide spending forecast among SEC filings re
 [Dated ranges, revisions, definitions and actuals](data/processed/guidance_paths.csv)
 <!-- GUIDANCE:END -->
 
-**Human audit pending (n=30 sampled).** The sample contains all 13 auto-corroborated claims and 17 seeded pending items. Open [audit_sample.csv](data/guidance/audit_sample.csv) on GitHub, select the pencil, fill only `david_verdict` and `david_note`, and commit. Mark `correct` if the linked evidence supports the policy decision to approve or withhold, `incorrect` if you disagree, or `unsure`. Agreement is reported separately by decision, excluding blank and unsure verdicts from the denominator. [Audit reporting script](scripts/audit_sample.py).
+The audit sample contains all 13 auto-corroborated claims and 17 seeded pending items. Open [audit_sample.csv](data/guidance/audit_sample.csv) on GitHub, select the pencil, fill only `david_verdict` and `david_note`, and commit. Mark `correct` if the linked evidence supports the policy decision to approve or withhold, `incorrect` if you disagree, or `unsure`. Agreement is reported separately by decision, excluding blank and unsure verdicts from the denominator. [Audit reporting script](scripts/audit_sample.py).
 
 ## What changed
 
