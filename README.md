@@ -62,10 +62,12 @@ Documents with an identified company-wide spending forecast among SEC filings re
 
 **Human audit pending (n=30 sampled).** The sample contains all 13 auto-corroborated claims and 17 seeded pending items. Open [audit_sample.csv](data/guidance/audit_sample.csv) on GitHub, select the pencil, fill only `david_verdict` and `david_note`, and commit. Mark `correct` if the linked evidence supports the policy decision to approve or withhold, `incorrect` if you disagree, or `unsure`. Agreement is reported separately by decision, excluding blank and unsure verdicts from the denominator. [Audit reporting script](scripts/audit_sample.py).
 
-## What changed (machine-drafted and fact-checked)
+## What changed
 
 <!-- WHAT_CHANGED:START -->
+Aggregate capex rose from $181.5B in Q2 2026 to $230.4B in Q3 2026. Aggregate capex rose from $105.8B in Q3 2025 to $230.4B in Q3 2026. Meta guided to $135.0B to $145.0B for FY2026.
 
+*template-generated, fact-checked*
 <!-- WHAT_CHANGED:END -->
 
 ## My read this quarter

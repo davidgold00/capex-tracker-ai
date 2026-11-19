@@ -119,10 +119,19 @@ def check(paragraph, facts):
     return reasons
 
 
+def template(facts):
+    paragraph = " ".join(group[0] for group in facts.groups)
+    return paragraph if not check(paragraph, facts) else ""
+
+
 def publish(text, path: Path, facts):
-    paragraph = ""
+    paragraph = template(facts)
+    label = "template-generated, fact-checked"
     if path.is_file():
         data = json.loads(path.read_text())
         if data.get("facts_sha256") == facts.key and not check(data.get("paragraph", ""), facts):
             paragraph = data["paragraph"]
-    return replace_section(text, "WHAT_CHANGED", paragraph)
+            if data.get("basis", "local-model") == "local-model":
+                label = "local-model rephrasing, fact-checked"
+    body = f"{paragraph}\n\n*{label}*" if paragraph else "Not measured (n=0 complete comparisons)."
+    return replace_section(text, "WHAT_CHANGED", body)
