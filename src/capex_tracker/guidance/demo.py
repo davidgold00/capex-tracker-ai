@@ -8,7 +8,7 @@ from capex_tracker.cli import _read_processed
 from capex_tracker.config import load_config
 from capex_tracker.guidance.extract import rules
 from capex_tracker.guidance.ground import check, factbook
-from capex_tracker.guidance.report import finding, paths
+from capex_tracker.guidance.report import audit_status, finding, paths
 from capex_tracker.guidance.review import read_approved, read_csv
 from capex_tracker.guidance.sources import DATA, digest
 from capex_tracker.readme import billions
@@ -44,7 +44,7 @@ def explain(cid, detailed=True):
     baseline = rules(trace["passage"]).model_dump()
     assert trace["rules"][0]["statement"]["proposal"] == baseline
     for label, method in [("Rules", "rules"), ("Local model", "ollama")]:
-        for i, a in enumerate(trace[method], 1):
+        for i, a in enumerate(trace.get(method, []), 1):
             key = a.get("cassette")
             if key:
                 cassette = json.loads((DATA / "cassettes" / (key + ".json")).read_text())
@@ -81,17 +81,27 @@ def explain(cid, detailed=True):
     approved = read_approved(DATA)
     pending = read_csv(DATA / "pending.csv")
     audit = json.loads((DATA / "audit.json").read_text())["decisions"]
-    result = audit.get(cid)
+    claim_id = next(
+        (k for k, v in audit.items() if cid == k or cid in v.get("evidence_ids", [])), cid
+    )
+    result = audit.get(claim_id)
+    catalog = json.loads((DATA / "claims.json").read_text())["claims"]
+    claim = next((c for c in catalog if any(e["id"] == cid for e in c["evidence"])), None)
+    if claim:
+        lines.append(f"Claim date: {claim['statement_date']}; {len(claim['evidence'])} passage(s).")
+        for e in claim["evidence"]:
+            lines.append(f"  {e['id']} | {e['form']} filed {e['filed']} | {e['accession']}")
+            lines.extend(["  " + e["quote"], "  " + e["url"]])
     lines.append(
-        f"Review: {result['decision']} by {result['approved_by']}."
+        f"Review: {result['decision']} by {result['approved_by']}. {result.get('reason', '')}"
         if result
-        else "Review: pending in VS Code."
-        if any(r["id"] == cid for r in pending)
+        else "Review: pending in the browser queue."
+        if claim and any(r["id"] in {e["id"] for e in claim["evidence"]} for r in pending)
         else "Review: both extractors abstained."
     )
     _, wide, _ = _read_processed(load_config())
     rows = paths(approved, wide)
-    plotted = next((r for r in rows if r["id"] == cid), None)
+    plotted = next((r for r in rows if r["id"] == claim_id), None)
     if plotted:
         lines.append(
             f"Chart: {plotted['stage']} in FY{plotted['fiscal_year']}; "
@@ -103,7 +113,7 @@ def explain(cid, detailed=True):
         )
     else:
         lines.append("Chart: no point for this passage.")
-    lines.append(finding(rows))
+    lines.append(finding(rows, audit_status(DATA)))
     return "\n".join(lines)
 
 
