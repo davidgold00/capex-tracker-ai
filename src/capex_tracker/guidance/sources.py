@@ -13,7 +13,14 @@ from capex_tracker.sec_client import SecClient, SecRequestError
 
 RAW = Path("data/raw/guidance")
 DATA = Path("data/guidance")
-CIKS = {"META": 1326801, "GOOGL": 1652044, "MSFT": 789019, "AMZN": 1018724, "ORCL": 1341439}
+CIKS = {
+    "META": 1326801,
+    "GOOGL": 1652044,
+    "MSFT": 789019,
+    "AMZN": 1018724,
+    "ORCL": 1341439,
+    "CRWV": 1769628,
+}
 CAPEX = re.compile(r"\b(capital (?:expenditures?|spending|investments?)|capex)\b", re.I)
 FUTURE = re.compile(
     r"\b(expect\w*|anticipat\w*|outlook|forecast\w*|guidance|project(?:ed|ions?)|"
@@ -170,14 +177,17 @@ def results_period(text):
 
 
 def fetch(refresh=False, on_new=None):
-    client = SecClient(load_config())
+    config = load_config()
+    client = SecClient(config)
     docs = RAW / "clean"
     docs.mkdir(parents=True, exist_ok=True)
     DATA.mkdir(parents=True, exist_ok=True)
     path = DATA / "sources.json"
     existing = json.loads(path.read_text()) if on_new and path.exists() else []
     manifest = {r["accession"]: r for r in existing}
-    for ticker, cik in CIKS.items():
+    for company in config.spenders:
+        ticker = company.ticker
+        cik = CIKS[ticker]
         for form, _, filed, accession, primary, report_date in submissions(client, cik, refresh):
             if on_new and manifest.get(accession, {}).get("sha256"):
                 continue

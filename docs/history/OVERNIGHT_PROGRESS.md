@@ -23,3 +23,7 @@ Seed 20261119. The approved stratum contains only 13 items, so all were included
 ## Model-free weekly path
 
 A clean-cache live rehearsal on this Mac fetched SEC submissions and XBRL with model imports blocked. Incremental guidance, financial build, charts and README took 4.32 seconds, excluding dependency installation, tests and GitHub issue synchronization. No new guidance document was due. All four original financial CSVs and the validation report matched byte for byte, with zero validation failures and 16 warnings. Tests exercise a new release/report pair, a later conflict that revokes an automatic approval, and idempotent issue synchronization.
+
+## Optional CoreWeave scope
+
+CoreWeave's 10-K comparatives for FY2023 contain annual capex, OCF and revenue and zero derivable quarters for those three metrics. Its configured coverage starts in FY2024, with all four quarters for each required metric. A separate opt-in live run read 14/14 filing texts, built 11 financial quarters and passed validation with 20 warnings and zero failures. Default outputs still cover the five original spenders.

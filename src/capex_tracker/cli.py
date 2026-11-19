@@ -264,7 +264,7 @@ def command_inspect(config: Config, ticker: str, metric: str) -> None:
             f"supplied {selection.periods_used.get(item.concept, 0)}"
         )
 
-    window = [q for q in derivation.quarters if q.period_end >= config.data_start]
+    window = [q for q in derivation.quarters if q.period_end >= company.start_at(config.data_start)]
     facts = sorted(
         {fact for quarter in window for fact in quarter.inputs},
         key=lambda f: (f.end, f.start),
@@ -289,7 +289,7 @@ def command_inspect(config: Config, ticker: str, metric: str) -> None:
             f"{how}{cross}"
         )
     for gap in derivation.gaps:
-        if gap.period_end and gap.period_end >= config.data_start:
+        if gap.period_end and gap.period_end >= company.start_at(config.data_start):
             print(f"  GAP FY{gap.fiscal_year} Q{gap.fiscal_quarter}: {gap.reason}")
 
 

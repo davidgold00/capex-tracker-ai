@@ -4,6 +4,7 @@ import json
 import re
 from pathlib import Path
 
+from capex_tracker.config import load_config
 from capex_tracker.guidance.review import read_csv
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -41,6 +42,7 @@ def data(root=ROOT):
             )
         )
     return dict(
+        issuers=len(load_config(root / "config.yaml").spenders),
         headline=section("HEADLINE"),
         finding=section("GUIDANCE"),
         actuals=actuals,

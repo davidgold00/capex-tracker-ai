@@ -29,7 +29,7 @@ def describe(p):
 
 
 def explain(cid, detailed=True):
-    if not re.fullmatch(r"(?:AMZN|GOOGL|MSFT|META|ORCL)-[0-9a-f]{12}", cid):
+    if not re.fullmatch(r"(?:AMZN|GOOGL|MSFT|META|ORCL|CRWV)-[0-9a-f]{12}", cid):
         raise ValueError("Unrecognized candidate ID")
     trace = json.loads((DATA / "traces" / (cid + ".json")).read_text())
     row = trace["source"]

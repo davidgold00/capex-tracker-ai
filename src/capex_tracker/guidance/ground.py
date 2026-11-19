@@ -71,7 +71,10 @@ def factbook(aggregate, long, approved, config):
     start, end = cutoff(quarter - 1), cutoff(quarter)
     latest_guidance = {}
     for r in sorted(approved, key=lambda r: (r["statement_date"], r["id"])):
-        if start < r["statement_date"] <= end:
+        if (
+            r["company"] in {c.ticker for c in config.spenders}
+            and start < r["statement_date"] <= end
+        ):
             latest_guidance[(r["company"], r["period"], bool(r["low"]))] = r
     for (ticker, year, _), r in sorted(latest_guidance.items()):
         company = config.company(ticker).name

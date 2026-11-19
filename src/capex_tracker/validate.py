@@ -268,6 +268,7 @@ def run_checks(companies: Sequence[CompanyData], config: Config) -> ValidationRe
     annual_passed = 0
     for data in companies:
         ticker = data.company.ticker
+        start = data.company.start_at(config.data_start)
         for metric, derivation in data.derivations.items():
             required = config.metrics[metric].required
             issues.extend(_check_selection(data, metric, required))
@@ -276,12 +277,12 @@ def run_checks(companies: Sequence[CompanyData], config: Config) -> ValidationRe
                 metric,
                 derivation,
                 settings.annual_sum_tolerance,
-                config.data_start,
+                start,
                 required,
             )
             issues.extend(year_issues)
             annual_passed += passed
-            quarters = _in_window(derivation, config.data_start)
+            quarters = _in_window(derivation, start)
             issues.extend(check_unique_calendar_quarters(ticker, metric, quarters))
             if metric == "capex":
                 issues.extend(check_negative(ticker, metric, quarters, Level.FAIL))

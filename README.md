@@ -14,7 +14,7 @@ Tracks five technology companies' capital spending against operating cash flow a
 **In the four quarters to Q3 2026, Microsoft, Alphabet, Amazon, Meta and Oracle spent $691.0B on capex, equal to 95% of their operating cash flow, up from 64% a year earlier.**
 <!-- HEADLINE:END -->
 
-The headline covers five issuers over four quarters (n=20 company-quarters per trailing window). Reported capex includes spending outside AI.
+The default headline covers five issuers over four quarters (n=20 company-quarters per trailing window). Reported capex includes spending outside AI.
 
 ## Guidance versus actual spending
 
@@ -121,6 +121,8 @@ Two filing quirks needed handling. Amazon reports trailing-twelve-month figures 
 - Capex moves of more than 60% quarter over quarter are listed for review, but do not stop the update.
 
 ## Limitations
+
+- **Optional CoreWeave.** `CRWV` is disabled in `config.yaml`. Enabling it includes CoreWeave in SEC actuals, the aggregate and guidance discovery. Its financial coverage starts in FY2024, the first year with four XBRL quarters for capex, OCF and revenue. FY2023 has annual comparatives and zero derivable quarters. Within coverage the usual annual reconciliation applies.
 
 - **Finance leases.** Coverage varies by company. Alphabet's quarterly lease figures begin in 2024, and Oracle's stop after its February 2026 quarter, so lease-adjusted figures are incomplete for both. The adjustment counts cash repaid on leases, not the value of assets newly acquired under them, so it understates capacity added recently through leasing.
 - **Capex is not only AI.** Companies do not report AI capex separately. These totals include warehouses, logistics, offices and other non-AI spending.

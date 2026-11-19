@@ -295,7 +295,8 @@ def chart(rows, config, path):
 def render(config, wide, text):
     directory = config.paths.processed_dir.parent / "guidance"
     approved = read_approved(directory)
-    rows = paths(approved, wide)
+    tickers = {c.ticker for c in config.spenders}
+    rows = paths([r for r in approved if r["company"] in tickers], wide)
     manifest = json.loads((directory / "sources.json").read_text())
     fields = (
         "id",
