@@ -122,6 +122,28 @@ def demo_id():
     return "META-6e73e0ba7afe"
 
 
+def policy_demo():
+    from capex_tracker.guidance.claims import index, paired_reports
+    from capex_tracker.guidance.policy import conflicts, policy
+
+    groups = index()
+    competing = conflicts(groups)
+    pairs = paired_reports(json.loads((DATA / "sources.json").read_text()))
+    lines = []
+    for cid in ("META-7dcf3e00303f", "GOOGL-9eb6791813d9", "GOOGL-cbe5e60f03e9"):
+        key, entries = next(
+            (k, rows) for k, rows in groups.items() if any(r["id"] == cid for _, r in rows)
+        )
+        actor, reason = policy(key, entries, competing, pairs)
+        lines.append(f"{key[0]} | {key[1]} | FY{key[2]} | {actor or 'pending'}: {reason}")
+        for other_key, evidence in groups.items():
+            if other_key == key or (key[:3] in competing and other_key[:3] == key[:3]):
+                for _, r in evidence:
+                    lines.append(f"  {r['id']} | {r['form']} | {r['evidence_quote']}")
+                    lines.append("  " + r["source_url"])
+    return "\n".join(lines)
+
+
 def guard_demo():
     config = load_config()
     long, _, aggregate = _read_processed(config)
@@ -137,10 +159,12 @@ def guard_demo():
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("command", choices=["demo", "guard", "explain"])
+    p.add_argument("command", choices=["demo", "guard", "explain", "policy"])
     p.add_argument("id", nargs="?")
     args = p.parse_args()
-    if args.command == "guard":
+    if args.command == "policy":
+        print(policy_demo())
+    elif args.command == "guard":
         print(guard_demo())
     else:
         print(explain(args.id or demo_id(), detailed=args.command == "explain"))
